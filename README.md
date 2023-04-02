@@ -1,6 +1,6 @@
 <div align="justify">
 
-<div align="center">
+<div align="left">
 
 ```css
                          .-~~~~~~~~~~~~~-.               
@@ -13,6 +13,8 @@
                  ~-.;;          -'  with aesthetics       .'                   
                       ~._______________________________.~
 ```
+
+<div align="centre">
 
 # [KingdomCome0's](https://github.com/aravezskinteeth) Dotfiles
 
