@@ -1,4 +1,5 @@
 <div align="justify">
+<div align="center">
 
 ```css
   ~~.( Aravezskinteeth ).~~
@@ -9,7 +10,7 @@
   `-' `-' `-'  |  ' ' `-' `-'           
               -'  with aesthetics       
 ```
-<div align="center">
+</div>
   
 # [KingdomCome0's](https://github.com/aravezskinteeth) Dotfiles
 
@@ -20,8 +21,6 @@ MacOS dotfiles (in progress). Here I'm storing all the configs of my main apps, 
 ## Showdown
 
 ## File Structure
-
-<div align="left">
 
 ```
 .dotfiles/
