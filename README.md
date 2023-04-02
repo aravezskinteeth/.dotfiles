@@ -1,4 +1,20 @@
-# Aravezskinteeth Dotfiles
+<div align="justify">
+
+<div align="center">
+
+```css
+                         .-~~~~~~~~~~~~~-.               
+                .- ~ ~- ( Aravezskinteeth )_ _ 
+           o   /      .     .         .        ~ -.
+         o    |       |     |    ,- o |             \
+ /\_/\  o     |     ,-| ,-. |-   |  . | ,-. ,-.      . _ .
+( o.o )       |     | | | | |    |- | | |-' `-.           \
+ > ^ <         \    `-' `-' `-'  |  ' ' `-' `-'            \
+                 ~-.;;          -'  with aesthetics       .'                   
+                      ~._______________________________.~
+```
+
+# [KingdomCome0's](https://github.com/aravezskinteeth) Dotfiles
 
 MacOS dotfiles (in progress). Here I'm storing all the configs of my main apps, mac preferences, and my rice to set up a clean mac install. It's inspired by [Excalith dotfiles](https://github.com/excalith/.dotfiles), [Tnicx dots](https://github.com/Tnixc/dots), with other features I found [here](https://dotfiles.github.io/tips/).
 
@@ -7,6 +23,8 @@ MacOS dotfiles (in progress). Here I'm storing all the configs of my main apps, 
 ## Showdown
 
 ## File Structure
+
+<div align="left">
 
 ```
 .dotfiles/
@@ -100,6 +118,12 @@ MacOS dotfiles (in progress). Here I'm storing all the configs of my main apps, 
 ├── LICENSE
 └── README.md
 ```
+
+<div align="justify">
+
+<div align="center">
+
+
 
 ## How it works
 
