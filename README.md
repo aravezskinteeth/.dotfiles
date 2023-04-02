@@ -1,5 +1,4 @@
 <div align="justify">
-<div align="center">
 
 ```css
   ~~.( Aravezskinteeth ).~~
