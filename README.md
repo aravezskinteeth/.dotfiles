@@ -1,20 +1,16 @@
 <div align="justify">
 
-<div align="left">
+<div align="centre">
 
 ```css
-                         .-~~~~~~~~~~~~~-.               
-                .- ~ ~- ( Aravezskinteeth )_ _ 
-           o   /      .     .         .        ~ -.
-         o    |       |     |    ,- o |             \
- /\_/\  o     |     ,-| ,-. |-   |  . | ,-. ,-.      . _ .
-( o.o )       |     | | | | |    |- | | |-' `-.           \
- > ^ <         \    `-' `-' `-'  |  ' ' `-' `-'            \
-                 ~-.;;          -'  with aesthetics       .'                   
-                      ~._______________________________.~
+  ~~.( Aravezskinteeth ).~~
+    .     .         .       
+    |     |    ,- o |             
+  ,-| ,-. |-   |  . | ,-. ,-.      
+  | | | | |    |- | | |-' `-.           
+  `-' `-' `-'  |  ' ' `-' `-'           
+              -'  with aesthetics       
 ```
-
-<div align="centre">
 
 # [KingdomCome0's](https://github.com/aravezskinteeth) Dotfiles
 
