@@ -1,3 +1,6 @@
 [submodule "ricing/firefox/start-page"]
 	path = ricing/firefox/start-page
 	url = https://github.com/aravezskinteeth/start-page
+[submodule "ricing/firefox/firefox"]
+	path = ricing/firefox/firefox
+	url = https://github.com/aravezskinteeth/firefox
