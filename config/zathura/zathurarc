@@ -1,0 +1,6 @@
+set selection-clipboard clipboard
+set n-completion-items 15
+map <C-i> zoom in
+map <C-o> zoom out
+set recolor true
+include catppuccin-macchiato

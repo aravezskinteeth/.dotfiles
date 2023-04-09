@@ -1,0 +1,73 @@
+# I don't have SIP enabled so, I don't use commands for spaces
+# if you're having troubles finding key codes for a key just type skhd --observe 
+# in a terminal and type a key. Pretty cool! Or just check the wiki.
+
+# Quickly restart the yabai launch agent #
+ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+
+# Reload skhd config
+ctrl + alt + cmd - s : skhd -r
+
+# Restart sketchybar
+ctrl + alt + cmd - b : brew services restart sketchybar
+
+# find all executable files in ~/.config/yabai and execute them
+ctrl + alt - e : find "${HOME}/.config/yabai" -type f -perm +111 -exec {} \;
+
+# open terminal, blazingly fast compared to iTerm/Hyper
+alt + ctrl - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+
+# Balance out all windows both horizontally and vertically 
+# to occupy the same space
+alt + ctrl - b : yabai -m space --balance
+
+# flip the tree horizontally
+alt + ctrl - p : yabai -m space --mirror x-axis
+
+# flip the tree vertically
+alt + ctrl - v : yabai -m space --mirror y-axis
+
+# Rotate the window tree clock-wise (options: 90, 180, 270 degree)
+alt + ctrl - r : yabai -m space --rotate 90
+
+# Modify space layout #
+# Change layout of desktop; Set layout of the space (options: bsp, float)
+alt + ctrl - a : yabai -m space --layout bsp 
+alt + ctrl - d : yabai -m space --layout float
+
+# Focus window # 
+# focus window in direction of focused window (options: north, east, south, west)
+alt + ctrl - k : yabai -m window --focus north
+alt + ctrl - l : yabai -m window --focus east
+alt + ctrl - j : yabai -m window --focus south
+alt + ctrl - h : yabai -m window --focus west
+
+# Move window # 
+
+# Tiled window can be swapped with other windows.
+
+# swap window position and size with window in direction of focused window
+#   (options: north, east, south, west)
+alt + cmd - h : yabai -m window --swap west 
+alt + cmd - j : yabai -m window --swap south 
+alt + cmd - k : yabai -m window --swap north 
+alt + cmd - l : yabai -m window --swap east 
+
+# Move windows when floating (warp)
+alt + shift - h : yabai -m window --warp west
+alt + shift - j : yabai -m window --warp south
+alt + shift - k : yabai -m window --warp north
+alt + shift - l : yabai -m window --warp east
+
+# The grid respects the padding enabled for the space.
+# move focused window to occupy the left two thirds of the screen. 
+# yabai -m window --grid 1:3:0:0:2:1
+
+alt + ctrl - g : yabai -m window --grid 4:4:1:1:2:2
+
+# options: zoom-parent, zoom-fullscreen, native-fullscreen
+alt + ctrl - f : yabai -m window --toggle zoom-fullscreen
+
+# Whether a window is split vertically or horizontally with its parent node can be 
+# toggled as well.
+alt + ctrl - s : yabai -m window --toggle split

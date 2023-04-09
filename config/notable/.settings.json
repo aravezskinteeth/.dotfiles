@@ -1,0 +1,27 @@
+{
+  "telemetry": {
+    "id": "4qfDMGqP-SwfHtv1m-0PUMa5zc"
+  },
+  "changelog": {
+    "lastKnownVersion": "1.9.0-beta.10"
+  },
+  "cwd": {
+    "current": "/Volumes/LIVISU/livs/markdown/notable",
+    "recents": "[\"/Volumes/LIVISU/livs/markdown/notable\",\"/Volumes/LIVISU/livs/Notable\",\"/Users/skinofmyeden/Notable/Default\"]"
+  },
+  "tutorial": {
+    "inited": true
+  },
+  "fileSystem": {
+    "latestPaths": "[[\"cwd\",\"/Volumes/LIVISU/livs/markdown/notable\"]]"
+  },
+  "layoutResizable": {
+    "states": "[[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column sidebar   -layout column mainbar   \",{\"0\":68,\"1\":408,\"2\":338}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column mainbar   \",{\"0\":68,\"1\":746}],[\"preferences__NOTABLE_SEPARATOR__layout layout-content preferences-section-layout layout-content preferences-section\",{\"0\":262,\"1\":262}]]"
+  },
+  "view": {
+    "current": "\"search\""
+  },
+  "editor": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,978 @@
+[15:08:10 INFO  SMAPI] SMAPI 3.18.2 with Stardew Valley 1.5.6 (build 1.3.37.0) on macOS Unix 12.6.2
+[15:08:10 INFO  SMAPI] Mods go here: /Applications/Stardew Valley.app/Contents/MacOS/Mods
+[15:08:10 TRACE SMAPI] Log started at 2023-03-06T20:08:10 UTC
+[15:08:20 DEBUG SMAPI] Waiting for game to launch...
+[15:08:21 TRACE game] NoFpsCap: This feature is not available
+[15:08:25 DEBUG SMAPI] Loading mod metadata...
+[15:08:25 TRACE SMAPI]   Skipped Mods/mods/fanmade-expansion/.[CP] Oasis Greenhouse (folder name starts with a dot).
+[15:08:25 TRACE SMAPI]   Skipped Mods/mods/furniture/.[JA] Witchy Decorations (folder name starts with a dot).
+[15:08:25 TRACE SMAPI]   Skipped Mods/mods/furniture/.[CF] Witch Furniture (folder name starts with a dot).
+[15:08:25 TRACE SMAPI]   Skipped Mods/mods/cheats/.WearMoreRings (folder name starts with a dot).
+[15:08:25 TRACE SMAPI]   Skipped Mods/mods/cheats/.TimeFreezesAtMidnight (folder name starts with a dot).
+[15:08:25 TRACE SMAPI]   Skipped Mods/mods/cheats/.BiggerBackpack (folder name starts with a dot).
+[15:08:25 TRACE SMAPI]   Skipped Mods/mods/interior-visuals/.Asters Big Interior Suite (folder name starts with a dot).
+[15:08:25 DEBUG SMAPI] Loading mods...
+[15:08:25 TRACE SMAPI]    mods/animals-visuals (from Mods/mods/animals-visuals)...
+[15:08:25 TRACE SMAPI]       Failed: it's an empty folder.
+[15:08:25 TRACE SMAPI]    mods/exterior-visuals (from Mods/mods/exterior-visuals)...
+[15:08:25 TRACE SMAPI]       Failed: it's an empty folder.
+[15:08:25 TRACE SMAPI]    mods/food (from Mods/mods/food)...
+[15:08:25 TRACE SMAPI]       Failed: it's an empty folder.
+[15:08:25 TRACE SMAPI]    Console Commands (from Mods/ConsoleCommands/ConsoleCommands.dll)...
+[15:08:26 TRACE SMAPI]    Save Backup (from Mods/SaveBackup/SaveBackup.dll)...
+[15:08:26 TRACE SMAPI]    Error Handler (from Mods/ErrorHandler/ErrorHandler.dll)...
+[15:08:26 TRACE SMAPI]       Detected game patcher in assembly ErrorHandler.dll.
+[15:08:26 TRACE SMAPI]    Content Patcher (from Mods/mods/modders-resources/ContentPatcher/ContentPatcher.dll)...
+[15:08:26 TRACE SMAPI]    Elle's Farmhouse Pride (from Mods/mods/buildings/[CP] Elle's Farmhouse Pride) [content pack]...
+[15:08:26 TRACE SMAPI]    SpaceCore (from Mods/mods/modders-resources/SpaceCore/SpaceCore.dll)...
+[15:08:27 TRACE SMAPI]       Detected game patcher in assembly SpaceCore.dll.
+[15:08:27 TRACE SMAPI]       Detected possible save serializer change (StardewValley.SaveGame.farmerSerializer field, StardewValley.SaveGame.serializer field, StardewValley.SaveGame.locationSerializer field) in assembly SpaceCore.dll.
+[15:08:27 TRACE SMAPI]    Expanded Preconditions Utility (from Mods/mods/modders-resources/ExpandedPreconditionsUtility/ExpandedPreconditionsUtility.dll)...
+[15:08:27 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll for OS...
+[15:08:27 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll to fix 32-bit architecture...
+[15:08:27 TRACE SMAPI]    Json Assets (from Mods/mods/modders-resources/JsonAssets/JsonAssets.dll)...
+[15:08:27 TRACE SMAPI]       Detected game patcher in assembly JsonAssets.dll.
+[15:08:27 TRACE SMAPI]    Moro's Pride shirts (from Mods/mods/clothes/[JA] Moro Pride Shirts) [content pack]...
+[15:08:27 TRACE SMAPI]    Dynamic Game Assets (from Mods/mods/modders-resources/DynamicGameAssets/DynamicGameAssets.dll)...
+[15:08:27 TRACE SMAPI]       Detected game patcher in assembly DynamicGameAssets.dll.
+[15:08:27 TRACE SMAPI]    Generic Mod Config Menu (from Mods/mods/mods-manager/GenericModConfigMenu/GenericModConfigMenu.dll)...
+[15:08:28 TRACE SMAPI]    Alternative Textures (from Mods/mods/modders-resources/AlternativeTextures/AlternativeTextures.dll)...
+[15:08:28 TRACE SMAPI]       Detected game patcher in assembly AlternativeTextures.dll.
+[15:08:28 TRACE SMAPI]    Pretty Pride Flags (from Mods/mods/furniture/pride/[AT] Brighterbats Pretty Pride Flags) [content pack]...
+[15:08:28 TRACE SMAPI]    Content Patcher Pride Flags (from Mods/mods/furniture/pride/[CP] Pride Flags) [content pack]...
+[15:08:28 TRACE SMAPI]    CJB Cheats Menu (from Mods/mods/cheats/CJBCheatsMenu/CJBCheatsMenu.dll)...
+[15:08:28 TRACE SMAPI]    SkullCavernElevator (from Mods/mods/cheats/SkullCavernElevator/SkullCavernElevator.dll)...
+[15:08:28 TRACE SMAPI]    Chests Anywhere (from Mods/mods/cheats/ChestsAnywhere/ChestsAnywhere.dll)...
+[15:08:28 TRACE SMAPI]    Upgrade Empty Cabins (from Mods/mods/cheats/UpgradeEmptyCabins/UpgradeEmptyCabins.dll)...
+[15:08:28 TRACE SMAPI]       Rewrote UpgradeEmptyCabins.dll for OS...
+[15:08:28 TRACE SMAPI]       Rewrote UpgradeEmptyCabins.dll to fix 32-bit architecture...
+[15:08:28 TRACE SMAPI]    CJB Item Spawner (from Mods/mods/cheats/CJBItemSpawner/CJBItemSpawner.dll)...
+[15:08:28 TRACE SMAPI]    NPC Map Locations (from Mods/mods/cheats/NPCMapLocations/NPCMapLocations.dll)...
+[15:08:28 TRACE SMAPI]    Mail Framework Mod (from Mods/mods/modders-resources/MailFrameworkMod/MailFrameworkMod.dll)...
+[15:08:28 TRACE SMAPI]       Detected game patcher in assembly MailFrameworkMod.dll.
+[15:08:28 TRACE SMAPI]    StardewHack (from Mods/mods/modders-resources/StardewHack/StardewHack.dll)...
+[15:08:28 TRACE SMAPI]       Detected game patcher in assembly StardewHack.dll.
+[15:08:28 TRACE SMAPI]    Shop Tile Framework (from Mods/mods/modders-resources/ShopTileFramework/ShopTileFramework.dll)...
+[15:08:28 TRACE SMAPI]       Rewrote ShopTileFramework.dll for OS...
+[15:08:29 TRACE SMAPI]       Rewrote ShopTileFramework.dll to fix 32-bit architecture...
+[15:08:29 TRACE SMAPI]       Rewrote ShopTileFramework.dll to fix Harmony 1.x...
+[15:08:29 TRACE SMAPI]       Detected game patcher in assembly ShopTileFramework.dll.
+[15:08:29 TRACE SMAPI]    Pony Weight Loss Program (from Mods/mods/quality-of-life/PonyWeightLossProgram/PonyWeightLossProgram.dll)...
+[15:08:29 TRACE SMAPI]    Lookup Anything (from Mods/mods/quality-of-life/LookupAnything/LookupAnything.dll)...
+[15:08:29 TRACE SMAPI]    Better Friendship (from Mods/mods/quality-of-life/BetterFriendship/BetterFriendship.dll)...
+[15:08:29 TRACE SMAPI]       Detected reference to System.Runtime.Caching.dll, which will be removed in SMAPI 4.0.0.
+[15:08:29 TRACE SMAPI]    Add Berry Seasons to Calendar (from Mods/mods/quality-of-life/[CP] Add Berry Seasons to Calendar) [content pack]...
+[15:08:29 TRACE SMAPI]    Better Ranching (from Mods/mods/quality-of-life/BetterRanching/BetterRanching.dll)...
+[15:08:29 TRACE SMAPI]    UI Info Suite 2 (from Mods/mods/quality-of-life/UIInfoSuite2/UIInfoSuite2.dll)...
+[15:08:30 TRACE SMAPI]    Movement Speed (from Mods/mods/quality-of-life/MovementSpeed/MovementSpeed.dll)...
+[15:08:30 TRACE SMAPI]       Detected game patcher in assembly MovementSpeed.dll.
+[15:08:30 TRACE SMAPI]    Experience Bars (from Mods/mods/quality-of-life/ExperienceBars/ExperienceBars.dll)...
+[15:08:30 TRACE SMAPI]    Better Junimos (from Mods/mods/quality-of-life/BetterJunimos/BetterJunimos/BetterJunimos.dll)...
+[15:08:30 TRACE SMAPI]       Detected game patcher in assembly BetterJunimos.dll.
+[15:08:30 TRACE SMAPI]    (CP) Better Junimos Config Wizard (from Mods/mods/quality-of-life/BetterJunimos/[CP] Better Junimos Config Wizard) [content pack]...
+[15:08:30 INFO  SMAPI] Loaded 27 mods:
+[15:08:30 INFO  SMAPI]    Alternative Textures 6.4.4 by PeacefulEnd | Framework which allows the usage of different textures for placeable items in Stardew Valley.
+[15:08:30 INFO  SMAPI]    Better Friendship 1.0.6 by Urbanyeti | Adds thought bubbles over villagers to indicate their favorite gifts from your inventory and when they'd like to talk.
+[15:08:30 INFO  SMAPI]    Better Junimos 2.1.2 by ceruleandeep | Allow your Junimos (from Junimo huts) to automatically plant seeds, fertilize, and so much more!
+[15:08:30 INFO  SMAPI]    Better Ranching 1.9.2 by Urbanyeti | Prevents failed milk/shear attempts and displays when animals can be milked/sheared and petted.
+[15:08:30 INFO  SMAPI]    Chests Anywhere 1.22.5 by Pathoschild | Access your chests from anywhere and organize them your way.
+[15:08:30 INFO  SMAPI]    CJB Cheats Menu 1.32.2 by CJBok and Pathoschild | Simple in-game cheats menu!
+[15:08:30 INFO  SMAPI]    CJB Item Spawner 2.2.2 by CJBok and Pathoschild | Simple in-game item spawner!
+[15:08:30 INFO  SMAPI]    Console Commands 3.18.2 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
+[15:08:30 INFO  SMAPI]    Content Patcher 1.28.4 by Pathoschild | Loads content packs which edit game data, images, and maps without changing the game files.
+[15:08:30 INFO  SMAPI]    Dynamic Game Assets 1.4.4 by spacechase0 | Lets content packs add custom content to the game.
+[15:08:30 INFO  SMAPI]    Error Handler 3.18.2 by SMAPI | Handles some common vanilla errors to log more useful info or avoid breaking the game.
+[15:08:30 INFO  SMAPI]    Expanded Preconditions Utility 1.0.1 by Cherry | A condition checking system designed for use by other mods, in the format of event preconditions
+[15:08:30 INFO  SMAPI]    Experience Bars 1.4.4 by spacechase0 | Shows experience bars in the top-left corner.
+[15:08:30 INFO  SMAPI]    Generic Mod Config Menu 1.10.0 by spacechase0 | Adds an in-game UI to edit other mods' config options (for mods which support it).
+[15:08:30 INFO  SMAPI]    Json Assets 1.10.10 by spacechase0 | Lets content packs add custom content to the game.
+[15:08:30 INFO  SMAPI]    Lookup Anything 1.38.2 by Pathoschild | View metadata about anything by pressing a button.
+[15:08:30 INFO  SMAPI]    Mail Framework Mod 1.15.0 by Digus | Utility classes to send mail in the game.
+[15:08:30 INFO  SMAPI]    Movement Speed 6.0.0 by bcmpinc | Changes the player's movement speed and charging time of the hoe and watering can.
+[15:08:30 INFO  SMAPI]    NPC Map Locations 2.11.2 by Bouhm | Shows NPCs and farmers on a modified map page for accurate tracking.
+[15:08:30 INFO  SMAPI]    Pony Weight Loss Program 0.8.2 by BadNetCode | Allows horses to pass vertically through single tile openings
+[15:08:30 INFO  SMAPI]    Save Backup 3.18.2 by SMAPI | Automatically backs up all your saves once per day into its folder.
+[15:08:30 INFO  SMAPI]    Shop Tile Framework 1.0.9 by Cherry | Define new shops as custom tile properties
+[15:08:30 INFO  SMAPI]    SkullCavernElevator 1.5.0 by lestoph | Elevator for the Skull Cavern
+[15:08:30 INFO  SMAPI]    SpaceCore 1.11.0 by spacechase0 | A framework mod used by some of my other mods.
+[15:08:30 INFO  SMAPI]    StardewHack 6.0.0 by bcmpinc | Transpilation library used by my other mods. Doesn't do much on its own.
+[15:08:30 INFO  SMAPI]    UI Info Suite 2 2.2.9 by Annosz | Adds a useful information to the user interface. Based on Cdaragorn's excellent UI Info Suite.
+[15:08:30 INFO  SMAPI]    Upgrade Empty Cabins 1.0.4 by Cherry | Lets you upgrade empty cabins and remove seed boxes
+
+[15:08:30 INFO  SMAPI] Loaded 6 content packs:
+[15:08:30 INFO  SMAPI]    (CP) Better Junimos Config Wizard 1.0.3 by ceruleandeep | for Content Patcher | Better Junimos Config Wizard
+[15:08:30 INFO  SMAPI]    Add Berry Seasons to Calendar 1.1.0 by Inmognito | for Content Patcher | Adds berry icons to the calendar for salmonberry and blackberry harvesting days, and shell icons for the summer
+[15:08:30 INFO  SMAPI]    Content Patcher Pride Flags 1.0.0 by eorrl | for Content Patcher | Replaces Lupini's painting with pride flags of your choice (configurable).
+[15:08:30 INFO  SMAPI]    Elle's Farmhouse Pride 1.0.1 by Elle/Junimods | for Content Patcher | A CP overlay that adds a pride flag to your house!
+[15:08:30 INFO  SMAPI]    Moro's Pride shirts 2.0.0 by Mixter Moro | for Json Assets | Pride Shirts for your farmer!
+[15:08:30 INFO  SMAPI]    Pretty Pride Flags 1.0.0 by Brighterbats | for Alternative Textures | Alternative Textures content pack for pride flags
+
+[15:08:30 INFO  SMAPI] Found 14 mods with warnings:
+[15:08:30 ERROR SMAPI]    Skipped mods
+[15:08:30 ERROR SMAPI]    --------------------------------------------------
+[15:08:30 ERROR SMAPI]       These mods could not be added to your game.
+
+[15:08:30 ERROR SMAPI]       - mods/animals-visuals because it's an empty folder.
+[15:08:30 ERROR SMAPI]       - mods/exterior-visuals because it's an empty folder.
+[15:08:30 ERROR SMAPI]       - mods/food because it's an empty folder.
+
+[15:08:30 WARN  SMAPI]    Changed save serializer
+[15:08:30 WARN  SMAPI]    --------------------------------------------------
+[15:08:30 WARN  SMAPI]       These mods change the save serializer. They may corrupt your save files, or make them unusable if
+[15:08:30 WARN  SMAPI]       you uninstall these mods.
+
+[15:08:30 WARN  SMAPI]       - SpaceCore
+
+[15:08:30 INFO  SMAPI]    Patched game code
+[15:08:30 INFO  SMAPI]    --------------------------------------------------
+[15:08:30 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
+[15:08:30 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
+
+[15:08:30 INFO  SMAPI]       - Alternative Textures
+[15:08:30 INFO  SMAPI]       - Better Junimos
+[15:08:30 INFO  SMAPI]       - Dynamic Game Assets
+[15:08:30 INFO  SMAPI]       - Json Assets
+[15:08:30 INFO  SMAPI]       - Mail Framework Mod
+[15:08:30 INFO  SMAPI]       - Movement Speed
+[15:08:30 INFO  SMAPI]       - Shop Tile Framework
+[15:08:30 INFO  SMAPI]       - SpaceCore
+[15:08:30 INFO  SMAPI]       - StardewHack
+
+[15:08:30 DEBUG SMAPI]    No update keys
+[15:08:30 DEBUG SMAPI]    --------------------------------------------------
+[15:08:30 DEBUG SMAPI]       These mods have no update keys in their manifest. SMAPI may not notify you about updates for these
+[15:08:30 DEBUG SMAPI]       mods. Consider notifying the mod authors about this problem.
+
+[15:08:30 DEBUG SMAPI]       - Pretty Pride Flags
+
+[15:08:30 DEBUG SMAPI] Launching mods...
+[15:08:31 TRACE SMAPI]    Found mod-provided API (ContentPatcher.Framework.ContentPatcherAPI).
+[15:08:31 TRACE SpaceCore] Found crafting recipe constructor in Void layoutRecipes(System.Collections.Generic.List`1[System.String])!
+[15:08:31 TRACE SpaceCore] Found first ldloc.s for ClickableTextureComponent in Void layoutRecipes(System.Collections.Generic.List`1[System.String]); storing potential override w/ recipeLocal=StardewValley.CraftingRecipe (9)
+[15:08:31 TRACE SpaceCore] Found crafting recipe constructor in System.String createDescription(Int32)!
+[15:08:31 TRACE Save Backup] Backed up to /Applications/Stardew Valley.app/Contents/MacOS/save-backups/2023-03-06 - SMAPI 3.18.2 with Stardew Valley 1.5.6.zip.
+[15:08:34 TRACE SMAPI]    Found mod-provided API (SpaceCore.Api).
+[15:08:34 TRACE SMAPI]    Found mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker).
+[15:08:35 TRACE SMAPI]    Found mod-provided API (JsonAssets.Api).
+[15:08:35 TRACE Dynamic Game Assets] Found object information reference in Void .ctor(Int32, Int32, Int32, Int32), editing IL now
+[15:08:35 TRACE Dynamic Game Assets] Found object sorting, replacing with ours
+[15:08:35 TRACE SpaceCore] Found crafting recipe constructor in System.String createDescription(Int32)!
+[15:08:35 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
+[15:08:35 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
+[15:08:36 TRACE Dynamic Game Assets] Found object information reference in Void eatObject(StardewValley.Object, Boolean), editing IL now
+[15:08:36 TRACE Dynamic Game Assets] Found object information reference in Void doneEating(), editing IL now
+[15:08:36 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
+[15:08:36 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
+[15:08:37 TRACE Dynamic Game Assets] Found parentSheetIndex reference in Void parseItems(System.Collections.Generic.IList`1[StardewValley.Item]), editing IL now
+[15:08:38 TRACE SMAPI]    Found mod-provided API (DynamicGameAssets.Api).
+[15:08:40 TRACE SMAPI]    Found mod-provided API (AlternativeTextures.Framework.Interfaces.API.Api).
+[15:08:40 TRACE CJB Cheats Menu] Started with menu key P.
+[15:08:40 TRACE SMAPI]    Found mod-provided API (Pathoschild.Stardew.ChestsAnywhere.Framework.ChestsAnywhereApi).
+[15:08:40 TRACE CJB Item Spawner] Started with menu key I.
+[15:08:40 TRACE SMAPI]    Found mod-provided API (MailFrameworkMod.Api.MailFrameworkModApi).
+[15:08:40 INFO  StardewHack] Loaded StardewHack library v6.0.0 using Harmony v2.2.2.0.
+[15:08:40 INFO  Shop Tile Framework] Adding Content Packs...
+[15:08:41 TRACE SMAPI]    Found mod-provided API (ShopTileFramework.API.STFApi).
+[15:08:41 TRACE SMAPI]    Found mod-provided API (BetterRanching.BetterRanchingApi).
+[15:08:41 DEBUG Movement Speed] Applying bytecode patches for bcmpinc.MovementSpeed.
+[15:08:41 TRACE Movement Speed] Applying patch Game1_UpdateControlInput to Void UpdateControlInput(Microsoft.Xna.Framework.GameTime) in StardewValley.Game1.
+[15:08:41 TRACE Movement Speed] StardewHack.InstructionNotFoundException: Could not find instruction sequence (failed to match line 0: "(none)"):
+  call static StardewValley.Farmer StardewValley.Game1::get_player()
+  ldc.r4 600
+  ldloc.s
+  mul
+  conv.i4
+  stfld System.Int32 StardewValley.Farmer::toolHold
+   at StardewHack.InstructionRange..ctor(List`1 insts, InstructionMatcher[] contains, Int32 start, Int32 step)
+   at StardewHack.MovementSpeed.ModEntry.Game1_UpdateControlInput_Chain()
+   at StardewHack.MovementSpeed.ModEntry.Game1_UpdateControlInput()
+[15:08:41 TRACE Movement Speed] Applying patch Game1_UpdateControlInput_Chain to Void <UpdateControlInput>b__0() in StardewValley.Game1+<>c__DisplayClass913_0.
+[15:08:41 TRACE Movement Speed] Applying patch Farmer_getMovementSpeed to Single getMovementSpeed() in StardewValley.Farmer.
+[15:08:42 TRACE SMAPI]    Found mod-provided API (ExperienceBars.Api).
+[15:08:42 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[15:08:42 TRACE SMAPI] Invalidated 0 cache entries.
+[15:08:42 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[15:08:42 TRACE SMAPI] Invalidated 0 cache entries.
+[15:08:42 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[15:08:42 TRACE SMAPI] Invalidated 0 cache entries.
+[15:08:42 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[15:08:42 TRACE SMAPI] Invalidated 0 cache entries.
+[15:08:42 TRACE SMAPI]    Found mod-provided API (BetterJunimos.BetterJunimosApi).
+[15:08:42 DEBUG SMAPI] Mods loaded and ready!
+[15:08:42 TRACE SMAPI] Checking for updates...
+[15:08:43 TRACE SMAPI] Dynamic Game Assets edited Data/ObjectInformation.
+[15:08:43 TRACE SMAPI]    SMAPI okay.
+[15:08:43 TRACE SMAPI]    Checking for updates to 30 mods...
+[15:08:43 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[15:08:43 TRACE SMAPI] Got update-check errors for some mods:
+   (CP) Better Junimos Config Wizard: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+
+[15:08:43 ALERT SMAPI] You can update 2 mods:
+[15:08:43 ALERT SMAPI]    Alternative Textures 6.5.0: https://www.nexusmods.com/stardewvalley/mods/9246 (you have 6.4.4)
+[15:08:43 ALERT SMAPI]    Elle's Farmhouse Pride 1.0.2: https://www.nexusmods.com/stardewvalley/mods/14764 (you have 1.0.1)
+[15:08:44 WARN  SMAPI] Better Friendship uses deprecated code (using System.Runtime.Caching without bundling it) and will break in the next major SMAPI update.
+[15:08:44 TRACE SMAPI] Detecting common issues...
+[15:08:44 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
+[15:08:44 TRACE SpaceCore] Accessed mod-provided API (ExperienceBars.Api) for Experience Bars.
+[15:08:44 TRACE SpaceCore] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 TRACE Json Assets] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
+[15:08:45 TRACE Json Assets] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[15:08:45 TRACE Json Assets] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
+[15:08:45 TRACE Dynamic Game Assets] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[15:08:45 TRACE Dynamic Game Assets] Accessed mod-provided API (SpaceCore.Api) for SpaceCore.
+[15:08:45 TRACE Alternative Textures] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
+[15:08:45 DEBUG Alternative Textures] Successfully hooked into spacechase0.JsonAssets.
+[15:08:45 TRACE Alternative Textures] Accessed mod-provided API (DynamicGameAssets.Api) for Dynamic Game Assets.
+[15:08:45 DEBUG Alternative Textures] Successfully hooked into spacechase0.DynamicGameAssets.
+[15:08:45 TRACE Alternative Textures] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[15:08:45 DEBUG Alternative Textures] Successfully hooked into Pathoschild.ContentPatcher.
+[15:08:45 DEBUG Alternative Textures] Loading textures from pack: Pretty Pride Flags 1.0.0 by Brighterbats
+[15:08:45 DEBUG Alternative Textures] Finished loading Alternative Textures content packs
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'PaintBucket'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'Scissors'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'SprayCan'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'PaintBrush_Empty'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'PaintBrush_Filled'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBucket'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/Scissors'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/SprayCan'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBrush_Empty'.
+[15:08:45 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBrush_Filled'.
+[15:08:45 TRACE Alternative Textures] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 DEBUG Alternative Textures] Successfully hooked into spacechase0.GenericModConfigMenu.
+[15:08:45 INFO  Generic Mod Config Menu] PeacefulEnd.AlternativeTextures (registering for PeacefulEnd.AlternativeTextures) is using deprecated code (RegisterLabel) that will break in a future version of GMCM.
+[15:08:45 TRACE Chests Anywhere] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 TRACE Upgrade Empty Cabins] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 INFO  Generic Mod Config Menu] Cherry.UpgradeEmptyCabins (registering for Cherry.UpgradeEmptyCabins) is using deprecated code (RegisterModConfig) that will break in a future version of GMCM.
+[15:08:45 TRACE Mail Framework Mod] Accessed mod-provided API (DynamicGameAssets.Api) for Dynamic Game Assets.
+[15:08:45 TRACE Mail Framework Mod] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
+[15:08:45 TRACE Shop Tile Framework] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
+[15:08:45 TRACE Shop Tile Framework] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
+[15:08:45 INFO  Shop Tile Framework] BFAV API not detected. This is only an issue if you're using custom BFAV animals and a custom shop that's supposed to sell them, as custom animals will not appear in those shops.
+[15:08:45 TRACE Lookup Anything] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
+[15:08:45 TRACE Lookup Anything] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 TRACE Better Friendship] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 INFO  Generic Mod Config Menu] BetterFriendship (registering for BetterFriendship) is using deprecated code (AddNumberOption(IManifest mod, Func<int> getValue, Action<int> setValue, Func<string> name = null, Func<string> tooltip = null, int? min = null, int? max = null, int? interval = null, string fieldId = null)) that will break in a future version of GMCM.
+[15:08:45 TRACE Better Ranching] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 TRACE UI Info Suite 2] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 TRACE Movement Speed] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 TRACE Experience Bars] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 TRACE Better Junimos] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[15:08:45 TRACE Better Junimos] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:45 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[15:08:45 TRACE SMAPI] Invalidated 0 cache entries.
+[15:08:45 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[15:08:45 TRACE SMAPI] Invalidated 0 cache entries.
+[15:08:45 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[15:08:45 TRACE SMAPI] Invalidated 0 cache entries.
+[15:08:45 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[15:08:45 TRACE SMAPI] Invalidated 0 cache entries.
+[15:08:46 TRACE Content Patcher] Better Junimos added a custom token with prefix 'hawkfalcon.BetterJunimos/': JunimoHuts.
+[15:08:46 TRACE Content Patcher] Alternative Textures added 2 custom tokens with prefix 'PeacefulEnd.AlternativeTextures/': Textures, Tools.
+[15:08:46 TRACE Content Patcher] Json Assets added 25 custom tokens with prefix 'spacechase0.JsonAssets/': BigCraftableId, BigCraftableSpriteTilesheet, BigCraftableSpriteX, BigCraftableSpriteY, ClothingId, CropId, CropSpriteTilesheet, CropSpriteX, CropSpriteY, FruitTreeId, FruitTreeSpriteTilesheet, FruitTreeSpriteX, FruitTreeSpriteY, HatId, HatSpriteTilesheet, HatSpriteX, HatSpriteY, ObjectId, ObjectSpriteTilesheet, ObjectSpriteX, ObjectSpriteY, WeaponId, WeaponSpriteTilesheet, WeaponSpriteX, WeaponSpriteY.
+[15:08:46 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[15:08:47 TRACE SMAPI] Content Patcher edited TileSheets/furniture (for the 'Content Patcher Pride Flags' content pack).
+[15:08:47 TRACE SMAPI] Invalidated 1 asset names (TileSheets/furniture).
+Propagated 1 core assets (TileSheets/furniture).
+[15:08:47 TRACE Content Patcher] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[15:08:47 TRACE Generic Mod Config Menu] Pathoschild.ContentPatcher is registering on behalf of Elle.FarmhousePride
+[15:08:47 TRACE Generic Mod Config Menu] Pathoschild.ContentPatcher is registering on behalf of eorrl.cpPrideFlags
+[15:08:47 INFO  Json Assets] Loading content packs...
+[15:08:47 INFO  Json Assets] 	Moro's Pride shirts 2.0.0 by Mixter Moro - Pride Shirts for your farmer!
+[15:08:47 TRACE Json Assets] Event: ItemsRegistered
+[15:08:48 TRACE SMAPI] Generic Mod Config Menu loaded asset 'Mods/GenericModConfigMenu/ConfigButton'.
+[15:08:48 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[15:08:53 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[15:08:59 TRACE game] Galaxy auth failure: FAILURE_REASON_GALAXY_SERVICE_NOT_SIGNED_IN
+[15:13:34 TRACE SMAPI] Synchronizing 'Find Save Games' task...
+[15:13:34 TRACE SpaceCore] Reinitializing serializers for 17 mod types...
+[15:13:44 TRACE SMAPI]    task complete.
+[15:13:54 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
+[15:13:54 TRACE SMAPI] Game loader synchronizing...
+[15:13:54 TRACE game] getLoadEnumerator('Liv_314128530')
+[15:13:55 TRACE game] regular stream detected...
+[15:13:55 TRACE SMAPI] Synchronizing 'Load_Deserialize' task...
+[15:14:05 TRACE SMAPI]    task complete.
+[15:14:05 TRACE Json Assets] Assiging objects ids starting at 3000: 0 items
+[15:14:05 TRACE Json Assets] Assiging crops ids starting at 100: 0 items
+[15:14:05 TRACE Json Assets] Assiging fruittrees ids starting at 10: 0 items
+[15:14:05 TRACE Json Assets] Assiging big-craftables ids starting at 300: 0 items
+[15:14:05 TRACE Json Assets] Assiging hats ids starting at 160: 0 items
+[15:14:05 TRACE Json Assets] Assiging weapons ids starting at 128: 0 items
+[15:14:05 TRACE Json Assets] Assiging clothing ids starting at 3000: 51 items
+[15:14:05 TRACE Json Assets] Resetting max shirt/pants value
+[15:14:05 TRACE Json Assets] Content Injector 1 initialized with 2 assets.
+[15:14:05 TRACE Json Assets] Resolving Crop and Tree product Ids
+[15:14:05 TRACE Json Assets] Event: IdsAssigned
+[15:14:05 TRACE Json Assets] Requested cache invalidation for all assets matching a predicate.
+[15:14:05 TRACE Json Assets] Shirts are now (256, 4096)
+[15:14:05 TRACE SMAPI] Json Assets edited Characters/Farmer/shirts.
+[15:14:05 TRACE SMAPI] Json Assets edited Data/ClothingInformation.
+[15:14:05 TRACE SMAPI] Invalidated 2 asset names (Characters/Farmer/shirts, Data/ClothingInformation).
+Propagated 2 core assets (Characters/Farmer/shirts, Data/ClothingInformation).
+[15:14:05 TRACE Json Assets] Requested cache invalidation for 'Data/NPCGiftTastes'.
+[15:14:05 TRACE Json Assets] Generating gift taste dictionary.
+[15:14:05 TRACE SMAPI] Json Assets edited Data/NPCGiftTastes.
+[15:14:05 TRACE SMAPI] Invalidated 1 asset names (Data/NPCGiftTastes).
+Propagated 1 core assets (Data/NPCGiftTastes).
+[15:14:05 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
+[15:14:05 TRACE SMAPI] Content Patcher edited Data/Furniture (for the 'Content Patcher Pride Flags' content pack).
+[15:14:08 TRACE SpaceCore] Event: OnBlankSave
+[15:14:08 TRACE SMAPI]    task complete.
+[15:14:08 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
+[15:14:08 TRACE SMAPI]    task complete.
+[15:14:08 TRACE SMAPI] Synchronizing 'Load_Locations' task...
+[15:14:11 TRACE SMAPI]    task complete.
+[15:14:11 TRACE Json Assets] Nothing has changed, deshuffling unnecessary.
+[15:14:11 TRACE Json Assets] Event: IdsFixed
+[15:14:11 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
+[15:14:11 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:17.0268853'
+[15:14:11 TRACE game] setupEventCommands() registered '130' methods
+[15:14:12 TRACE SMAPI] Game loader done.
+[15:14:12 TRACE Json Assets] Adding default/leveled recipes
+[15:14:12 TRACE SMAPI] Content Patcher edited Buildings/houses (for the 'Elle's Farmhouse Pride' content pack).
+[15:14:12 TRACE SMAPI] Content Patcher edited Buildings/houses_PaintMask (for the 'Elle's Farmhouse Pride' content pack).
+[15:14:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[15:14:13 TRACE SMAPI] Context: loaded save 'Liv_314128530', starting winter 16 Y4, locale set to . Single-player.
+[15:14:13 TRACE SMAPI] NPC Map Locations loaded asset 'Mods/Bouhm.NPCMapLocations/NPCs'.
+[15:14:13 TRACE SMAPI] NPC Map Locations loaded asset 'Mods/Bouhm.NPCMapLocations/Locations'.
+[15:14:13 TRACE NPC Map Locations] Requested cache invalidation for 'LooseSprites/Map'.
+[15:14:13 TRACE SMAPI] Invalidated 0 cache entries.
+[15:14:13 TRACE NPC Map Locations] Using maps/_default/winter_map.png.
+[15:14:13 TRACE SMAPI] NPC Map Locations loaded asset 'LooseSprites/Map'.
+[15:14:13 TRACE Shop Tile Framework] Updating current language settings: en
+[15:14:13 TRACE SMAPI] Content Patcher edited Data/Furniture (for the 'Content Patcher Pride Flags' content pack).
+[15:14:14 INFO  UI Info Suite 2] Setting up icon sheet
+[15:14:14 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[15:14:14 TRACE SMAPI] Invalidated 0 cache entries.
+[15:14:14 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[15:14:14 TRACE SMAPI] Invalidated 0 cache entries.
+[15:14:14 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[15:14:14 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[15:14:14 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[15:14:14 TRACE SMAPI] Invalidated 0 cache entries.
+[15:14:14 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[15:14:14 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[15:14:14 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[15:14:14 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[15:14:14 WARN  SMAPI] Shop Tile Framework uses deprecated code (IModHelper.Content) and will break in the next major SMAPI update.
+[15:14:14 DEBUG SMAPI]    at ShopTileFramework.Utility.ItemsUtil.UpdateObjectInfoSource()
+   at ShopTileFramework.ModEntry.GameLoop_SaveLoaded(Object sender, SaveLoadedEventArgs e)
+   at StardewModdingAPI.Framework.Events.ManagedEvent`1.Raise(TEventArgs args)
+[15:14:20 TRACE CJB Item Spawner] Received menu open key.
+[15:15:00 TRACE SpaceCore] Event: BeforeReceiveObject
+[15:15:00 TRACE SpaceCore] Event: AfterGiftGiven
+[15:20:38 TRACE SpaceCore] Event: TouchActionActivated
+[15:20:38 TRACE SpaceCore] Event: BeforeWarp
+[15:20:38 TRACE game] Warping to Cellar
+[15:20:55 TRACE SpaceCore] Event: BeforeWarp
+[15:20:55 TRACE game] Warping to Farmhouse
+[15:20:59 TRACE SpaceCore] Event: BeforeWarp
+[15:20:59 TRACE game] Warping to Farm
+[15:21:20 TRACE SMAPI] Content Patcher edited Characters/Dialogue/Wizard (for the '(CP) Better Junimos Config Wizard' content pack).
+[15:22:03 TRACE SpaceCore] Event: BeforeWarp
+[15:22:03 TRACE game] Warping to Backwoods
+[15:22:11 TRACE SpaceCore] Event: BeforeWarp
+[15:22:11 TRACE game] Warping to Mountain
+[15:22:22 TRACE SpaceCore] Event: ActionActivated
+[15:22:22 TRACE SpaceCore] Event: BeforeWarp
+[15:22:22 TRACE game] Warping to ScienceHouse
+[15:22:25 TRACE SpaceCore] Event: ActionActivated
+[15:22:28 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[15:23:26 TRACE SpaceCore] Event: ActionActivated
+[15:23:36 TRACE SpaceCore] Event: ActionActivated
+[15:23:38 TRACE Json Assets] Adding objects for shop IDs 'ScienceHouse'.
+[15:23:38 TRACE Json Assets] Event: AddedItemsToShop
+[15:23:45 TRACE SpaceCore] Event: ActionActivated
+[15:24:37 TRACE SpaceCore] Event: BeforeWarp
+[15:24:37 TRACE game] Warping to ScienceHouse
+[15:24:43 TRACE SpaceCore] Event: ActionActivated
+[15:24:43 TRACE Json Assets] Adding objects for shop IDs 'Robin', 'ScienceHouse'.
+[15:24:43 TRACE Json Assets] Event: AddedItemsToShop
+[15:24:47 TRACE SMAPI] Mail Framework Mod edited Data/mail.
+[15:24:47 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[15:25:36 TRACE SpaceCore] Event: BeforeWarp
+[15:25:36 TRACE game] Warping to Mountain
+[15:25:49 TRACE SpaceCore] Event: BeforeWarp
+[15:25:49 TRACE game] Warping to Backwoods
+[15:25:57 TRACE SpaceCore] Event: BeforeWarp
+[15:25:57 TRACE game] Warping to Farm
+[15:26:36 TRACE CJB Item Spawner] Received menu open key.
+[15:30:52 TRACE SpaceCore] Event: BeforeWarp
+[15:30:52 TRACE game] Warping to Barndf5c0c6d-fd3e-4717-a0e9-5a4d616e2a46
+[15:32:16 TRACE SpaceCore] Event: BeforeWarp
+[15:32:16 TRACE game] Warping to Farm
+[15:32:38 TRACE SpaceCore] Event: BeforeWarp
+[15:32:38 TRACE game] Warping to Coop586b73aa-b509-4c0d-809c-eef31a370f97
+[15:34:02 TRACE SpaceCore] Event: BeforeWarp
+[15:34:02 TRACE game] Warping to Farm
+[15:34:42 TRACE SpaceCore] Event: BeforeWarp
+[15:34:42 TRACE game] Warping to Forest
+[15:34:53 TRACE SpaceCore] Event: BeforeWarp
+[15:34:53 TRACE game] Warping to Town
+[15:35:10 TRACE SpaceCore] Event: BeforeWarp
+[15:35:10 TRACE game] Warping to BeachNightMarket
+[15:35:46 TRACE SpaceCore] Event: ActionActivated
+[15:36:03 TRACE SpaceCore] Event: OnItemEaten
+[15:36:09 TRACE SpaceCore] Event: ActionActivated
+[15:36:09 TRACE Json Assets] Adding objects for shop IDs 'BlueBoat', 'BeachNightMarket'.
+[15:36:09 TRACE Json Assets] Event: AddedItemsToShop
+[15:36:40 TRACE SpaceCore] Event: ActionActivated
+[15:36:40 TRACE Json Assets] Adding objects for shop IDs 'magicBoatShop', 'BeachNightMarket'.
+[15:36:40 TRACE Json Assets] Event: AddedItemsToShop
+[15:37:33 TRACE SpaceCore] Event: ActionActivated
+[15:38:02 TRACE SpaceCore] Event: ActionActivated
+[15:38:02 TRACE Json Assets] Adding objects for shop IDs 'TravelerNightMarket', 'BeachNightMarket'.
+[15:38:02 TRACE Json Assets] Event: AddedItemsToShop
+[15:38:12 TRACE SpaceCore] Event: ActionActivated
+[15:38:12 TRACE SpaceCore] Event: BeforeWarp
+[15:38:12 TRACE game] Warping to FishShop
+[15:38:15 TRACE SpaceCore] Event: BeforeWarp
+[15:38:15 TRACE game] Warping to BeachNightMarket
+[15:38:22 TRACE SpaceCore] Event: ActionActivated
+[15:38:22 TRACE SpaceCore] Event: BeforeWarp
+[15:38:22 TRACE game] Warping to Submarine
+[15:42:37 TRACE SpaceCore] Event: BeforeWarp
+[15:42:37 TRACE game] Warping to BeachNightMarket
+[15:42:54 TRACE SpaceCore] Event: ActionActivated
+[15:42:59 TRACE SpaceCore] Event: BeforeWarp
+[15:42:59 TRACE game] Warping to Farm
+[15:43:27 TRACE SpaceCore] Event: ActionActivated
+[15:43:27 TRACE SpaceCore] Event: BeforeWarp
+[15:43:27 TRACE game] Warping to FarmHouse
+[15:43:37 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[15:43:51 TRACE SpaceCore] Event: TouchActionActivated
+[15:43:53 TRACE SMAPI] Synchronizing 'NewDay' task...
+[15:43:55 TRACE SpaceCore] Event: ChooseNightlyFarmEvent
+[15:43:55 TRACE SpaceCore] Event: ShowNightEndMenus
+[15:43:55 DEBUG SpaceCore] Doing skill menus
+[15:43:55 TRACE SMAPI]    task complete.
+[15:43:55 TRACE SMAPI] Context: before save.
+[15:43:55 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[15:43:55 TRACE SMAPI] Invalidated 0 cache entries.
+[15:43:55 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[15:43:55 TRACE SMAPI] Invalidated 0 cache entries.
+[15:43:55 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[15:43:55 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[15:43:55 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[15:43:55 TRACE SMAPI] Invalidated 0 cache entries.
+[15:43:55 TRACE SpaceCore] Saving custom data
+[15:44:04 TRACE game] SaveGame.Save() called.
+[15:44:04 TRACE SMAPI] Synchronizing 'Save' task...
+[15:44:04 TRACE game] Saving without compression...
+[15:44:09 TRACE SMAPI]    task complete.
+[15:44:09 TRACE game] SaveGame.Save() completed without exceptions.
+[15:44:13 TRACE SMAPI] Context: after save, starting winter 17 Y4.
+[15:44:13 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[15:44:13 TRACE SMAPI] Invalidated 0 cache entries.
+[15:44:13 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[15:44:13 TRACE SMAPI] Invalidated 0 cache entries.
+[15:44:13 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[15:44:13 TRACE SMAPI] Invalidated 0 cache entries.
+[15:44:13 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[15:44:13 TRACE SMAPI] Invalidated 0 cache entries.
+[15:44:13 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[15:44:13 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[15:44:13 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[15:44:13 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[15:44:39 TRACE game] > chat command: emote angry
+[15:44:52 TRACE SpaceCore] Event: BeforeReceiveObject
+[15:44:52 TRACE SpaceCore] Event: AfterGiftGiven
+[15:45:05 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[15:45:26 TRACE SpaceCore] Event: TouchActionActivated
+[15:45:26 TRACE SpaceCore] Event: BeforeWarp
+[15:45:26 TRACE game] Warping to Cellar
+[15:45:35 TRACE SpaceCore] Event: BeforeWarp
+[15:45:35 TRACE game] Warping to Farmhouse
+[15:45:47 TRACE SpaceCore] Event: BeforeWarp
+[15:45:47 TRACE game] Warping to Farm
+[15:46:05 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[15:46:55 TRACE CJB Item Spawner] Received menu open key.
+[15:47:06 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[15:48:11 TRACE SpaceCore] Event: BeforeWarp
+[15:48:11 TRACE game] Warping to Forest
+[15:49:05 TRACE SpaceCore] Event: ActionActivated
+[15:49:05 TRACE SpaceCore] Event: BeforeWarp
+[15:49:05 TRACE game] Warping to WizardHouse
+[15:49:13 TRACE SpaceCore] Event: BeforeReceiveObject
+[15:49:13 TRACE SpaceCore] Event: AfterGiftGiven
+[15:49:28 TRACE SpaceCore] Event: ActionActivated
+[15:49:28 TRACE SpaceCore] Event: BeforeWarp
+[15:49:28 TRACE game] Warping to WizardHouseBasement
+[15:49:37 TRACE SpaceCore] Event: ActionActivated
+[15:49:37 TRACE SpaceCore] Event: BeforeWarp
+[15:49:37 TRACE game] Warping to WizardHouse
+[15:49:42 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[15:50:11 TRACE SpaceCore] Event: BeforeWarp
+[15:50:11 TRACE game] Warping to Forest
+[15:51:05 TRACE CJB Item Spawner] Received menu open key.
+[15:52:01 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[15:55:15 TRACE SpaceCore] Event: BeforeReceiveObject
+[15:55:15 TRACE SpaceCore] Event: AfterGiftGiven
+[15:55:25 TRACE SpaceCore] Event: BeforeWarp
+[15:55:25 TRACE game] Warping to Town
+[15:55:36 TRACE SpaceCore] Event: BeforeWarp
+[15:55:36 TRACE game] Warping to BeachNightMarket
+[15:56:04 TRACE SpaceCore] Event: BeforeWarp
+[15:56:04 TRACE game] Warping to Town
+[15:56:11 TRACE SpaceCore] Event: ActionActivated
+[15:57:02 TRACE SpaceCore] Event: BeforeWarp
+[15:57:02 TRACE game] Warping to BusStop
+[15:57:16 TRACE SpaceCore] Event: BeforeWarp
+[15:57:16 TRACE game] Warping to Farm
+[15:57:49 TRACE SpaceCore] Event: ActionActivated
+[15:57:49 TRACE SpaceCore] Event: BeforeWarp
+[15:57:49 TRACE game] Warping to FarmHouse
+[15:58:06 TRACE game] > chat command: emote angry
+[15:58:26 TRACE CJB Item Spawner] Received menu open key.
+[15:58:34 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[15:58:35 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[15:58:39 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[15:59:14 TRACE CJB Item Spawner] Received menu open key.
+[15:59:17 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[16:04:00 TRACE SpaceCore] Event: BeforeWarp
+[16:04:00 TRACE game] Warping to Farm
+[16:04:08 TRACE SpaceCore] Event: BeforeWarp
+[16:04:08 TRACE game] Warping to BusStop
+[16:04:13 TRACE SpaceCore] Event: BeforeWarp
+[16:04:13 TRACE game] Warping to Town
+[16:04:29 TRACE SpaceCore] Event: BeforeWarp
+[16:04:29 TRACE game] Warping to Mountain
+[16:04:51 TRACE SpaceCore] Event: OnItemEaten
+[16:08:31 TRACE game] > chat command: emote happy
+[16:08:35 TRACE game] > chat command: emote yes
+[16:08:48 TRACE SpaceCore] Event: BeforeReceiveObject
+[16:08:48 TRACE SpaceCore] Event: AfterGiftGiven
+[16:09:06 TRACE SpaceCore] Event: BeforeWarp
+[16:09:06 TRACE game] Warping to Backwoods
+[16:09:14 TRACE SpaceCore] Event: BeforeWarp
+[16:09:14 TRACE game] Warping to Farm
+[16:09:57 TRACE SpaceCore] Event: ActionActivated
+[16:09:57 TRACE SpaceCore] Event: BeforeWarp
+[16:09:57 TRACE game] Warping to FarmHouse
+[16:11:35 TRACE SpaceCore] Event: TouchActionActivated
+[16:11:37 TRACE SMAPI] Synchronizing 'NewDay' task...
+[16:11:38 TRACE SpaceCore] Event: ChooseNightlyFarmEvent
+[16:11:38 TRACE SpaceCore] Event: ShowNightEndMenus
+[16:11:38 DEBUG SpaceCore] Doing skill menus
+[16:11:38 TRACE SMAPI]    task complete.
+[16:11:38 TRACE SMAPI] Context: before save.
+[16:11:38 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:11:38 TRACE SMAPI] Invalidated 0 cache entries.
+[16:11:38 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:11:38 TRACE SMAPI] Invalidated 0 cache entries.
+[16:11:38 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:11:38 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[16:11:38 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:11:38 TRACE SMAPI] Invalidated 0 cache entries.
+[16:11:38 TRACE SpaceCore] Saving custom data
+[16:11:48 TRACE game] SaveGame.Save() called.
+[16:11:48 TRACE SMAPI] Synchronizing 'Save' task...
+[16:11:48 TRACE game] Saving without compression...
+[16:11:49 TRACE SMAPI]    task complete.
+[16:11:49 TRACE game] SaveGame.Save() completed without exceptions.
+[16:11:53 TRACE SMAPI] Context: after save, starting winter 18 Y4.
+[16:11:53 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:11:53 TRACE SMAPI] Invalidated 0 cache entries.
+[16:11:53 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:11:53 TRACE SMAPI] Invalidated 0 cache entries.
+[16:11:53 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:11:53 TRACE SMAPI] Invalidated 0 cache entries.
+[16:11:53 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:11:53 TRACE SMAPI] Invalidated 0 cache entries.
+[16:11:53 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[16:11:53 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[16:11:53 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[16:11:53 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[16:12:10 TRACE SpaceCore] Event: BeforeReceiveObject
+[16:12:10 TRACE SpaceCore] Event: AfterGiftGiven
+[16:12:27 TRACE SpaceCore] Event: TouchActionActivated
+[16:12:27 TRACE SpaceCore] Event: BeforeWarp
+[16:12:27 TRACE game] Warping to Cellar
+[16:12:46 TRACE SpaceCore] Event: BeforeWarp
+[16:12:46 TRACE game] Warping to Farmhouse
+[16:12:49 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[16:13:03 TRACE SpaceCore] Event: TouchActionActivated
+[16:13:03 TRACE SpaceCore] Event: BeforeWarp
+[16:13:03 TRACE game] Warping to Cellar
+[16:13:31 TRACE game] > chat command: emote yes
+[16:13:34 TRACE SpaceCore] Event: BeforeWarp
+[16:13:34 TRACE game] Warping to Farmhouse
+[16:13:40 TRACE SpaceCore] Event: BeforeWarp
+[16:13:40 TRACE game] Warping to Farm
+[16:13:43 TRACE SpaceCore] Event: ActionActivated
+[16:14:19 TRACE SpaceCore] Event: ActionActivated
+[16:14:19 TRACE SpaceCore] Event: BeforeWarp
+[16:14:19 TRACE game] Warping to FarmHouse
+[16:14:34 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[16:14:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:200 Y:165 Width:1280 Height:720}
+[16:15:06 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:15:18 TRACE SpaceCore] Event: BeforeWarp
+[16:15:18 TRACE game] Warping to Farm
+[16:18:06 TRACE SpaceCore] Event: BeforeWarp
+[16:18:06 TRACE game] Warping to Forest
+[16:18:27 TRACE SpaceCore] Event: ActionActivated
+[16:18:27 TRACE SpaceCore] Event: BeforeWarp
+[16:18:27 TRACE game] Warping to WizardHouse
+[16:18:42 TRACE SpaceCore] Event: ActionActivated
+[16:19:00 TRACE CJB Item Spawner] Received menu open key.
+[16:19:14 TRACE SpaceCore] Event: ActionActivated
+[16:19:20 TRACE CJB Item Spawner] Received menu open key.
+[16:19:34 TRACE CJB Item Spawner] Received menu open key.
+[16:19:55 TRACE SpaceCore] Event: ActionActivated
+[16:20:32 TRACE SpaceCore] Event: BeforeWarp
+[16:20:32 TRACE game] Warping to WizardHouse
+[16:20:36 TRACE SpaceCore] Event: ActionActivated
+[16:20:50 TRACE SpaceCore] Event: BeforeWarp
+[16:20:50 TRACE game] Warping to WizardHouse
+[16:21:01 TRACE SpaceCore] Event: BeforeWarp
+[16:21:01 TRACE game] Warping to Forest
+[16:21:02 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[16:21:02 TRACE SMAPI] Invalidated 1 asset names (Data/Events/Farm).
+Propagated 0 core assets ().
+[16:21:31 TRACE SpaceCore] Event: BeforeWarp
+[16:21:31 TRACE game] Warping to Farm
+[16:21:31 TRACE SMAPI] Content Patcher edited Data/Events/Farm (for the '(CP) Better Junimos Config Wizard' content pack).
+[16:23:26 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:23:26 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:26 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:23:26 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:26 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:23:26 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[16:23:26 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:23:26 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:27 TRACE SpaceCore] Event: OnEventFinished
+[16:23:27 TRACE SpaceCore] Event: BeforeWarp
+[16:23:27 TRACE game] Warping to Farm
+[16:23:30 TRACE Generic Mod Config Menu] saving Max Junimos 
+[16:23:30 TRACE Generic Mod Config Menu] saving Max Radius 
+[16:23:30 TRACE Generic Mod Config Menu] saving Available After CC Complete Available After Community Center Complete
+[16:23:30 TRACE Generic Mod Config Menu] saving Available Immediately 
+[16:23:30 TRACE Generic Mod Config Menu] saving Reduced Cost To Construct 
+[16:23:30 TRACE Generic Mod Config Menu] saving Free To Construct 
+[16:23:30 TRACE Generic Mod Config Menu] saving Skills Progression Require each skill to be unlocked
+[16:23:30 TRACE Generic Mod Config Menu] saving Can Work In Rain 
+[16:23:30 TRACE Generic Mod Config Menu] saving Can Work In Winter 
+[16:23:30 TRACE Generic Mod Config Menu] saving Can Work In Evenings 
+[16:23:30 TRACE Generic Mod Config Menu] saving Can Work In Greenhouse (experimental! only enable for testing)
+[16:23:30 TRACE Generic Mod Config Menu] saving Work Faster (does not apply to crop harvesting)
+[16:23:30 TRACE Generic Mod Config Menu] saving Work Ridiculously Fast (does not apply to crop harvesting)
+[16:23:30 TRACE Generic Mod Config Menu] saving Avoid Harvesting Flowers 
+[16:23:30 TRACE Generic Mod Config Menu] saving Avoid Harvesting Giant Crops Leave cauliflower, melon, pumpkin unharvested, so there's more chance of getting giant crops
+[16:23:30 TRACE Generic Mod Config Menu] saving Harvest Everything On 28th If avoiding harvest of flowers or giant crops, harvest them on the last day of the month before they die
+[16:23:30 TRACE Generic Mod Config Menu] saving Avoid Planting Coffee 
+[16:23:30 TRACE Generic Mod Config Menu] saving Avoid Replanting Seeds Avoid re-planting seeds we've harvested (coffee, ancient coffee, whatever other crazy self-replicating crops you add...)
+[16:23:30 TRACE Generic Mod Config Menu] saving Avoid Planting Out Of Season 
+[16:23:30 TRACE Generic Mod Config Menu] saving Work For Wages 
+[16:23:30 TRACE Generic Mod Config Menu] saving Foraged items 
+[16:23:30 TRACE Generic Mod Config Menu] saving Flowers 
+[16:23:30 TRACE Generic Mod Config Menu] saving Fruit 
+[16:23:30 TRACE Generic Mod Config Menu] saving Wine 
+[16:23:30 TRACE Generic Mod Config Menu] saving Harvesting gives experience XP from Junimo harvesting adds to Farming and Foraging skills
+[16:23:30 TRACE Generic Mod Config Menu] saving Rainy spirit factor Rainy Junimo spirit factor
+[16:23:30 TRACE Generic Mod Config Menu] saving Always have umbrellas Junimos always have leaf umbrellas
+[16:23:30 TRACE Generic Mod Config Menu] saving More colorful umbrellas More Colorful Leaf Umbrellas
+[16:23:30 TRACE Generic Mod Config Menu] saving Infinite inventory Infinite Junimo inventory
+[16:23:30 TRACE Generic Mod Config Menu] saving Spawn Junimo keybind 
+[16:23:30 TRACE Generic Mod Config Menu] saving Progression tracker keybind If set, you can open the progression tracker by pressing this key when the mouse is over a hut
+[16:23:30 TRACE Generic Mod Config Menu] saving Clicking hut opens tracker If set, you can open the progression tracker by clicking on a hut
+[16:23:30 TRACE Generic Mod Config Menu] saving Receive messages 
+[16:23:30 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:23:30 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:30 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:23:30 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:30 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:23:30 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:30 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:23:30 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:31 TRACE Generic Mod Config Menu] saving Max Junimos 
+[16:23:31 TRACE Generic Mod Config Menu] saving Max Radius 
+[16:23:31 TRACE Generic Mod Config Menu] saving Available After CC Complete Available After Community Center Complete
+[16:23:31 TRACE Generic Mod Config Menu] saving Available Immediately 
+[16:23:31 TRACE Generic Mod Config Menu] saving Reduced Cost To Construct 
+[16:23:31 TRACE Generic Mod Config Menu] saving Free To Construct 
+[16:23:31 TRACE Generic Mod Config Menu] saving Skills Progression Require each skill to be unlocked
+[16:23:31 TRACE Generic Mod Config Menu] saving Can Work In Rain 
+[16:23:31 TRACE Generic Mod Config Menu] saving Can Work In Winter 
+[16:23:31 TRACE Generic Mod Config Menu] saving Can Work In Evenings 
+[16:23:31 TRACE Generic Mod Config Menu] saving Can Work In Greenhouse (experimental! only enable for testing)
+[16:23:31 TRACE Generic Mod Config Menu] saving Work Faster (does not apply to crop harvesting)
+[16:23:31 TRACE Generic Mod Config Menu] saving Work Ridiculously Fast (does not apply to crop harvesting)
+[16:23:31 TRACE Generic Mod Config Menu] saving Avoid Harvesting Flowers 
+[16:23:31 TRACE Generic Mod Config Menu] saving Avoid Harvesting Giant Crops Leave cauliflower, melon, pumpkin unharvested, so there's more chance of getting giant crops
+[16:23:31 TRACE Generic Mod Config Menu] saving Harvest Everything On 28th If avoiding harvest of flowers or giant crops, harvest them on the last day of the month before they die
+[16:23:31 TRACE Generic Mod Config Menu] saving Avoid Planting Coffee 
+[16:23:31 TRACE Generic Mod Config Menu] saving Avoid Replanting Seeds Avoid re-planting seeds we've harvested (coffee, ancient coffee, whatever other crazy self-replicating crops you add...)
+[16:23:31 TRACE Generic Mod Config Menu] saving Avoid Planting Out Of Season 
+[16:23:31 TRACE Generic Mod Config Menu] saving Work For Wages 
+[16:23:31 TRACE Generic Mod Config Menu] saving Foraged items 
+[16:23:31 TRACE Generic Mod Config Menu] saving Flowers 
+[16:23:31 TRACE Generic Mod Config Menu] saving Fruit 
+[16:23:31 TRACE Generic Mod Config Menu] saving Wine 
+[16:23:31 TRACE Generic Mod Config Menu] saving Harvesting gives experience XP from Junimo harvesting adds to Farming and Foraging skills
+[16:23:31 TRACE Generic Mod Config Menu] saving Rainy spirit factor Rainy Junimo spirit factor
+[16:23:31 TRACE Generic Mod Config Menu] saving Always have umbrellas Junimos always have leaf umbrellas
+[16:23:31 TRACE Generic Mod Config Menu] saving More colorful umbrellas More Colorful Leaf Umbrellas
+[16:23:31 TRACE Generic Mod Config Menu] saving Infinite inventory Infinite Junimo inventory
+[16:23:31 TRACE Generic Mod Config Menu] saving Spawn Junimo keybind 
+[16:23:31 TRACE Generic Mod Config Menu] saving Progression tracker keybind If set, you can open the progression tracker by pressing this key when the mouse is over a hut
+[16:23:31 TRACE Generic Mod Config Menu] saving Clicking hut opens tracker If set, you can open the progression tracker by clicking on a hut
+[16:23:31 TRACE Generic Mod Config Menu] saving Receive messages 
+[16:23:31 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:23:31 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:31 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:23:31 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:31 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:23:31 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:31 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:23:31 TRACE SMAPI] Invalidated 0 cache entries.
+[16:23:31 TRACE SMAPI] Generic Mod Config Menu loaded asset 'Mods/GenericModConfigMenu/KeyboardButton'.
+[16:24:08 TRACE SpaceCore] Event: BeforeWarp
+[16:24:08 TRACE game] Warping to Backwoods
+[16:24:16 TRACE SpaceCore] Event: BeforeWarp
+[16:24:16 TRACE game] Warping to Mountain
+[16:24:23 TRACE SpaceCore] Event: ActionActivated
+[16:24:23 TRACE SpaceCore] Event: BeforeWarp
+[16:24:23 TRACE game] Warping to ScienceHouse
+[16:24:26 TRACE SpaceCore] Event: ActionActivated
+[16:24:28 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[16:24:49 TRACE SpaceCore] Event: ActionActivated
+[16:25:11 TRACE SpaceCore] Event: BeforeWarp
+[16:25:11 TRACE game] Warping to ScienceHouse
+[16:25:48 TRACE SpaceCore] Event: BeforeWarp
+[16:25:48 TRACE game] Warping to Mountain
+[16:25:53 TRACE SpaceCore] Event: BeforeWarp
+[16:25:53 TRACE game] Warping to Backwoods
+[16:26:01 TRACE SpaceCore] Event: BeforeWarp
+[16:26:01 TRACE game] Warping to Farm
+[16:26:18 TRACE SpaceCore] Event: ActionActivated
+[16:26:18 TRACE SpaceCore] Event: BeforeWarp
+[16:26:18 TRACE game] Warping to FarmHouse
+[16:26:28 TRACE SpaceCore] Event: BeforeWarp
+[16:26:28 TRACE game] Warping to Farm
+[16:26:33 TRACE SpaceCore] Event: BeforeWarp
+[16:26:33 TRACE game] Warping to BusStop
+[16:26:38 TRACE SpaceCore] Event: BeforeWarp
+[16:26:38 TRACE game] Warping to Town
+[16:26:51 TRACE SpaceCore] Event: BeforeWarp
+[16:26:51 TRACE game] Warping to Beach
+[16:27:48 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:29:32 TRACE SpaceCore] Event: OnItemEaten
+[16:32:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:32:31 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:35:49 TRACE SpaceCore] Event: BeforeWarp
+[16:35:49 TRACE game] Warping to Town
+[16:35:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:36:30 TRACE SpaceCore] Event: BeforeWarp
+[16:36:30 TRACE game] Warping to Forest
+[16:39:02 TRACE SpaceCore] Event: OnItemEaten
+[16:41:56 TRACE CJB Item Spawner] Received menu open key.
+[16:42:16 TRACE SpaceCore] Event: BeforeWarp
+[16:42:16 TRACE game] Warping to Farm
+[16:42:50 TRACE SpaceCore] Event: ActionActivated
+[16:42:50 TRACE SpaceCore] Event: BeforeWarp
+[16:42:50 TRACE game] Warping to FarmHouse
+[16:42:58 TRACE SpaceCore] Event: BeforeWarp
+[16:42:58 TRACE game] Warping to FarmHouse
+[16:42:58 TRACE SMAPI] Synchronizing 'NewDay' task...
+[16:43:00 TRACE SpaceCore] Event: ChooseNightlyFarmEvent
+[16:43:00 TRACE SpaceCore] Event: ShowNightEndMenus
+[16:43:00 DEBUG SpaceCore] Doing skill menus
+[16:43:00 TRACE SMAPI]    task complete.
+[16:43:00 TRACE SMAPI] Context: before save.
+[16:43:00 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:43:00 TRACE SMAPI] Invalidated 0 cache entries.
+[16:43:00 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:43:00 TRACE SMAPI] Invalidated 0 cache entries.
+[16:43:00 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:43:00 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[16:43:00 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:43:00 TRACE SMAPI] Invalidated 0 cache entries.
+[16:43:00 TRACE SpaceCore] Saving custom data
+[16:43:10 TRACE game] SaveGame.Save() called.
+[16:43:10 TRACE SMAPI] Synchronizing 'Save' task...
+[16:43:10 TRACE game] Saving without compression...
+[16:43:12 TRACE SMAPI]    task complete.
+[16:43:12 TRACE game] SaveGame.Save() completed without exceptions.
+[16:43:15 TRACE SMAPI] Context: after save, starting winter 19 Y4.
+[16:43:15 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:43:15 TRACE SMAPI] Invalidated 0 cache entries.
+[16:43:15 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:43:15 TRACE SMAPI] Invalidated 0 cache entries.
+[16:43:15 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:43:15 TRACE SMAPI] Invalidated 0 cache entries.
+[16:43:15 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:43:15 TRACE SMAPI] Invalidated 0 cache entries.
+[16:43:16 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[16:43:16 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[16:43:16 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[16:43:16 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[16:43:21 TRACE CJB Item Spawner] Received menu open key.
+[16:43:37 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[16:43:54 TRACE SpaceCore] Event: BeforeReceiveObject
+[16:43:54 TRACE SpaceCore] Event: AfterGiftGiven
+[16:44:19 TRACE CJB Item Spawner] Received menu open key.
+[16:44:23 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[16:44:38 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[16:45:22 TRACE CJB Item Spawner] Received menu open key.
+[16:46:24 TRACE SpaceCore] Event: BeforeWarp
+[16:46:24 TRACE game] Warping to Farm
+[16:47:20 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:49:47 TRACE SpaceCore] Event: BeforeWarp
+[16:49:47 TRACE game] Warping to Forest
+[16:50:27 TRACE SpaceCore] Event: OnItemEaten
+[16:54:00 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:54:44 TRACE CJB Item Spawner] Received menu open key.
+[16:55:11 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:55:39 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:56:27 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:58:13 TRACE SpaceCore] Event: BeforeWarp
+[16:58:13 TRACE game] Warping to Town
+[16:58:22 TRACE SpaceCore] Event: ActionActivated
+[16:58:22 TRACE SpaceCore] Event: BeforeWarp
+[16:58:22 TRACE game] Warping to Sewer
+[16:58:28 TRACE SpaceCore] Event: TouchActionActivated
+[16:58:29 TRACE SpaceCore] Event: BeforeWarp
+[16:58:29 TRACE game] Warping to BugLand
+[16:59:18 TRACE SpaceCore] Event: BeforeWarp
+[16:59:18 TRACE game] Warping to Sewer
+[16:59:24 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[17:01:24 TRACE SpaceCore] Event: BeforeWarp
+[17:01:24 TRACE game] Warping to Town
+[17:01:43 TRACE SpaceCore] Event: BeforeWarp
+[17:01:43 TRACE game] Warping to Mountain
+[17:01:55 TRACE SpaceCore] Event: BeforeWarp
+[17:01:55 TRACE game] Warping to Mine
+[17:01:58 TRACE SpaceCore] Event: ActionActivated
+[17:02:00 TRACE SpaceCore] Event: BeforeWarp
+[17:02:00 TRACE game] Warping to UndergroundMine60
+[17:02:00 DEBUG SkullCavernElevator] Current lowest minelevel of player 266
+[17:02:00 DEBUG SkullCavernElevator] Value of MineShaft.lowestMineLevel 266
+[17:02:00 DEBUG SkullCavernElevator] Value of current mineShaft level 60
+[17:02:05 TRACE SpaceCore] Event: BeforeWarp
+[17:02:05 TRACE game] Warping to UndergroundMine61
+[17:02:06 DEBUG SkullCavernElevator] Current lowest minelevel of player 266
+[17:02:06 DEBUG SkullCavernElevator] Value of MineShaft.lowestMineLevel 266
+[17:02:06 DEBUG SkullCavernElevator] Value of current mineShaft level 61
+[17:02:08 TRACE SpaceCore] Event: BeforeWarp
+[17:02:08 TRACE game] Warping to Mine
+[17:02:14 TRACE SpaceCore] Event: OnItemEaten
+[17:02:16 TRACE SpaceCore] Event: ActionActivated
+[17:02:18 TRACE SpaceCore] Event: BeforeWarp
+[17:02:18 TRACE game] Warping to UndergroundMine60
+[17:02:18 DEBUG SkullCavernElevator] Current lowest minelevel of player 266
+[17:02:18 DEBUG SkullCavernElevator] Value of MineShaft.lowestMineLevel 266
+[17:02:18 DEBUG SkullCavernElevator] Value of current mineShaft level 60
+[17:03:19 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[17:03:52 TRACE SpaceCore] Event: BeforeWarp
+[17:03:52 TRACE game] Warping to UndergroundMine20
+[17:03:53 DEBUG SkullCavernElevator] Current lowest minelevel of player 266
+[17:03:53 DEBUG SkullCavernElevator] Value of MineShaft.lowestMineLevel 266
+[17:03:53 DEBUG SkullCavernElevator] Value of current mineShaft level 20
+[17:05:30 TRACE CJB Item Spawner] Received menu open key.
+[17:05:37 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[17:07:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[17:09:15 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[17:09:44 TRACE SpaceCore] Event: BeforeWarp
+[17:09:44 TRACE game] Warping to Mine
+[17:09:47 TRACE SpaceCore] Event: BeforeWarp
+[17:09:47 TRACE game] Warping to Mountain
+[17:09:59 TRACE SpaceCore] Event: BeforeWarp
+[17:09:59 TRACE game] Warping to Backwoods
+[17:10:07 TRACE SpaceCore] Event: BeforeWarp
+[17:10:07 TRACE game] Warping to Farm
+[17:10:41 TRACE SpaceCore] Event: ActionActivated
+[17:10:41 TRACE SpaceCore] Event: BeforeWarp
+[17:10:41 TRACE game] Warping to FarmHouse
+[17:11:18 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[17:11:24 TRACE SpaceCore] Event: TouchActionActivated
+[17:11:26 TRACE SMAPI] Synchronizing 'NewDay' task...
+[17:11:28 TRACE SpaceCore] Event: ChooseNightlyFarmEvent
+[17:11:28 TRACE SpaceCore] Event: ShowNightEndMenus
+[17:11:28 DEBUG SpaceCore] Doing skill menus
+[17:11:28 TRACE SMAPI]    task complete.
+[17:11:28 TRACE SMAPI] Context: before save.
+[17:11:28 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[17:11:28 TRACE SMAPI] Invalidated 0 cache entries.
+[17:11:28 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[17:11:28 TRACE SMAPI] Invalidated 0 cache entries.
+[17:11:28 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[17:11:28 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[17:11:28 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[17:11:28 TRACE SMAPI] Invalidated 0 cache entries.
+[17:11:28 TRACE SpaceCore] Saving custom data
+[17:11:50 TRACE game] SaveGame.Save() called.
+[17:11:50 TRACE SMAPI] Synchronizing 'Save' task...
+[17:11:50 TRACE game] Saving without compression...
+[17:11:52 TRACE SMAPI]    task complete.
+[17:11:52 TRACE game] SaveGame.Save() completed without exceptions.
+[17:11:55 TRACE SMAPI] Context: after save, starting winter 20 Y4.
+[17:11:55 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[17:11:55 TRACE SMAPI] Invalidated 0 cache entries.
+[17:11:55 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[17:11:55 TRACE SMAPI] Invalidated 0 cache entries.
+[17:11:55 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[17:11:55 TRACE SMAPI] Invalidated 0 cache entries.
+[17:11:55 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[17:11:55 TRACE SMAPI] Invalidated 0 cache entries.
+[17:11:55 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[17:11:55 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[17:11:55 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[17:11:55 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[17:12:06 TRACE CJB Item Spawner] Received menu open key.
+[17:12:18 TRACE SpaceCore] Event: TouchActionActivated
+[17:12:21 TRACE SMAPI] Synchronizing 'NewDay' task...
+[17:12:22 TRACE SpaceCore] Event: ChooseNightlyFarmEvent
+[17:12:22 TRACE SpaceCore] Event: ShowNightEndMenus
+[17:12:22 DEBUG SpaceCore] Doing skill menus
+[17:12:22 TRACE SMAPI]    task complete.
+[17:12:22 TRACE SMAPI] Context: before save.
+[17:12:22 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[17:12:22 TRACE SMAPI] Invalidated 0 cache entries.
+[17:12:22 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[17:12:22 TRACE SMAPI] Invalidated 0 cache entries.
+[17:12:22 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[17:12:22 TRACE SMAPI] Invalidated 0 cache entries.
+[17:12:22 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[17:12:22 TRACE SMAPI] Invalidated 0 cache entries.
+[17:12:22 TRACE SpaceCore] Saving custom data
+[17:12:22 TRACE game] SaveGame.Save() called.
+[17:12:22 TRACE SMAPI] Synchronizing 'Save' task...
+[17:12:22 TRACE game] Saving without compression...
+[17:12:24 TRACE SMAPI]    task complete.
+[17:12:24 TRACE game] SaveGame.Save() completed without exceptions.
+[17:12:25 TRACE SMAPI] Context: after save, starting winter 21 Y4.
+[17:12:25 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[17:12:25 TRACE SMAPI] Invalidated 0 cache entries.
+[17:12:25 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[17:12:25 TRACE SMAPI] Invalidated 0 cache entries.
+[17:12:25 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[17:12:25 TRACE SMAPI] Invalidated 0 cache entries.
+[17:12:25 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[17:12:25 TRACE SMAPI] Invalidated 0 cache entries.
+[17:12:25 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[17:12:25 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[17:12:25 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[17:12:25 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[17:12:27 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[17:12:33 TRACE game] Disconnected: ClosedGame
+[17:12:33 TRACE SMAPI] Disposing...
+[17:12:33 TRACE SMAPI] Disposing the content coordinator. Content managers will no longer be usable after this point.

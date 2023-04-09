@@ -1,0 +1,51 @@
+# Aliases
+alias youtube='source /Users/livisu/.local/bin/youtube.sh'
+
+# ~~~~~~general~~~~~~~~~
+# Print palette in circle
+alias c='clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo ""'
+
+# Print pfetch and palette
+alias ca='cd ~; clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo "\n" && pfetch && echo ""'
+
+# Print pride kitty and palette
+alias cc='cd ~; clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo "\n" && meow print --pride && echo ""'
+
+# Terminal on lsd aliases 
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+
+# Execute Neovim
+alias vi='nvim'
+alias vim='nvim'
+alias neovim='nvim'
+
+# For nano highlighting. First brew install nano bc MacOS nano is too outdated.
+alias nano='/usr/local/bin/nano'
+
+# Code Server aliases
+alias cs='brew services start code-server'
+alias csr='brew services restart code-server'
+alias css='brew services stop code-server'
+
+# run python 3 instead of python 2
+alias python='python3'
+alias pip='pip3'
+
+# alias for bat
+alias cat='bat'
+
+# use a MacBook as a server with the lid closed
+alias caffeinate='sudo pmset -a disablesleep 1' # stop sleep
+alias uncaffeinate='sudo pmset -a disablesleep 0' # disable stop sleep
+alias globalpower='pmset -g' # display global power settings
+
+# tty-clock prefs
+alias tty-clock='tty-clock -C 5 -B -t -b -s -c -S'
+
+# matrix prefs
+alias cmatrix='cmatrix -B -r'
+

@@ -1,0 +1,5 @@
+# Set theme
+--theme="Catppuccin-mocha"
+
+# Set the style
+--style="full"

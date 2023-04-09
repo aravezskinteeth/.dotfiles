@@ -1,0 +1,11 @@
+# Download in 1080p res if applicable,
+# Change the format of bv and ba to mp4
+# and m4a, respectively
+# with -S, you change the criteria for being considered the best
+-S res:1080,vext:mp4,aext:m4a
+
+# Download age restricted videos
+--cookies-from-browser firefox
+
+# Save all your videos here
+-o '/Volumes/LIVISU/livs/Videos-movies/youtube-dl/%(title)s-%(upload_date>%d-%m-%Y)s.%(ext)s'

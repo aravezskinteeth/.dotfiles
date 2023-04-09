@@ -1,0 +1,116 @@
+{
+  "user_name": "Liv",
+  "initial_setup_done": true,
+  "show_task_progress": true,
+  "show_quotes": true,
+  "tasks": [
+    {
+      "name": "Todo esto suena muy te\u00f3rico, la discusi\u00f3n tiene que promover la explicaci\u00f3n de hechos. Todo lo que sea teor\u00eda o bien va en estado del arte o lo podemos deslizar aqu\u00ed pero de otra forma.",
+      "done": false
+    },
+    {
+      "name": "Quien consider\u00f3 Gtex, tu estudio o el otro?",
+      "done": true
+    },
+    {
+      "name": "Aqu\u00ed cita el art\u00edculo de CESC TCGA",
+      "done": true
+    },
+    {
+      "name": "S\u00f3lo para estar seguras, esto lo han expuesto en resultados? Cuantas pts CESC eran HPV + y cuantas negativas?. S\u00f3lo como dato. Si fue 100%, aqu\u00ed cambiar\u00edamos un poco esta parte",
+      "done": true
+    },
+    {
+      "name": "Y a qu\u00e9 se debe?, un breve comentario o idea aqu\u00ed.",
+      "done": false
+    },
+    {
+      "name": "Revisa bien la normativa APA, creo que as\u00ed no se cita",
+      "done": true
+    },
+    {
+      "name": "Este 71% es en China, no?",
+      "done": true
+    },
+    {
+      "name": "Se ha encontrado, para cualquier infecci\u00f3n viral o bacteriana, que hay cambio de expresi\u00f3n de glutaminasas?. Busca alg\u00fan trabajo sobre eso y comentalo aqu\u00ed brevemente, como para establecer una comparaci\u00f3n",
+      "done": false
+    },
+    {
+      "name": "Reducir glutamin\u00f3lisis? Qu\u00e9 mas?.",
+      "done": false
+    },
+    {
+      "name": "Se sabe si las glutaminasas varian por g\u00e9nero? Quiz\u00e1 haya algo publicado y lo que observamos se deba a un hecho comun, entre hombres y mujeres",
+      "done": false
+    },
+    {
+      "name": "Aqu\u00ed no entiendo la idea, parece que faltara algo",
+      "done": false
+    },
+    {
+      "name": "Una posible explicaci\u00f3n de esas diferencias?",
+      "done": false
+    },
+    {
+      "name": "Falta referencia",
+      "done": true
+    },
+    {
+      "name": "Corregir los subtipos",
+      "done": true
+    },
+    {
+      "name": "Uniformiza este t\u00e9rmino en el documento: o te refieres a \u00e9l como OS o como sobrevida global",
+      "done": true
+    },
+    {
+      "name": "Es ref 53 \u00f3 54? Arriba dices 54",
+      "done": true
+    },
+    {
+      "name": "Los nombres de los genes van en cursiva, revisar todo el documento",
+      "done": false
+    },
+    {
+      "name": "Averiguar esto",
+      "done": false
+    },
+    {
+      "name": "Pero creo que en este estudio no trabajan con c\u00e9lulas cancerosas, o s\u00ed?. Ser\u00eda equivalente la comparaci\u00f3n?",
+      "done": true
+    },
+    {
+      "name": "Puedes conseguir una ref que respalde esto? Queremos un comentario aqu\u00ed que respalde el uso del FPKM como mejor medida que el valor relativo de mRNA, usado por saha",
+      "done": true
+    },
+    {
+      "name": "Esto no es del todo correcto porque el PFKM de TCGA tambi\u00e9n puede haber sido obtenido por RT-PCR. Chequea bien cual fue esa diferencia con el nuestro.",
+      "done": true
+    },
+    {
+      "name": "AQUI",
+      "done": true
+    },
+    {
+      "name": "Este tipo de interpretaciones son v\u00e1lidas en la discusi\u00f3n y deben ser presentadas as\u00ed, pero en este caso, no estoy segura de si es tan sencillo concluir que bajo GLS1, baja glutamin\u00f3lisis porque la gls2 est\u00e1 en niveles normales. Puedes revisar este tipo de articulos y ver si esa interpretaci\u00f3n o conclusi\u00f3n es v\u00e1lida?",
+      "done": true
+    },
+    {
+      "name": "Encontramos tambi\u00e9n alguna asociaci\u00f3n?",
+      "done": true
+    },
+    {
+      "name": "Esto llevalo a la secci\u00f3n de llimitaciones del estudio",
+      "done": true
+    },
+    {
+      "name": "Creo que este t\u00e9rmino est\u00e1 mal usado",
+      "done": true
+    },
+    {
+      "name": "Limitaciones debe ir como secci\u00f3n aparte, despu\u00e9s de las conclusiones. Van enlistadas",
+      "done": true
+    }
+  ]
+}
