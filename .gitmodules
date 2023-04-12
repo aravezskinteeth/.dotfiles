@@ -10,3 +10,6 @@
 [submodule "config/nvim/AstroNvim"]
 	path = config/nvim/AstroNvim
 	url = https://github.com/AstroNvim/AstroNvim
+[submodule "config/neovim/astronvim-config"]
+	path = config/neovim/astronvim-config
+	url = https://github.com/aravezskinteeth/astronvim-config.git
