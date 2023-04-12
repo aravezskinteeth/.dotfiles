@@ -82,6 +82,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Sourcing the file where all my aliases are (lsd and bash aliases)
 source ~/.dotfiles/config/zsh/.aliases
+source ~/.dotfiles/config/zsh/.functions
 
 # Enable Starship config
 eval "$(starship init zsh)"  

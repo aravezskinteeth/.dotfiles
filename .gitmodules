@@ -16,3 +16,6 @@
 [submodule "config/neovim/nvim-custom"]
 	path = config/neovim/nvim-custom
 	url = https://github.com/aravezskinteeth/nvim-custom.git
+[submodule "config/neovim/nvchad-config"]
+	path = config/neovim/nvchad-config
+	url = https://github.com/aravezskinteeth/nvchad-config
