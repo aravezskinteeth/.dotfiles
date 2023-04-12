@@ -76,3 +76,4 @@ export PLS_AUTHOR_STYLE="#9399B2"
 export PLS_BACKGROUND_BAR_STYLE="bar.back"
 export PLS_COMPLETE_BAR_STYLE="bar.complete"
 export PLS_FINISHED_BAR_STYLE="bar.finished"
+
