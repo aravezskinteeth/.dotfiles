@@ -4,9 +4,6 @@
 [submodule "ricing/firefox/firefox"]
 	path = ricing/firefox/firefox
 	url = https://github.com/aravezskinteeth/firefox
-[submodule "config/neovim/astronvim-config"]
-	path = config/neovim/astronvim-config
-	url = https://github.com/aravezskinteeth/astronvim-config.git
 [submodule "config/neovim/nvim-custom"]
 	path = config/neovim/nvim-custom
 	url = https://github.com/aravezskinteeth/nvim-custom.git
