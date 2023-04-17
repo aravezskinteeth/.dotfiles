@@ -10,3 +10,6 @@
 [submodule "config/neovim/nvchad-config"]
 	path = config/neovim/nvchad-config
 	url = https://github.com/aravezskinteeth/nvchad-config
+[submodule "config/neovim/astronvim-config"]
+	path = config/neovim/astronvim-config
+	url = https://github.com/aravezskinteeth/astronvim-config
