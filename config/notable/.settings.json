@@ -19,9 +19,9 @@
     "states": "[[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column sidebar   -layout column mainbar   \",{\"0\":68,\"1\":408,\"2\":338}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column mainbar   \",{\"0\":68,\"1\":746}],[\"preferences__NOTABLE_SEPARATOR__layout layout-content preferences-section-layout layout-content preferences-section\",{\"0\":262,\"1\":262}]]"
   },
   "view": {
-    "current": "\"search\""
+    "current": "\"explorer\""
   },
   "editor": {
-    "enabled": true
+    "enabled": false
   }
 }
