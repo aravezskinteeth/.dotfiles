@@ -7,18 +7,18 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 #----OTHER-OH-MY-ZSH-SETTINGS-----#
-# Set name of the theme to load 
+# Set name of the theme to load
 ZSH_THEME="robbyrussell"
 
 # update automatically without asking
-zstyle ':omz:update' mode auto      
+zstyle ':omz:update' mode auto
 
 # //--------OH-MY-ZSH-PLUGINS ---------//
- 
+
 plugins=(
-	git 
-	zsh-autosuggestions
-	colored-man-pages
+    git
+    zsh-autosuggestions
+    colored-man-pages
 )
 
 # Catpuccin syntax highlighting
@@ -26,7 +26,7 @@ source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 # Now load zsh-syntax-highlighting plugin
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# zsh-autocomplete colors = zcolors plugin 
+# zsh-autocomplete colors = zcolors plugin
 #source ~/git/zcolors/zcolors.plugin.zsh
 #source ~/.dotfiles/config/zsh/.zcolors  # generated in step 1
 
@@ -38,10 +38,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Vivid LS_COLORS
 if [ -x "$(command -v vivid)" ]; then
-  export LS_COLORS="$(vivid generate catppuccin-mocha)"
+    export LS_COLORS="$(vivid generate catppuccin-mocha)"
 fi
 
-# Fuzzy fzf finder 
+# Fuzzy fzf finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Change fzf theme
@@ -50,7 +50,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 
-# Warning: Homebrew's "sbin" was not found in your PATH but you have installed formulae that put executables in /usr/local/sbin. Consider setting your PATH for example like so: 
+# Warning: Homebrew's "sbin" was not found in your PATH but you have installed formulae that put executables in /usr/local/sbin. Consider setting your PATH for example like so:
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
@@ -63,7 +63,7 @@ PATH=$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH
 
 # Add emacs binary to your path
 export PATH="/Applications/Emacs.app/Contents/MacOS:$PATH"
-# Adding doom comand to my path
+# Adding doom command to my path
 export PATH="$HOME/.emacs.d/bin:$PATH"
 
 # Spicetify
@@ -85,4 +85,4 @@ source ~/.dotfiles/config/zsh/.aliases
 source ~/.dotfiles/config/zsh/.functions
 
 # Enable Starship config
-eval "$(starship init zsh)"  
+eval "$(starship init zsh)"
