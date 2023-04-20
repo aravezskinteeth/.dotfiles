@@ -3,7 +3,7 @@
 #==================================
 # Variables
 #==================================
-declare GITHUB_REPOSITORY="excalith/.dotfiles-new"
+declare GITHUB_REPOSITORY="aravezskinteeth/.dotfiles"
 declare DOTFILES_ORIGIN="git@github.com:$GITHUB_REPOSITORY.git"
 declare DOTFILES_TARBALL_URL="https://github.com/$GITHUB_REPOSITORY/tarball/main"
 declare DOTFILES_UTILS_URL="https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/scripts/utils/utils.sh"
@@ -30,7 +30,7 @@ download() {
             --show-error \
             --output "$output" \
             "$url" \
-                &> /dev/null
+            &> /dev/null
 
         return $?
 
@@ -39,7 +39,7 @@ download() {
             --quiet \
             --output-document="$output" \
             "$url" \
-                &> /dev/null
+            &> /dev/null
 
         return $?
     fi
@@ -76,7 +76,7 @@ download_utils() {
         && rm -rf "$tmpFile" \
         && return 0
 
-   return 1
+    return 1
 
 }
 
@@ -111,7 +111,7 @@ verify_os() {
             print_error "Minimum MacOS $MINIMUM_MACOS_VERSION is required (current is $os_version)"
         fi
 
-    # Check if the OS is `Ubuntu` and supported
+        # Check if the OS is `Ubuntu` and supported
     elif [ "$os_name" == "ubuntu" ]; then
 
         if is_supported_version "$os_version" "$MINIMUM_UBUNTU_VERSION"; then
@@ -120,13 +120,13 @@ verify_os() {
         else
             print_error "Minimum Ubuntu $MINIMUM_UBUNTU_VERSION is required (current is $os_version)"
         fi
-    
-    # Check if the OS is `Arch` and supported
+
+        # Check if the OS is `Arch` and supported
     elif [ "$os_name" == "arch" ]; then
         print_success "$os_name $os_version is supported"
         return 0
 
-    # Exit if not supported OS
+        # Exit if not supported OS
     else
         print_error "$os_name is not supported. This dotfiles are intended for MacOS, Ubuntu and Arch"
     fi
@@ -149,7 +149,7 @@ main() {
         download_utils || exit 1
     fi
 
-    print_section "Excalith Dotfiles Setup"
+    print_section "Aravezskinteeth Dotfiles Setup"
 
     # Ask user for sudo
     print_title "Sudo Access"
@@ -173,9 +173,6 @@ main() {
 
     # Ask for SSH
     . "$HOME/.dotfiles/scripts/utils/generate_ssh.sh"
-
-    # Ask for GPG
-    . "$HOME/.dotfiles/scripts/utils/generate_gpg.sh"
 
     # Link to original repository and update contents of dotfiles
     if [ "$(git config --get remote.origin.url)" != "$DOTFILES_ORIGIN" ]; then

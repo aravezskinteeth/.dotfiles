@@ -22,7 +22,7 @@ brew_install() {
 
     # If `brew tap` needs to be executed,
     # check if it executed correctly.
-    if [ -n "$TAP_VALUE" ]; then
+    if [ "$TAP_VALUE" != "" ]; then
         if ! brew_tap "$TAP_VALUE"; then
             print_error "$FORMULA_READABLE_NAME ('brew tap $TAP_VALUE' failed)"
             return 1
@@ -94,11 +94,14 @@ brew_start_service() {
     declare -r SERVICE="$2"
     declare -r SERVICE_READABLE_NAME="$1"
 
-	execute \
-		"brew services start $SERVICE" \
-		"Brew Service Starting: $SERVICE_READABLE_NAME"
+    execute \
+        "brew services start $SERVICE" \
+        "Brew Service Starting: $SERVICE_READABLE_NAME"
 }
 
+#==================================
+# PIP
+#==================================
 
 #==================================
 # YARN
@@ -112,20 +115,8 @@ yarn_install() {
     if yarn global list "$FORPACKAGEMULA" &> /dev/null; then
         print_success "$PACKAGE_READABLE_NAME"
     else
-		execute \
-			"yarn global add  $PACKAGE" \
-			"$PACKAGE_READABLE_NAME"
-	fi
-}
-
-
-#==================================
-# FISHER
-#==================================
-fisher_install() {
-    declare -r PACKAGE="$2"
-    declare -r PACKAGE_READABLE_NAME="$1"
-
-    fish -c "fisher install $PACKAGE" &> /dev/null
-    print_result $? "$PACKAGE_READABLE_NAME" "true"
+        execute \
+            "yarn global add  $PACKAGE" \
+            "$PACKAGE_READABLE_NAME"
+    fi
 }
