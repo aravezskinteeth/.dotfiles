@@ -54,3 +54,5 @@ alias nvim-chad='NVIM_APPNAME=NvChad nvim'
 alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
 alias nvim-astro='nvim'
 
+# ~~~~~ KITTY ~~~~~ #
+alias diff='git difftool --no-symlinks --dir-diff'
