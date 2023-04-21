@@ -66,7 +66,7 @@
 	whitespace = -trailing-space # Don't consider trailing space change as a cause for merge conflicts
 	excludesFile = ~/.config/git/ignore_global
 	# pager = delta
-	autocrlf = input
+	autocrlf = false 
 [branch]
 	autosetuprebase = always # Avoid having messy "Merge branch 'main' into ..." commits by rebasing every time you pull.
 [status]
