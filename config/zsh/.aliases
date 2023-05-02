@@ -54,5 +54,9 @@ alias nvim-chad='NVIM_APPNAME=NvChad nvim'
 alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
 alias nvim-astro='nvim'
 
+# ~~~~~ Brew ~~~~~ #
+alias update-brewfile='brew bundle dump --force --file=/Users/skinofmyeden/.dotfiles/system/macos/Brewfile'
+alias install-brewfile='brew bundle --force --file=/Users/skinofmyeden/.dotfiles/system/macos/Brewfile'
+
 # ~~~~~ KITTY ~~~~~ #
 alias diff='git difftool --no-symlinks --dir-diff'
