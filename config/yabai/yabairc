@@ -73,6 +73,9 @@ yabai -m rule --add app="^PenTablet$" layer=above manage=off
 yabai -m rule --add app="^AdGuard for Safari$" layer=above manage=off
 yabai -m rule --add app="^Calculator$" layer=above manage=off
 yabai -m rule --add app="^Alfred Preferences$" layer=above manage=off
+yabai -m rule --add app="^Stats$" layer=above manage=off
+yabai -m rule --add app="^TIDAL$" layer=above manage=off
+yabai -m rule --add app="^Latest$" layer=above manage=off
 
 # Fix some applications from not being managed
 # yabai -m rule --add app=Emacs manage=on space=2
