@@ -1,4 +1,4 @@
-# For nvim  
+# For nvim
 export XDG_CONFIG_HOME='/Users/skinofmyeden/.config'
 
 # Which user to display.
@@ -77,3 +77,6 @@ export PLS_BACKGROUND_BAR_STYLE="bar.back"
 export PLS_COMPLETE_BAR_STYLE="bar.complete"
 export PLS_FINISHED_BAR_STYLE="bar.finished"
 
+# ~~~~~~ homebrew ~~~~~ #
+export HOMEBREW_BREWFILE=/Users/skinofmyeden/.dotfiles/system/macos/packages/
+# export HOMEBREW_CASK_OPTS="--appdir=$HOME/MyApplications"
