@@ -16,10 +16,10 @@
     "latestPaths": "[[\"cwd\",\"/Volumes/LIVISU/livs/markdown/notable\"]]"
   },
   "layoutResizable": {
-    "states": "[[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column sidebar   -layout column mainbar   \",{\"0\":68,\"1\":408,\"2\":338}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column mainbar   \",{\"0\":68,\"1\":746}],[\"preferences__NOTABLE_SEPARATOR__layout layout-content preferences-section-layout layout-content preferences-section\",{\"0\":262,\"1\":262}]]"
+    "states": "[[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column mainbar   \",{\"0\":68,\"1\":1580}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column sidebar   -layout column mainbar   \",{\"0\":68,\"1\":550,\"2\":1030}],[\"preferences__NOTABLE_SEPARATOR__layout layout-content preferences-section-layout layout-content preferences-section\",{\"0\":262,\"1\":262}]]"
   },
   "view": {
-    "current": "\"explorer\""
+    "current": "\"search\""
   },
   "editor": {
     "enabled": false

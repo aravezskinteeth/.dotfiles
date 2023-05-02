@@ -131,7 +131,7 @@
   },
   "view": {
     "sidebar": {
-      "enabled": false
+      "enabled": true
     }
   },
   "cursor": {
