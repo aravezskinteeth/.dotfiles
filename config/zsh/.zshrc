@@ -19,6 +19,7 @@ plugins=(
     git
     zsh-autosuggestions
     colored-man-pages
+    starship
 )
 
 # Catpuccin syntax highlighting
@@ -85,4 +86,4 @@ source ~/.dotfiles/config/zsh/.aliases
 source ~/.dotfiles/config/zsh/.functions
 
 # Enable Starship config
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
