@@ -52,7 +52,6 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 
 # Warning: Homebrew's "sbin" was not found in your PATH but you have installed formulae that put executables in /usr/local/sbin. Consider setting your PATH for example like so:
-export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
 # node.js & npm path 🛣
