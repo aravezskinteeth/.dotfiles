@@ -1,0 +1,66 @@
+bash-completion: Programmable completion for Bash 3.2
+bat: Clone of cat(1) with syntax highlighting and Git integration
+bpytop: Linux/OSX/FreeBSD resource monitor
+btop: Resource monitor. C++ version and continuation of bashtop and bpytop
+cargo-c: Helper program to build and install c-like libraries
+cava: Console-based Audio Visualizer for ALSA
+cling: C++ interpreter
+Warning: Treating cmake as a formula. For the cask, use homebrew/cask/cmake
+cmake: Cross-platform make
+cmatrix: Console Matrix
+cmocka: Unit testing framework for C
+coreutils: GNU File, Shell, and Text utilities
+fceux: All-in-one NES/Famicom Emulator
+fd: Simple, fast and user-friendly alternative to find
+sketchybar: Custom macOS statusbar with shell plugin, interaction and graph support
+findutils: Collection of GNU find, xargs, and locate
+fzf: Command-line fuzzy finder written in Go
+gh: GitHub command-line tool
+git: Distributed revision control system
+glow: Render markdown on the CLI
+gnu-sed: GNU implementation of the famous stream editor
+guile: GNU Ubiquitous Intelligent Language for Extensions
+gum: Tool for glamorous shell scripts
+coretemp: Outputs current CPU core and package temperatures on macOS
+howdoi: Instant coding answers via the command-line
+lazygit: A simple terminal UI for git commands, written in Go
+jq: Lightweight and flexible command-line JSON processor
+spicetify-cli: Command-line tool to customize Spotify client
+skhd: Simple hotkey-daemon for macOS.
+yabai: A tiling window manager for macOS based on binary space partitioning.
+libgit2: C library of Git core methods that is re-entrant and linkable
+lolcat: Rainbows and unicorns in your console!
+lsd: Clone of ls with colorful output, file type icons, and more
+lua: Powerful, lightweight programming language
+macchina: System information fetcher, with an emphasis on performance and minimalism
+meson: Fast and user friendly build system
+midnight-commander: Terminal-based visual file manager
+Warning: Treating nano as a formula. For the cask, use homebrew/cask/nano
+nano: Free (GNU) replacement for the Pico text editor
+neovim: Ambitious Vim-fork focused on extensibility and agility
+nmap: Port scanning utility for large networks
+node: Platform built on V8 to build network applications
+pandoc: Swiss-army knife of markup format conversion
+pfetch: Pretty system information tool written in POSIX sh
+pipes-sh: Animated pipes terminal screensaver
+pv: Monitor data's progress through a pipe
+python-tk@3.11: Python interface to Tcl/Tk
+python@3.10: Interpreted, interactive, object-oriented programming language
+ripgrep: Search tool like grep and The Silver Searcher
+screenresolution: Get, set, and list display resolution
+switchaudio-osx: Change macOS audio source from the command-line
+tldr: Simplified and community-driven man pages
+tty-clock: Digital clock in ncurses
+vhs: Your CLI home video recorder
+Warning: Treating vivid as a formula. For the cask, use homebrew/cask/vivid
+vivid: Generator for LS_COLORS with support for multiple color themes
+wget: Internet file retriever
+yasm: Modular BSD reimplementation of NASM
+youtube-dl: Download YouTube videos from the command-line
+yt-dlp: Fork of youtube-dl with additional features and fixes
+girara: Interface library
+synctex: Parser library for synctex
+zathura: PDF viewer
+zathura-djvu: DJVU plugin for zathura
+zathura-pdf-mupdf: MuPDF backend plugin for zathura
+zsh-completions: Additional completion definitions for zsh
