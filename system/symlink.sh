@@ -108,3 +108,18 @@ symlink ~/.dotfiles/config/lsd/ ~/.config/lsd/
 # mpv config
 print_title "MPV configuration"
 symlink ~/.dotfiles/config/mpv/ ~/.config/mpv/
+
+# sublime text config
+print_title "Sublime Text configuration"
+symlink "/Users/skinofmyeden/.dotfiles/config/sublime-text/Installed Packages" "/Users/skinofmyeden/Library/Application Support/Sublime Text"
+symlink ~/.dotfiles/config/sublime-text/Packages "/Users/skinofmyeden/Library/Application Support/Sublime Text"
+
+# R config
+print_title "R configuration"
+sylink /Users/skinofmyeden/.dotfiles/config/r/.Rapp.history ~
+symlink /Users/skinofmyeden/.dotfiles/config/r/.RData ~
+symlink /Users/skinofmyeden/.dotfiles/config/r/.Rhistory ~
+symlink /Users/skinofmyeden/.dotfiles/config/r/.Rprofile ~
+symlink /Users/skinofmyeden/.dotfiles/config/r/.Renviron ~
+symlink /Users/skinofmyeden/.dotfiles/config/r/config.json "/Users/skinofmyeden/Library/Application Support/RStudio"
+symlink /Users/skinofmyeden/.dotfiles/config/r/Preferences "/Users/skinofmyeden/Library/Application Support/RStudio"
