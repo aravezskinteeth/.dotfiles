@@ -207,27 +207,59 @@ print_title "Starting Brew Services"
 brew_start_service "yabai" "yabai"
 brew_start_service "skhd" "skhd"
 
-
 #==================================
 # Yarn
 #==================================
 print_title "Installing Yarn Packages"
 yarn_install "Serve" "serve"
 
+#==================================
+# Pip
+#==================================
+print_title "Installing Pip Packages"
+
+#==================================
+# Node
+#==================================
+print_title "Installing Node Packages"
+
+#==================================
+# Cargo
+#==================================
+print_title "Installing Cargo Packages"
 
 #==================================
 # Install From Source
 #==================================
 print_title "Install Packages From Source"
 
-# LunarVim
-LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/fc6873809934917b470bff1b072171879899a36b/utils/installer/install.sh) -y
+# oh my zsh
+# clone to dotfiles
+# symlink to git or home directory
+
+# zsh syntax highlighting
+# clone to dotfiles
+# symlink to home directory or git folder
+
+# catppuccin syntax highlighting
+
+# zsh autocomplete
+
+# zcolors
 
 # NvChad
-# rm -rf ~/.config/nvim
-# rm -rf ~/.local/share/nvim
-# rm -rf ~/.cache/nvim
-# execute "git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1" "NvChad"
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
+execute "git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1" 
+mv -rf ~/.config/nvim ~/.config/nvchad
 
-# Tmux Plugin Manager (TPM)
-execute "git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm" "TMUX Plugin Manager (TPM)"
+# Astronvim
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
+execute "git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim"
+
+# Doom Emacs
+execute "git clone https://github.com/hlissner/doom-emacs ~/.emacs.d"
+execute "~/.emacs.d/bin/doom install"
