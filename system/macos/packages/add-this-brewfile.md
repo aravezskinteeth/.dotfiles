@@ -39,7 +39,7 @@ brew cask install font-hack
 brew cask install font-hack-nerd-font
 brew cask install font-iosevka
 brew cask install font-iosevka-term-nerd-font
-brew cask install font-jetbrains-monol
+brew cask install font-jetbrains-mono
 brew cask install font-jetbrains-mono-nerd-font
 brew cask install font-victor-mono
 brew cask install font-victor-mono-nerd-font
