@@ -6,6 +6,18 @@ Add this to the start of your Brewfile
 tap "homebrew/cask"
 tap "buo/cask-upgrade"
 brew "mas"
+tap "railwaycat/emacsmacport"
+# Prerequisites
+# brew "git" 
+# brew "ripgrep" 
+# brew "findutils" 
+# brew "coreutils" 
+# brew "fd"
+# if on the latest macos version then:
+# xcode-select --install
+# else: manually install xcode command line tools 
+brew "emacs-mac" 
+# system/symlink.sh to install doom
 ```
 
 ## Fonts
