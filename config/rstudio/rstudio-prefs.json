@@ -20,7 +20,7 @@
     "syntax_color_console": true,
     "font_size_points": 14,
     "editor_theme": "Dracula",
-    "posix_terminal_shell": "bash",
+    "posix_terminal_shell": "zsh",
     "global_theme": "alternate",
     "panes": {
         "quadrants": [
@@ -58,7 +58,10 @@
     "use_tinytex": true,
     "latex_shell_escape": true,
     "python_type": "system",
-    "python_version": "3.11.1",
+    "python_version": "3.11.3",
     "python_path": "/usr/local/bin/python3",
-    "jobs_tab_visibility": "shown"
+    "jobs_tab_visibility": "shown",
+    "visual_markdown_editing_is_default": true,
+    "visual_markdown_editing_show_margin": true,
+    "visual_markdown_code_editor_line_numbers": true
 }
