@@ -116,25 +116,27 @@ Here I'll add Formulae that I have not installed with `Brew`.
 
 ```sh
 brew install mpv
+brew install r
+brew install spek
+brew install supertux
+brew install syncthing
 ```
 
-## Mac App Store apps
+## Apps that I have to install manually
 
-Just run `mas list` to see a list.
-
-Add this to your brewfile
-
-```sh
-# mas install
-mas "AdGuard for Safari", id: 1440147259
-mas "MeetInOne for Safari", id: 1542097735
-mas "Auto HD FPS for YouTube", id: 1546729687
-mas "Save to Raindrop.io", id: 1549370672
-mas "OneTab", id: 1540160809
-mas "Malwarebytes Browser Guard", id: 1577761052
-mas "Color Picker", id: 1545870783
-mas "Pages", id: 409201541 
-mas "Bitwarden", id: 1352778147 
-mas "Noir", id: 1592917505
-mas "Amphetamine", id: 937984704
-```
+- [Adobe Photoshop](https://appnee.com/adobe-zii/#more-1670)
+	- Browse the subreddit (for more info) on your phone or iPad bc it has been blocked elsewhere.
+- [Python](https://www.python.org/)
+- [SMAPI](https://smapi.io/)
+- [Bar Translate](https://github.com/ThijmenDam/BarTranslate)
+- [Better Discord](https://github.com/BetterDiscord/BetterDiscord)
+- [Xcode command line tools](https://developer.apple.com/download/all/?q=xcode)
+	- Trial an error, which is the one for MacOs Monterrey (12)
+- [Learn to Code with Godot](https://gdquest.itch.io/learn-godot-gdscript)
+	- [Online version](https://gdquest.github.io/learn-gdscript/)
+- [Notable Insider's version](https://github.com/notable/notable-insiders)
+- [Pure Ref](https://www.pureref.com/download.php?forcePlatform=mac)
+- Stardew Valley (download from GOG Galaxy)
+- [Stardew-Valley-Planner-v2](https://www.nexusmods.com/stardewvalley/mods/3787/)
+	- [Online Version](https://stardew.info/)
+- [UCSC Xena](https://xenabrowser.net/)
