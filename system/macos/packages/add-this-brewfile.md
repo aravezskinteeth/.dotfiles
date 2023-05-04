@@ -56,8 +56,58 @@ Here I'll add Casks that I have not installed with `Brew` but that I still have 
 brew install --cask affinity-photo
 brew install --cask affinity-designer
 brew install --cask affinity-publisher
-brew install --cask quarto
-
+# brew install --cask quarto
+# brew install --cask xquartz
+brew install --cask alfred
+brew install --cask android-file-transfer
+brew install --cask app-cleaner
+brew install --cask audacity
+brew install --cask background-music
+brew install --cask bitwarden
+brew install --cask cheatsheet
+# brew install --cask codux
+brew install --cask discord
+brew install --cask disk-inventory-x
+brew install --cask dolphin
+brew install --cask firefox
+brew install --cask gog-galaxy
+# brew install --cask hiddenbar
+brew install --cask iina
+brew install --cask itsycal
+brew install --cask keka
+brew install --cask kindle
+brew install --cask kitty
+# brew install --cask latest
+brew install --cask lepton
+brew install --cask malwarebytes
+brew install --cask microsoft-auto-update
+brew install --cask microsoft-excel
+brew install --cask microsoft-powerpoint
+brew install --cask microsoft-word
+brew install --cask multipatch
+brew install --cask musescore
+brew install --cask notion
+brew install --cask numi
+brew install --cask obsidian
+# brew install --cask onyx
+brew install --cask openemu
+brew install --cask qbittorrent
+brew install --cask raindropio
+brew install --cask rocket
+brew install --cask rstudio
+# brew install --cask sf-symbols
+brew install --cask shottr
+brew install --cask skim
+# brew install --cask stats
+brew install --cask steam
+brew install --cask sublime-text
+brew install --cask syncthing
+brew install --cask tidal
+brew install --cask tor-browser
+brew install --cask visual-studio-code
+brew install --cask whatsapp
+brew install --cask zoom
+brew install --cask zotero
 ```
 
 ## Installed Formulae
