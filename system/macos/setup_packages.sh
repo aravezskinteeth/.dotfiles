@@ -7,12 +7,10 @@
 . "$HOME/.dotfiles/scripts/utils/utils.sh"
 . "$HOME/.dotfiles/scripts/utils/utils_macos.sh"
 
-
 #==================================
 # Print Section Title
 #==================================
 print_section "Installing Packages"
-
 
 #==================================
 # Install Brew
@@ -26,7 +24,6 @@ print_result $? "Homebrew"
 
 brew_update
 brew_upgrade
-
 
 #==================================
 # Brew Tap
