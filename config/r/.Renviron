@@ -1,0 +1,4 @@
+
+R_LIBS=~/.dotfiles/config/r/packages
+R_LIBS_SITE=~/.dotfiles/config/r/packages
+R_DEFAULT_PACKAGES=ggplot2

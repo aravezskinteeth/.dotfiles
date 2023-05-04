@@ -1,0 +1,14 @@
+new_prompt_powerline    This is a Powerline-like prompt
+prompt                  Dynamic R Prompt
+prompt_devtools         Example prompt that shows the package being
+                        developed with devtools
+prompt_fancy            A fancy prompt, showing probably too much
+                        information
+prompt_git              An example 'git' prompt
+prompt_mem              Example prompt that shows the current memory
+                        usage of the R process
+prompt_runtime          A prompt that shows the CPU time used by the
+                        last top level expression
+prompt_status           A prompt that shows the status (OK or error) of
+                        the last expression
+set_prompt              Set and control the prompt
