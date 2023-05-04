@@ -44,17 +44,17 @@ symlink ~/.dotfiles/config/git/ignore_global ~/.config/git/ignore_global
 
 # nvim config
 print_title "Neovim configuration"
-symlink ~/.dotfiles/config/astronvim-config # ~/.config/nvim/lua/user
-symlink ~/.dotfiles/neovim/nvchad-config # ~/.config/NvChad/lua/custom
-symlink ~/.dotfiles/neovim/nvim-custom # ~/.config/nvim-custom
+symlink ~/.dotfiles/config/astronvim-config ~/.config/nvim/lua/user
+symlink ~/.dotfiles/neovim/nvchad-config ~/.config/NvChad/lua/custom
+symlink ~/.dotfiles/neovim/nvim-custom ~/.config/nvim-custom
 
 # yabai config
 print_title "Yabai configuration"
-symlink ~/.dotfiles/config/yabai/.yabairc ~/.config/yabai/yabairc
+symlink ~/.dotfiles/config/yabai/yabairc ~/.config/yabai/yabairc
 
 # skhd config
 print_title "SKHD configuration"
-symlink ~/.dotfiles/config/skhd/.skhdrc ~/.config/skhd/skhdrc
+symlink ~/.dotfiles/config/skhd/skhdrc ~/.config/skhd/skhdrc
 
 # neofetch config
 print_title "Neofetch configuration"
