@@ -49,6 +49,10 @@ alias tty-clock='tty-clock -C 5 -B -t -b -s -c -S'
 # matrix prefs
 alias cmatrix='cmatrix -B -r'
 
+# no more secrets prefs
+alias nms='ls -l | nms -a -f yellow'
+alias nms-s='sneakers'
+
 # ~~~~~ NVIM ~~~~ 
 alias nvim-chad='NVIM_APPNAME=NvChad nvim'
 alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
