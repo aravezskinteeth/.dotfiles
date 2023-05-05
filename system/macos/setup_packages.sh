@@ -261,7 +261,7 @@ print_title "Install Packages From Source"
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
-execute "git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1" 
+execute "git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1"
 mv -rf ~/.config/nvim ~/.config/nvchad
 
 # Astronvim
@@ -272,4 +272,4 @@ execute "git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nv
 
 # Doom Emacs
 execute "git clone https://github.com/hlissner/doom-emacs ~/.emacs.d"
-execute "~/.emacs.d/bin/doom install"
+~/.emacs.d/bin/doom install
