@@ -124,3 +124,11 @@ symlink /Users/skinofmyeden/.dotfiles/config/r/.Rprofile ~
 symlink /Users/skinofmyeden/.dotfiles/config/r/.Renviron ~
 symlink /Users/skinofmyeden/.dotfiles/config/r/config.json "/Users/skinofmyeden/Library/Application Support/RStudio"
 symlink /Users/skinofmyeden/.dotfiles/config/r/Preferences "/Users/skinofmyeden/Library/Application Support/RStudio"
+
+# Zathura plugins config
+print_title "Zathura plugins & configuration"
+symlink /Users/skinofmyeden/.dotfiles/config/zathura/ ~/.config/zathura/
+mkdir -p "$(brew --prefix zathura)/lib/zathura"
+symlink "$(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib"
+symlink "$(brew --prefix zathura-pdf-mupdf)/libpdf-mupdf.dylib $(brew --prefix zathura)/lib/zathura/libpdf-mupdf.dylib"
+symlink "$(brew --prefix zathura-djvu)/libdjvu.dylib $(brew --prefix zathura)/lib/zathura/libdjvu.dylib" 
