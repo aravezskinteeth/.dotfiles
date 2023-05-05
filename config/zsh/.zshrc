@@ -72,13 +72,16 @@ export PATH=$PATH:/Users/skinofmyeden/.dotfiles/config/spicetify
 # Arttime installer
 export PATH=/Users/skinofmyeden/.local/bin:$PATH
 
+# Basic Tex commands' PATH
+export PATH=/usr/local/texlive/2023basic/bin/universal-darwin:$PATH
+
 # nvm, which is a node version manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# tre
-tre() { command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
+# tree
+tree() { command tree "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
 
 #-------PERSONAL-ALIASES--------#
 # For a full list of active aliases, run `alias`.
