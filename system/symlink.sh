@@ -5,6 +5,7 @@
 # Source utilities
 #==================================
 . "$HOME/.dotfiles/scripts/utils/utils.sh"
+os_name="$(get_os)"
 
 #==================================
 # Print Section Title
