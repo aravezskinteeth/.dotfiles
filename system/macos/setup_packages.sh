@@ -226,6 +226,19 @@ print_title "Installing Node Packages"
 print_title "Installing Cargo Packages"
 
 #==================================
+# tlmgr
+#==================================
+print_title "Installing tlmgr Packages"
+# tlmgr is the package manager bundled with pdflatex. First update tlmgr:
+execute "sudo tlmgr update --self"
+# Then install all of the extra packages:
+execute "sudo tlmgr install collection-latexextra"
+# packages for Obsidian enhancing export:
+execute "sudo tlmgr install sourcesanpro"
+execute "sudo tlmgr install ly1"
+execute "sudo tlmgr install sourcecodepro"
+
+#==================================
 # Install From Source
 #==================================
 print_title "Install Packages From Source"
