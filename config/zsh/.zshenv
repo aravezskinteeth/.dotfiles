@@ -80,3 +80,7 @@ export PLS_FINISHED_BAR_STYLE="bar.finished"
 # ~~~~~~ homebrew ~~~~~ #
 export HOMEBREW_BREWFILE=/Users/skinofmyeden/.dotfiles/system/macos/packages/
 # export HOMEBREW_CASK_OPTS="--appdir=$HOME/MyApplications"
+
+# ~~~~~ soft-serve ~~~~~
+export SOFT_SERVE_DATA_PATH=/Users/skinofmyeden/.config/soft-serve
+export SOFT_SERVE_INITIAL_ADMIN_KEYS=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBlcSXwvWoBXyrPlN9h4gPey9jwZtRN511GX50YuqAhh
