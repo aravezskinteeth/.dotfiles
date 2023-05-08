@@ -64,6 +64,24 @@ execute "defaults write com.apple.dock minimize-to-application -bool FALSE" "Dis
 # General UI / UX
 #==================================
 print_title "UI / UX Settings"
+
+# Set up username
+# echo -e 'Setup your username'
+# To create an account in the Users folder
+# execute "dscl / -create /Users/skinofmyeden"
+# Create and set the shell property to zsh.
+# execute "dscl / -create /Users/skinofmyeden/ UserShell /bin/zsh"
+# Create and set the user’s full name. (Displayed in some of the panels/login screen)
+# execute 'dscl / -create /Users/skinofmyeden RealName "skinofmyeden"'
+# Create and set the user’s ID. (this is the unique id, you need to find out what is your last user created ID and add one)
+# execute "dscl / -create /Users/skinofmyeden UniqueID 503"
+# Create and set the user’s group ID property. (This can be your default group)
+# execute "dscl / -create /Users/skinofmyeden/ PrimaryGroupID 1000"
+# Create and set the user home directory.
+# execute 'dscl / -create /Users/skinofmyeden NFSHomeDirectory /Local/Users/skinofmyeden'
+# Set the password. (dont use password as a password)
+# execute "dscl / -passwd /Users/skinofmyeden PASSWORD"
+
 # echo -e 'Write Your Computer and Host Name'
 # read compname
 
