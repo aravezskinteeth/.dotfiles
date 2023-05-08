@@ -79,9 +79,14 @@ yabai -m rule --add app="^Latest$" layer=above manage=off
 yabai -m rule --add app="^Steam$" layer=above manage=off
 yabai -m rule --add app="^Terraria$" layer=above manage=off
 yabai -m rule --add app="^Celeste$" layer=above manage=off
-yabai -m rule --add app="^Graveyard Keeper$" layer=above manage=off
 yabai -m rule --add app="^To the Moon$" layer=above manage=off
 yabai -m rule --add app="^Roots of Pacha$" layer=above manage=off
+yabai -m rule --add app="^Numi$" layer=above manage=off
+yabai -m rule --add app="^Shottr$" layer=above manage=off
+yabai -m rule --add app="^Color Picker$" layer=above manage=off
+yabai -m rule --add app="^Stats$" layer=above manage=off
+yabai -m rule --add app="^Amphetamine$" layer=above manage=off
+yabai -m rule --add app="^Bar Translate$" layer=above manage=off
 
 # Fix some applications from not being managed
 # yabai -m rule --add app=Emacs manage=on space=2
