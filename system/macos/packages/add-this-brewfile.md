@@ -65,7 +65,6 @@ brew install --cask audacity
 brew install --cask background-music
 brew install --cask bitwarden
 brew install --cask cheatsheet
-# brew install --cask codux
 brew install --cask discord
 brew install --cask disk-inventory-x
 brew install --cask dolphin
