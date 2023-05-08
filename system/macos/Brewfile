@@ -69,6 +69,7 @@ brew "ripgrep"
 brew "shellcheck"
 brew "sphinx-doc"
 brew "switchaudio-osx"
+brew "tesseract-lang"
 brew "tldr"
 brew "tre-command"
 brew "tty-clock"
@@ -94,7 +95,6 @@ brew "zegervdv/zathura/zathura", args: ["HEAD"]
 brew "zegervdv/zathura/zathura-djvu"
 brew "zegervdv/zathura/zathura-pdf-mupdf"
 cask "basictex"
-cask "codux"
 cask "hiddenbar"
 cask "iterm2"
 cask "latest"
@@ -109,12 +109,9 @@ cask "stats"
 cask "xquartz"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
-mas "Auto HD FPS for YouTube", id: 1546729687
 mas "Bitwarden", id: 1352778147
 mas "Color Picker", id: 1545870783
 mas "Malwarebytes Browser Guard", id: 1577761052
-mas "MeetInOne for Safari", id: 1542097735
 mas "Noir", id: 1592917505
-mas "OneTab", id: 1540160809
 mas "Pages", id: 409201541
 mas "Save to Raindrop.io", id: 1549370672
