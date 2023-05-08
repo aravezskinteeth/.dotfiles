@@ -1,17 +1,3 @@
-<div align="justify">
-
-```css
-  ~~.( Aravezskinteeth ).~~
-    .     .         .       
-    |     |    ,- o |             
-  ,-| ,-. |-   |  . | ,-. ,-.      
-  | | | | |    |- | | |-' `-.           
-  `-' `-' `-'  |  ' ' `-' `-'           
-              -'  with aesthetics       
-```
-
-</div>
-  
 # [KingdomCome0's](https://github.com/aravezskinteeth) Dotfiles
 
 MacOS dotfiles (in progress). Here I'm storing all the configs of my main apps, mac preferences, and my rice to set up a clean mac install. It's inspired by [Excalith dotfiles](https://github.com/excalith/.dotfiles), [Tnicx dots](https://github.com/Tnixc/dots), with other features I found [here](https://dotfiles.github.io/tips/).
