@@ -140,3 +140,4 @@ brew install syncthing
 - [Stardew-Valley-Planner-v2](https://www.nexusmods.com/stardewvalley/mods/3787/)
 	- [Online Version](https://stardew.info/)
 - [UCSC Xena](https://xenabrowser.net/)
+- [KeyeboardCleanTool](https://folivora.ai/keyboardcleantool)
