@@ -8,104 +8,14 @@ MacOS dotfiles (in progress). Here I'm storing all the configs of my main apps, 
 
 ## File Structure
 
-```
-.dotfiles/
-├── .github
-├── assets/
-│   ├── screenshots
-│   └── gifs
-├── bin/
-│   ├── colors/
-│   │   └── colors.sh
-│   ├── dotfiles/
-│   │   ├── main.sh
-│   │   └── keybindings/
-│   │       ├── neovim.txt
-│   │       ├── kitty.txt
-│   │       └── yabai.txt
-│   └── gitst/
-│       └── gitst.sh
-├── config/
-│   ├── bash
-│   ├── fastfetch
-│   ├── git
-│   ├── kitty
-│   ├── notable
-│   ├── bat
-│   ├── btop
-│   ├── calcure
-│   ├── bpytop
-│   ├── cava
-│   ├── gh
-│   ├── iterm2
-│   ├── karabiner
-│   ├── lsd
-│   ├── fontforge
-│   ├── lvim
-│   ├── nvim
-│   ├── mpv
-│   ├── hyfetch
-│   ├── pls
-│   ├── vim
-│   ├── nano
-│   ├── mc
-│   ├── neofetch
-│   ├── qBittorrent
-│   ├── rstudio
-│   ├── sketchybar
-│   ├── skhd
-│   ├── starship
-│   ├── spek
-│   ├── spicecify
-│   ├── StardewValley
-│   ├── vivid
-│   ├── yabai
-│   ├── youtube-dl
-│   ├── yt-dlp
-│   ├── zathura
-│   ├── zotero
-│   ├── zsh
-│   ├── .doom.d
-│   └── .PenTablet
-├── other-ricing/
-│   ├── discord
-│   ├── firefox/
-│   │   ├── docs (fork of repo)
-│   │   ├── userstyles
-│   │   ├── autoconfig.js
-│   │   ├── mozilla.cfg
-│   │   └── instructions.md
-│   ├── fonts
-│   ├── icons
-│   ├── screensaver
-│   ├── wallpapers
-│   ├── vscode
-│   └── widgets
-├── scripts/
-│   ├── utilis/
-│   │   ├── generate_git_creds.sh
-│   │   ├── generate_ssh.sh
-│   │   ├── init_dotfile_repo.sh
-│   │   ├── restart.sh 
-│   │   ├── utils.sh
-│   │   └── utils_macos.sh
-│   └── script.sh
-├── system/
-│   ├── macos/
-│   │   ├── install.sh
-│   │   ├── setup_defaults.sh
-│   │   ├── setup_packages.sh
-│   │   └── setup_shell.sh
-│   └── symlink.sh
-├── LICENSE
-└── README.md
-```
-
-<div align="justify">
-
-<div align="center">
-
-
+- `bin`: 
+- `config`: Has all the configuration files of my installed apps.
+- `system`: Has all my config files symlink script
+    - `macos`:
+        - `packages`:
+        - `gitignore`:
+- `ricing`:
+- `scripts`:
 
 ## How it works
 
