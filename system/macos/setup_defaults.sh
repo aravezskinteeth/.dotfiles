@@ -91,6 +91,11 @@ print_title "UI / UX Settings"
 # sudo scutil --set LocalHostName $compname
 # sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string $compname
 
+# Enable root pemissions
+execute "sudo usenableroot" 
+# Enter you admin password
+# Enter new root password
+
 # Disable the sound effects on boot
 execute "sudo nvram SystemAudioVolume=' '" "Disable sound on boot"
 
