@@ -1,9 +1,0 @@
-cp                      Choose an RStudio Project
-create_make_functions   Generate make functions
-get_active_rproj        Customised Startup info
-is_terminal             Detects R terminal
-op                      RStudio projects
-set_functions           Retrieve the hidden environment
-set_repos               Set R repositories A simple function for
-                        setting R repositories.
-set_startup_options     Set Nice Startup Options

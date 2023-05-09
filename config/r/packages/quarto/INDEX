@@ -1,7 +1,0 @@
-quarto_inspect          Inspect Quarto Input File or Project
-quarto_path             Path to the quarto binary
-quarto_preview          Quarto Preview
-quarto_publish_doc      Publish Quarto Documents
-quarto_render           Render Markdown
-quarto_run              Run Interactive Document
-quarto_version          Check quarto version
