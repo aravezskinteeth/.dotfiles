@@ -1,6 +1,13 @@
 # Change where libraries are installed by default
-.libPaths("/Users/skinofmyeden/.dotfiles/config/r/packages")
+# .libPaths("/Library/Frameworks/R.framework/Versions/4.2/Resources/library")
 
+# Install these first:
+# install.packages("remotes")
+# remotes::install_github("csgillespie/rprofile")
+# Used for nice prompts
+# remotes::install_github("gaborcsardi/prompt")
+# Used for nice colours in the terminal; not for Windows
+# remotes::install_github("jalvesaq/colorout")
 if (interactive() && requireNamespace("rprofile", quietly = TRUE)) {
   
   # Only useful if you use Makefiles
@@ -19,7 +26,7 @@ if (interactive() && requireNamespace("rprofile", quietly = TRUE)) {
   .env = rprofile::set_functions()
   attach(.env)
   # Display wifi and no of R sessions
-  # Linux only
+  # Linux and mac only
   rprofile::set_startup_info()
 }
 
