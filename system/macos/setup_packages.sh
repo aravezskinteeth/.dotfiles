@@ -203,7 +203,7 @@ chmod -R 755 /private/tmp
 print_title "Starting Brew Services"
 brew_start_service "yabai" "yabai"
 brew_start_service "skhd" "skhd"
-
+brew_start_service "sketchybar" "sketchybar"
 #==================================
 # Yarn
 #==================================
