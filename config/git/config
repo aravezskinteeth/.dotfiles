@@ -121,3 +121,5 @@
   cmd = kitty kitty +kitten diff $LOCAL $REMOTE
 [credential]
 	helper = osxkeychain
+[safe]
+	directory = /Library/Frameworks/R.framework/Versions/4.2/Resources/library
