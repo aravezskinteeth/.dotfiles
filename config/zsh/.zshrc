@@ -55,8 +55,11 @@ export FZF_DEFAULT_OPTS=" \
 export PATH="/usr/local/sbin:$PATH"
 
 # node.js & npm path 🛣
-PATH="/usr/local/bin/node$PATH"
-PATH="/usr/local/bin/npm$PATH"
+export PATH="/usr/local/bin/node:$PATH"
+export PATH="/usr/local/bin/npm:$PATH"
+
+# Soft serve path
+export PATH="/usr/local/bin/soft:$PATH"
 
 # GNU find make default
 PATH=$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH
