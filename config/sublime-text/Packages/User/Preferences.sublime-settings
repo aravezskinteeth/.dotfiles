@@ -11,4 +11,6 @@
 	"create_window_at_startup": false,
 	"relative_line_numbers": true,
 	"hot_exit": "disabled",
+	"word_wrap": true,
+	"indent_subsequent_lines": false,
 }

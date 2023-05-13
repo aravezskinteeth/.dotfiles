@@ -8,6 +8,7 @@
 		"Catppuccin color schemes",
 		"ColorPicker",
 		"HTML-CSS-JS Prettify",
+		"Indent XML",
 		"Jinja2",
 		"Markdown Extended",
 		"Markdown Images",
@@ -17,5 +18,6 @@
 		"Terminal",
 		"TerminalView",
 		"Terminus",
+		"xpath",
 	],
 }
