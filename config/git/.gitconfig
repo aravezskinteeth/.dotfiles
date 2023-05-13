@@ -1,0 +1,125 @@
+[color "status"]
+	branch = normal dim
+	added = 10 normal
+	updated = 10 normal
+	localbranch = normal dim
+	changed = 11 normal
+	header = normal
+	remotebranch = normal dim italic
+	nobranch = normal dim italic
+	unmerged = 9 normal
+	untracked = normal dim italic
+[color "branch"]
+	plain = normal dim
+	remote = normal dim italic
+	current = normal dim reverse
+	local = normal dim
+	upstream = normal dim italic
+[color "remote"]
+	hint = normal dim
+	success = 2 normal
+	error = 1 normal
+	warning = 3 normal
+[color "interactive"]
+	header = normal dim italic bold
+	prompt = 15 4
+	help = normal dim italic
+	error = normal dim italic
+[color "diff"]
+	commit = normal dim italic
+	newMoved = 11 normal
+	oldMovedAlternativeDimmed = 4 normal dim
+	frag = normal dim italic
+	oldMovedAlternative = 4 normal
+	contextBold = normal bold
+	newBold = 10 normal bold
+	context = normal
+	oldMoved = 3 normal
+	oldBold = 1 normal bold
+	newMovedDimmed = 11 normal dim
+	func = normal dim italic
+	meta = normal dim
+	newDimmed = 10 normal dim
+	newMovedAlternative = 12 normal
+	new = 10 normal
+	newMovedAlternativeDimmed = 12 normal dim
+	whitespace = normal 9
+	oldMovedDimmed = 3 normal dim
+	oldDimmed = 1 normal dim
+	old = 1 normal
+[color "decorate"]
+	branch = normal dim
+	tag = normal dim italic
+	remotebranch = normal dim italic
+	stash = normal dim italic
+	grafted = normal dim italic
+	HEAD = normal dim italic
+[diff]
+	colorMoved = zebra
+[user]
+	name = aravezskinteeth
+	email = kelthompson@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+	whitespace = -trailing-space # Don't consider trailing space change as a cause for merge conflicts
+	excludesFile = ~/.config/git/ignore_global
+	# pager = delta
+	autocrlf = false 
+[branch]
+	autosetuprebase = always # Avoid having messy "Merge branch 'main' into ..." commits by rebasing every time you pull.
+[status]
+	submoduleSummary = true # Display submodule rev change summaries in status
+	showUntrackedFiles = all # Recursively traverse untracked directories to display all contents
+[fetch]
+	recurseSubmodules = on-demand # Auto-fetch submodule changes (sadly, won't auto-update)
+[pull]
+	# This is GREAT… when you know what you're doing and are careful
+  # not to pull --no-rebase over a local line containing a true merge.
+	rebase = true
+	# This option, which does away with the one gotcha of
+  # auto-rebasing on pulls, is only available from 1.8.5 onwards.
+  # rebase = preserve
+  # WARNING! This option, which is the latest variation, is only
+  # available from 2.18 onwards.
+  # rebase = merges
+[push]
+    default = upstream # Default push should only push the current branch to its push target, regardless of its remote name
+    followTags = true # When pushing, also push tags whose commit-ishs are now reachable upstream
+[merge]
+	tool = "nvim"
+[mergetool]
+	KeepBackup = false
+	prompt = true
+[mergetool "nvim"]
+	cmd = "nvim -d -c \"wincmd l\" -c \"norm ]c\" \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
+[rebase]
+	# Rebase advanced usage.
+  # Automagically reorder and prefix your commands while doing an interactive
+  # rebase. This has to be used with `--fixup` and/or `--squash` options for
+  # `git commit`.
+	autoStash = true
+  # autoSquash = true
+  # Automatically stash current WD and stage when running rebase
+  # then you won't have to manually `git stash push` and `git stash pop`
+  # after and before your rebase.
+  # autosquash = true
+[diff]
+  mnemonicPrefix = true # Use better, descriptive initials (c, i, w) instead of a/b.
+  renames = true # Show renames/moves as such
+  wordRegex = .  # When using --word-diff, assume --word-diff-regex=.
+  submodule = log # Display submodule-related information (commit listings)
+	tool = kitty
+	guitool = kitty.gui
+[difftool]
+	prompt = true
+	trustExitCode = true
+[difftool "kitty"]
+	cmd = kitty +kitten diff $LOCAL $REMOTE
+[difftool "kitty.gui"]
+  cmd = kitty kitty +kitten diff $LOCAL $REMOTE
+[credential]
+	helper = osxkeychain
+[safe]
+	directory = /Library/Frameworks/R.framework/Versions/4.2/Resources/library
