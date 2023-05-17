@@ -45,8 +45,11 @@ tre() { command tree "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
 # For a full list of active aliases, run `alias`.
 
 # Source environmental variables
-source ~/.dotfiles/config/zsh/.zshenv
+source ~/.zshenv
 
 # Sourcing the file where all my aliases are (lsd and bash aliases)
-source ~/.dotfiles/config/zsh/.aliases
-source ~/.dotfiles/config/zsh/.functions
+source ~/.dotfiles/config/shell/.aliases
+source ~/.dotfiles/config/shell/.functions
+
+# Starship config (at the end)
+eval "$(starship init zsh)"
