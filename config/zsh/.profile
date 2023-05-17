@@ -1,1 +1,1 @@
-. "$HOME/.cargo/env"
+. "$XDG_CONFIG_HOME/.cargo/env"
