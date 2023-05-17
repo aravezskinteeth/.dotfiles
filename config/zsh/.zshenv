@@ -89,14 +89,17 @@ export PLS_HEADER_GREETINGS_STYLE="#FAB387"
 export PLS_QUOTE_STYLE="#9399B2"
 export PLS_AUTHOR_STYLE="#9399B2"
 
-export PLS_BACKGROUND_BAR_STYLE="bar.back"
-export PLS_COMPLETE_BAR_STYLE="bar.complete"
-export PLS_FINISHED_BAR_STYLE="bar.finished"
+# PATH
+export PATH="/usr/local/bin/:$PATH"
+export PATH="/usr/local/sbin:$PATH" # homebrew sbin issue
+export PATH="/usr/local/bin/node:$PATH" # node
+export PATH="/usr/local/bin/npm:$PATH" # npm
+export PATH="/usr/local/bin/soft:$PATH" # soft-serve
+export PATH="$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH" # make gnubin default
+export PATH="/Applications/Emacs.app/Contents/MacOS:$PATH" # Add emacs binary to your path
+export PATH="$XDG_CONFIG_HOME/emacs/bin:$PATH" # Adding doom command to my path
+export PATH="$DOTFILES/config/spicetify:$PATH"
+export PATH="$XDG_CONFIG_HOME/local/bin:$PATH" # Arttime installer
+export PATH="/usr/local/texlive/2023basic/bin/universal-darwin:$PATH" # Basic Tex commands' PATH
 
-# ~~~~~~ homebrew ~~~~~ #
-export HOMEBREW_BREWFILE=/Users/skinofmyeden/.dotfiles/system/macos/packages/
-# export HOMEBREW_CASK_OPTS="--appdir=$HOME/MyApplications"
 
-# ~~~~~ soft-serve ~~~~~
-export SOFT_SERVE_DATA_PATH=/Users/skinofmyeden/.config/soft-serve
-export SOFT_SERVE_INITIAL_ADMIN_KEYS=git-server.pub
