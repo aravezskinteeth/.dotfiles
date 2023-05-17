@@ -4,104 +4,71 @@ palette = "catppuccin_macchiato"
 # Prompt
 # Timeout for commands executed by starship (in milliseconds).
 # set command_timeout to a higher value to allow longer-running commands to keep executing
-command_timeout = 100000
+command_timeout = 10000 # in ms
 
 # Custom
-# [custom.zsh]
-# command = "echo 🚀zsh"
-# when = """ test "$STARSHIP_SHELL" "==" "zsh" """
-# format = 'on [$output]($style)'
-# style = "bold teal"
-#
-# [custom.bash]
-# command = "echo  bash" 
-# when = """ test "$STARSHIP_SHELL" "==" "bash" """
-# format = 'on [$output]($style)' 
-# style = "bold teal"
-#
-# [custom.fish]
-# command = "echo 🐟fish"
-# when = """ test "$STARSHIP_SHELL" = "fish" """
-# format = 'on [$output]($style)' 
-# style = "bold teal"
+# Using a custom format to highlight current non-system python in a compact manner
+# - 🐍: python from virtual env is active
+# - 🦎: python from pyenv is active
+[custom.py]
+# disabled = true
+command = """ pv=$(python --version | grep -Eo "\\d+\\.\\d+"); if [ -n "$VIRTUAL_ENV" ]; then echo "🐍 $pv"; else echo "🦎 $pv"; fi """
+style = "blue"
+when = """ [[ -n "$VIRTUAL_ENV" || $PATH =~ /pyenv/ ]] """
+shell = ["bash", "zsh", "fish"]
 
-# System commands
-# Change battery
+# System Commands
 [battery]
+disabled = true
 full_symbol = "🔋"
 charging_symbol = "🔌"
 discharging_symbol = "⚡"
 empty_symbol = "💀"
-disabled = true 
 
 [[battery.display]]
+disabled = true
 threshold = 30
 style = "red"
 discharging_symbol = "⚡"
 
+[cmd_duration]
+disabled = true
+format = ' took [⏱  $duration]($style)'
+min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
+style = "yellow"
+
 [username]
+# disabled = true 
+show_always = true 
 format = '[$user]($style) in'
 style_user = "bold lavender"
 style_root = "bold red"
-disabled = false
-show_always = true 
-
-[time]
-format = 'at [🕙$time]($style)'
-time_format = "%r"
-use_12hr = true
-style = "yellow"
-disabled = true 
-
-[memory_usage]
-symbol = " "
-format = '[$symbol(${ram} | ${ram_pct})]($style) '
-threshold = -1
-style = "teal"
-disabled = true 
 
 [character]
+# disabled = true
 error_symbol = "[❯](bold red)"
 success_symbol = "[[♥](bold green) ❯](bold maroon)"
 vimcmd_symbol = "[❯](bold green)"
 
-[cmd_duration]
-format = ' took [⏱  $duration]($style)'
-min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
-style = "yellow"
-disabled = true 
-
 [directory]
+# disabled = true
 home_symbol = "~"
 use_os_path_sep = true
 format = ' [$path]($style)[$lock_symbol]($lock_style) ' 
 read_only = " "
 style = "bold pink"
 
-[sudo]
-format = ' root [$symbol]($style)'
-style = "green"
-symbol = "🧙"
-disabled = false
-
-[hostname]
-ssh_only = false
-format = "[$ssh_symbol]($style) on <[$hostname]($style)>"
-ssh_symbol = "🌏"
-trim_at = "-"
-style = "rosewater"
-disabled = true
-
 [status]
+# disabled = true
 style = "green"
 symbol = "🔴"
 not_executable_symbol = "🚫"
 not_found_symbol = "❌🔍"
 format = '[$symbol$common_meaning$signal_name$maybe_int]($style) '
 map_symbol = true
-disabled = false 
 
 [git_branch]
+# disabled = true
 format = 'on [$symbol$branch]($style) '
 symbol = " "
 truncation_length = 10
@@ -109,16 +76,19 @@ truncation_symbol = "/..."
 style = "pink"
 
 [git_commit]
+# disabled = true
 commit_hash_length = 8
 style = "green"
 tag_symbol = "🔖 "
 
 [git_state]
+# disabled = true
 format = '($state( $progress_current of $progress_total))($style)'
 cherry_pick = " 🍒 PICKING(red) "
 merge = " ⭐ MERGING(peach) "
 
 [git_status]
+# disabled = true
 format = '[$all_status$ahead_behind]($style)'
 conflicted = " ⚔️ "
 ahead = " 🏎️💨×${count} "
@@ -133,159 +103,76 @@ deleted = " 🗑️×${count} "
 style = "rosewater"
 
 [package]
+# disabled = true
 format = ' is [$symbol$version]($style) '
 symbol = "📦"
 style = "mauve"
 disabled = false
 
 # Packages and languages
-[aws]
-symbol = " " 
-
-[buf]
-symbol = ""
-
-[bun]
-symbol = "🍞" 
-
-[c]
-symbol = " "
-
-[cmake]
-symbol = "▲"
-
-[cobol]
-symbol = "⚙ " 
-
 [conda]
+# disabled = true
 symbol = " "
-
-[crystal]
-symbol = "💎"
-
-[dart]
-symbol = "🎯"
-
-[daml]
-symbol = "🪐"
-
-[deno]
-symbol = "🦕"
+format = '[$symbol$environment](dimmed green) '
 
 [docker_context]
+# disabled = true
 symbol = "🐋"
 
-[dotnet]
-symbol = " " 
-
-[elixir]
-symbol = ""
-
-[elm]
-symbol = " "
-
-[erlang]
-symbol = " "
-
 [gcloud]
-symbol = " "
+# disabled = true
+symbol = " "
 
 [golang]
+# disabled = true
 symbol = " "
 
-[haskell]
-symbol = " "
-
-[helm]
-symbol = "⛑ "
-
 [hg_branch]
+# disabled = true
 symbol = ""
 
 [java]
+# disabled = true
 symbol = " "
 
 [julia]
+# disabled = true
 symbol = " "
 
-[kotlin]
-symbol = " "
-
-[kubernetes]
-symbol = "⎈ " 
-
 [lua]
+# disabled = true
 symbol = " "
 
-[meson]
-symbol = "喝"
-
-[nim]
-symbol = " "
-
-[nix_shell]
-symbol = " "
-
 [nodejs]
+# disabled = true
 symbol = " "
 
-[ocaml]
-symbol = "🐪"
-
-[openstack]
-symbol = "📚"
-
 [perl]
+# disabled = true
 symbol = " "
 
-[php]
-symbol = " "
-
-[pulumi]
-symbol = "🧊"
-
-[purescript]
-symbol = " "
-
 [python]
-symbol = " "
+# disabled = true
+symbol = "🐍"
 python_binary = "python3"
 
-[raku]
-symbol = "🦋"
-
-[red]
-symbol = "🍎"
-
 [rlang]
-symbol = "📐"
+# disabled = true
+symbol = "󰟔 "
+detect_extensions = ['R', 'Rd', 'Rmd', 'Rproj', 'Rsx']
+detect_files = ['.R']
 
 [ruby]
-symbol = " "
+# disabled = true
+symbol = " "
 
 [rust]
-symbol = " "
-
-[scala]
-symbol = " "
-
-[spack]
-symbol = "🅢 "
+# disabled = true
+symbol = "🦀 "
 
 [swift]
+# disabled = true
 symbol = " "
-
-[terraform]
-symbol = "🌿"
-
-[vagrant]
-symbol = "📏"
-
-[vlang]
-symbol = "🌀"
-
-[zig]
-symbol = "🪝"
 
 # palette tables should be last in the config ⚓️
 [palettes.catppuccin_macchiato]
@@ -399,4 +286,3 @@ surface0 = "#313244"
 base = "#1e1e2e"
 mantle = "#181825"
 crust = "#11111b"
-
