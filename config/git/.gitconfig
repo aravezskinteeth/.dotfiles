@@ -56,17 +56,17 @@
 	HEAD = normal dim italic
 [diff]
 	colorMoved = zebra
-[user]
-	name = aravezskinteeth
-	email = kelthompson@gmail.com
+[includeIf "gitdir:/Volumes/LIVISU/livs/programming/git-professional/"] # include for all git projects under git-professional/
+	path = /Volumes/LIVISU/livs/programming/git-professional/.gitconfig.prof
+[includeIf "gitdir:/Users"]
+  path = ~/.dotfiles/config/git/local/.gitconfig.personal
 [init]
 	defaultBranch = main
 [core]
 	editor = nvim
 	whitespace = -trailing-space # Don't consider trailing space change as a cause for merge conflicts
-	excludesFile = ~/.config/git/ignore_global
-	# pager = delta
-	autocrlf = false 
+	excludesFile = ~/.dotfiles/config/git/ignore_global
+	autocrlf = false
 [branch]
 	autosetuprebase = always # Avoid having messy "Merge branch 'main' into ..." commits by rebasing every time you pull.
 [status]
