@@ -21,11 +21,18 @@ symlink ~/.dotfiles/config/bash/.bashrc ~/.bashrc
 
 # zsh config
 print_title "Zsh configuration"
-symlink ~/.dotfiles/config/zsh/.zshrc ~/.zshrc
-symlink ~/.dotfiles/config/zsh/.zshenv ~/.zshenv
-symlink ~/.dotfiles/config/zsh/.zsh ~/.zsh
-symlink ~/.dotfiles/config/zsh/.zprofile ~/.zprofile
-symlink ~/.dotfiles/config/zsh/.profile ~/.profile
+symlink "$HOME"/.dotfiles/config/zsh/.zshrc "$HOME"/.zshrc
+symlink "$HOME"/.dotfiles/config/zsh/.zshenv "$HOME"/.zshenv
+symlink "$HOME"/.dotfiles/config/zsh/.zsh "$HOME"/.zsh
+symlink "$HOME"/.dotfiles/config/zsh/.zprofile "$HOME"/.zprofile
+symlink "$HOME"/.dotfiles/config/zsh/.profile "$HOME"/.profile
+
+# fish config
+print_title "Fish configuration"
+symlink "$HOME"/.dotfiles/config/fish "$XDG_CONFIG_HOME"
+
+# shell files config 
+symlink "$HOME"/.dotfiles/config/shell/ "$XDG_CONFIG_HOME"
 
 # starship config
 print_title "Starship configuration"
