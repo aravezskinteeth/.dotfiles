@@ -97,6 +97,7 @@ brew "zegervdv/zathura/zathura", args: ["HEAD"]
 brew "zegervdv/zathura/zathura-djvu"
 brew "zegervdv/zathura/zathura-pdf-mupdf"
 cask "basictex"
+cask "cool-retro-term"
 cask "hiddenbar"
 cask "iterm2"
 cask "latest"
