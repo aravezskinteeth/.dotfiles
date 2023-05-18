@@ -135,7 +135,8 @@ execute "defaults write com.apple.desktopservices DSDontWriteUSBStores -bool tru
 execute "defaults write com.apple.finder AppleShowAllFiles -bool true" "Always show hidden files"
 
 # Save screenshots to the desktop
-execute "defaults write com.apple.screencapture location -string '$HOME/Desktop'" "Save screenshots to Desktop"
+cd $HOME/Pictures && mkdir screenshots
+execute "defaults write com.apple.screencapture location -string '$HOME/Pictures/screenshots'" "Save screenshots to screenshots folder"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 execute "defaults write com.apple.screencapture type -string 'png'" "Save screenshots as PNG"
