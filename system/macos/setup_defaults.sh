@@ -92,6 +92,10 @@ execute "sudo usenableroot"
 # Enter you admin password
 # Enter new root password
 
+# Change skhd tmp folder permissions
+print_title "Changing skhd tmp folder permission"
+chmod -R 755 /private/tmp
+
 # Disable the sound effects on boot
 execute "sudo nvram SystemAudioVolume=' '" "Disable sound on boot"
 
