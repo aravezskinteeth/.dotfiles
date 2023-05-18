@@ -128,25 +128,82 @@ symlink ~/.dotfiles/config/lsd/ ~/.config/lsd/
 print_title "MPV configuration"
 symlink ~/.dotfiles/config/mpv/ ~/.config/mpv/
 
-# sublime text config
-print_title "Sublime Text configuration"
-symlink "/Users/skinofmyeden/.dotfiles/config/sublime-text/Installed Packages" "/Users/skinofmyeden/Library/Application Support/Sublime Text"
-symlink ~/.dotfiles/config/sublime-text/Packages "/Users/skinofmyeden/Library/Application Support/Sublime Text"
+# nano config
+print_title "Nano configuration"
+symlink ~/.dotfiles/config/nano/nanorc ~
 
-# R config
+# neofetch config
+print_title "Neofetch configuration"
+symlink ~/.dotfiles/config/neofetch ~/.config
+
+# notable config
+print_title "Notable configuration"
+symlink ~/.dotfiles/config/notable ~/.config 
+
+# pentablet config
+print_title "Pentablet configuration"
+symlink ~/.dotfiles/config/pentablet/.PetTablet ~
+
+# pls config
+print_title "pls configuration"
+symlink ~/.dotfiles/config/pls ~/.config
+
+# qbitorrent config
+print_title "qBitorrent configuration"
+symlink ~/.dotfiles/config/qBitorrent ~/.config
+
+# r config
 print_title "R configuration"
-sylink /Users/skinofmyeden/.dotfiles/config/r/.Rapp.history ~
-symlink /Users/skinofmyeden/.dotfiles/config/r/.RData ~
-symlink /Users/skinofmyeden/.dotfiles/config/r/.Rhistory ~
-symlink /Users/skinofmyeden/.dotfiles/config/r/.Rprofile ~
-symlink /Users/skinofmyeden/.dotfiles/config/r/.Renviron ~
-symlink /Users/skinofmyeden/.dotfiles/config/r/config.json "/Users/skinofmyeden/Library/Application Support/RStudio"
-symlink /Users/skinofmyeden/.dotfiles/config/r/Preferences "/Users/skinofmyeden/Library/Application Support/RStudio"
+symlink ~/.dotfiles/config/r/.Rapp.history ~
+symlink ~/.dotfiles/config/r/.RData ~
+symlink ~/.dotfiles/config/r/.Rhistory ~
+symlink ~/.dotfiles/config/r/.Rprofile ~
+symlink ~/.dotfiles/config/r/.Renviron ~
+
+# radian config
+print_title "Radian configuration"
+symlink "$HOME/.dotfiles/config/radian/" "$XDG_CONFIG_HOME"
+
+# rstudio config
+print_title "RStudio configuration"
+symlink ~/.dotfiles/config/rstudio ~/.config
+
+# sketchybar config
+print_title "Sketchybar configuration"
+symlink ~/.dotfiles/config/sketchybar ~/.config
+
+# skhd config
+print_title "Skhd configuration"
+symlink ~/.dotfiles/config/skhd ~/.config
+
+# spek config
+print_title "Spek configuration"
+symlink ~/.dotfiles/config/spek ~/.config
+
+# spicetify config
+print_title "Spicetify configuration"
+symlink ~/.dotfiles/config/spicetify ~/.config
+
+# stardew valley config
+print_title "Stardew Valley save files"
+symlink ~/.dotfiles/config/StardewValley ~/.config
+
+# vivid config
+print_title "Vivid configuration"
+symlink ~/.dotfiles/config/vivid ~/.config
+
+# yabai config
+print_title "Yabai configuration"
+symlink ~/.dotfiles/config/yabai ~/.config/
+
+# youtube-dl config
+print_title "Youtube-dl config"
+symlink ~/.dotfiles/config/youtube-dl ~/.config
+
+# yt-dlp config
+print_title "Yt-dlp config"
+symlink ~/.dotfiles/config/yt-dlp ~/.config
 
 # Zathura plugins config
 print_title "Zathura plugins & configuration"
-symlink /Users/skinofmyeden/.dotfiles/config/zathura/ ~/.config/zathura/
-mkdir -p "$(brew --prefix zathura)/lib/zathura"
-symlink "$(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib"
-symlink "$(brew --prefix zathura-pdf-mupdf)/libpdf-mupdf.dylib $(brew --prefix zathura)/lib/zathura/libpdf-mupdf.dylib"
-symlink "$(brew --prefix zathura-djvu)/libdjvu.dylib $(brew --prefix zathura)/lib/zathura/libdjvu.dylib" 
+symlink ~/.dotfiles/config/zathura/ ~/.config/zathura/
