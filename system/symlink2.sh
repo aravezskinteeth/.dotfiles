@@ -1,12 +1,11 @@
 #!/bin/bash
 # shellcheck disable=SC1091
-# This file is to symlink things to Application Support, which means the apps need to be instaled first
+# This file is to symlink things to Application Support, which means the apps need to be installed first
 
 #==================================
 # Source utilities
 #==================================
 . "$HOME/.dotfiles/scripts/utils/utils.sh"
-os_name="$(get_os)"
 
 #==================================
 # Print Section Title
@@ -16,20 +15,23 @@ print_section "Creating Symlinks"
 #==================================
 # Symlink
 #==================================
+# glow
+rm -rf "$HOME"/Library/Preferences/glow/glow.yml
+symlink  "$HOME"/.dotfiles/config/glow/glow.yml "$HOME"/Library/Preferences/glow
 
 # sublime text config
 print_title "Sublime Text configuration"
-rm -rf "~/Library/Application Support/Sublime Text/Installed Packages"
-rm -rf "~/Library/Application Support/Sublime Text/Packages"
-symlink "~/.dotfiles/config/sublime-text/Installed Packages" "~/Library/Application Support/Sublime Text"
-symlink ~/.dotfiles/config/sublime-text/Packages "~/Library/Application Support/Sublime Text"
+rm -rf "$HOME/Library/Application Support/Sublime Text/Installed Packages"
+rm -rf "$HOME/Library/Application Support/Sublime Text/Packages" 
+symlink "$HOME/.dotfiles/config/sublime-text/Installed Packages" "$HOME/Library/Application Support/Sublime Text"
+symlink "$HOME"/.dotfiles/config/sublime-text/Packages "$HOME/Library/Application Support/Sublime Text"
 
 # R config
 print_title "R configuration"
-rm -rf "~/Library/Application Support/RStudio/config.json"
-rm -rf "~/Library/Application Support/RStudio/Preferences.json"
-symlink ~/.dotfiles/config/r/config.json "~/Library/Application Support/RStudio"
-symlink ~/.dotfiles/config/r/Preferences "~/Library/Application Support/RStudio"
+rm -rf "$HOME/Library/Application Support/RStudio/config.json"
+rm -rf "$HOME/Library/Application Support/RStudio/Preferences.json"
+symlink "$HOME"/.dotfiles/config/r/config.json "$HOME/Library/Application Support/RStudio"
+symlink "$HOME"/.dotfiles/config/r/Preferences "$HOME/Library/Application Support/RStudio"
 
 # zathura config
 mkdir -p "$(brew --prefix zathura)/lib/zathura"
