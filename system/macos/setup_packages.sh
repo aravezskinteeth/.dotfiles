@@ -233,6 +233,16 @@ execute "sudo tlmgr install sourcecodepro"
 #==================================
 print_title "Install Packages From Source"
 
+# MiniConda
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+# ~/miniconda3/bin/conda init zsh
+
+# fm file manager
+curl -sfL https://raw.githubusercontent.com/knipferrc/fm/main/install.sh | sh
+
 # oh my zsh
 # clone to dotfiles
 # symlink to git or home directory
