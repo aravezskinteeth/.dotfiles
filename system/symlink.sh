@@ -86,15 +86,19 @@ symlink ~/.dotfiles/config/btop/ ~/.config/btop/
 
 # calcure config: Modern YUI calendar & task manager
 print_title "Calcure configuration"
-symlink ~/.dotfiles/config/calcure/ ~/.config/calcure/
+symlink ~/.dotfiles/config/calcure/ "$XDG_CONFIG_HOME"
 
 # cava config
 print_title "Cava configuration"
-symlink ~/.dotfiles/config/cava/ ~/.config/cava/
+symlink ~/.dotfiles/config/cava/ "$XDG_CONFIG_HOME"
 
 # emacs config
 print_title "Doom Emacs configuration"
-symlink ~/.dotfiles/config/emacs/.doom.d/ ~/.doom.d/
+symlink "$HOME"/.dotfiles/config/emacs/doom "$XDG_CONFIG_HOME"
+
+# fm file manager config
+print_title "Fm configuration"
+symlink "$HOME"/.dotfiles/config/fm "$XDG_CONFIG_HOME" 
 
 # gh config
 print_title "Gh configuration"
