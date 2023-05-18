@@ -108,9 +108,17 @@ symlink ~/.dotfiles/config/gh/ ~/.config/gh/
 print_title "Hyfetch configuration"
 symlink ~/.dotfiles/config/hyfetch/hyfetch.json ~/.config/hyfetch.json
 
+# idle config
+print_title "IDLE configuration"
+symlink "$HOME"/.dotfiles/config/idle-python "$HOME"
+
 # lazygit config
 print_title "Lazy git configuration"
 symlink ~/.dotfiles/config/lazygit/ ~/.config/lazygit/
+
+# lepton config
+print_title "Lepton config"
+symlink ~/.dotfiles/lepton/leptonrc ~
 
 # lsd config
 print_title "LSD configuration"
