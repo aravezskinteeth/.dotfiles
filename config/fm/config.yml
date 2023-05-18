@@ -1,0 +1,11 @@
+settings:
+    start_dir: .
+    show_icons: true
+    enable_logging: false
+    pretty_markdown: true
+    borderless: false
+theme:
+    app_theme: default # gruvox, nord
+    syntax_theme: # themes from: https://swapoff.org/chroma/playground/
+        light: pygments
+        dark: dracula #catppuccin-macchiato 
