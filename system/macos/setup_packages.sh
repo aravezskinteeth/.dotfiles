@@ -185,17 +185,7 @@ brew_mas_install "Malwarebytes Browser Guard", "1577761052"
 brew_mas_install "Noir", "1592917505"
 brew_mas_install "Pages", "409201541"
 brew_mas_install "Save to Raindrop.io", "1549370672"
-brew_mas_install "Affinity Photo", "824183456"
-brew_mas_install "Affinity Designer", "824171161"
-brew_mas_install "Affinity Publisher", "881418622"
 brew_mas_install "Telegram", "747648890"
-
-#==================================
-# Change skhd tmp folder permissions
-#==================================
-print_title "Changing skhd tmp folder permission"
-# Needs to enable a root password first
-chmod -R 755 /private/tmp
 
 #==================================
 # Brew Services
