@@ -1,0 +1,253 @@
+# Custom modules 
+[custom.zsh]
+disabled = true
+command = "echo 🦄 zsh"
+when = """ test "$STARSHIP_SHELL" "==" "zsh" """
+format = 'on [$output]($style)'
+style = "bold teal"
+ignore_timeout = false
+
+[custom.bash]
+disabled = true
+command = "echo   bash" 
+when = """ test "$STARSHIP_SHELL" "==" "bash" """
+format = 'on [$output]($style)' 
+style = "bold teal"
+ignore_timeout = false
+
+
+[custom.fish]
+disabled = true
+command = "echo 🐟 fish"
+when = """ test "$STARSHIP_SHELL" = "fish" """
+format = 'on [$output]($style)' 
+style = "bold teal"
+ignore_timeout = false
+
+[custom.giturl]
+disabled = true
+description = "Display symbol for remote Git server"
+command = """
+GIT_REMOTE=$(command git ls-remote --get-url 2> /dev/null)
+if [[ "$GIT_REMOTE" =~ "github" ]]; then
+    GIT_REMOTE_SYMBOL=" "
+elif [[ "$GIT_REMOTE" =~ "gitlab" ]]; then
+    GIT_REMOTE_SYMBOL=" "
+elif [[ "$GIT_REMOTE" =~ "bitbucket" ]]; then
+    GIT_REMOTE_SYMBOL=" "
+elif [[ "$GIT_REMOTE" =~ "git" ]]; then
+    GIT_REMOTE_SYMBOL=" "
+else
+    GIT_REMOTE_SYMBOL=" "
+fi
+echo "$GIT_REMOTE_SYMBOL "
+"""
+when = 'git rev-parse --is-inside-work-tree 2> /dev/null'
+format = " at $output  "
+
+[custom.git_scope]
+disabled = true
+command = '''
+printf "%s (%s)" \
+  "$(if [ -n "$GIT_AUTHOR_EMAIL" ]; then echo "$GIT_AUTHOR_EMAIL"; else git config user.email; fi)" \
+  "$(if [ -n "$GIT_AUTHOR_NAME" ]; then echo "$GIT_AUTHOR_NAME"; else git config user.name; fi)"
+'''
+description = 'The currently configured Git user.{email,name}'
+format = 'as [$output]($style) '
+shell = ["bash", "zsh", "fish"]
+style = 'blue bold'
+when = 'git rev-parse --is-inside-work-tree'
+
+[custom.files]
+disabled = true
+description = "Show files count for current directory"
+command = "find ./ -maxdepth 1 -type f | wc -l"
+format = "📝[$output]($style) "
+style = "white"
+when = "true"
+
+[custom.directories]
+disabled = true
+description = "Show directory count count for current directory"
+command = "find ./ -maxdepth 1 -type d | tail -n +2 | wc -l"
+format = "📁[$output]($style) "
+style = "blue"
+when = "true"
+
+# System commands
+[battery]
+disabled = true
+full_symbol = "🔋"
+charging_symbol = "🔌"
+discharging_symbol = "⚡"
+empty_symbol = "💀"
+
+[[battery.display]]
+disabled = true
+threshold = 30
+style = "red"
+discharging_symbol = "⚡"
+
+[time]
+disabled = true
+format = 'at [🕙$time]($style)'
+time_format = "%r"
+use_12hr = true
+style = "yellow"
+
+[memory_usage]
+disabled = true
+symbol = " "
+format = '[$symbol(${ram} | ${ram_pct})]($style) '
+threshold = -1
+style = "teal"
+
+[cmd_duration]
+disabled = true
+format = ' took [⏱  $duration]($style)'
+min_time = 10_000  # Show command duration over 10,000 milliseconds (=10 sec)
+style = "yellow"
+
+[sudo]
+disabled = true
+format = ' root [$symbol]($style)'
+style = "green"
+symbol = "🧙"
+
+[hostname]
+disabled = true
+ssh_only = false
+format = "[$ssh_symbol]($style) on <[$hostname]($style)>"
+ssh_symbol = "🌏"
+trim_at = "-"
+style = "rosewater"
+
+# Packages and languages
+[aws]
+disabled = true
+symbol = " " 
+
+[buf]
+disabled = true
+symbol = ""
+
+[bun]
+disabled = true
+symbol = "🍞" 
+
+[c]
+# disabled = true
+symbol = " "
+
+[cmake]
+# disabled = true
+symbol = "▲"
+
+[cobol]
+disabled = true
+symbol = "⚙ " 
+
+
+[crystal]
+disabled = true
+symbol = "💎"
+
+[dart]
+disabled = true
+symbol = "🎯"
+
+[daml]
+disabled = true
+symbol = "🪐"
+
+[deno]
+disabled = true
+symbol = "🦕"
+
+[dotnet]
+disabled = true
+symbol = " " 
+
+[elixir]
+disabled = true
+symbol = ""
+
+[elm]
+disabled = true
+symbol = " "
+
+[erlang]
+disabled = true
+symbol = " "
+
+[haskell]
+disabled = true
+symbol = " "
+
+[helm]
+disabled = true
+symbol = "⛑ "
+
+[kotlin]
+disabled = true
+symbol = " "
+
+[kubernetes]
+disabled = true
+symbol = "⎈ " 
+
+[meson]
+disabled = true
+symbol = "喝"
+
+[nim]
+disabled = true
+symbol = " "
+
+[nix_shell]
+disabled = true
+symbol = " "
+
+[ocaml]
+disabled = true
+symbol = "🐪"
+
+[openstack]
+disabled = true
+symbol = "📚"
+
+[php]
+disabled = true
+symbol = " "
+
+[pulumi]
+disabled = true
+symbol = "🧊"
+
+[purescript]
+disabled = true
+symbol = " "
+
+[scala]
+disabled = true
+symbol = " "
+
+[spack]
+disabled = true
+symbol = "🅢 "
+
+[terraform]
+disabled = true
+symbol = "🌿"
+
+[vagrant]
+disabled = true
+symbol = "📏"
+
+[vlang]
+disabled = true
+symbol = "🌀"
+
+[zig]
+disabled = true
+symbol = "🪝"
