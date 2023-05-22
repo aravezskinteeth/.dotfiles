@@ -1,3 +1,4 @@
+alias zshrc='source ~/.zshrc'
 alias nano='/usr/local/bin/nano' # For nano highlighting. First brew install nano bc MacOS nano is too outdated.
 alias cat='bat'
 
