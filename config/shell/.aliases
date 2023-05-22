@@ -1,12 +1,4 @@
-# ~~~~~~general~~~~~~~~~
-# Print palette in circle
-alias circle='clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo ""'
 
-# Print pfetch and palette
-alias pfetch='cd ~; clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo "\n" && pfetch && echo ""'
-
-# Print pride kitty and palette
-alias meow='cd ~; clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo "\n" && meow print --pride && echo ""'
 
 # Terminal on lsd aliases 
 alias ls='lsd'
@@ -68,3 +60,10 @@ alias diff='git difftool --no-symlinks --dir-diff'
 
 # ~~~~~ STARSHIP ~~~~~ #
 alias debug-starship='env STARSHIP_LOG=trace starship timings'
+# ~~~~~ ricing ~~~~~ #
+# Print palette in circles
+alias circle='clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo ""'
+# Print pfetch and palette
+alias pfetch='cd ~; clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo "\n" && pfetch && echo ""'
+# Print pride kitty and palette
+alias meow='cd ~; clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo "\n" && meow print --pride && echo ""'
