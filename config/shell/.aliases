@@ -1,3 +1,4 @@
+# ~~~~~ general ~~~~~ #
 alias diff='git difftool --no-symlinks --dir-diff'
 alias zshrc='source ~/.zshrc'
 alias rm='trash'
