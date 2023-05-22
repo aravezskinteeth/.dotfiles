@@ -101,5 +101,5 @@ export PATH="$XDG_CONFIG_HOME/emacs/bin:$PATH" # Adding doom command to my path
 export PATH="$DOTFILES/config/spicetify:$PATH"
 export PATH="$XDG_CONFIG_HOME/local/bin:$PATH" # Arttime installer
 export PATH="/usr/local/texlive/2023basic/bin/universal-darwin:$PATH" # Basic Tex commands' PATH
-
-
+export PATH="$HOME/miniconda/bin:$PATH" # Miniconda
+export PATH="/usr/local/Caskroom/miniconda/base:$PATH" # Miniconda (environment location)
