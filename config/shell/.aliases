@@ -1,5 +1,8 @@
 alias nano='/usr/local/bin/nano' # For nano highlighting. First brew install nano bc MacOS nano is too outdated.
 
+# Run Python3
+alias python='python3'
+alias pip='pip3'
 
 # LSD 
 alias ls='lsd'
@@ -20,10 +23,6 @@ alias neovim='nvim'
 alias cs='brew services start code-server'
 alias csr='brew services restart code-server'
 alias css='brew services stop code-server'
-
-# run python 3 instead of python 2
-alias python='python3'
-alias pip='pip3'
 
 # alias for bat
 alias cat='bat'
