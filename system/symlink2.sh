@@ -19,6 +19,10 @@ print_section "Creating Symlinks"
 rm -rf "$HOME"/Library/Preferences/glow/glow.yml
 symlink  "$HOME"/.dotfiles/config/glow/glow.yml "$HOME"/Library/Preferences/glow
 
+# miniconda config
+print_title "Miniconda configuration"
+symlink /usr/local/Caskroom/miniconda/base "$HOME"
+
 # sublime text config
 print_title "Sublime Text configuration"
 rm -rf "$HOME/Library/Application Support/Sublime Text/Installed Packages"
