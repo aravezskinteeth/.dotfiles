@@ -20,6 +20,7 @@ alias vi='nvim'
 alias vim='nvim'
 alias neovim='nvim'
 
+# ~~~~~ MacBook ~~~~~ #
 # Code Server aliases
 alias cs='brew services start code-server'
 alias csr='brew services restart code-server'
