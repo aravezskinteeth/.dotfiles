@@ -8,7 +8,10 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 
-# Execute Neovim
+# ~~~~~ NVIM ~~~~ 
+alias nvim-chad='NVIM_APPNAME=NvChad nvim'
+alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
+alias nvim-astro='nvim'
 alias vi='nvim'
 alias vim='nvim'
 alias neovim='nvim'
@@ -39,12 +42,6 @@ alias cmatrix='cmatrix -B -r'
 # no more secrets prefs
 alias nms='ls -l | nms -a -f yellow'
 alias nms-s='sneakers'
-
-# ~~~~~ NVIM ~~~~ 
-alias nvim-chad='NVIM_APPNAME=NvChad nvim'
-alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
-alias nvim-astro='nvim'
-
 # ~~~~~ Brew ~~~~~ #
 alias update-brewfile='brew bundle dump --force --file=/Users/skinofmyeden/.dotfiles/system/macos/Brewfile'
 alias install-brewfile='brew bundle --force --file=/Users/skinofmyeden/.dotfiles/system/macos/Brewfile'
