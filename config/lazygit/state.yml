@@ -1,7 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
-- /Users/skinofmyeden/.config/nvim/lua/user
 - /Users/skinofmyeden/.dotfiles
+- /Users/skinofmyeden/.config/nvim/lua/user
 startuppopupversion: 5
-customcommandshistory: []
+customcommandshistory:
+- q
+- :q
 hidecommandlog: false
