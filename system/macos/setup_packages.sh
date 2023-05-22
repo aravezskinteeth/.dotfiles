@@ -227,6 +227,7 @@ execute "sudo tlmgr install collection-latexextra"
 execute "sudo tlmgr install sourcesanpro"
 execute "sudo tlmgr install ly1"
 execute "sudo tlmgr install sourcecodepro"
+execute "sudo tlmgr install latexmk"
 
 #==================================
 # Install From Source
