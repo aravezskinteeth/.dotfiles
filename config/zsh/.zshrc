@@ -24,7 +24,7 @@ plugins=(
 
 #-----OTHER-SOURCING------------------#
 # Catpuccin syntax highlighting
-source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source "$HOME/.dotfiles/config/zsh/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh"
 # Now load zsh-syntax-highlighting plugin
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
