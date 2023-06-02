@@ -13,3 +13,6 @@
 [submodule "config/neovim/astronvim-config"]
 	path = config/neovim/astronvim-config
 	url = https://github.com/aravezskinteeth/astronvim-config
+[submodule "config/zsh/.zsh/zsh-autocomplete"]
+	path = config/zsh/.zsh/zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete
