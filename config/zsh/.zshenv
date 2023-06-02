@@ -59,6 +59,11 @@ export HOMEBREW_BREWFILE="$XDG_CONFIG_HOME/.dotfiles/system/macos/packages/"
 export SOFT_SERVE_DATA_PATH="$XDG_CONFIG_HOME/.config/soft-serve"
 export SOFT_SERVE_INITIAL_ADMIN_KEYS="$HOME/.ssh/git-server.pub"
 
+# Mods
+export OPENAI_API_KEY=""
+export MODS_MODEL="gpt-3.5-turbo"
+export MODS_MAX_TOKENS="256"
+
 # ~~~~~~ pfetch ~~~~~~~~ #
 # NOTE: If 'ascii' will be used, it must come first.
 # Valid: space separated string
