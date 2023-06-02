@@ -24,15 +24,11 @@ plugins=(
 
 #-----OTHER-SOURCING------------------#
 # Catpuccin syntax highlighting
-source "$HOME/.dotfiles/config/zsh/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh"
+source "$HOME/.dotfiles/config/zsh/.zsh/catppuccin/catppuccin_mocha-zsh-syntax-highlighting.zsh"
 # Now load zsh-syntax-highlighting plugin
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# zsh-autocomplete colors = zcolors plugin
-#source ~/git/zcolors/zcolors.plugin.zsh
-#source ~/.dotfiles/config/zsh/.zcolors  # generated in step 1
-
-#Important, or else your plugins won't work
+# Important, or else your plugins won't work
 source $ZSH/oh-my-zsh.sh
 
 # fzf
@@ -45,11 +41,11 @@ tre() { command tree "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
 # For a full list of active aliases, run `alias`.
 
 # Source environmental variables
-source ~/.zshenv
+source "$HOME/.zshenv"
 
 # Sourcing the file where all my aliases are (lsd and bash aliases)
-source ~/.dotfiles/config/shell/.aliases
-source ~/.dotfiles/config/shell/.functions
+source "$HOME/.dotfiles/config/shell/.aliases"
+source "$HOME/.dotfiles/config/shell/.functions"
 
 # Starship config (at the end)
 eval "$(starship init zsh)"
