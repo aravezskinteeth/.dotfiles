@@ -1,7 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
 - /Users/skinofmyeden/.dotfiles
+- /Users/skinofmyeden/git/my-own-repos/coteditor
 - /Users/skinofmyeden/.config/nvim/lua/user
+- /Users/skinofmyeden/user
+- /Users/skinofmyeden/.config/nvim
+- /Volumes/LIVISU/livs/zotero
 startuppopupversion: 5
 customcommandshistory:
 - q
