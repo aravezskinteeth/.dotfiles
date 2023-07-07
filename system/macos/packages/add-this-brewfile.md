@@ -140,3 +140,4 @@ brew install syncthing
 	- [Online Version](https://stardew.info/)
 - [UCSC Xena](https://xenabrowser.net/)
 - [KeyeboardCleanTool](https://folivora.ai/keyboardcleantool)
+- [LifeAt](lifeat.io/)
