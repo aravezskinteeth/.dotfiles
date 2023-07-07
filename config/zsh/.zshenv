@@ -72,6 +72,7 @@ export CPPFLAGS="-I/usr/local/opt/ruby/include"
 export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
 # gem
 export GEM_PATH="/usr/local/lib/ruby/gems/3.2.0/bin"
+
 # ~~~~~~ pfetch ~~~~~~~~ #
 # NOTE: If 'ascii' will be used, it must come first.
 # Valid: space separated string
