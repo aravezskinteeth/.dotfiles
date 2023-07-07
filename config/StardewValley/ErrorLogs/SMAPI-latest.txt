@@ -1,510 +1,1769 @@
-[17:37:19 INFO  SMAPI] SMAPI 3.18.2 with Stardew Valley 1.5.6 (build 1.3.37.0) on macOS Unix 12.6.2
-[17:37:19 INFO  SMAPI] Mods go here: /Applications/Stardew Valley Moded.app/Contents/MacOS/Mods
-[17:37:19 TRACE SMAPI] Log started at 2023-06-01T22:37:19 UTC
-[17:37:31 DEBUG SMAPI] Waiting for game to launch...
-[17:37:32 TRACE game] NoFpsCap: This feature is not available
-[17:37:35 DEBUG SMAPI] Loading mod metadata...
-[17:37:35 TRACE SMAPI]   Skipped Mods/mods/fanmade-expansion/.SVE (folder name starts with a dot).
-[17:37:35 TRACE SMAPI]   Skipped Mods/mods/fanmade-expansion/.[CP] Oasis Greenhouse (folder name starts with a dot).
-[17:37:35 TRACE SMAPI]   Skipped Mods/mods/furniture/.[JA] Witchy Decorations (folder name starts with a dot).
-[17:37:35 TRACE SMAPI]   Skipped Mods/mods/furniture/.[CF] Witch Furniture (folder name starts with a dot).
-[17:37:35 TRACE SMAPI]   Skipped Mods/mods/cheats/.WearMoreRings (folder name starts with a dot).
-[17:37:35 TRACE SMAPI]   Skipped Mods/mods/cheats/.TimeFreezesAtMidnight (folder name starts with a dot).
-[17:37:35 TRACE SMAPI]   Skipped Mods/mods/cheats/.MovementSpeed (folder name starts with a dot).
-[17:37:35 TRACE SMAPI]   Skipped Mods/mods/interior-visuals/.Asters Big Interior Suite (folder name starts with a dot).
-[17:37:36 DEBUG SMAPI] Loading mods...
-[17:37:36 TRACE SMAPI]    mods/animals-visuals (from Mods/mods/animals-visuals)...
-[17:37:36 TRACE SMAPI]       Failed: it's an empty folder.
-[17:37:36 TRACE SMAPI]    mods/exterior-visuals (from Mods/mods/exterior-visuals)...
-[17:37:36 TRACE SMAPI]       Failed: it's an empty folder.
-[17:37:36 TRACE SMAPI]    mods/food (from Mods/mods/food)...
-[17:37:36 TRACE SMAPI]       Failed: it's an empty folder.
-[17:37:36 TRACE SMAPI]    Console Commands (from Mods/ConsoleCommands/ConsoleCommands.dll)...
-[17:37:37 TRACE SMAPI]    Save Backup (from Mods/SaveBackup/SaveBackup.dll)...
-[17:37:37 TRACE SMAPI]    Error Handler (from Mods/ErrorHandler/ErrorHandler.dll)...
-[17:37:37 TRACE SMAPI]       Detected game patcher in assembly ErrorHandler.dll.
-[17:37:37 TRACE SMAPI]    Content Patcher (from Mods/mods/modders-resources/ContentPatcher/ContentPatcher.dll)...
-[17:37:37 TRACE SMAPI]    Elle's Farmhouse Pride (from Mods/mods/buildings/[CP] Elle's Farmhouse Pride) [content pack]...
-[17:37:37 TRACE SMAPI]    SpaceCore (from Mods/mods/modders-resources/SpaceCore/SpaceCore.dll)...
-[17:37:38 TRACE SMAPI]       Detected game patcher in assembly SpaceCore.dll.
-[17:37:38 TRACE SMAPI]       Detected possible save serializer change (StardewValley.SaveGame.farmerSerializer field, StardewValley.SaveGame.serializer field, StardewValley.SaveGame.locationSerializer field) in assembly SpaceCore.dll.
-[17:37:38 TRACE SMAPI]    Expanded Preconditions Utility (from Mods/mods/modders-resources/ExpandedPreconditionsUtility/ExpandedPreconditionsUtility.dll)...
-[17:37:38 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll for OS...
-[17:37:38 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll to fix 32-bit architecture...
-[17:37:38 TRACE SMAPI]    Json Assets (from Mods/mods/modders-resources/JsonAssets/JsonAssets.dll)...
-[17:37:38 TRACE SMAPI]       Detected game patcher in assembly JsonAssets.dll.
-[17:37:38 TRACE SMAPI]    Moro's Pride shirts (from Mods/mods/clothes/[JA] Moro Pride Shirts) [content pack]...
-[17:37:38 TRACE SMAPI]    Dynamic Game Assets (from Mods/mods/modders-resources/DynamicGameAssets/DynamicGameAssets.dll)...
-[17:37:39 TRACE SMAPI]       Detected game patcher in assembly DynamicGameAssets.dll.
-[17:37:39 TRACE SMAPI]    Generic Mod Config Menu (from Mods/mods/mods-manager/GenericModConfigMenu/GenericModConfigMenu.dll)...
-[17:37:39 TRACE SMAPI]    Alternative Textures (from Mods/mods/modders-resources/AlternativeTextures/AlternativeTextures.dll)...
-[17:37:39 TRACE SMAPI]       Detected game patcher in assembly AlternativeTextures.dll.
-[17:37:39 TRACE SMAPI]    Pretty Pride Flags (from Mods/mods/furniture/pride/[AT] Brighterbats Pretty Pride Flags) [content pack]...
-[17:37:39 TRACE SMAPI]    Content Patcher Pride Flags (from Mods/mods/furniture/pride/[CP] Pride Flags) [content pack]...
-[17:37:39 TRACE SMAPI]    CJB Cheats Menu (from Mods/mods/cheats/CJBCheatsMenu/CJBCheatsMenu.dll)...
-[17:37:40 TRACE SMAPI]    SkullCavernElevator (from Mods/mods/cheats/SkullCavernElevator/SkullCavernElevator.dll)...
-[17:37:40 TRACE SMAPI]    Chests Anywhere (from Mods/mods/cheats/ChestsAnywhere/ChestsAnywhere.dll)...
-[17:37:40 TRACE SMAPI]    Upgrade Empty Cabins (from Mods/mods/cheats/UpgradeEmptyCabins/UpgradeEmptyCabins.dll)...
-[17:37:40 TRACE SMAPI]       Rewrote UpgradeEmptyCabins.dll for OS...
-[17:37:40 TRACE SMAPI]       Rewrote UpgradeEmptyCabins.dll to fix 32-bit architecture...
-[17:37:40 TRACE SMAPI]    Backpack Resizer (from Mods/mods/cheats/BackpackResizer/BackpackResizer.dll)...
-[17:37:40 TRACE SMAPI]    CJB Item Spawner (from Mods/mods/cheats/CJBItemSpawner/CJBItemSpawner.dll)...
-[17:37:40 TRACE SMAPI]    NPC Map Locations (from Mods/mods/cheats/NPCMapLocations/NPCMapLocations.dll)...
-[17:37:40 TRACE SMAPI]    Mail Framework Mod (from Mods/mods/modders-resources/MailFrameworkMod/MailFrameworkMod.dll)...
-[17:37:40 TRACE SMAPI]       Detected game patcher in assembly MailFrameworkMod.dll.
-[17:37:40 TRACE SMAPI]    Custom NPC Exclusions (from Mods/mods/modders-resources/CustomNPCExclusions/CustomNPCExclusions.dll)...
-[17:37:40 TRACE SMAPI]       Detected game patcher in assembly CustomNPCExclusions.dll.
-[17:37:40 TRACE SMAPI]    Farm Type Manager (from Mods/mods/modders-resources/FarmTypeManager/FarmTypeManager.dll)...
-[17:37:40 TRACE SMAPI]       Detected game patcher in assembly FarmTypeManager.dll.
-[17:37:40 TRACE SMAPI]    Extra Map Layers (from Mods/mods/modders-resources/ExtraMapLayers/ExtraMapLayers.dll)...
-[17:37:40 TRACE SMAPI]       Detected game patcher in assembly ExtraMapLayers.dll.
-[17:37:40 TRACE SMAPI]    StardewHack (from Mods/mods/modders-resources/StardewHack/StardewHack.dll)...
-[17:37:40 TRACE SMAPI]       Detected game patcher in assembly StardewHack.dll.
-[17:37:40 TRACE SMAPI]    Shop Tile Framework (from Mods/mods/modders-resources/ShopTileFramework/ShopTileFramework.dll)...
-[17:37:40 TRACE SMAPI]       Rewrote ShopTileFramework.dll for OS...
-[17:37:40 TRACE SMAPI]       Rewrote ShopTileFramework.dll to fix 32-bit architecture...
-[17:37:40 TRACE SMAPI]       Rewrote ShopTileFramework.dll to fix Harmony 1.x...
-[17:37:40 TRACE SMAPI]       Detected game patcher in assembly ShopTileFramework.dll.
-[17:37:40 TRACE SMAPI]    SAAT.API (from Mods/mods/modders-resources/SAAT/SAAT.API/SAAT.API.dll)...
-[17:37:40 TRACE SMAPI]    SAAT.Mod (from Mods/mods/modders-resources/SAAT/SAAT.Mod/SAAT.Mod.dll)...
-[17:37:41 TRACE SMAPI]    Pony Weight Loss Program (from Mods/mods/quality-of-life/PonyWeightLossProgram/PonyWeightLossProgram.dll)...
-[17:37:41 TRACE SMAPI]    Lookup Anything (from Mods/mods/quality-of-life/LookupAnything/LookupAnything.dll)...
-[17:37:41 TRACE SMAPI]    Better Friendship (from Mods/mods/quality-of-life/BetterFriendship/BetterFriendship.dll)...
-[17:37:41 TRACE SMAPI]       Detected reference to System.Runtime.Caching.dll, which will be removed in SMAPI 4.0.0.
-[17:37:41 TRACE SMAPI]    Add Berry Seasons to Calendar (from Mods/mods/quality-of-life/[CP] Add Berry Seasons to Calendar) [content pack]...
-[17:37:41 TRACE SMAPI]    Better Ranching (from Mods/mods/quality-of-life/BetterRanching/BetterRanching.dll)...
-[17:37:42 TRACE SMAPI]    UI Info Suite 2 (from Mods/mods/quality-of-life/UIInfoSuite2/UIInfoSuite2.dll)...
-[17:37:42 TRACE SMAPI]    Experience Bars (from Mods/mods/quality-of-life/ExperienceBars/ExperienceBars.dll)...
-[17:37:42 TRACE SMAPI]    Better Junimos (from Mods/mods/quality-of-life/BetterJunimos/BetterJunimos/BetterJunimos.dll)...
-[17:37:42 TRACE SMAPI]       Detected game patcher in assembly BetterJunimos.dll.
-[17:37:42 TRACE SMAPI]    (CP) Better Junimos Config Wizard (from Mods/mods/quality-of-life/BetterJunimos/[CP] Better Junimos Config Wizard) [content pack]...
-[17:37:42 INFO  SMAPI] Loaded 32 mods:
-[17:37:42 INFO  SMAPI]    Alternative Textures 6.9.1 by PeacefulEnd | Framework which allows the usage of different textures for placeable items in Stardew Valley.
-[17:37:42 INFO  SMAPI]    Backpack Resizer 1.1.0 by DefenTheNation | Adds command to resize the player's inventory
-[17:37:42 INFO  SMAPI]    Better Friendship 1.0.6 by Urbanyeti | Adds thought bubbles over villagers to indicate their favorite gifts from your inventory and when they'd like to talk.
-[17:37:42 INFO  SMAPI]    Better Junimos 2.1.2 by ceruleandeep | Allow your Junimos (from Junimo huts) to automatically plant seeds, fertilize, and so much more!
-[17:37:42 INFO  SMAPI]    Better Ranching 1.9.2 by Urbanyeti | Prevents failed milk/shear attempts and displays when animals can be milked/sheared and petted.
-[17:37:42 INFO  SMAPI]    Chests Anywhere 1.22.6 by Pathoschild | Access your chests from anywhere and organize them your way.
-[17:37:42 INFO  SMAPI]    CJB Cheats Menu 1.33.0 by CJBok and Pathoschild | Simple in-game cheats menu!
-[17:37:42 INFO  SMAPI]    CJB Item Spawner 2.2.3 by CJBok and Pathoschild | Simple in-game item spawner!
-[17:37:42 INFO  SMAPI]    Console Commands 3.18.2 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
-[17:37:42 INFO  SMAPI]    Content Patcher 1.29.1 by Pathoschild | Loads content packs which edit game data, images, and maps without changing the game files.
-[17:37:42 INFO  SMAPI]    Custom NPC Exclusions 1.4.0 by Esca | Allows modders to exclude custom NPCs from quests and events via Content Patcher.
-[17:37:42 INFO  SMAPI]    Dynamic Game Assets 1.4.4 by spacechase0 | Lets content packs add custom content to the game.
-[17:37:42 INFO  SMAPI]    Error Handler 3.18.2 by SMAPI | Handles some common vanilla errors to log more useful info or avoid breaking the game.
-[17:37:42 INFO  SMAPI]    Expanded Preconditions Utility 1.0.1 by Cherry | A condition checking system designed for use by other mods, in the format of event preconditions
-[17:37:42 INFO  SMAPI]    Experience Bars 1.4.4 by spacechase0 | Shows experience bars in the top-left corner.
-[17:37:42 INFO  SMAPI]    Extra Map Layers 0.3.7 by aedenthorn | Draws additional layers from map files.
-[17:37:42 INFO  SMAPI]    Farm Type Manager 1.16.0 by Esca | Allows custom spawning of content from each farm type: forage, large objects, ore, and monsters
-[17:37:42 INFO  SMAPI]    Generic Mod Config Menu 1.11.0 by spacechase0 | Adds an in-game UI to edit other mods' config options (for mods which support it).
-[17:37:42 INFO  SMAPI]    Json Assets 1.10.13 by spacechase0 | Lets content packs add custom content to the game.
-[17:37:42 INFO  SMAPI]    Lookup Anything 1.39.0 by Pathoschild | View metadata about anything by pressing a button.
-[17:37:42 INFO  SMAPI]    Mail Framework Mod 1.15.0 by Digus | Utility classes to send mail in the game.
-[17:37:42 INFO  SMAPI]    NPC Map Locations 2.11.3 by Bouhm | Shows NPCs and farmers on a modified map page for accurate tracking.
-[17:37:42 INFO  SMAPI]    Pony Weight Loss Program 0.8.2 by BadNetCode | Allows horses to pass vertically through single tile openings
-[17:37:42 INFO  SMAPI]    SAAT.API 1.1.2 by ZeroMeters | Audio API for SMAPI
-[17:37:42 INFO  SMAPI]    SAAT.Mod 1.1.2 by ZeroMeters | Custom Audio Loader & Management for SMAPI
-[17:37:42 INFO  SMAPI]    Save Backup 3.18.2 by SMAPI | Automatically backs up all your saves once per day into its folder.
-[17:37:42 INFO  SMAPI]    Shop Tile Framework 1.0.9 by Cherry | Define new shops as custom tile properties
-[17:37:42 INFO  SMAPI]    SkullCavernElevator 1.5.0 by lestoph | Elevator for the Skull Cavern
-[17:37:42 INFO  SMAPI]    SpaceCore 1.13.0 by spacechase0 | A framework mod used by some of my other mods.
-[17:37:42 INFO  SMAPI]    StardewHack 6.0.0 by bcmpinc | Transpilation library used by my other mods. Doesn't do much on its own.
-[17:37:42 INFO  SMAPI]    UI Info Suite 2 2.2.9 by Annosz | Adds a useful information to the user interface. Based on Cdaragorn's excellent UI Info Suite.
-[17:37:42 INFO  SMAPI]    Upgrade Empty Cabins 1.0.4 by Cherry | Lets you upgrade empty cabins and remove seed boxes
+[16:43:42 INFO  SMAPI] SMAPI 3.18.2 with Stardew Valley 1.5.6 (build 1.3.37.0) on macOS Unix 12.6.2
+[16:43:42 INFO  SMAPI] Mods go here: /Applications/Stardew Valley Moded.app/Contents/MacOS/Mods
+[16:43:42 TRACE SMAPI] Log started at 2023-07-05T21:43:42 UTC
+[16:43:53 DEBUG SMAPI] Waiting for game to launch...
+[16:43:54 TRACE game] NoFpsCap: This feature is not available
+[16:43:57 DEBUG SMAPI] Loading mod metadata...
+[16:43:57 TRACE SMAPI]   Skipped Mods/mods/fanmade-expansion/.SVE (folder name starts with a dot).
+[16:43:57 TRACE SMAPI]   Skipped Mods/mods/fanmade-expansion/.[CP] Oasis Greenhouse (folder name starts with a dot).
+[16:43:57 TRACE SMAPI]   Skipped Mods/mods/furniture/.[JA] Witchy Decorations (folder name starts with a dot).
+[16:43:57 TRACE SMAPI]   Skipped Mods/mods/furniture/.[CF] Witch Furniture (folder name starts with a dot).
+[16:43:57 TRACE SMAPI]   Skipped Mods/mods/cheats/.WearMoreRings (folder name starts with a dot).
+[16:43:57 TRACE SMAPI]   Skipped Mods/mods/interior-visuals/.Asters Big Interior Suite (folder name starts with a dot).
+[16:43:57 DEBUG SMAPI] Loading mods...
+[16:43:58 TRACE SMAPI]    mods/animals-visuals (from Mods/mods/animals-visuals)...
+[16:43:58 TRACE SMAPI]       Failed: it's an empty folder.
+[16:43:58 TRACE SMAPI]    mods/exterior-visuals (from Mods/mods/exterior-visuals)...
+[16:43:58 TRACE SMAPI]       Failed: it's an empty folder.
+[16:43:58 TRACE SMAPI]    mods/food (from Mods/mods/food)...
+[16:43:58 TRACE SMAPI]       Failed: it's an empty folder.
+[16:43:58 TRACE SMAPI]    Console Commands (from Mods/ConsoleCommands/ConsoleCommands.dll)...
+[16:43:58 TRACE SMAPI]    Save Backup (from Mods/SaveBackup/SaveBackup.dll)...
+[16:43:58 TRACE SMAPI]    Error Handler (from Mods/ErrorHandler/ErrorHandler.dll)...
+[16:43:58 TRACE SMAPI]       Detected game patcher in assembly ErrorHandler.dll.
+[16:43:58 TRACE SMAPI]    Content Patcher (from Mods/mods/modders-resources/ContentPatcher/ContentPatcher.dll)...
+[16:43:59 TRACE SMAPI]    Elle's Farmhouse Pride (from Mods/mods/buildings/[CP] Elle's Farmhouse Pride) [content pack]...
+[16:43:59 TRACE SMAPI]    SpaceCore (from Mods/mods/modders-resources/SpaceCore/SpaceCore.dll)...
+[16:43:59 TRACE SMAPI]       Detected game patcher in assembly SpaceCore.dll.
+[16:43:59 TRACE SMAPI]       Detected possible save serializer change (StardewValley.SaveGame.farmerSerializer field, StardewValley.SaveGame.serializer field, StardewValley.SaveGame.locationSerializer field) in assembly SpaceCore.dll.
+[16:43:59 TRACE SMAPI]    Expanded Preconditions Utility (from Mods/mods/modders-resources/ExpandedPreconditionsUtility/ExpandedPreconditionsUtility.dll)...
+[16:43:59 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll for OS...
+[16:43:59 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll to fix 32-bit architecture...
+[16:43:59 TRACE SMAPI]    Json Assets (from Mods/mods/modders-resources/JsonAssets/JsonAssets.dll)...
+[16:44:00 TRACE SMAPI]       Detected game patcher in assembly JsonAssets.dll.
+[16:44:00 TRACE SMAPI]    Moro's Pride shirts (from Mods/mods/clothes/[JA] Moro Pride Shirts) [content pack]...
+[16:44:00 TRACE SMAPI]    Dynamic Game Assets (from Mods/mods/modders-resources/DynamicGameAssets/DynamicGameAssets.dll)...
+[16:44:00 TRACE SMAPI]       Detected game patcher in assembly DynamicGameAssets.dll.
+[16:44:00 TRACE SMAPI]    Generic Mod Config Menu (from Mods/mods/mods-manager/GenericModConfigMenu/GenericModConfigMenu.dll)...
+[16:44:00 TRACE SMAPI]    Alternative Textures (from Mods/mods/modders-resources/AlternativeTextures/AlternativeTextures.dll)...
+[16:44:00 TRACE SMAPI]       Detected game patcher in assembly AlternativeTextures.dll.
+[16:44:00 TRACE SMAPI]    Pretty Pride Flags (from Mods/mods/furniture/pride/[AT] Brighterbats Pretty Pride Flags) [content pack]...
+[16:44:00 TRACE SMAPI]    Content Patcher Pride Flags (from Mods/mods/furniture/pride/[CP] Pride Flags) [content pack]...
+[16:44:00 TRACE SMAPI]    CJB Cheats Menu (from Mods/mods/cheats/CJBCheatsMenu/CJBCheatsMenu.dll)...
+[16:44:01 TRACE SMAPI]    SkullCavernElevator (from Mods/mods/cheats/SkullCavernElevator/SkullCavernElevator.dll)...
+[16:44:01 TRACE SMAPI]    Chests Anywhere (from Mods/mods/cheats/ChestsAnywhere/ChestsAnywhere.dll)...
+[16:44:01 TRACE SMAPI]    Upgrade Empty Cabins (from Mods/mods/cheats/UpgradeEmptyCabins/UpgradeEmptyCabins.dll)...
+[16:44:01 TRACE SMAPI]       Rewrote UpgradeEmptyCabins.dll for OS...
+[16:44:01 TRACE SMAPI]       Rewrote UpgradeEmptyCabins.dll to fix 32-bit architecture...
+[16:44:01 TRACE SMAPI]    Backpack Resizer (from Mods/mods/cheats/BackpackResizer/BackpackResizer.dll)...
+[16:44:01 TRACE SMAPI]    CJB Item Spawner (from Mods/mods/cheats/CJBItemSpawner/CJBItemSpawner.dll)...
+[16:44:01 TRACE SMAPI]    NPC Map Locations (from Mods/mods/cheats/NPCMapLocations/NPCMapLocations.dll)...
+[16:44:01 TRACE SMAPI]    Mail Framework Mod (from Mods/mods/modders-resources/MailFrameworkMod/MailFrameworkMod.dll)...
+[16:44:01 TRACE SMAPI]       Detected game patcher in assembly MailFrameworkMod.dll.
+[16:44:01 TRACE SMAPI]    Custom NPC Exclusions (from Mods/mods/modders-resources/CustomNPCExclusions/CustomNPCExclusions.dll)...
+[16:44:01 TRACE SMAPI]       Detected game patcher in assembly CustomNPCExclusions.dll.
+[16:44:01 TRACE SMAPI]    Farm Type Manager (from Mods/mods/modders-resources/FarmTypeManager/FarmTypeManager.dll)...
+[16:44:01 TRACE SMAPI]       Detected game patcher in assembly FarmTypeManager.dll.
+[16:44:01 TRACE SMAPI]    Extra Map Layers (from Mods/mods/modders-resources/ExtraMapLayers/ExtraMapLayers.dll)...
+[16:44:01 TRACE SMAPI]       Detected game patcher in assembly ExtraMapLayers.dll.
+[16:44:01 TRACE SMAPI]    StardewHack (from Mods/mods/modders-resources/StardewHack/StardewHack.dll)...
+[16:44:01 TRACE SMAPI]       Detected game patcher in assembly StardewHack.dll.
+[16:44:01 TRACE SMAPI]    Shop Tile Framework (from Mods/mods/modders-resources/ShopTileFramework/ShopTileFramework.dll)...
+[16:44:01 TRACE SMAPI]       Rewrote ShopTileFramework.dll for OS...
+[16:44:01 TRACE SMAPI]       Rewrote ShopTileFramework.dll to fix 32-bit architecture...
+[16:44:01 TRACE SMAPI]       Rewrote ShopTileFramework.dll to fix Harmony 1.x...
+[16:44:01 TRACE SMAPI]       Detected game patcher in assembly ShopTileFramework.dll.
+[16:44:01 TRACE SMAPI]    SAAT.API (from Mods/mods/modders-resources/SAAT/SAAT.API/SAAT.API.dll)...
+[16:44:01 TRACE SMAPI]    SAAT.Mod (from Mods/mods/modders-resources/SAAT/SAAT.Mod/SAAT.Mod.dll)...
+[16:44:01 TRACE SMAPI]    Pony Weight Loss Program (from Mods/mods/quality-of-life/PonyWeightLossProgram/PonyWeightLossProgram.dll)...
+[16:44:01 TRACE SMAPI]    Lookup Anything (from Mods/mods/quality-of-life/LookupAnything/LookupAnything.dll)...
+[16:44:02 TRACE SMAPI]    Better Friendship (from Mods/mods/quality-of-life/BetterFriendship/BetterFriendship.dll)...
+[16:44:02 TRACE SMAPI]       Detected reference to System.Runtime.Caching.dll, which will be removed in SMAPI 4.0.0.
+[16:44:02 TRACE SMAPI]    Add Berry Seasons to Calendar (from Mods/mods/quality-of-life/[CP] Add Berry Seasons to Calendar) [content pack]...
+[16:44:02 TRACE SMAPI]    Better Ranching (from Mods/mods/quality-of-life/BetterRanching/BetterRanching.dll)...
+[16:44:02 TRACE SMAPI]    UI Info Suite 2 (from Mods/mods/quality-of-life/UIInfoSuite2/UIInfoSuite2.dll)...
+[16:44:03 TRACE SMAPI]    Experience Bars (from Mods/mods/quality-of-life/ExperienceBars/ExperienceBars.dll)...
+[16:44:03 TRACE SMAPI]    Better Junimos (from Mods/mods/quality-of-life/BetterJunimos/BetterJunimos/BetterJunimos.dll)...
+[16:44:03 TRACE SMAPI]       Detected game patcher in assembly BetterJunimos.dll.
+[16:44:03 TRACE SMAPI]    (CP) Better Junimos Config Wizard (from Mods/mods/quality-of-life/BetterJunimos/[CP] Better Junimos Config Wizard) [content pack]...
+[16:44:03 INFO  SMAPI] Loaded 32 mods:
+[16:44:03 INFO  SMAPI]    Alternative Textures 6.9.1 by PeacefulEnd | Framework which allows the usage of different textures for placeable items in Stardew Valley.
+[16:44:03 INFO  SMAPI]    Backpack Resizer 1.1.0 by DefenTheNation | Adds command to resize the player's inventory
+[16:44:03 INFO  SMAPI]    Better Friendship 1.0.6 by Urbanyeti | Adds thought bubbles over villagers to indicate their favorite gifts from your inventory and when they'd like to talk.
+[16:44:03 INFO  SMAPI]    Better Junimos 2.1.2 by ceruleandeep | Allow your Junimos (from Junimo huts) to automatically plant seeds, fertilize, and so much more!
+[16:44:03 INFO  SMAPI]    Better Ranching 1.9.2 by Urbanyeti | Prevents failed milk/shear attempts and displays when animals can be milked/sheared and petted.
+[16:44:03 INFO  SMAPI]    Chests Anywhere 1.22.6 by Pathoschild | Access your chests from anywhere and organize them your way.
+[16:44:03 INFO  SMAPI]    CJB Cheats Menu 1.33.0 by CJBok and Pathoschild | Simple in-game cheats menu!
+[16:44:03 INFO  SMAPI]    CJB Item Spawner 2.2.3 by CJBok and Pathoschild | Simple in-game item spawner!
+[16:44:03 INFO  SMAPI]    Console Commands 3.18.2 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
+[16:44:03 INFO  SMAPI]    Content Patcher 1.29.1 by Pathoschild | Loads content packs which edit game data, images, and maps without changing the game files.
+[16:44:03 INFO  SMAPI]    Custom NPC Exclusions 1.4.0 by Esca | Allows modders to exclude custom NPCs from quests and events via Content Patcher.
+[16:44:03 INFO  SMAPI]    Dynamic Game Assets 1.4.4 by spacechase0 | Lets content packs add custom content to the game.
+[16:44:03 INFO  SMAPI]    Error Handler 3.18.2 by SMAPI | Handles some common vanilla errors to log more useful info or avoid breaking the game.
+[16:44:03 INFO  SMAPI]    Expanded Preconditions Utility 1.0.1 by Cherry | A condition checking system designed for use by other mods, in the format of event preconditions
+[16:44:03 INFO  SMAPI]    Experience Bars 1.4.4 by spacechase0 | Shows experience bars in the top-left corner.
+[16:44:03 INFO  SMAPI]    Extra Map Layers 0.3.7 by aedenthorn | Draws additional layers from map files.
+[16:44:03 INFO  SMAPI]    Farm Type Manager 1.16.0 by Esca | Allows custom spawning of content from each farm type: forage, large objects, ore, and monsters
+[16:44:03 INFO  SMAPI]    Generic Mod Config Menu 1.11.0 by spacechase0 | Adds an in-game UI to edit other mods' config options (for mods which support it).
+[16:44:03 INFO  SMAPI]    Json Assets 1.10.13 by spacechase0 | Lets content packs add custom content to the game.
+[16:44:03 INFO  SMAPI]    Lookup Anything 1.39.0 by Pathoschild | View metadata about anything by pressing a button.
+[16:44:03 INFO  SMAPI]    Mail Framework Mod 1.15.0 by Digus | Utility classes to send mail in the game.
+[16:44:03 INFO  SMAPI]    NPC Map Locations 2.11.3 by Bouhm | Shows NPCs and farmers on a modified map page for accurate tracking.
+[16:44:03 INFO  SMAPI]    Pony Weight Loss Program 0.8.2 by BadNetCode | Allows horses to pass vertically through single tile openings
+[16:44:03 INFO  SMAPI]    SAAT.API 1.1.2 by ZeroMeters | Audio API for SMAPI
+[16:44:03 INFO  SMAPI]    SAAT.Mod 1.1.2 by ZeroMeters | Custom Audio Loader & Management for SMAPI
+[16:44:03 INFO  SMAPI]    Save Backup 3.18.2 by SMAPI | Automatically backs up all your saves once per day into its folder.
+[16:44:03 INFO  SMAPI]    Shop Tile Framework 1.0.9 by Cherry | Define new shops as custom tile properties
+[16:44:03 INFO  SMAPI]    SkullCavernElevator 1.5.0 by lestoph | Elevator for the Skull Cavern
+[16:44:03 INFO  SMAPI]    SpaceCore 1.13.0 by spacechase0 | A framework mod used by some of my other mods.
+[16:44:03 INFO  SMAPI]    StardewHack 6.0.0 by bcmpinc | Transpilation library used by my other mods. Doesn't do much on its own.
+[16:44:03 INFO  SMAPI]    UI Info Suite 2 2.2.9 by Annosz | Adds a useful information to the user interface. Based on Cdaragorn's excellent UI Info Suite.
+[16:44:03 INFO  SMAPI]    Upgrade Empty Cabins 1.0.4 by Cherry | Lets you upgrade empty cabins and remove seed boxes
 
-[17:37:42 INFO  SMAPI] Loaded 6 content packs:
-[17:37:42 INFO  SMAPI]    (CP) Better Junimos Config Wizard 1.0.3 by ceruleandeep | for Content Patcher | Better Junimos Config Wizard
-[17:37:42 INFO  SMAPI]    Add Berry Seasons to Calendar 1.1.0 by Inmognito | for Content Patcher | Adds berry icons to the calendar for salmonberry and blackberry harvesting days, and shell icons for the summer
-[17:37:42 INFO  SMAPI]    Content Patcher Pride Flags 1.0.0 by eorrl | for Content Patcher | Replaces Lupini's painting with pride flags of your choice (configurable).
-[17:37:42 INFO  SMAPI]    Elle's Farmhouse Pride 1.0.2 by Elle/Junimods | for Content Patcher | A CP overlay that adds a pride flag to your house!
-[17:37:42 INFO  SMAPI]    Moro's Pride shirts 2.0.0 by Mixter Moro | for Json Assets | Pride Shirts for your farmer!
-[17:37:42 INFO  SMAPI]    Pretty Pride Flags 1.0.0 by Brighterbats | for Alternative Textures | Alternative Textures content pack for pride flags
+[16:44:03 INFO  SMAPI] Loaded 6 content packs:
+[16:44:03 INFO  SMAPI]    (CP) Better Junimos Config Wizard 1.0.3 by ceruleandeep | for Content Patcher | Better Junimos Config Wizard
+[16:44:03 INFO  SMAPI]    Add Berry Seasons to Calendar 1.1.0 by Inmognito | for Content Patcher | Adds berry icons to the calendar for salmonberry and blackberry harvesting days, and shell icons for the summer
+[16:44:03 INFO  SMAPI]    Content Patcher Pride Flags 1.0.0 by eorrl | for Content Patcher | Replaces Lupini's painting with pride flags of your choice (configurable).
+[16:44:03 INFO  SMAPI]    Elle's Farmhouse Pride 1.0.2 by Elle/Junimods | for Content Patcher | A CP overlay that adds a pride flag to your house!
+[16:44:03 INFO  SMAPI]    Moro's Pride shirts 2.0.0 by Mixter Moro | for Json Assets | Pride Shirts for your farmer!
+[16:44:03 INFO  SMAPI]    Pretty Pride Flags 1.0.0 by Brighterbats | for Alternative Textures | Alternative Textures content pack for pride flags
 
-[17:37:42 INFO  SMAPI] Found 16 mods with warnings:
-[17:37:42 ERROR SMAPI]    Skipped mods
-[17:37:42 ERROR SMAPI]    --------------------------------------------------
-[17:37:42 ERROR SMAPI]       These mods could not be added to your game.
+[16:44:03 INFO  SMAPI] Found 16 mods with warnings:
+[16:44:03 ERROR SMAPI]    Skipped mods
+[16:44:03 ERROR SMAPI]    --------------------------------------------------
+[16:44:03 ERROR SMAPI]       These mods could not be added to your game.
 
-[17:37:42 ERROR SMAPI]       - mods/animals-visuals because it's an empty folder.
-[17:37:42 ERROR SMAPI]       - mods/exterior-visuals because it's an empty folder.
-[17:37:42 ERROR SMAPI]       - mods/food because it's an empty folder.
+[16:44:03 ERROR SMAPI]       - mods/animals-visuals because it's an empty folder.
+[16:44:03 ERROR SMAPI]       - mods/exterior-visuals because it's an empty folder.
+[16:44:03 ERROR SMAPI]       - mods/food because it's an empty folder.
 
-[17:37:42 WARN  SMAPI]    Changed save serializer
-[17:37:42 WARN  SMAPI]    --------------------------------------------------
-[17:37:42 WARN  SMAPI]       These mods change the save serializer. They may corrupt your save files, or make them unusable if
-[17:37:42 WARN  SMAPI]       you uninstall these mods.
+[16:44:03 WARN  SMAPI]    Changed save serializer
+[16:44:03 WARN  SMAPI]    --------------------------------------------------
+[16:44:03 WARN  SMAPI]       These mods change the save serializer. They may corrupt your save files, or make them unusable if
+[16:44:03 WARN  SMAPI]       you uninstall these mods.
 
-[17:37:42 WARN  SMAPI]       - SpaceCore
+[16:44:03 WARN  SMAPI]       - SpaceCore
 
-[17:37:42 INFO  SMAPI]    Patched game code
-[17:37:42 INFO  SMAPI]    --------------------------------------------------
-[17:37:42 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
-[17:37:42 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
+[16:44:03 INFO  SMAPI]    Patched game code
+[16:44:03 INFO  SMAPI]    --------------------------------------------------
+[16:44:03 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
+[16:44:03 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
 
-[17:37:42 INFO  SMAPI]       - Alternative Textures
-[17:37:42 INFO  SMAPI]       - Better Junimos
-[17:37:42 INFO  SMAPI]       - Custom NPC Exclusions
-[17:37:42 INFO  SMAPI]       - Dynamic Game Assets
-[17:37:42 INFO  SMAPI]       - Extra Map Layers
-[17:37:42 INFO  SMAPI]       - Farm Type Manager
-[17:37:42 INFO  SMAPI]       - Json Assets
-[17:37:42 INFO  SMAPI]       - Mail Framework Mod
-[17:37:42 INFO  SMAPI]       - Shop Tile Framework
-[17:37:42 INFO  SMAPI]       - SpaceCore
-[17:37:42 INFO  SMAPI]       - StardewHack
+[16:44:03 INFO  SMAPI]       - Alternative Textures
+[16:44:03 INFO  SMAPI]       - Better Junimos
+[16:44:03 INFO  SMAPI]       - Custom NPC Exclusions
+[16:44:03 INFO  SMAPI]       - Dynamic Game Assets
+[16:44:03 INFO  SMAPI]       - Extra Map Layers
+[16:44:03 INFO  SMAPI]       - Farm Type Manager
+[16:44:03 INFO  SMAPI]       - Json Assets
+[16:44:03 INFO  SMAPI]       - Mail Framework Mod
+[16:44:03 INFO  SMAPI]       - Shop Tile Framework
+[16:44:03 INFO  SMAPI]       - SpaceCore
+[16:44:03 INFO  SMAPI]       - StardewHack
 
-[17:37:42 DEBUG SMAPI]    No update keys
-[17:37:42 DEBUG SMAPI]    --------------------------------------------------
-[17:37:42 DEBUG SMAPI]       These mods have no update keys in their manifest. SMAPI may not notify you about updates for these
-[17:37:42 DEBUG SMAPI]       mods. Consider notifying the mod authors about this problem.
+[16:44:03 DEBUG SMAPI]    No update keys
+[16:44:03 DEBUG SMAPI]    --------------------------------------------------
+[16:44:03 DEBUG SMAPI]       These mods have no update keys in their manifest. SMAPI may not notify you about updates for these
+[16:44:03 DEBUG SMAPI]       mods. Consider notifying the mod authors about this problem.
 
-[17:37:42 DEBUG SMAPI]       - Pretty Pride Flags
+[16:44:03 DEBUG SMAPI]       - Pretty Pride Flags
 
-[17:37:42 DEBUG SMAPI] Launching mods...
-[17:37:42 TRACE Save Backup] Already backed up today.
-[17:37:43 TRACE SMAPI]    Found mod-provided API (ContentPatcher.Framework.ContentPatcherAPI).
-[17:37:43 TRACE SpaceCore] Found crafting recipe constructor in Void layoutRecipes(System.Collections.Generic.List`1[System.String])!
-[17:37:43 TRACE SpaceCore] Found first ldloc.s for ClickableTextureComponent in Void layoutRecipes(System.Collections.Generic.List`1[System.String]); storing potential override w/ recipeLocal=StardewValley.CraftingRecipe (9)
-[17:37:43 TRACE SpaceCore] Found crafting recipe constructor in System.String createDescription(Int32)!
-[17:37:46 TRACE SMAPI]    Found mod-provided API (SpaceCore.Api).
-[17:37:46 TRACE SMAPI]    Found mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker).
-[17:37:48 TRACE SMAPI]    Found mod-provided API (JsonAssets.Api).
-[17:37:48 TRACE Dynamic Game Assets] Found object information reference in Void .ctor(Int32, Int32, Int32, Int32), editing IL now
-[17:37:48 TRACE Dynamic Game Assets] Found object sorting, replacing with ours
-[17:37:48 TRACE SpaceCore] Found crafting recipe constructor in System.String createDescription(Int32)!
-[17:37:48 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
-[17:37:48 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
-[17:37:48 TRACE Dynamic Game Assets] Found object information reference in Void eatObject(StardewValley.Object, Boolean), editing IL now
-[17:37:48 TRACE Dynamic Game Assets] Found object information reference in Void doneEating(), editing IL now
-[17:37:49 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
-[17:37:49 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
-[17:37:49 TRACE Dynamic Game Assets] Found parentSheetIndex reference in Void parseItems(System.Collections.Generic.IList`1[StardewValley.Item]), editing IL now
-[17:37:51 TRACE SMAPI]    Found mod-provided API (DynamicGameAssets.Api).
-[17:37:54 TRACE SMAPI]    Found mod-provided API (AlternativeTextures.Framework.Interfaces.API.Api).
-[17:37:54 TRACE CJB Cheats Menu] Started with menu key P.
-[17:37:54 TRACE SMAPI]    Found mod-provided API (Pathoschild.Stardew.ChestsAnywhere.Framework.ChestsAnywhereApi).
-[17:37:54 TRACE CJB Item Spawner] Started with menu key I.
-[17:37:54 TRACE SMAPI]    Found mod-provided API (MailFrameworkMod.Api.MailFrameworkModApi).
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_ItemDeliveryQuest": postfixing SDV method "ItemDeliveryQuest.GetValidTargetList()".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_SocializeQuest": postfixing SDV method "SocializeQuest.loadQuestInfo()".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_WinterStarGifts": transpiling SDV method "Event.setUpPlayerControlSequence(string)".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_WinterStarGifts": transpiling SDV method "LetterViewerMenu(string, string, bool)".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_ShopDialog": transpiling SDV method "Game1.UpdateShopPlayerItemInventory(string, HashSet<NPC>)".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_IslandVisit": prefixing SDV method "IslandSouth.SetupIslandSchedules()".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_IslandVisit": prefixing SDV method "IslandSouth.CanVisitIslandToday(NPC)".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_PerfectionFriendship": transpiling SDV method "Utility.getMaxedFriendshipPercent(Farmer)".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_MovieInvitation": transpiling SDV method "NPC.tryToReceiveActiveObject(Farmer)".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_Greetings": prefixing SDV method "NPC.sayHiTo(Character)".
-[17:37:54 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_BirthdayCalendar": transpiling SDV constructor "Billboard(bool)".
-[17:37:54 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_UpdateCursorOverPlacedItem": postfixing SDV method "Utility.canGrabSomethingFromHere(int, int, Farmer)".
-[17:37:54 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": prefixing SDV method "GameLocation.isCollidingPosition".
-[17:37:55 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": transpiling SDV method "GameLocation.isTemp".
-[17:37:55 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": prefixing SDV method "Monster.findPlayer".
-[17:37:55 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_ToggleExtraLoot": postfixing 12 implementations of SDV method "Monster.getExtraDropitems()".
-[17:37:55 TRACE Extra Map Layers] Transpiling Layer_DrawNormal
-[17:37:55 TRACE Extra Map Layers] switching equals to startswith for layer id
-[17:37:55 INFO  StardewHack] Loaded StardewHack library v6.0.0 using Harmony v2.2.2.0.
-[17:37:55 INFO  Shop Tile Framework] Adding Content Packs...
-[17:37:56 TRACE SMAPI]    Found mod-provided API (ShopTileFramework.API.STFApi).
-[17:37:56 TRACE SMAPI]    Found mod-provided API (SAAT.API.AudioManager).
-[17:37:56 TRACE SMAPI]    Found mod-provided API (BetterRanching.BetterRanchingApi).
-[17:37:56 TRACE SMAPI]    Found mod-provided API (ExperienceBars.Api).
-[17:37:56 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
-[17:37:56 TRACE SMAPI] Invalidated 0 cache entries.
-[17:37:56 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
-[17:37:56 TRACE SMAPI] Invalidated 0 cache entries.
-[17:37:56 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
-[17:37:56 TRACE SMAPI] Invalidated 0 cache entries.
-[17:37:56 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
-[17:37:56 TRACE SMAPI] Invalidated 0 cache entries.
-[17:37:56 TRACE SMAPI]    Found mod-provided API (BetterJunimos.BetterJunimosApi).
-[17:37:56 DEBUG SMAPI] Mods loaded and ready!
-[17:37:56 TRACE SMAPI] Checking for updates...
-[17:37:57 TRACE SMAPI] Dynamic Game Assets edited Data/ObjectInformation.
-[17:37:58 ALERT SMAPI] You can update SMAPI to 3.18.3: https://smapi.io
-[17:37:58 TRACE SMAPI]    Checking for updates to 35 mods...
-[17:37:58 TRACE SMAPI] Got update-check errors for some mods:
+[16:44:03 DEBUG SMAPI] Launching mods...
+[16:44:04 TRACE SMAPI]    Found mod-provided API (ContentPatcher.Framework.ContentPatcherAPI).
+[16:44:04 TRACE SpaceCore] Found crafting recipe constructor in Void layoutRecipes(System.Collections.Generic.List`1[System.String])!
+[16:44:04 TRACE SpaceCore] Found first ldloc.s for ClickableTextureComponent in Void layoutRecipes(System.Collections.Generic.List`1[System.String]); storing potential override w/ recipeLocal=StardewValley.CraftingRecipe (9)
+[16:44:04 TRACE SpaceCore] Found crafting recipe constructor in System.String createDescription(Int32)!
+[16:44:05 TRACE Save Backup] Backed up to /Applications/Stardew Valley Moded.app/Contents/MacOS/save-backups/2023-07-05 - SMAPI 3.18.2 with Stardew Valley 1.5.6.zip.
+[16:44:05 TRACE Save Backup] Deleting 2023-02-21 - SMAPI 3.18.2 with Stardew Valley 1.5.6.zip...
+[16:44:07 TRACE SMAPI]    Found mod-provided API (SpaceCore.Api).
+[16:44:07 TRACE SMAPI]    Found mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker).
+[16:44:08 TRACE SMAPI]    Found mod-provided API (JsonAssets.Api).
+[16:44:08 TRACE Dynamic Game Assets] Found object information reference in Void .ctor(Int32, Int32, Int32, Int32), editing IL now
+[16:44:08 TRACE Dynamic Game Assets] Found object sorting, replacing with ours
+[16:44:08 TRACE SpaceCore] Found crafting recipe constructor in System.String createDescription(Int32)!
+[16:44:08 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
+[16:44:08 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
+[16:44:09 TRACE Dynamic Game Assets] Found object information reference in Void eatObject(StardewValley.Object, Boolean), editing IL now
+[16:44:09 TRACE Dynamic Game Assets] Found object information reference in Void doneEating(), editing IL now
+[16:44:09 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
+[16:44:09 TRACE Dynamic Game Assets] Found the object information get call, redirecting...
+[16:44:10 TRACE Dynamic Game Assets] Found parentSheetIndex reference in Void parseItems(System.Collections.Generic.IList`1[StardewValley.Item]), editing IL now
+[16:44:11 TRACE SMAPI]    Found mod-provided API (DynamicGameAssets.Api).
+[16:44:13 TRACE SMAPI]    Found mod-provided API (AlternativeTextures.Framework.Interfaces.API.Api).
+[16:44:14 TRACE CJB Cheats Menu] Started with menu key P.
+[16:44:14 TRACE SMAPI]    Found mod-provided API (Pathoschild.Stardew.ChestsAnywhere.Framework.ChestsAnywhereApi).
+[16:44:14 TRACE CJB Item Spawner] Started with menu key I.
+[16:44:14 TRACE SMAPI]    Found mod-provided API (MailFrameworkMod.Api.MailFrameworkModApi).
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_ItemDeliveryQuest": postfixing SDV method "ItemDeliveryQuest.GetValidTargetList()".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_SocializeQuest": postfixing SDV method "SocializeQuest.loadQuestInfo()".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_WinterStarGifts": transpiling SDV method "Event.setUpPlayerControlSequence(string)".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_WinterStarGifts": transpiling SDV method "LetterViewerMenu(string, string, bool)".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_ShopDialog": transpiling SDV method "Game1.UpdateShopPlayerItemInventory(string, HashSet<NPC>)".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_IslandVisit": prefixing SDV method "IslandSouth.SetupIslandSchedules()".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_IslandVisit": prefixing SDV method "IslandSouth.CanVisitIslandToday(NPC)".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_PerfectionFriendship": transpiling SDV method "Utility.getMaxedFriendshipPercent(Farmer)".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_MovieInvitation": transpiling SDV method "NPC.tryToReceiveActiveObject(Farmer)".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_Greetings": prefixing SDV method "NPC.sayHiTo(Character)".
+[16:44:14 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_BirthdayCalendar": transpiling SDV constructor "Billboard(bool)".
+[16:44:14 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_UpdateCursorOverPlacedItem": postfixing SDV method "Utility.canGrabSomethingFromHere(int, int, Farmer)".
+[16:44:14 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": prefixing SDV method "GameLocation.isCollidingPosition".
+[16:44:14 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": transpiling SDV method "GameLocation.isTemp".
+[16:44:14 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": prefixing SDV method "Monster.findPlayer".
+[16:44:15 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_ToggleExtraLoot": postfixing 12 implementations of SDV method "Monster.getExtraDropitems()".
+[16:44:15 TRACE Extra Map Layers] Transpiling Layer_DrawNormal
+[16:44:15 TRACE Extra Map Layers] switching equals to startswith for layer id
+[16:44:15 INFO  StardewHack] Loaded StardewHack library v6.0.0 using Harmony v2.2.2.0.
+[16:44:15 INFO  Shop Tile Framework] Adding Content Packs...
+[16:44:15 TRACE SMAPI]    Found mod-provided API (ShopTileFramework.API.STFApi).
+[16:44:15 TRACE SMAPI]    Found mod-provided API (SAAT.API.AudioManager).
+[16:44:16 TRACE SMAPI]    Found mod-provided API (BetterRanching.BetterRanchingApi).
+[16:44:16 TRACE SMAPI]    Found mod-provided API (ExperienceBars.Api).
+[16:44:16 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:44:16 TRACE SMAPI] Invalidated 0 cache entries.
+[16:44:16 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:44:16 TRACE SMAPI] Invalidated 0 cache entries.
+[16:44:16 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:44:16 TRACE SMAPI] Invalidated 0 cache entries.
+[16:44:16 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:44:16 TRACE SMAPI] Invalidated 0 cache entries.
+[16:44:16 TRACE SMAPI]    Found mod-provided API (BetterJunimos.BetterJunimosApi).
+[16:44:16 DEBUG SMAPI] Mods loaded and ready!
+[16:44:16 TRACE SMAPI] Checking for updates...
+[16:44:17 TRACE SMAPI] Dynamic Game Assets edited Data/ObjectInformation.
+[16:44:18 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[16:44:18 ALERT SMAPI] You can update SMAPI to 3.18.4: https://smapi.io
+[16:44:18 TRACE SMAPI]    Checking for updates to 35 mods...
+[16:44:19 WARN  SMAPI] Better Friendship uses deprecated code (using System.Runtime.Caching without bundling it) and will break in the next major SMAPI update.
+[16:44:19 WARN  SMAPI] Custom NPC Exclusions uses deprecated code (IAssetLoader) and will break in the next major SMAPI update.
+[16:44:19 TRACE SMAPI] Detecting common issues...
+[16:44:19 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
+[16:44:19 TRACE SMAPI] Got update-check errors for some mods:
    (CP) Better Junimos Config Wizard: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
    SAAT.Mod: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
 
-[17:37:58 ALERT SMAPI] You can update 1 mod:
-[17:37:58 ALERT SMAPI]    Elle's Farmhouse Pride 1.0.3: https://www.nexusmods.com/stardewvalley/mods/14764 (you have 1.0.2)
-[17:37:58 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
-[17:37:59 WARN  SMAPI] Better Friendship uses deprecated code (using System.Runtime.Caching without bundling it) and will break in the next major SMAPI update.
-[17:37:59 WARN  SMAPI] Custom NPC Exclusions uses deprecated code (IAssetLoader) and will break in the next major SMAPI update.
-[17:37:59 TRACE SMAPI] Detecting common issues...
-[17:37:59 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
-[17:37:59 TRACE SpaceCore] Accessed mod-provided API (ExperienceBars.Api) for Experience Bars.
-[17:37:59 TRACE SpaceCore] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:37:59 TRACE Json Assets] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
-[17:37:59 TRACE Json Assets] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
-[17:37:59 TRACE Json Assets] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
-[17:38:00 TRACE Dynamic Game Assets] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
-[17:38:00 TRACE Dynamic Game Assets] Accessed mod-provided API (SpaceCore.Api) for SpaceCore.
-[17:38:00 TRACE Alternative Textures] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
-[17:38:00 DEBUG Alternative Textures] Successfully hooked into spacechase0.JsonAssets.
-[17:38:00 TRACE Alternative Textures] Accessed mod-provided API (DynamicGameAssets.Api) for Dynamic Game Assets.
-[17:38:00 DEBUG Alternative Textures] Successfully hooked into spacechase0.DynamicGameAssets.
-[17:38:00 TRACE Alternative Textures] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
-[17:38:00 DEBUG Alternative Textures] Successfully hooked into Pathoschild.ContentPatcher.
-[17:38:00 DEBUG Alternative Textures] Loading textures from pack: Pretty Pride Flags 1.0.0 by Brighterbats
-[17:38:00 TRACE Alternative Textures] [Pretty Pride Flags] finished loading in 0.05 seconds
-[17:38:00 TRACE Alternative Textures] Finished loading all content packs in 0.05 seconds
-[17:38:00 DEBUG Alternative Textures] Finished loading Alternative Textures content packs
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'PaintBucket'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'Scissors'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'SprayCan'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'PaintBrush_Empty'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'PaintBrush_Filled'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBucket'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/Scissors'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/SprayCan'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBrush_Empty'.
-[17:38:00 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBrush_Filled'.
-[17:38:00 TRACE Alternative Textures] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 DEBUG Alternative Textures] Successfully hooked into spacechase0.GenericModConfigMenu.
-[17:38:00 INFO  Generic Mod Config Menu] PeacefulEnd.AlternativeTextures (registering for PeacefulEnd.AlternativeTextures) is using deprecated code (RegisterLabel) that will break in a future version of GMCM.
-[17:38:00 TRACE Chests Anywhere] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 TRACE Upgrade Empty Cabins] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 INFO  Generic Mod Config Menu] Cherry.UpgradeEmptyCabins (registering for Cherry.UpgradeEmptyCabins) is using deprecated code (RegisterModConfig) that will break in a future version of GMCM.
-[17:38:00 TRACE Mail Framework Mod] Accessed mod-provided API (DynamicGameAssets.Api) for Dynamic Game Assets.
-[17:38:00 TRACE Mail Framework Mod] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
-[17:38:00 TRACE Farm Type Manager] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 TRACE Farm Type Manager] Optional API found: Generic Mod Config Menu (GMCM).
-[17:38:00 INFO  Generic Mod Config Menu] Esca.FarmTypeManager (registering for Esca.FarmTypeManager) is using deprecated code (RegisterModConfig) that will break in a future version of GMCM.
-[17:38:00 TRACE Farm Type Manager] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
-[17:38:00 TRACE Farm Type Manager] Optional API found: Expanded Preconditions Utility (EPU).
-[17:38:00 TRACE Farm Type Manager] Accessed mod-provided API (DynamicGameAssets.Api) for Dynamic Game Assets.
-[17:38:00 TRACE Farm Type Manager] Optional API found: Dynamic Game Assets (DGA).
-[17:38:00 TRACE Farm Type Manager] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
-[17:38:00 TRACE Farm Type Manager] API found: Content Patcher (CP).
-[17:38:00 TRACE Farm Type Manager] Mod not found: Monsters The Framework (MTF).
-[17:38:00 TRACE Extra Map Layers] device type StardewModdingAPI.Framework.Rendering.SDisplayDevice
-[17:38:00 TRACE Shop Tile Framework] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
-[17:38:00 TRACE Shop Tile Framework] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
-[17:38:00 INFO  Shop Tile Framework] BFAV API not detected. This is only an issue if you're using custom BFAV animals and a custom shop that's supposed to sell them, as custom animals will not appear in those shops.
-[17:38:00 TRACE SAAT.Mod] Accessed mod-provided API (SAAT.API.AudioManager) for SAAT.API.
-[17:38:00 TRACE Lookup Anything] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
-[17:38:00 TRACE Lookup Anything] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 TRACE Better Friendship] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 INFO  Generic Mod Config Menu] BetterFriendship (registering for BetterFriendship) is using deprecated code (AddNumberOption(IManifest mod, Func<int> getValue, Action<int> setValue, Func<string> name = null, Func<string> tooltip = null, int? min = null, int? max = null, int? interval = null, string fieldId = null)) that will break in a future version of GMCM.
-[17:38:00 TRACE Better Ranching] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 TRACE UI Info Suite 2] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 TRACE Experience Bars] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 TRACE Better Junimos] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
-[17:38:00 TRACE Better Junimos] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:00 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
-[17:38:00 TRACE SMAPI] Invalidated 0 cache entries.
-[17:38:00 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
-[17:38:00 TRACE SMAPI] Invalidated 0 cache entries.
-[17:38:00 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
-[17:38:00 TRACE SMAPI] Invalidated 0 cache entries.
-[17:38:00 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
-[17:38:00 TRACE SMAPI] Invalidated 0 cache entries.
-[17:38:01 TRACE Content Patcher] Better Junimos added a custom token with prefix 'hawkfalcon.BetterJunimos/': JunimoHuts.
-[17:38:01 TRACE Content Patcher] Alternative Textures added 2 custom tokens with prefix 'PeacefulEnd.AlternativeTextures/': Textures, Tools.
-[17:38:01 TRACE Content Patcher] Json Assets added 25 custom tokens with prefix 'spacechase0.JsonAssets/': BigCraftableId, BigCraftableSpriteTilesheet, BigCraftableSpriteX, BigCraftableSpriteY, ClothingId, CropId, CropSpriteTilesheet, CropSpriteX, CropSpriteY, FruitTreeId, FruitTreeSpriteTilesheet, FruitTreeSpriteX, FruitTreeSpriteY, HatId, HatSpriteTilesheet, HatSpriteX, HatSpriteY, ObjectId, ObjectSpriteTilesheet, ObjectSpriteX, ObjectSpriteY, WeaponId, WeaponSpriteTilesheet, WeaponSpriteX, WeaponSpriteY.
-[17:38:02 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
-[17:38:02 TRACE SMAPI] Content Patcher edited TileSheets/furniture (for the 'Content Patcher Pride Flags' content pack).
-[17:38:02 TRACE SMAPI] Invalidated 1 asset names (TileSheets/furniture).
+[16:44:19 ALERT SMAPI] You can update 9 mods:
+[16:44:19 ALERT SMAPI]    Chests Anywhere 1.22.7: https://www.nexusmods.com/stardewvalley/mods/518 (you have 1.22.6)
+[16:44:19 ALERT SMAPI]    CJB Cheats Menu 1.33.1: https://www.nexusmods.com/stardewvalley/mods/4 (you have 1.33.0)
+[16:44:19 ALERT SMAPI]    CJB Item Spawner 2.2.5: https://www.nexusmods.com/stardewvalley/mods/93 (you have 2.2.3)
+[16:44:19 ALERT SMAPI]    Content Patcher 1.29.3: https://www.nexusmods.com/stardewvalley/mods/1915 (you have 1.29.1)
+[16:44:19 ALERT SMAPI]    Elle's Farmhouse Pride 1.0.3: https://www.nexusmods.com/stardewvalley/mods/14764 (you have 1.0.2)
+[16:44:19 ALERT SMAPI]    Generic Mod Config Menu 1.11.1: https://www.nexusmods.com/stardewvalley/mods/5098 (you have 1.11.0)
+[16:44:19 ALERT SMAPI]    Lookup Anything 1.40.0: https://www.nexusmods.com/stardewvalley/mods/541 (you have 1.39.0)
+[16:44:19 ALERT SMAPI]    NPC Map Locations 2.11.5: https://www.nexusmods.com/stardewvalley/mods/239 (you have 2.11.3)
+[16:44:19 ALERT SMAPI]    SpaceCore 1.13.2: https://www.nexusmods.com/stardewvalley/mods/1348 (you have 1.13.0)
+[16:44:19 TRACE SpaceCore] Accessed mod-provided API (ExperienceBars.Api) for Experience Bars.
+[16:44:19 TRACE SpaceCore] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:19 TRACE Json Assets] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
+[16:44:19 TRACE Json Assets] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[16:44:19 TRACE Json Assets] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
+[16:44:19 TRACE Dynamic Game Assets] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[16:44:19 TRACE Dynamic Game Assets] Accessed mod-provided API (SpaceCore.Api) for SpaceCore.
+[16:44:19 TRACE Alternative Textures] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
+[16:44:19 DEBUG Alternative Textures] Successfully hooked into spacechase0.JsonAssets.
+[16:44:19 TRACE Alternative Textures] Accessed mod-provided API (DynamicGameAssets.Api) for Dynamic Game Assets.
+[16:44:19 DEBUG Alternative Textures] Successfully hooked into spacechase0.DynamicGameAssets.
+[16:44:19 TRACE Alternative Textures] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[16:44:19 DEBUG Alternative Textures] Successfully hooked into Pathoschild.ContentPatcher.
+[16:44:19 DEBUG Alternative Textures] Loading textures from pack: Pretty Pride Flags 1.0.0 by Brighterbats
+[16:44:19 TRACE Alternative Textures] [Pretty Pride Flags] finished loading in 0.05 seconds
+[16:44:19 TRACE Alternative Textures] Finished loading all content packs in 0.05 seconds
+[16:44:19 DEBUG Alternative Textures] Finished loading Alternative Textures content packs
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'PaintBucket'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'Scissors'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'SprayCan'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'PaintBrush_Empty'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'PaintBrush_Filled'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBucket'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/Scissors'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/SprayCan'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBrush_Empty'.
+[16:44:19 TRACE SMAPI] Alternative Textures loaded asset 'AlternativeTextures/Tools/PaintBrush_Filled'.
+[16:44:19 TRACE Alternative Textures] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:19 DEBUG Alternative Textures] Successfully hooked into spacechase0.GenericModConfigMenu.
+[16:44:19 INFO  Generic Mod Config Menu] PeacefulEnd.AlternativeTextures (registering for PeacefulEnd.AlternativeTextures) is using deprecated code (RegisterLabel) that will break in a future version of GMCM.
+[16:44:20 TRACE Chests Anywhere] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 TRACE Upgrade Empty Cabins] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 INFO  Generic Mod Config Menu] Cherry.UpgradeEmptyCabins (registering for Cherry.UpgradeEmptyCabins) is using deprecated code (RegisterModConfig) that will break in a future version of GMCM.
+[16:44:20 TRACE Mail Framework Mod] Accessed mod-provided API (DynamicGameAssets.Api) for Dynamic Game Assets.
+[16:44:20 TRACE Mail Framework Mod] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
+[16:44:20 TRACE Farm Type Manager] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 TRACE Farm Type Manager] Optional API found: Generic Mod Config Menu (GMCM).
+[16:44:20 INFO  Generic Mod Config Menu] Esca.FarmTypeManager (registering for Esca.FarmTypeManager) is using deprecated code (RegisterModConfig) that will break in a future version of GMCM.
+[16:44:20 TRACE Farm Type Manager] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
+[16:44:20 TRACE Farm Type Manager] Optional API found: Expanded Preconditions Utility (EPU).
+[16:44:20 TRACE Farm Type Manager] Accessed mod-provided API (DynamicGameAssets.Api) for Dynamic Game Assets.
+[16:44:20 TRACE Farm Type Manager] Optional API found: Dynamic Game Assets (DGA).
+[16:44:20 TRACE Farm Type Manager] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[16:44:20 TRACE Farm Type Manager] API found: Content Patcher (CP).
+[16:44:20 TRACE Farm Type Manager] Mod not found: Monsters The Framework (MTF).
+[16:44:20 TRACE Extra Map Layers] device type StardewModdingAPI.Framework.Rendering.SDisplayDevice
+[16:44:20 TRACE Shop Tile Framework] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
+[16:44:20 TRACE Shop Tile Framework] Accessed mod-provided API (ExpandedPreconditionsUtility.ConditionsChecker) for Expanded Preconditions Utility.
+[16:44:20 INFO  Shop Tile Framework] BFAV API not detected. This is only an issue if you're using custom BFAV animals and a custom shop that's supposed to sell them, as custom animals will not appear in those shops.
+[16:44:20 TRACE SAAT.Mod] Accessed mod-provided API (SAAT.API.AudioManager) for SAAT.API.
+[16:44:20 TRACE Lookup Anything] Accessed mod-provided API (JsonAssets.Api) for Json Assets.
+[16:44:20 TRACE Lookup Anything] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 TRACE Better Friendship] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 INFO  Generic Mod Config Menu] BetterFriendship (registering for BetterFriendship) is using deprecated code (AddNumberOption(IManifest mod, Func<int> getValue, Action<int> setValue, Func<string> name = null, Func<string> tooltip = null, int? min = null, int? max = null, int? interval = null, string fieldId = null)) that will break in a future version of GMCM.
+[16:44:20 TRACE Better Ranching] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 TRACE UI Info Suite 2] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 TRACE Experience Bars] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 TRACE Better Junimos] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[16:44:20 TRACE Better Junimos] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:20 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:44:20 TRACE SMAPI] Invalidated 0 cache entries.
+[16:44:20 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:44:20 TRACE SMAPI] Invalidated 0 cache entries.
+[16:44:20 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:44:20 TRACE SMAPI] Invalidated 0 cache entries.
+[16:44:20 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:44:20 TRACE SMAPI] Invalidated 0 cache entries.
+[16:44:20 TRACE Content Patcher] Better Junimos added a custom token with prefix 'hawkfalcon.BetterJunimos/': JunimoHuts.
+[16:44:20 TRACE Content Patcher] Alternative Textures added 2 custom tokens with prefix 'PeacefulEnd.AlternativeTextures/': Textures, Tools.
+[16:44:20 TRACE Content Patcher] Json Assets added 25 custom tokens with prefix 'spacechase0.JsonAssets/': BigCraftableId, BigCraftableSpriteTilesheet, BigCraftableSpriteX, BigCraftableSpriteY, ClothingId, CropId, CropSpriteTilesheet, CropSpriteX, CropSpriteY, FruitTreeId, FruitTreeSpriteTilesheet, FruitTreeSpriteX, FruitTreeSpriteY, HatId, HatSpriteTilesheet, HatSpriteX, HatSpriteY, ObjectId, ObjectSpriteTilesheet, ObjectSpriteX, ObjectSpriteY, WeaponId, WeaponSpriteTilesheet, WeaponSpriteX, WeaponSpriteY.
+[16:44:21 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[16:44:21 TRACE SMAPI] Content Patcher edited TileSheets/furniture (for the 'Content Patcher Pride Flags' content pack).
+[16:44:21 TRACE SMAPI] Invalidated 1 asset names (TileSheets/furniture).
 Propagated 1 core assets (TileSheets/furniture).
-[17:38:02 TRACE Content Patcher] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
-[17:38:02 TRACE Generic Mod Config Menu] Pathoschild.ContentPatcher is registering on behalf of Elle.FarmhousePride
-[17:38:02 TRACE Generic Mod Config Menu] Pathoschild.ContentPatcher is registering on behalf of eorrl.cpPrideFlags
-[17:38:02 INFO  Json Assets] Loading content packs...
-[17:38:02 INFO  Json Assets] 	Moro's Pride shirts 2.0.0 by Mixter Moro - Pride Shirts for your farmer!
-[17:38:02 TRACE Json Assets] Event: ItemsRegistered
-[17:38:07 TRACE SMAPI] Generic Mod Config Menu loaded asset 'Mods/GenericModConfigMenu/ConfigButton'.
-[17:38:07 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[17:38:09 TRACE SMAPI] Better Junimos edited Data/Blueprints.
-[17:38:14 TRACE game] Galaxy auth failure: FAILURE_REASON_GALAXY_SERVICE_NOT_AVAILABLE
-[17:38:32 TRACE SMAPI] Synchronizing 'Find Save Games' task...
-[17:38:32 TRACE SpaceCore] Reinitializing serializers for 17 mod types...
-[17:38:49 TRACE SMAPI]    task complete.
-[17:39:01 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
-[17:39:01 TRACE SMAPI] Game loader synchronizing...
-[17:39:01 TRACE game] getLoadEnumerator('Liv_314128530')
-[17:39:02 TRACE game] regular stream detected...
-[17:39:02 TRACE SMAPI] Synchronizing 'Load_Deserialize' task...
-[17:39:15 TRACE SMAPI]    task complete.
-[17:39:15 TRACE Json Assets] Assigning objects ids starting at 3000: 0 items
-[17:39:15 TRACE Json Assets] Assigning crops ids starting at 100: 0 items
-[17:39:15 TRACE Json Assets] Assigning fruittrees ids starting at 10: 0 items
-[17:39:15 TRACE Json Assets] Assigning big-craftables ids starting at 300: 0 items
-[17:39:15 TRACE Json Assets] Assigning hats ids starting at 160: 0 items
-[17:39:15 TRACE Json Assets] Assigning weapons ids starting at 128: 0 items
-[17:39:15 TRACE Json Assets] Assigning clothing ids starting at 3000: 51 items
-[17:39:15 TRACE Json Assets] Resetting max shirt/pants value
-[17:39:15 TRACE Json Assets] Content Injector 1 initialized with 2 assets.
-[17:39:15 TRACE Json Assets] Resolving Crop and Tree product Ids
-[17:39:15 TRACE Json Assets] Event: IdsAssigned
-[17:39:15 TRACE Json Assets] Requested cache invalidation for all assets matching a predicate.
-[17:39:15 TRACE Json Assets] Shirts are now (256, 4096)
-[17:39:15 TRACE SMAPI] Json Assets edited Characters/Farmer/shirts.
-[17:39:15 TRACE SMAPI] Json Assets edited Data/ClothingInformation.
-[17:39:15 TRACE SMAPI] Invalidated 2 asset names (Characters/Farmer/shirts, Data/ClothingInformation).
+[16:44:21 TRACE Content Patcher] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[16:44:21 TRACE Generic Mod Config Menu] Pathoschild.ContentPatcher is registering on behalf of Elle.FarmhousePride
+[16:44:22 TRACE Generic Mod Config Menu] Pathoschild.ContentPatcher is registering on behalf of eorrl.cpPrideFlags
+[16:44:22 INFO  Json Assets] Loading content packs...
+[16:44:22 INFO  Json Assets] 	Moro's Pride shirts 2.0.0 by Mixter Moro - Pride Shirts for your farmer!
+[16:44:22 TRACE Json Assets] Event: ItemsRegistered
+[16:44:24 TRACE SMAPI] Generic Mod Config Menu loaded asset 'Mods/GenericModConfigMenu/ConfigButton'.
+[16:44:24 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
+[16:44:34 TRACE game] Galaxy auth failure: FAILURE_REASON_GALAXY_SERVICE_NOT_AVAILABLE
+[16:45:02 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[16:45:04 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:200 Y:165 Width:1280 Height:720}
+[16:46:00 TRACE SMAPI] Synchronizing 'Find Save Games' task...
+[16:46:00 TRACE SpaceCore] Reinitializing serializers for 17 mod types...
+[16:46:11 TRACE SMAPI]    task complete.
+[16:46:31 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
+[16:46:31 TRACE SMAPI] Game loader synchronizing...
+[16:46:31 TRACE game] getLoadEnumerator('Liv_314128530')
+[16:46:32 TRACE game] regular stream detected...
+[16:46:32 TRACE SMAPI] Synchronizing 'Load_Deserialize' task...
+[16:46:43 TRACE SMAPI]    task complete.
+[16:46:43 TRACE Json Assets] Assigning objects ids starting at 3000: 0 items
+[16:46:43 TRACE Json Assets] Assigning crops ids starting at 100: 0 items
+[16:46:43 TRACE Json Assets] Assigning fruittrees ids starting at 10: 0 items
+[16:46:43 TRACE Json Assets] Assigning big-craftables ids starting at 300: 0 items
+[16:46:43 TRACE Json Assets] Assigning hats ids starting at 160: 0 items
+[16:46:43 TRACE Json Assets] Assigning weapons ids starting at 128: 0 items
+[16:46:43 TRACE Json Assets] Assigning clothing ids starting at 3000: 51 items
+[16:46:43 TRACE Json Assets] Resetting max shirt/pants value
+[16:46:43 TRACE Json Assets] Content Injector 1 initialized with 2 assets.
+[16:46:43 TRACE Json Assets] Resolving Crop and Tree product Ids
+[16:46:43 TRACE Json Assets] Event: IdsAssigned
+[16:46:43 TRACE Json Assets] Requested cache invalidation for all assets matching a predicate.
+[16:46:43 TRACE Json Assets] Shirts are now (256, 4096)
+[16:46:43 TRACE SMAPI] Json Assets edited Characters/Farmer/shirts.
+[16:46:43 TRACE SMAPI] Json Assets edited Data/ClothingInformation.
+[16:46:43 TRACE SMAPI] Invalidated 2 asset names (Characters/Farmer/shirts, Data/ClothingInformation).
 Propagated 2 core assets (Characters/Farmer/shirts, Data/ClothingInformation).
-[17:39:15 TRACE Json Assets] Requested cache invalidation for 'Data/NPCGiftTastes'.
-[17:39:15 TRACE Json Assets] Generating gift taste dictionary.
-[17:39:15 TRACE SMAPI] Json Assets edited Data/NPCGiftTastes.
-[17:39:15 TRACE SMAPI] Invalidated 1 asset names (Data/NPCGiftTastes).
+[16:46:43 TRACE Json Assets] Requested cache invalidation for 'Data/NPCGiftTastes'.
+[16:46:43 TRACE Json Assets] Generating gift taste dictionary.
+[16:46:43 TRACE SMAPI] Json Assets edited Data/NPCGiftTastes.
+[16:46:43 TRACE SMAPI] Invalidated 1 asset names (Data/NPCGiftTastes).
 Propagated 1 core assets (Data/NPCGiftTastes).
-[17:39:15 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
-[17:39:15 TRACE SMAPI] Invalidated 0 cache entries.
-[17:39:15 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
-[17:39:16 TRACE SMAPI] Content Patcher edited Data/Furniture (for the 'Content Patcher Pride Flags' content pack).
-[17:39:18 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
-[17:39:18 TRACE SpaceCore] Event: OnBlankSave
-[17:39:18 TRACE SMAPI]    task complete.
-[17:39:18 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
-[17:39:18 TRACE SMAPI]    task complete.
-[17:39:18 TRACE SMAPI] Synchronizing 'Load_Locations' task...
-[17:39:21 TRACE SMAPI]    task complete.
-[17:39:21 TRACE Json Assets] Nothing has changed, deshuffling unnecessary.
-[17:39:21 TRACE Json Assets] Event: IdsFixed
-[17:39:21 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
-[17:39:21 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:19.8043937'
-[17:39:21 TRACE game] setupEventCommands() registered '130' methods
-[17:39:21 TRACE SMAPI] Game loader done.
-[17:39:22 TRACE Json Assets] Adding default/leveled recipes
-[17:39:22 TRACE SMAPI] Content Patcher edited Buildings/houses (for the 'Elle's Farmhouse Pride' content pack).
-[17:39:22 TRACE SMAPI] Content Patcher edited Buildings/houses_PaintMask (for the 'Elle's Farmhouse Pride' content pack).
-[17:39:22 WARN  SMAPI] Custom NPC Exclusions uses deprecated code (IModHelper.Content) and will break in the next major SMAPI update.
-[17:39:22 DEBUG SMAPI]    at CustomNPCExclusions.ModEntry.get_ExclusionData()
+[16:46:43 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[16:46:43 TRACE SMAPI] Invalidated 0 cache entries.
+[16:46:43 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
+[16:46:44 TRACE SMAPI] Content Patcher edited Data/Furniture (for the 'Content Patcher Pride Flags' content pack).
+[16:46:46 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[16:46:46 TRACE SpaceCore] Event: OnBlankSave
+[16:46:46 TRACE SMAPI]    task complete.
+[16:46:46 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
+[16:46:46 TRACE SMAPI]    task complete.
+[16:46:47 TRACE SMAPI] Synchronizing 'Load_Locations' task...
+[16:46:50 TRACE SMAPI]    task complete.
+[16:46:50 TRACE Json Assets] Nothing has changed, deshuffling unnecessary.
+[16:46:50 TRACE Json Assets] Event: IdsFixed
+[16:46:50 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
+[16:46:50 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:18.9010182'
+[16:46:51 TRACE game] setupEventCommands() registered '130' methods
+[16:46:51 TRACE SMAPI] Game loader done.
+[16:46:51 TRACE Json Assets] Adding default/leveled recipes
+[16:46:51 TRACE SMAPI] Content Patcher edited Buildings/houses (for the 'Elle's Farmhouse Pride' content pack).
+[16:46:51 TRACE SMAPI] Content Patcher edited Buildings/houses_PaintMask (for the 'Elle's Farmhouse Pride' content pack).
+[16:46:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:200 Y:165 Width:1280 Height:720}
+[16:46:52 WARN  SMAPI] Custom NPC Exclusions uses deprecated code (IModHelper.Content) and will break in the next major SMAPI update.
+[16:46:52 DEBUG SMAPI]    at CustomNPCExclusions.ModEntry.get_ExclusionData()
    at CustomNPCExclusions.ModEntry.GetAllNPCExclusions(Boolean forceCacheUpdate)
    at CustomNPCExclusions.HarmonyPatch_SocializeQuest.SocializeQuest_loadQuestInfo(SocializeQuest __instance)
    at StardewValley.Quests.SocializeQuest.loadQuestInfo_PatchedBy<Esca.CustomNPCExclusions>(SocializeQuest this)
-[17:39:22 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[17:39:23 TRACE SMAPI] Context: loaded save 'Liv_314128530', starting spring 20 Y5, locale set to . Single-player.
-[17:39:23 TRACE SMAPI] NPC Map Locations loaded asset 'Mods/Bouhm.NPCMapLocations/NPCs'.
-[17:39:23 TRACE SMAPI] NPC Map Locations loaded asset 'Mods/Bouhm.NPCMapLocations/Locations'.
-[17:39:23 TRACE NPC Map Locations] Requested cache invalidation for 'LooseSprites/Map'.
-[17:39:23 TRACE SMAPI] Invalidated 0 cache entries.
-[17:39:23 TRACE NPC Map Locations] Using maps/_default/spring_map.png.
-[17:39:23 TRACE SMAPI] NPC Map Locations loaded asset 'LooseSprites/Map'.
-[17:39:24 TRACE Shop Tile Framework] Updating current language settings: en
-[17:39:24 TRACE SMAPI] Content Patcher edited Data/Furniture (for the 'Content Patcher Pride Flags' content pack).
-[17:39:24 INFO  UI Info Suite 2] Setting up icon sheet
-[17:39:24 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
-[17:39:24 TRACE SMAPI] Invalidated 0 cache entries.
-[17:39:24 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
-[17:39:24 TRACE SMAPI] Invalidated 0 cache entries.
-[17:39:24 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
-[17:39:24 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+[16:46:52 TRACE SMAPI] Context: loaded save 'Liv_314128530', starting fall 27 Y5, locale set to . Single-player.
+[16:46:52 TRACE SMAPI] NPC Map Locations loaded asset 'Mods/Bouhm.NPCMapLocations/NPCs'.
+[16:46:52 TRACE SMAPI] NPC Map Locations loaded asset 'Mods/Bouhm.NPCMapLocations/Locations'.
+[16:46:52 TRACE NPC Map Locations] Requested cache invalidation for 'LooseSprites/Map'.
+[16:46:52 TRACE SMAPI] Invalidated 0 cache entries.
+[16:46:52 TRACE NPC Map Locations] Using maps/_default/fall_map.png.
+[16:46:52 TRACE SMAPI] NPC Map Locations loaded asset 'LooseSprites/Map'.
+[16:46:53 TRACE Shop Tile Framework] Updating current language settings: en
+[16:46:53 TRACE SMAPI] Content Patcher edited Data/Furniture (for the 'Content Patcher Pride Flags' content pack).
+[16:46:53 INFO  UI Info Suite 2] Setting up icon sheet
+[16:46:53 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[16:46:53 TRACE SMAPI] Invalidated 0 cache entries.
+[16:46:53 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[16:46:53 TRACE SMAPI] Invalidated 0 cache entries.
+[16:46:53 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[16:46:53 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
 Propagated 0 core assets ().
-[17:39:24 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
-[17:39:24 TRACE SMAPI] Invalidated 0 cache entries.
-[17:39:24 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
-[17:39:24 TRACE SMAPI] Invalidated 0 cache entries.
-[17:39:24 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
-[17:39:24 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+[16:46:53 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[16:46:53 TRACE SMAPI] Invalidated 0 cache entries.
+[16:46:53 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[16:46:53 TRACE SMAPI] Invalidated 0 cache entries.
+[16:46:53 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[16:46:53 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
 Propagated 1 core assets (Data/CraftingRecipes).
-[17:39:24 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
-[17:39:24 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+[16:46:53 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[16:46:53 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
 Propagated 1 core assets (Data/CookingRecipes).
-[17:39:24 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
-[17:39:24 TRACE SMAPI] Content Patcher edited Characters/Dialogue/Wizard (for the '(CP) Better Junimos Config Wizard' content pack).
-[17:39:24 TRACE Farm Type Manager] Day is starting. Loading config data.
-[17:39:24 TRACE Farm Type Manager] Beginning file loading process...
-[17:39:24 TRACE Farm Type Manager] All available content packs checked.
-[17:39:24 TRACE Farm Type Manager] Loading files from FarmTypeManager/data
-[17:39:24 TRACE Farm Type Manager] Validating data from FarmTypeManager/data
-[17:39:24 TRACE Farm Type Manager] Checking for duplicate UniqueAreaIDs...
-[17:39:24 TRACE Farm Type Manager] Assigning new UniqueAreaIDs to any blanks or duplicates...
-[17:39:24 TRACE Farm Type Manager] Validation complete for data from FarmTypeManager/data
-[17:39:25 TRACE Farm Type Manager] Checking file conditions...
-[17:39:25 TRACE Farm Type Manager] FarmTypeManager/data farm data loaded successfully.
-[17:39:25 TRACE Farm Type Manager] Checking for saved objects that went missing overnight.
-[17:39:25 TRACE Farm Type Manager] Missing objects: 0. Respawned: 0. Not respawned due to obstructions: 0. Skipped due to missing maps: 0. Skipped due to missing item types: 0.
-[17:39:25 TRACE Farm Type Manager] Starting forage generation for this file: FarmTypeManager/data/Liv_314128530.json
-[17:39:25 TRACE Farm Type Manager] Forage generation is disabled for this file.
-[17:39:25 TRACE Farm Type Manager] All files and content packs checked. Forage generation process complete.
-[17:39:25 TRACE Farm Type Manager] Starting large object generation for this file: FarmTypeManager/data/Liv_314128530.json
-[17:39:25 TRACE Farm Type Manager] Large object generation is disabled for this file.
-[17:39:25 TRACE Farm Type Manager] All files and content packs checked. Large object generation process complete.
-[17:39:25 TRACE Farm Type Manager] Starting ore generation for this file: FarmTypeManager/data/Liv_314128530.json
-[17:39:25 TRACE Farm Type Manager] Ore generation is disabled for this file.
-[17:39:25 TRACE Farm Type Manager] All files and content packs checked. Ore spawn process complete.
-[17:39:25 TRACE Farm Type Manager] Starting monster generation for this file: FarmTypeManager/data/Liv_314128530.json
-[17:39:25 TRACE Farm Type Manager] Monster generation is disabled for this file.
-[17:39:25 TRACE Farm Type Manager] All files and content packs checked. Monster generation process complete.
-[17:39:25 TRACE Farm Type Manager] Spawning objects set to appear at time: 600...
-[17:39:25 TRACE Farm Type Manager] Spawn process complete. Time: 600. Total objects spawned: 0.
-[17:39:25 WARN  SMAPI] Shop Tile Framework uses deprecated code (IModHelper.Content) and will break in the next major SMAPI update.
-[17:39:25 DEBUG SMAPI]    at ShopTileFramework.Utility.ItemsUtil.UpdateObjectInfoSource()
+[16:46:53 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[16:46:53 TRACE Farm Type Manager] Day is starting. Loading config data.
+[16:46:53 TRACE Farm Type Manager] Beginning file loading process...
+[16:46:53 TRACE Farm Type Manager] All available content packs checked.
+[16:46:53 TRACE Farm Type Manager] Loading files from FarmTypeManager/data
+[16:46:53 TRACE Farm Type Manager] Validating data from FarmTypeManager/data
+[16:46:53 TRACE Farm Type Manager] Checking for duplicate UniqueAreaIDs...
+[16:46:53 TRACE Farm Type Manager] Assigning new UniqueAreaIDs to any blanks or duplicates...
+[16:46:53 TRACE Farm Type Manager] Validation complete for data from FarmTypeManager/data
+[16:46:53 TRACE Farm Type Manager] Checking file conditions...
+[16:46:53 TRACE Farm Type Manager] FarmTypeManager/data farm data loaded successfully.
+[16:46:53 TRACE Farm Type Manager] Checking for saved objects that went missing overnight.
+[16:46:53 TRACE Farm Type Manager] Missing objects: 0. Respawned: 0. Not respawned due to obstructions: 0. Skipped due to missing maps: 0. Skipped due to missing item types: 0.
+[16:46:53 TRACE Farm Type Manager] Starting forage generation for this file: FarmTypeManager/data/Liv_314128530.json
+[16:46:53 TRACE Farm Type Manager] Forage generation is disabled for this file.
+[16:46:53 TRACE Farm Type Manager] All files and content packs checked. Forage generation process complete.
+[16:46:53 TRACE Farm Type Manager] Starting large object generation for this file: FarmTypeManager/data/Liv_314128530.json
+[16:46:53 TRACE Farm Type Manager] Large object generation is disabled for this file.
+[16:46:53 TRACE Farm Type Manager] All files and content packs checked. Large object generation process complete.
+[16:46:53 TRACE Farm Type Manager] Starting ore generation for this file: FarmTypeManager/data/Liv_314128530.json
+[16:46:53 TRACE Farm Type Manager] Ore generation is disabled for this file.
+[16:46:53 TRACE Farm Type Manager] All files and content packs checked. Ore spawn process complete.
+[16:46:53 TRACE Farm Type Manager] Starting monster generation for this file: FarmTypeManager/data/Liv_314128530.json
+[16:46:53 TRACE Farm Type Manager] Monster generation is disabled for this file.
+[16:46:53 TRACE Farm Type Manager] All files and content packs checked. Monster generation process complete.
+[16:46:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 600...
+[16:46:54 TRACE Farm Type Manager] Spawn process complete. Time: 600. Total objects spawned: 0.
+[16:46:54 WARN  SMAPI] Shop Tile Framework uses deprecated code (IModHelper.Content) and will break in the next major SMAPI update.
+[16:46:54 DEBUG SMAPI]    at ShopTileFramework.Utility.ItemsUtil.UpdateObjectInfoSource()
    at ShopTileFramework.ModEntry.GameLoop_SaveLoaded(Object sender, SaveLoadedEventArgs e)
    at StardewModdingAPI.Framework.Events.ManagedEvent`1.Raise(TEventArgs args)
-[17:39:31 TRACE Farm Type Manager] Spawning objects set to appear at time: 610...
-[17:39:31 TRACE Farm Type Manager] Spawn process complete. Time: 610. Total objects spawned: 0.
-[17:39:38 TRACE Farm Type Manager] Spawning objects set to appear at time: 620...
-[17:39:38 TRACE Farm Type Manager] Spawn process complete. Time: 620. Total objects spawned: 0.
-[17:39:46 TRACE Farm Type Manager] Spawning objects set to appear at time: 630...
-[17:39:46 TRACE Farm Type Manager] Spawn process complete. Time: 630. Total objects spawned: 0.
-[17:39:50 TRACE SMAPI] Better Junimos edited Data/Blueprints.
-[17:40:02 TRACE Farm Type Manager] Spawning objects set to appear at time: 640...
-[17:40:02 TRACE Farm Type Manager] Spawn process complete. Time: 640. Total objects spawned: 0.
-[17:40:13 TRACE SMAPI] Mail Framework Mod edited Data/mail.
-[17:40:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[17:40:33 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[17:40:39 TRACE Farm Type Manager] Spawning objects set to appear at time: 650...
-[17:40:39 TRACE Farm Type Manager] Spawn process complete. Time: 650. Total objects spawned: 0.
-[17:40:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[17:41:20 TRACE Farm Type Manager] Spawning objects set to appear at time: 700...
-[17:41:20 TRACE Farm Type Manager] Spawn process complete. Time: 700. Total objects spawned: 0.
-[17:41:21 TRACE SMAPI] Content Patcher edited LooseSprites/Billboard (for the 'Add Berry Seasons to Calendar' content pack).
-[17:41:21 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
-[17:41:29 TRACE Farm Type Manager] Spawning objects set to appear at time: 710...
-[17:41:29 TRACE Farm Type Manager] Spawn process complete. Time: 710. Total objects spawned: 0.
-[17:41:32 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[17:41:38 TRACE Farm Type Manager] Spawning objects set to appear at time: 720...
-[17:41:38 TRACE Farm Type Manager] Spawn process complete. Time: 720. Total objects spawned: 0.
-[17:41:46 TRACE Farm Type Manager] Spawning objects set to appear at time: 730...
-[17:41:46 TRACE Farm Type Manager] Spawn process complete. Time: 730. Total objects spawned: 0.
-[17:41:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:19:22 TRACE Farm Type Manager] Spawning objects set to appear at time: 740...
-[18:19:22 TRACE Farm Type Manager] Spawn process complete. Time: 740. Total objects spawned: 0.
-[18:19:28 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:23:32 TRACE Farm Type Manager] Spawning objects set to appear at time: 750...
-[18:23:32 TRACE Farm Type Manager] Spawn process complete. Time: 750. Total objects spawned: 0.
-[18:23:39 TRACE Farm Type Manager] Spawning objects set to appear at time: 800...
-[18:23:39 TRACE Farm Type Manager] Spawn process complete. Time: 800. Total objects spawned: 0.
-[18:23:47 TRACE Farm Type Manager] Spawning objects set to appear at time: 810...
-[18:23:47 TRACE Farm Type Manager] Spawn process complete. Time: 810. Total objects spawned: 0.
-[18:23:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 820...
-[18:23:54 TRACE Farm Type Manager] Spawn process complete. Time: 820. Total objects spawned: 0.
-[18:24:01 TRACE Farm Type Manager] Spawning objects set to appear at time: 830...
-[18:24:01 TRACE Farm Type Manager] Spawn process complete. Time: 830. Total objects spawned: 0.
-[18:24:09 TRACE Farm Type Manager] Spawning objects set to appear at time: 840...
-[18:24:09 TRACE Farm Type Manager] Spawn process complete. Time: 840. Total objects spawned: 0.
-[18:24:09 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:24:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 850...
-[18:24:41 TRACE Farm Type Manager] Spawn process complete. Time: 850. Total objects spawned: 0.
-[18:24:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 900...
-[18:24:48 TRACE Farm Type Manager] Spawn process complete. Time: 900. Total objects spawned: 0.
-[18:24:55 TRACE Farm Type Manager] Spawning objects set to appear at time: 910...
-[18:24:55 TRACE Farm Type Manager] Spawn process complete. Time: 910. Total objects spawned: 0.
-[18:25:02 TRACE Farm Type Manager] Spawning objects set to appear at time: 920...
-[18:25:02 TRACE Farm Type Manager] Spawn process complete. Time: 920. Total objects spawned: 0.
-[18:25:07 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:25:13 TRACE Farm Type Manager] Spawning objects set to appear at time: 930...
-[18:25:13 TRACE Farm Type Manager] Spawn process complete. Time: 930. Total objects spawned: 0.
-[18:25:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:25:24 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:25:25 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:25:44 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:200 Y:165 Width:1280 Height:720}
-[18:25:54 INFO  SMAPI] $>set_backpack_size 36
-[18:25:54 INFO  Backpack Resizer] Set backpack size to 36
-[18:26:01 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:222 Y:199 Width:1280 Height:720}
-[18:26:04 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:26:33 TRACE Farm Type Manager] Spawning objects set to appear at time: 940...
-[18:26:33 TRACE Farm Type Manager] Spawn process complete. Time: 940. Total objects spawned: 0.
-[18:26:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 950...
-[18:26:41 TRACE Farm Type Manager] Spawn process complete. Time: 950. Total objects spawned: 0.
-[18:26:47 TRACE SpaceCore] Event: TouchActionActivated
-[18:26:52 TRACE Farm Type Manager] Spawning objects set to appear at time: 1000...
-[18:26:52 TRACE Farm Type Manager] Spawn process complete. Time: 1000. Total objects spawned: 0.
-[18:26:54 TRACE CJB Cheats Menu] Received menu open key.
-[18:28:17 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:2560 Height:1600}
-[18:28:20 TRACE game] Disconnected: ClosedGame
-[18:28:20 TRACE SMAPI] Disposing...
-[18:28:20 TRACE SMAPI] Disposing the content coordinator. Content managers will no longer be usable after this point.
+[16:47:00 TRACE Farm Type Manager] Spawning objects set to appear at time: 610...
+[16:47:00 TRACE Farm Type Manager] Spawn process complete. Time: 610. Total objects spawned: 0.
+[16:47:04 TRACE SMAPI] Mail Framework Mod edited Data/mail.
+[16:47:04 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:200 Y:165 Width:1280 Height:720}
+[16:47:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 620...
+[16:47:11 TRACE Farm Type Manager] Spawn process complete. Time: 620. Total objects spawned: 0.
+[16:47:11 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[16:47:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[16:47:47 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[16:48:04 TRACE Farm Type Manager] Spawning objects set to appear at time: 630...
+[16:48:04 TRACE Farm Type Manager] Spawn process complete. Time: 630. Total objects spawned: 0.
+[16:48:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 640...
+[16:48:11 TRACE Farm Type Manager] Spawn process complete. Time: 640. Total objects spawned: 0.
+[16:48:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 650...
+[16:48:19 TRACE Farm Type Manager] Spawn process complete. Time: 650. Total objects spawned: 0.
+[16:48:53 TRACE Farm Type Manager] Spawning objects set to appear at time: 700...
+[16:48:53 TRACE Farm Type Manager] Spawn process complete. Time: 700. Total objects spawned: 0.
+[16:48:55 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[16:48:57 TRACE SpaceCore] Event: TouchActionActivated
+[16:48:57 TRACE SpaceCore] Event: BeforeWarp
+[16:48:57 TRACE game] Warping to Cellar
+[16:48:59 TRACE SpaceCore] Event: BeforeWarp
+[16:48:59 TRACE game] Warping to Farmhouse
+[16:49:02 TRACE Farm Type Manager] Spawning objects set to appear at time: 710...
+[16:49:02 TRACE Farm Type Manager] Spawn process complete. Time: 710. Total objects spawned: 0.
+[16:49:03 TRACE SpaceCore] Event: BeforeWarp
+[16:49:03 TRACE game] Warping to Farm
+[16:49:04 TRACE SMAPI] Content Patcher edited Data/Events/Farm (for the '(CP) Better Junimos Config Wizard' content pack).
+[16:49:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 720...
+[16:49:11 TRACE Farm Type Manager] Spawn process complete. Time: 720. Total objects spawned: 0.
+[16:49:18 TRACE Farm Type Manager] Spawning objects set to appear at time: 730...
+[16:49:18 TRACE Farm Type Manager] Spawn process complete. Time: 730. Total objects spawned: 0.
+[16:49:26 TRACE Farm Type Manager] Spawning objects set to appear at time: 740...
+[16:49:26 TRACE Farm Type Manager] Spawn process complete. Time: 740. Total objects spawned: 0.
+[16:49:31 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[16:49:36 TRACE Farm Type Manager] Spawning objects set to appear at time: 750...
+[16:49:36 TRACE Farm Type Manager] Spawn process complete. Time: 750. Total objects spawned: 0.
+[16:49:41 TRACE SpaceCore] Event: BeforeWarp
+[16:49:41 TRACE game] Warping to Shed0a6bf4dc-22d1-4a75-b8a7-e30911b3ff3c
+[16:49:44 TRACE Farm Type Manager] Spawning objects set to appear at time: 800...
+[16:49:44 TRACE Farm Type Manager] Spawn process complete. Time: 800. Total objects spawned: 0.
+[16:49:44 TRACE SpaceCore] Event: BeforeWarp
+[16:49:44 TRACE game] Warping to Farm
+[16:49:49 TRACE SpaceCore] Event: BeforeWarp
+[16:49:49 TRACE game] Warping to Shedc5f3f2a9-506c-4746-8a48-744b604b1a48
+[16:49:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 810...
+[16:49:54 TRACE Farm Type Manager] Spawn process complete. Time: 810. Total objects spawned: 0.
+[16:50:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 820...
+[16:50:08 TRACE Farm Type Manager] Spawn process complete. Time: 820. Total objects spawned: 0.
+[16:50:24 TRACE Farm Type Manager] Spawning objects set to appear at time: 830...
+[16:50:24 TRACE Farm Type Manager] Spawn process complete. Time: 830. Total objects spawned: 0.
+[16:50:26 TRACE SpaceCore] Event: BeforeWarp
+[16:50:26 TRACE game] Warping to Farm
+[16:50:33 TRACE Farm Type Manager] Spawning objects set to appear at time: 840...
+[16:50:33 TRACE Farm Type Manager] Spawn process complete. Time: 840. Total objects spawned: 0.
+[16:50:40 TRACE Farm Type Manager] Spawning objects set to appear at time: 850...
+[16:50:40 TRACE Farm Type Manager] Spawn process complete. Time: 850. Total objects spawned: 0.
+[16:50:48 TRACE SMAPI] Content Patcher edited Characters/Dialogue/Wizard (for the '(CP) Better Junimos Config Wizard' content pack).
+[16:50:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 900...
+[16:50:48 TRACE Farm Type Manager] Spawn process complete. Time: 900. Total objects spawned: 0.
+[16:50:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[16:50:53 TRACE CJB Cheats Menu] Received menu open key.
+[16:52:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 910...
+[16:52:19 TRACE Farm Type Manager] Spawn process complete. Time: 910. Total objects spawned: 0.
+[16:52:25 TRACE SpaceCore] Event: BeforeWarp
+[16:52:25 TRACE game] Warping to Barn298ea78c-7e51-4686-a773-de20e7e7fbf8
+[16:52:36 TRACE CJB Item Spawner] Received menu open key, but a 'NamingMenu' menu is already open.
+[16:52:40 TRACE SpaceCore] Event: OnEventFinished
+[16:52:40 TRACE SpaceCore] Event: BeforeWarp
+[16:52:40 TRACE game] Warping to Barn298ea78c-7e51-4686-a773-de20e7e7fbf8
+[16:52:42 TRACE Farm Type Manager] Spawning objects set to appear at time: 920...
+[16:52:42 TRACE Farm Type Manager] Spawn process complete. Time: 920. Total objects spawned: 0.
+[16:52:53 TRACE Farm Type Manager] Spawning objects set to appear at time: 930...
+[16:52:53 TRACE Farm Type Manager] Spawn process complete. Time: 930. Total objects spawned: 0.
+[16:52:53 TRACE SpaceCore] Event: BeforeWarp
+[16:52:53 TRACE game] Warping to Farm
+[16:53:02 TRACE Farm Type Manager] Spawning objects set to appear at time: 940...
+[16:53:02 TRACE Farm Type Manager] Spawn process complete. Time: 940. Total objects spawned: 0.
+[16:53:09 TRACE Farm Type Manager] Spawning objects set to appear at time: 950...
+[16:53:09 TRACE Farm Type Manager] Spawn process complete. Time: 950. Total objects spawned: 0.
+[16:53:17 TRACE Farm Type Manager] Spawning objects set to appear at time: 1000...
+[16:53:17 TRACE Farm Type Manager] Spawn process complete. Time: 1000. Total objects spawned: 0.
+[16:53:24 TRACE Farm Type Manager] Spawning objects set to appear at time: 1010...
+[16:53:24 TRACE Farm Type Manager] Spawn process complete. Time: 1010. Total objects spawned: 0.
+[16:53:31 TRACE Farm Type Manager] Spawning objects set to appear at time: 1020...
+[16:53:31 TRACE Farm Type Manager] Spawn process complete. Time: 1020. Total objects spawned: 0.
+[16:53:38 TRACE Farm Type Manager] Spawning objects set to appear at time: 1030...
+[16:53:38 TRACE Farm Type Manager] Spawn process complete. Time: 1030. Total objects spawned: 0.
+[16:53:45 TRACE SpaceCore] Event: BeforeWarp
+[16:53:45 TRACE game] Warping to Barndf5c0c6d-fd3e-4717-a0e9-5a4d616e2a46
+[16:53:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 1040...
+[16:53:48 TRACE Farm Type Manager] Spawn process complete. Time: 1040. Total objects spawned: 0.
+[16:53:57 TRACE Farm Type Manager] Spawning objects set to appear at time: 1050...
+[16:53:57 TRACE Farm Type Manager] Spawn process complete. Time: 1050. Total objects spawned: 0.
+[16:54:05 TRACE Farm Type Manager] Spawning objects set to appear at time: 1100...
+[16:54:05 TRACE Farm Type Manager] Spawn process complete. Time: 1100. Total objects spawned: 0.
+[16:54:36 TRACE Farm Type Manager] Spawning objects set to appear at time: 1110...
+[16:54:36 TRACE Farm Type Manager] Spawn process complete. Time: 1110. Total objects spawned: 0.
+[16:54:44 TRACE CJB Item Spawner] Received menu open key.
+[16:54:56 TRACE Farm Type Manager] Spawning objects set to appear at time: 1120...
+[16:54:56 TRACE Farm Type Manager] Spawn process complete. Time: 1120. Total objects spawned: 0.
+[16:55:03 TRACE Farm Type Manager] Spawning objects set to appear at time: 1130...
+[16:55:03 TRACE Farm Type Manager] Spawn process complete. Time: 1130. Total objects spawned: 0.
+[16:55:10 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[16:55:10 TRACE Farm Type Manager] Spawning objects set to appear at time: 1140...
+[16:55:10 TRACE Farm Type Manager] Spawn process complete. Time: 1140. Total objects spawned: 0.
+[16:55:18 TRACE Farm Type Manager] Spawning objects set to appear at time: 1150...
+[16:55:18 TRACE Farm Type Manager] Spawn process complete. Time: 1150. Total objects spawned: 0.
+[16:55:25 TRACE Farm Type Manager] Spawning objects set to appear at time: 1200...
+[16:55:25 TRACE Farm Type Manager] Spawn process complete. Time: 1200. Total objects spawned: 0.
+[16:55:32 TRACE Farm Type Manager] Spawning objects set to appear at time: 1210...
+[16:55:32 TRACE Farm Type Manager] Spawn process complete. Time: 1210. Total objects spawned: 0.
+[16:55:40 TRACE Farm Type Manager] Spawning objects set to appear at time: 1220...
+[16:55:40 TRACE Farm Type Manager] Spawn process complete. Time: 1220. Total objects spawned: 0.
+[16:55:51 TRACE Farm Type Manager] Spawning objects set to appear at time: 1230...
+[16:55:51 TRACE Farm Type Manager] Spawn process complete. Time: 1230. Total objects spawned: 0.
+[16:56:00 TRACE Farm Type Manager] Spawning objects set to appear at time: 1240...
+[16:56:00 TRACE Farm Type Manager] Spawn process complete. Time: 1240. Total objects spawned: 0.
+[16:56:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 1250...
+[16:56:08 TRACE Farm Type Manager] Spawn process complete. Time: 1250. Total objects spawned: 0.
+[16:56:16 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[16:56:16 TRACE Farm Type Manager] Spawning objects set to appear at time: 1300...
+[16:56:16 TRACE Farm Type Manager] Spawn process complete. Time: 1300. Total objects spawned: 0.
+[16:56:23 TRACE SpaceCore] Event: BeforeWarp
+[16:56:23 TRACE game] Warping to Farm
+[16:56:25 TRACE Farm Type Manager] Spawning objects set to appear at time: 1310...
+[16:56:25 TRACE Farm Type Manager] Spawn process complete. Time: 1310. Total objects spawned: 0.
+[16:56:34 TRACE Farm Type Manager] Spawning objects set to appear at time: 1320...
+[16:56:34 TRACE Farm Type Manager] Spawn process complete. Time: 1320. Total objects spawned: 0.
+[16:56:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 1330...
+[16:56:41 TRACE Farm Type Manager] Spawn process complete. Time: 1330. Total objects spawned: 0.
+[16:56:45 TRACE SpaceCore] Event: BeforeWarp
+[16:56:45 TRACE game] Warping to Shed0a6bf4dc-22d1-4a75-b8a7-e30911b3ff3c
+[16:56:49 TRACE Farm Type Manager] Spawning objects set to appear at time: 1340...
+[16:56:49 TRACE Farm Type Manager] Spawn process complete. Time: 1340. Total objects spawned: 0.
+[16:56:59 TRACE CJB Item Spawner] Received menu open key.
+[16:57:06 TRACE Farm Type Manager] Spawning objects set to appear at time: 1350...
+[16:57:06 TRACE Farm Type Manager] Spawn process complete. Time: 1350. Total objects spawned: 0.
+[16:57:14 TRACE Farm Type Manager] Spawning objects set to appear at time: 1400...
+[16:57:14 TRACE Farm Type Manager] Spawn process complete. Time: 1400. Total objects spawned: 0.
+[16:57:21 TRACE Farm Type Manager] Spawning objects set to appear at time: 1410...
+[16:57:21 TRACE Farm Type Manager] Spawn process complete. Time: 1410. Total objects spawned: 0.
+[16:57:28 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[16:57:28 TRACE Farm Type Manager] Spawning objects set to appear at time: 1420...
+[16:57:28 TRACE Farm Type Manager] Spawn process complete. Time: 1420. Total objects spawned: 0.
+[16:57:35 TRACE Farm Type Manager] Spawning objects set to appear at time: 1430...
+[16:57:35 TRACE Farm Type Manager] Spawn process complete. Time: 1430. Total objects spawned: 0.
+[16:57:38 TRACE CJB Item Spawner] Received menu open key.
+[16:57:49 TRACE Farm Type Manager] Spawning objects set to appear at time: 1440...
+[16:57:49 TRACE Farm Type Manager] Spawn process complete. Time: 1440. Total objects spawned: 0.
+[16:57:57 TRACE Farm Type Manager] Spawning objects set to appear at time: 1450...
+[16:57:57 TRACE Farm Type Manager] Spawn process complete. Time: 1450. Total objects spawned: 0.
+[16:58:04 TRACE Farm Type Manager] Spawning objects set to appear at time: 1500...
+[16:58:04 TRACE Farm Type Manager] Spawn process complete. Time: 1500. Total objects spawned: 0.
+[16:58:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 1510...
+[16:58:11 TRACE Farm Type Manager] Spawn process complete. Time: 1510. Total objects spawned: 0.
+[16:58:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 1520...
+[16:58:19 TRACE Farm Type Manager] Spawn process complete. Time: 1520. Total objects spawned: 0.
+[16:58:26 TRACE Farm Type Manager] Spawning objects set to appear at time: 1530...
+[16:58:26 TRACE Farm Type Manager] Spawn process complete. Time: 1530. Total objects spawned: 0.
+[16:58:33 TRACE Farm Type Manager] Spawning objects set to appear at time: 1540...
+[16:58:33 TRACE Farm Type Manager] Spawn process complete. Time: 1540. Total objects spawned: 0.
+[16:58:40 TRACE Farm Type Manager] Spawning objects set to appear at time: 1550...
+[16:58:40 TRACE Farm Type Manager] Spawn process complete. Time: 1550. Total objects spawned: 0.
+[16:58:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 1600...
+[16:58:48 TRACE Farm Type Manager] Spawn process complete. Time: 1600. Total objects spawned: 0.
+[16:58:55 TRACE Farm Type Manager] Spawning objects set to appear at time: 1610...
+[16:58:55 TRACE Farm Type Manager] Spawn process complete. Time: 1610. Total objects spawned: 0.
+[16:59:02 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[16:59:02 TRACE Farm Type Manager] Spawning objects set to appear at time: 1620...
+[16:59:02 TRACE Farm Type Manager] Spawn process complete. Time: 1620. Total objects spawned: 0.
+[16:59:10 TRACE Farm Type Manager] Spawning objects set to appear at time: 1630...
+[16:59:10 TRACE Farm Type Manager] Spawn process complete. Time: 1630. Total objects spawned: 0.
+[16:59:17 TRACE Farm Type Manager] Spawning objects set to appear at time: 1640...
+[16:59:17 TRACE Farm Type Manager] Spawn process complete. Time: 1640. Total objects spawned: 0.
+[16:59:24 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[17:58:53 TRACE Farm Type Manager] Spawning objects set to appear at time: 1650...
+[17:58:53 TRACE Farm Type Manager] Spawn process complete. Time: 1650. Total objects spawned: 0.
+[17:58:56 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[17:59:30 TRACE Farm Type Manager] Spawning objects set to appear at time: 1700...
+[17:59:30 TRACE Farm Type Manager] Spawn process complete. Time: 1700. Total objects spawned: 0.
+[17:59:37 TRACE Farm Type Manager] Spawning objects set to appear at time: 1710...
+[17:59:37 TRACE Farm Type Manager] Spawn process complete. Time: 1710. Total objects spawned: 0.
+[17:59:41 TRACE SpaceCore] Event: BeforeWarp
+[17:59:41 TRACE game] Warping to Farm
+[17:59:46 TRACE Farm Type Manager] Spawning objects set to appear at time: 1720...
+[17:59:46 TRACE Farm Type Manager] Spawn process complete. Time: 1720. Total objects spawned: 0.
+[17:59:53 TRACE Farm Type Manager] Spawning objects set to appear at time: 1730...
+[17:59:53 TRACE Farm Type Manager] Spawn process complete. Time: 1730. Total objects spawned: 0.
+[18:00:00 TRACE Farm Type Manager] Spawning objects set to appear at time: 1740...
+[18:00:00 TRACE Farm Type Manager] Spawn process complete. Time: 1740. Total objects spawned: 0.
+[18:00:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 1750...
+[18:00:08 TRACE Farm Type Manager] Spawn process complete. Time: 1750. Total objects spawned: 0.
+[18:00:12 TRACE SpaceCore] Event: BeforeWarp
+[18:00:12 TRACE game] Warping to Barndf5c0c6d-fd3e-4717-a0e9-5a4d616e2a46
+[18:00:16 TRACE Farm Type Manager] Spawning objects set to appear at time: 1800...
+[18:00:16 TRACE Farm Type Manager] Spawn process complete. Time: 1800. Total objects spawned: 0.
+[18:00:24 TRACE Farm Type Manager] Spawning objects set to appear at time: 1810...
+[18:00:24 TRACE Farm Type Manager] Spawn process complete. Time: 1810. Total objects spawned: 0.
+[18:00:32 TRACE Farm Type Manager] Spawning objects set to appear at time: 1820...
+[18:00:32 TRACE Farm Type Manager] Spawn process complete. Time: 1820. Total objects spawned: 0.
+[18:00:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 1830...
+[18:00:41 TRACE Farm Type Manager] Spawn process complete. Time: 1830. Total objects spawned: 0.
+[18:00:50 TRACE Farm Type Manager] Spawning objects set to appear at time: 1840...
+[18:00:50 TRACE Farm Type Manager] Spawn process complete. Time: 1840. Total objects spawned: 0.
+[18:00:58 TRACE Farm Type Manager] Spawning objects set to appear at time: 1850...
+[18:00:58 TRACE Farm Type Manager] Spawn process complete. Time: 1850. Total objects spawned: 0.
+[18:01:05 TRACE Farm Type Manager] Spawning objects set to appear at time: 1900...
+[18:01:05 TRACE Farm Type Manager] Spawn process complete. Time: 1900. Total objects spawned: 0.
+[18:01:12 TRACE Farm Type Manager] Spawning objects set to appear at time: 1910...
+[18:01:12 TRACE Farm Type Manager] Spawn process complete. Time: 1910. Total objects spawned: 0.
+[18:01:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 1920...
+[18:01:19 TRACE Farm Type Manager] Spawn process complete. Time: 1920. Total objects spawned: 0.
+[18:01:26 TRACE SpaceCore] Event: BeforeWarp
+[18:01:26 TRACE game] Warping to Farm
+[18:01:28 TRACE Farm Type Manager] Spawning objects set to appear at time: 1930...
+[18:01:28 TRACE Farm Type Manager] Spawn process complete. Time: 1930. Total objects spawned: 0.
+[18:01:35 TRACE Farm Type Manager] Spawning objects set to appear at time: 1940...
+[18:01:35 TRACE Farm Type Manager] Spawn process complete. Time: 1940. Total objects spawned: 0.
+[18:01:43 TRACE Farm Type Manager] Spawning objects set to appear at time: 1950...
+[18:01:43 TRACE Farm Type Manager] Spawn process complete. Time: 1950. Total objects spawned: 0.
+[18:01:50 TRACE Farm Type Manager] Spawning objects set to appear at time: 2000...
+[18:01:50 TRACE Farm Type Manager] Spawn process complete. Time: 2000. Total objects spawned: 0.
+[18:01:57 TRACE Farm Type Manager] Spawning objects set to appear at time: 2010...
+[18:01:57 TRACE Farm Type Manager] Spawn process complete. Time: 2010. Total objects spawned: 0.
+[18:02:05 TRACE Farm Type Manager] Spawning objects set to appear at time: 2020...
+[18:02:05 TRACE Farm Type Manager] Spawn process complete. Time: 2020. Total objects spawned: 0.
+[18:02:13 TRACE SpaceCore] Event: BeforeWarp
+[18:02:13 TRACE game] Warping to Shed8aa925db-ac1a-4b54-a9e0-48e7f4fde3a0
+[18:02:18 TRACE Farm Type Manager] Spawning objects set to appear at time: 2030...
+[18:02:18 TRACE Farm Type Manager] Spawn process complete. Time: 2030. Total objects spawned: 0.
+[18:02:18 TRACE SpaceCore] Event: BeforeWarp
+[18:02:18 TRACE game] Warping to Farm
+[18:02:22 TRACE SpaceCore] Event: ActionActivated
+[18:02:22 TRACE SpaceCore] Event: BeforeWarp
+[18:02:22 TRACE game] Warping to Greenhouse
+[18:02:44 TRACE SpaceCore] Event: BeforeWarp
+[18:02:44 TRACE game] Warping to Farm
+[18:02:47 TRACE Farm Type Manager] Spawning objects set to appear at time: 2040...
+[18:02:47 TRACE Farm Type Manager] Spawn process complete. Time: 2040. Total objects spawned: 0.
+[18:02:48 TRACE SpaceCore] Event: BeforeWarp
+[18:02:48 TRACE game] Warping to Shed8963808a-0368-496d-9838-29590d17a884
+[18:02:55 TRACE Farm Type Manager] Spawning objects set to appear at time: 2050...
+[18:02:55 TRACE Farm Type Manager] Spawn process complete. Time: 2050. Total objects spawned: 0.
+[18:03:03 TRACE Farm Type Manager] Spawning objects set to appear at time: 2100...
+[18:03:03 TRACE Farm Type Manager] Spawn process complete. Time: 2100. Total objects spawned: 0.
+[18:03:10 TRACE Farm Type Manager] Spawning objects set to appear at time: 2110...
+[18:03:10 TRACE Farm Type Manager] Spawn process complete. Time: 2110. Total objects spawned: 0.
+[18:03:17 TRACE Farm Type Manager] Spawning objects set to appear at time: 2120...
+[18:03:17 TRACE Farm Type Manager] Spawn process complete. Time: 2120. Total objects spawned: 0.
+[18:03:25 TRACE Farm Type Manager] Spawning objects set to appear at time: 2130...
+[18:03:25 TRACE Farm Type Manager] Spawn process complete. Time: 2130. Total objects spawned: 0.
+[18:03:32 TRACE Farm Type Manager] Spawning objects set to appear at time: 2140...
+[18:03:32 TRACE Farm Type Manager] Spawn process complete. Time: 2140. Total objects spawned: 0.
+[18:03:39 TRACE Farm Type Manager] Spawning objects set to appear at time: 2150...
+[18:03:39 TRACE Farm Type Manager] Spawn process complete. Time: 2150. Total objects spawned: 0.
+[18:03:47 TRACE Farm Type Manager] Spawning objects set to appear at time: 2200...
+[18:03:47 TRACE Farm Type Manager] Spawn process complete. Time: 2200. Total objects spawned: 0.
+[18:03:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 2210...
+[18:03:54 TRACE Farm Type Manager] Spawn process complete. Time: 2210. Total objects spawned: 0.
+[18:04:01 TRACE Farm Type Manager] Spawning objects set to appear at time: 2220...
+[18:04:01 TRACE Farm Type Manager] Spawn process complete. Time: 2220. Total objects spawned: 0.
+[18:04:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 2230...
+[18:04:08 TRACE Farm Type Manager] Spawn process complete. Time: 2230. Total objects spawned: 0.
+[18:04:16 TRACE Farm Type Manager] Spawning objects set to appear at time: 2240...
+[18:04:16 TRACE Farm Type Manager] Spawn process complete. Time: 2240. Total objects spawned: 0.
+[18:04:23 TRACE Farm Type Manager] Spawning objects set to appear at time: 2250...
+[18:04:23 TRACE Farm Type Manager] Spawn process complete. Time: 2250. Total objects spawned: 0.
+[18:04:30 TRACE Farm Type Manager] Spawning objects set to appear at time: 2300...
+[18:04:30 TRACE Farm Type Manager] Spawn process complete. Time: 2300. Total objects spawned: 0.
+[18:04:38 TRACE Farm Type Manager] Spawning objects set to appear at time: 2310...
+[18:04:38 TRACE Farm Type Manager] Spawn process complete. Time: 2310. Total objects spawned: 0.
+[18:04:45 TRACE Farm Type Manager] Spawning objects set to appear at time: 2320...
+[18:04:45 TRACE Farm Type Manager] Spawn process complete. Time: 2320. Total objects spawned: 0.
+[18:04:52 TRACE SpaceCore] Event: BeforeWarp
+[18:04:52 TRACE game] Warping to Farm
+[18:04:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 2330...
+[18:04:54 TRACE Farm Type Manager] Spawn process complete. Time: 2330. Total objects spawned: 0.
+[18:04:59 TRACE SpaceCore] Event: ActionActivated
+[18:04:59 TRACE SpaceCore] Event: BeforeWarp
+[18:04:59 TRACE game] Warping to Greenhouse
+[18:05:06 TRACE SpaceCore] Event: BeforeWarp
+[18:05:06 TRACE game] Warping to Farm
+[18:05:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 2340...
+[18:05:08 TRACE Farm Type Manager] Spawn process complete. Time: 2340. Total objects spawned: 0.
+[18:05:13 TRACE SpaceCore] Event: ActionActivated
+[18:05:13 TRACE SpaceCore] Event: BeforeWarp
+[18:05:13 TRACE game] Warping to FarmHouse
+[18:05:16 TRACE Farm Type Manager] Spawning objects set to appear at time: 2350...
+[18:05:16 TRACE Farm Type Manager] Spawn process complete. Time: 2350. Total objects spawned: 0.
+[18:05:17 TRACE SpaceCore] Event: TouchActionActivated
+[18:05:17 TRACE SpaceCore] Event: BeforeWarp
+[18:05:17 TRACE game] Warping to Cellar
+[18:05:25 TRACE Farm Type Manager] Spawning objects set to appear at time: 2400...
+[18:05:25 TRACE Farm Type Manager] Spawn process complete. Time: 2400. Total objects spawned: 0.
+[18:05:34 TRACE Farm Type Manager] Spawning objects set to appear at time: 2410...
+[18:05:34 TRACE Farm Type Manager] Spawn process complete. Time: 2410. Total objects spawned: 0.
+[18:05:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 2420...
+[18:05:41 TRACE Farm Type Manager] Spawn process complete. Time: 2420. Total objects spawned: 0.
+[18:05:50 TRACE Farm Type Manager] Spawning objects set to appear at time: 2430...
+[18:05:50 TRACE Farm Type Manager] Spawn process complete. Time: 2430. Total objects spawned: 0.
+[18:05:57 TRACE Farm Type Manager] Spawning objects set to appear at time: 2440...
+[18:05:57 TRACE Farm Type Manager] Spawn process complete. Time: 2440. Total objects spawned: 0.
+[18:05:58 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:09:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 2450...
+[18:09:54 TRACE Farm Type Manager] Spawn process complete. Time: 2450. Total objects spawned: 0.
+[18:10:04 TRACE Farm Type Manager] Spawning objects set to appear at time: 2500...
+[18:10:04 TRACE Farm Type Manager] Spawn process complete. Time: 2500. Total objects spawned: 0.
+[18:10:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 2510...
+[18:10:11 TRACE Farm Type Manager] Spawn process complete. Time: 2510. Total objects spawned: 0.
+[18:10:18 TRACE SpaceCore] Event: BeforeWarp
+[18:10:18 TRACE game] Warping to Farmhouse
+[18:10:21 TRACE Farm Type Manager] Spawning objects set to appear at time: 2520...
+[18:10:21 TRACE Farm Type Manager] Spawn process complete. Time: 2520. Total objects spawned: 0.
+[18:10:26 TRACE SpaceCore] Event: TouchActionActivated
+[18:10:27 TRACE Farm Type Manager] Day is ending. Processing save data and object expiration settings.
+[18:10:27 TRACE Farm Type Manager] Object check complete. Removing 0 missing/expired objects from save data.
+[18:10:27 TRACE SMAPI] Synchronizing 'NewDay' task...
+[18:10:30 TRACE SpaceCore] Event: ChooseNightlyFarmEvent
+[18:10:30 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[18:10:30 TRACE SpaceCore] Event: ShowNightEndMenus
+[18:10:30 DEBUG SpaceCore] Doing skill menus
+[18:10:30 TRACE SMAPI]    task complete.
+[18:10:30 TRACE SMAPI] Context: before save.
+[18:10:30 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[18:10:30 TRACE SMAPI] Invalidated 0 cache entries.
+[18:10:30 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[18:10:30 TRACE SMAPI] Invalidated 0 cache entries.
+[18:10:30 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[18:10:30 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[18:10:30 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[18:10:30 TRACE SMAPI] Invalidated 0 cache entries.
+[18:10:30 TRACE SpaceCore] Saving custom data
+[18:10:38 TRACE game] SaveGame.Save() called.
+[18:10:38 TRACE SMAPI] Synchronizing 'Save' task...
+[18:10:38 TRACE game] Saving without compression...
+[18:10:44 TRACE SMAPI]    task complete.
+[18:10:44 TRACE game] SaveGame.Save() completed without exceptions.
+[18:10:48 TRACE SMAPI] Context: after save, starting fall 28 Y5.
+[18:10:48 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[18:10:48 TRACE SMAPI] Invalidated 0 cache entries.
+[18:10:48 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[18:10:48 TRACE SMAPI] Invalidated 0 cache entries.
+[18:10:48 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[18:10:48 TRACE SMAPI] Invalidated 0 cache entries.
+[18:10:48 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[18:10:48 TRACE SMAPI] Invalidated 0 cache entries.
+[18:10:48 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[18:10:48 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[18:10:48 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[18:10:48 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[18:10:48 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[18:10:48 TRACE Farm Type Manager] Day is starting. Loading config data.
+[18:10:48 TRACE Farm Type Manager] Beginning file loading process...
+[18:10:48 TRACE Farm Type Manager] All available content packs checked.
+[18:10:48 TRACE Farm Type Manager] Loading files from FarmTypeManager/data
+[18:10:48 TRACE Farm Type Manager] Validating data from FarmTypeManager/data
+[18:10:48 TRACE Farm Type Manager] Checking for duplicate UniqueAreaIDs...
+[18:10:48 TRACE Farm Type Manager] Assigning new UniqueAreaIDs to any blanks or duplicates...
+[18:10:48 TRACE Farm Type Manager] Validation complete for data from FarmTypeManager/data
+[18:10:48 TRACE Farm Type Manager] Checking file conditions...
+[18:10:48 TRACE Farm Type Manager] FarmTypeManager/data farm data loaded successfully.
+[18:10:48 TRACE Farm Type Manager] Checking for saved objects that went missing overnight.
+[18:10:48 TRACE Farm Type Manager] Missing objects: 0. Respawned: 0. Not respawned due to obstructions: 0. Skipped due to missing maps: 0. Skipped due to missing item types: 0.
+[18:10:48 TRACE Farm Type Manager] Starting forage generation for this file: FarmTypeManager/data/Liv_314128530.json
+[18:10:48 TRACE Farm Type Manager] Forage generation is disabled for this file.
+[18:10:48 TRACE Farm Type Manager] All files and content packs checked. Forage generation process complete.
+[18:10:48 TRACE Farm Type Manager] Starting large object generation for this file: FarmTypeManager/data/Liv_314128530.json
+[18:10:48 TRACE Farm Type Manager] Large object generation is disabled for this file.
+[18:10:48 TRACE Farm Type Manager] All files and content packs checked. Large object generation process complete.
+[18:10:48 TRACE Farm Type Manager] Starting ore generation for this file: FarmTypeManager/data/Liv_314128530.json
+[18:10:48 TRACE Farm Type Manager] Ore generation is disabled for this file.
+[18:10:48 TRACE Farm Type Manager] All files and content packs checked. Ore spawn process complete.
+[18:10:48 TRACE Farm Type Manager] Starting monster generation for this file: FarmTypeManager/data/Liv_314128530.json
+[18:10:48 TRACE Farm Type Manager] Monster generation is disabled for this file.
+[18:10:48 TRACE Farm Type Manager] All files and content packs checked. Monster generation process complete.
+[18:10:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 600...
+[18:10:48 TRACE Farm Type Manager] Spawn process complete. Time: 600. Total objects spawned: 0.
+[18:10:54 TRACE SMAPI] Content Patcher edited LooseSprites/Billboard (for the 'Add Berry Seasons to Calendar' content pack).
+[18:10:57 TRACE Farm Type Manager] Spawning objects set to appear at time: 610...
+[18:10:57 TRACE Farm Type Manager] Spawn process complete. Time: 610. Total objects spawned: 0.
+[18:11:04 TRACE Farm Type Manager] Spawning objects set to appear at time: 620...
+[18:11:04 TRACE Farm Type Manager] Spawn process complete. Time: 620. Total objects spawned: 0.
+[18:11:10 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[18:11:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 630...
+[18:11:11 TRACE Farm Type Manager] Spawn process complete. Time: 630. Total objects spawned: 0.
+[18:11:13 TRACE SpaceCore] Event: TouchActionActivated
+[18:11:13 TRACE SpaceCore] Event: BeforeWarp
+[18:11:13 TRACE game] Warping to Cellar
+[18:11:20 TRACE Farm Type Manager] Spawning objects set to appear at time: 640...
+[18:11:20 TRACE Farm Type Manager] Spawn process complete. Time: 640. Total objects spawned: 0.
+[18:11:27 TRACE Farm Type Manager] Spawning objects set to appear at time: 650...
+[18:11:27 TRACE Farm Type Manager] Spawn process complete. Time: 650. Total objects spawned: 0.
+[18:11:34 TRACE Farm Type Manager] Spawning objects set to appear at time: 700...
+[18:11:34 TRACE Farm Type Manager] Spawn process complete. Time: 700. Total objects spawned: 0.
+[18:11:44 TRACE Farm Type Manager] Spawning objects set to appear at time: 710...
+[18:11:44 TRACE Farm Type Manager] Spawn process complete. Time: 710. Total objects spawned: 0.
+[18:11:52 TRACE Farm Type Manager] Spawning objects set to appear at time: 720...
+[18:11:52 TRACE Farm Type Manager] Spawn process complete. Time: 720. Total objects spawned: 0.
+[18:11:59 TRACE Farm Type Manager] Spawning objects set to appear at time: 730...
+[18:11:59 TRACE Farm Type Manager] Spawn process complete. Time: 730. Total objects spawned: 0.
+[18:12:06 TRACE Farm Type Manager] Spawning objects set to appear at time: 740...
+[18:12:06 TRACE Farm Type Manager] Spawn process complete. Time: 740. Total objects spawned: 0.
+[18:12:13 TRACE Farm Type Manager] Spawning objects set to appear at time: 750...
+[18:12:13 TRACE Farm Type Manager] Spawn process complete. Time: 750. Total objects spawned: 0.
+[18:12:24 TRACE Farm Type Manager] Spawning objects set to appear at time: 800...
+[18:12:24 TRACE Farm Type Manager] Spawn process complete. Time: 800. Total objects spawned: 0.
+[18:12:31 TRACE Farm Type Manager] Spawning objects set to appear at time: 810...
+[18:12:31 TRACE Farm Type Manager] Spawn process complete. Time: 810. Total objects spawned: 0.
+[18:12:38 TRACE Farm Type Manager] Spawning objects set to appear at time: 820...
+[18:12:38 TRACE Farm Type Manager] Spawn process complete. Time: 820. Total objects spawned: 0.
+[18:12:45 TRACE Farm Type Manager] Spawning objects set to appear at time: 830...
+[18:12:45 TRACE Farm Type Manager] Spawn process complete. Time: 830. Total objects spawned: 0.
+[18:12:53 TRACE Farm Type Manager] Spawning objects set to appear at time: 840...
+[18:12:53 TRACE Farm Type Manager] Spawn process complete. Time: 840. Total objects spawned: 0.
+[18:13:00 TRACE Farm Type Manager] Spawning objects set to appear at time: 850...
+[18:13:00 TRACE Farm Type Manager] Spawn process complete. Time: 850. Total objects spawned: 0.
+[18:13:07 TRACE Farm Type Manager] Spawning objects set to appear at time: 900...
+[18:13:07 TRACE Farm Type Manager] Spawn process complete. Time: 900. Total objects spawned: 0.
+[18:13:15 TRACE Farm Type Manager] Spawning objects set to appear at time: 910...
+[18:13:15 TRACE Farm Type Manager] Spawn process complete. Time: 910. Total objects spawned: 0.
+[18:13:22 TRACE Farm Type Manager] Spawning objects set to appear at time: 920...
+[18:13:22 TRACE Farm Type Manager] Spawn process complete. Time: 920. Total objects spawned: 0.
+[18:13:29 TRACE Farm Type Manager] Spawning objects set to appear at time: 930...
+[18:13:29 TRACE Farm Type Manager] Spawn process complete. Time: 930. Total objects spawned: 0.
+[18:13:36 TRACE Farm Type Manager] Spawning objects set to appear at time: 940...
+[18:13:36 TRACE Farm Type Manager] Spawn process complete. Time: 940. Total objects spawned: 0.
+[18:13:37 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:13:38 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:13:39 TRACE CJB Cheats Menu] Received menu open key.
+[18:13:48 TRACE SpaceCore] Event: BeforeWarp
+[18:13:48 TRACE game] Warping to Farmhouse
+[18:14:04 TRACE SpaceCore] Event: TouchActionActivated
+[18:14:04 TRACE SpaceCore] Event: BeforeWarp
+[18:14:04 TRACE game] Warping to Cellar
+[18:14:09 TRACE SpaceCore] Event: OnItemEaten
+[18:14:09 TRACE Farm Type Manager] Spawning objects set to appear at time: 950...
+[18:14:09 TRACE Farm Type Manager] Spawn process complete. Time: 950. Total objects spawned: 0.
+[18:14:16 TRACE game] > chat command: emote heart
+[18:14:16 TRACE Farm Type Manager] Spawning objects set to appear at time: 1000...
+[18:14:16 TRACE Farm Type Manager] Spawn process complete. Time: 1000. Total objects spawned: 0.
+[18:14:23 TRACE game] > chat command: emote pause
+[18:14:24 TRACE Farm Type Manager] Spawning objects set to appear at time: 1010...
+[18:14:24 TRACE Farm Type Manager] Spawn process complete. Time: 1010. Total objects spawned: 0.
+[18:14:34 TRACE Farm Type Manager] Spawning objects set to appear at time: 1020...
+[18:14:34 TRACE Farm Type Manager] Spawn process complete. Time: 1020. Total objects spawned: 0.
+[18:14:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 1030...
+[18:14:41 TRACE Farm Type Manager] Spawn process complete. Time: 1030. Total objects spawned: 0.
+[18:14:50 TRACE game] > chat command: emote laugh
+[18:14:52 TRACE Farm Type Manager] Spawning objects set to appear at time: 1040...
+[18:14:52 TRACE Farm Type Manager] Spawn process complete. Time: 1040. Total objects spawned: 0.
+[18:14:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:14:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:15:04 TRACE Farm Type Manager] Spawning objects set to appear at time: 1050...
+[18:15:04 TRACE Farm Type Manager] Spawn process complete. Time: 1050. Total objects spawned: 0.
+[18:15:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 1100...
+[18:15:11 TRACE Farm Type Manager] Spawn process complete. Time: 1100. Total objects spawned: 0.
+[18:15:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 1110...
+[18:15:19 TRACE Farm Type Manager] Spawn process complete. Time: 1110. Total objects spawned: 0.
+[18:15:28 TRACE Farm Type Manager] Spawning objects set to appear at time: 1120...
+[18:15:28 TRACE Farm Type Manager] Spawn process complete. Time: 1120. Total objects spawned: 0.
+[18:15:36 TRACE Farm Type Manager] Spawning objects set to appear at time: 1130...
+[18:15:36 TRACE Farm Type Manager] Spawn process complete. Time: 1130. Total objects spawned: 0.
+[18:15:44 TRACE Farm Type Manager] Spawning objects set to appear at time: 1140...
+[18:15:44 TRACE Farm Type Manager] Spawn process complete. Time: 1140. Total objects spawned: 0.
+[18:15:51 TRACE Farm Type Manager] Spawning objects set to appear at time: 1150...
+[18:15:51 TRACE Farm Type Manager] Spawn process complete. Time: 1150. Total objects spawned: 0.
+[18:15:59 TRACE Farm Type Manager] Spawning objects set to appear at time: 1200...
+[18:15:59 TRACE Farm Type Manager] Spawn process complete. Time: 1200. Total objects spawned: 0.
+[18:16:06 TRACE Farm Type Manager] Spawning objects set to appear at time: 1210...
+[18:16:06 TRACE Farm Type Manager] Spawn process complete. Time: 1210. Total objects spawned: 0.
+[18:16:12 TRACE SpaceCore] Event: BeforeWarp
+[18:16:12 TRACE game] Warping to Farmhouse
+[18:16:18 TRACE Farm Type Manager] Spawning objects set to appear at time: 1220...
+[18:16:18 TRACE Farm Type Manager] Spawn process complete. Time: 1220. Total objects spawned: 0.
+[18:16:20 TRACE SpaceCore] Event: BeforeWarp
+[18:16:20 TRACE game] Warping to Farm
+[18:16:21 TRACE SMAPI] Better Junimos edited Characters/Junimo.
+[18:16:23 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:16:23 TRACE SpaceCore] Event: AfterGiftGiven
+[18:16:31 TRACE Farm Type Manager] Spawning objects set to appear at time: 1230...
+[18:16:31 TRACE Farm Type Manager] Spawn process complete. Time: 1230. Total objects spawned: 0.
+[18:16:42 TRACE Farm Type Manager] Spawning objects set to appear at time: 1240...
+[18:16:42 TRACE Farm Type Manager] Spawn process complete. Time: 1240. Total objects spawned: 0.
+[18:16:49 TRACE Farm Type Manager] Spawning objects set to appear at time: 1250...
+[18:16:49 TRACE Farm Type Manager] Spawn process complete. Time: 1250. Total objects spawned: 0.
+[18:16:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:17:00 TRACE SpaceCore] Event: BeforeWarp
+[18:17:00 TRACE game] Warping to BusStop
+[18:17:04 TRACE Farm Type Manager] Spawning objects set to appear at time: 1300...
+[18:17:04 TRACE Farm Type Manager] Spawn process complete. Time: 1300. Total objects spawned: 0.
+[18:17:09 TRACE CJB Item Spawner] Received menu open key.
+[18:17:18 TRACE SpaceCore] Event: BeforeWarp
+[18:17:18 TRACE game] Warping to Town
+[18:17:18 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[18:17:21 TRACE Farm Type Manager] Spawning objects set to appear at time: 1310...
+[18:17:21 TRACE Farm Type Manager] Spawn process complete. Time: 1310. Total objects spawned: 0.
+[18:17:28 TRACE Farm Type Manager] Spawning objects set to appear at time: 1320...
+[18:17:28 TRACE Farm Type Manager] Spawn process complete. Time: 1320. Total objects spawned: 0.
+[18:17:34 TRACE SpaceCore] Event: ActionActivated
+[18:17:34 TRACE SpaceCore] Event: BeforeWarp
+[18:17:34 TRACE game] Warping to SamHouse
+[18:17:36 TRACE Farm Type Manager] Spawning objects set to appear at time: 1330...
+[18:17:36 TRACE Farm Type Manager] Spawn process complete. Time: 1330. Total objects spawned: 0.
+[18:17:41 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:20 TRACE Farm Type Manager] Spawning objects set to appear at time: 1340...
+[18:18:20 TRACE Farm Type Manager] Spawn process complete. Time: 1340. Total objects spawned: 0.
+[18:18:20 TRACE CJB Item Spawner] Received menu open key.
+[18:18:32 TRACE SpaceCore] Event: BeforeWarp
+[18:18:32 TRACE game] Warping to Beach
+[18:18:36 TRACE CJB Item Spawner] Received menu open key.
+[18:18:39 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[18:18:46 TRACE Farm Type Manager] Spawning objects set to appear at time: 1350...
+[18:18:46 TRACE Farm Type Manager] Spawn process complete. Time: 1350. Total objects spawned: 0.
+[18:18:47 TRACE SpaceCore] Event: BeforeWarp
+[18:18:47 TRACE game] Warping to IslandSouth
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 1400...
+[18:18:54 TRACE Farm Type Manager] Spawn process complete. Time: 1400. Total objects spawned: 0.
+[18:18:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:18:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:19:02 TRACE Farm Type Manager] Spawning objects set to appear at time: 1410...
+[18:19:02 TRACE Farm Type Manager] Spawn process complete. Time: 1410. Total objects spawned: 0.
+[18:19:10 TRACE SpaceCore] Event: BeforeWarp
+[18:19:10 TRACE game] Warping to Farm
+[18:19:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 1420...
+[18:19:11 TRACE Farm Type Manager] Spawn process complete. Time: 1420. Total objects spawned: 0.
+[18:19:16 TRACE SpaceCore] Event: BeforeWarp
+[18:19:16 TRACE game] Warping to BusStop
+[18:19:20 TRACE Farm Type Manager] Spawning objects set to appear at time: 1430...
+[18:19:20 TRACE Farm Type Manager] Spawn process complete. Time: 1430. Total objects spawned: 0.
+[18:19:27 TRACE SpaceCore] Event: BeforeWarp
+[18:19:27 TRACE game] Warping to Town
+[18:19:30 TRACE Farm Type Manager] Spawning objects set to appear at time: 1440...
+[18:19:30 TRACE Farm Type Manager] Spawn process complete. Time: 1440. Total objects spawned: 0.
+[18:19:31 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:19:40 TRACE Farm Type Manager] Spawning objects set to appear at time: 1450...
+[18:19:40 TRACE Farm Type Manager] Spawn process complete. Time: 1450. Total objects spawned: 0.
+[18:19:44 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:19:56 TRACE Farm Type Manager] Spawning objects set to appear at time: 1500...
+[18:19:56 TRACE Farm Type Manager] Spawn process complete. Time: 1500. Total objects spawned: 0.
+[18:19:57 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:20:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 1510...
+[18:20:08 TRACE Farm Type Manager] Spawn process complete. Time: 1510. Total objects spawned: 0.
+[18:20:16 TRACE SpaceCore] Event: BeforeWarp
+[18:20:16 TRACE game] Warping to Mountain
+[18:20:18 TRACE Farm Type Manager] Spawning objects set to appear at time: 1520...
+[18:20:18 TRACE Farm Type Manager] Spawn process complete. Time: 1520. Total objects spawned: 0.
+[18:20:18 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:20:23 TRACE SpaceCore] Event: BeforeWarp
+[18:20:23 TRACE game] Warping to Town
+[18:20:28 TRACE Farm Type Manager] Spawning objects set to appear at time: 1530...
+[18:20:28 TRACE Farm Type Manager] Spawn process complete. Time: 1530. Total objects spawned: 0.
+[18:20:36 TRACE Farm Type Manager] Spawning objects set to appear at time: 1540...
+[18:20:36 TRACE Farm Type Manager] Spawn process complete. Time: 1540. Total objects spawned: 0.
+[18:20:38 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:20:38 TRACE SpaceCore] Event: AfterGiftGiven
+[18:20:45 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:21:05 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:21:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 1550...
+[18:21:08 TRACE Farm Type Manager] Spawn process complete. Time: 1550. Total objects spawned: 0.
+[18:21:16 TRACE Farm Type Manager] Spawning objects set to appear at time: 1600...
+[18:21:16 TRACE Farm Type Manager] Spawn process complete. Time: 1600. Total objects spawned: 0.
+[18:21:21 TRACE SpaceCore] Event: ActionActivated
+[18:21:21 TRACE SpaceCore] Event: BeforeWarp
+[18:21:21 TRACE game] Warping to JoshHouse
+[18:21:25 TRACE Farm Type Manager] Spawning objects set to appear at time: 1610...
+[18:21:25 TRACE Farm Type Manager] Spawn process complete. Time: 1610. Total objects spawned: 0.
+[18:21:25 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:21:52 TRACE Farm Type Manager] Spawning objects set to appear at time: 1620...
+[18:21:52 TRACE Farm Type Manager] Spawn process complete. Time: 1620. Total objects spawned: 0.
+[18:21:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:21:58 TRACE SpaceCore] Event: BeforeWarp
+[18:21:58 TRACE game] Warping to Town
+[18:22:03 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:22:03 TRACE SpaceCore] Event: AfterGiftGiven
+[18:22:05 TRACE Farm Type Manager] Spawning objects set to appear at time: 1630...
+[18:22:05 TRACE Farm Type Manager] Spawn process complete. Time: 1630. Total objects spawned: 0.
+[18:22:13 TRACE Farm Type Manager] Spawning objects set to appear at time: 1640...
+[18:22:13 TRACE Farm Type Manager] Spawn process complete. Time: 1640. Total objects spawned: 0.
+[18:22:17 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:22:17 TRACE SpaceCore] Event: AfterGiftGiven
+[18:22:22 TRACE Farm Type Manager] Spawning objects set to appear at time: 1650...
+[18:22:22 TRACE Farm Type Manager] Spawn process complete. Time: 1650. Total objects spawned: 0.
+[18:22:29 TRACE Farm Type Manager] Spawning objects set to appear at time: 1700...
+[18:22:29 TRACE Farm Type Manager] Spawn process complete. Time: 1700. Total objects spawned: 0.
+[18:22:33 TRACE SpaceCore] Event: ActionActivated
+[18:22:33 TRACE SpaceCore] Event: BeforeWarp
+[18:22:33 TRACE game] Warping to SamHouse
+[18:22:35 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:22:35 TRACE SpaceCore] Event: AfterGiftGiven
+[18:22:37 TRACE SpaceCore] Event: BeforeWarp
+[18:22:37 TRACE game] Warping to Town
+[18:22:40 TRACE Farm Type Manager] Spawning objects set to appear at time: 1710...
+[18:22:40 TRACE Farm Type Manager] Spawn process complete. Time: 1710. Total objects spawned: 0.
+[18:22:47 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:26:18 TRACE Farm Type Manager] Spawning objects set to appear at time: 1720...
+[18:26:18 TRACE Farm Type Manager] Spawn process complete. Time: 1720. Total objects spawned: 0.
+[18:26:25 TRACE SpaceCore] Event: ActionActivated
+[18:26:25 TRACE SpaceCore] Event: BeforeWarp
+[18:26:25 TRACE game] Warping to JoshHouse
+[18:26:27 TRACE Farm Type Manager] Spawning objects set to appear at time: 1730...
+[18:26:27 TRACE Farm Type Manager] Spawn process complete. Time: 1730. Total objects spawned: 0.
+[18:26:28 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:26:28 TRACE SpaceCore] Event: AfterGiftGiven
+[18:26:32 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:27:00 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:27:07 TRACE Farm Type Manager] Spawning objects set to appear at time: 1740...
+[18:27:07 TRACE Farm Type Manager] Spawn process complete. Time: 1740. Total objects spawned: 0.
+[18:27:10 TRACE CJB Cheats Menu] Received menu open key.
+[18:27:18 TRACE SpaceCore] Event: BeforeWarp
+[18:27:18 TRACE game] Warping to Town
+[18:27:20 TRACE Farm Type Manager] Spawning objects set to appear at time: 1750...
+[18:27:20 TRACE Farm Type Manager] Spawn process complete. Time: 1750. Total objects spawned: 0.
+[18:27:27 TRACE Farm Type Manager] Spawning objects set to appear at time: 1800...
+[18:27:27 TRACE Farm Type Manager] Spawn process complete. Time: 1800. Total objects spawned: 0.
+[18:27:34 TRACE Farm Type Manager] Spawning objects set to appear at time: 1810...
+[18:27:34 TRACE Farm Type Manager] Spawn process complete. Time: 1810. Total objects spawned: 0.
+[18:27:42 TRACE Farm Type Manager] Spawning objects set to appear at time: 1820...
+[18:27:42 TRACE Farm Type Manager] Spawn process complete. Time: 1820. Total objects spawned: 0.
+[18:27:46 TRACE SpaceCore] Event: ActionActivated
+[18:27:46 TRACE SpaceCore] Event: BeforeWarp
+[18:27:46 TRACE game] Warping to Blacksmith
+[18:27:50 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:27:50 TRACE SpaceCore] Event: AfterGiftGiven
+[18:27:52 TRACE Farm Type Manager] Spawning objects set to appear at time: 1830...
+[18:27:52 TRACE Farm Type Manager] Spawn process complete. Time: 1830. Total objects spawned: 0.
+[18:27:54 TRACE SpaceCore] Event: BeforeWarp
+[18:27:54 TRACE game] Warping to Town
+[18:27:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:28:12 TRACE CJB Item Spawner] Received menu open key.
+[18:28:16 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[18:28:25 TRACE SpaceCore] Event: BeforeWarp
+[18:28:25 TRACE game] Warping to Beach
+[18:28:27 TRACE Farm Type Manager] Spawning objects set to appear at time: 1840...
+[18:28:27 TRACE Farm Type Manager] Spawn process complete. Time: 1840. Total objects spawned: 0.
+[18:28:31 TRACE CJB Cheats Menu] Received menu open key.
+[18:28:37 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:28:37 TRACE SpaceCore] Event: AfterGiftGiven
+[18:28:39 TRACE Farm Type Manager] Spawning objects set to appear at time: 1850...
+[18:28:39 TRACE Farm Type Manager] Spawn process complete. Time: 1850. Total objects spawned: 0.
+[18:28:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 1900...
+[18:28:48 TRACE Farm Type Manager] Spawn process complete. Time: 1900. Total objects spawned: 0.
+[18:28:56 TRACE Farm Type Manager] Spawning objects set to appear at time: 1910...
+[18:28:56 TRACE Farm Type Manager] Spawn process complete. Time: 1910. Total objects spawned: 0.
+[18:29:40 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:29:57 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:29:59 TRACE Farm Type Manager] Spawning objects set to appear at time: 1920...
+[18:29:59 TRACE Farm Type Manager] Spawn process complete. Time: 1920. Total objects spawned: 0.
+[18:30:07 TRACE Farm Type Manager] Spawning objects set to appear at time: 1930...
+[18:30:07 TRACE Farm Type Manager] Spawn process complete. Time: 1930. Total objects spawned: 0.
+[18:30:11 TRACE SpaceCore] Event: BeforeWarp
+[18:30:11 TRACE game] Warping to Town
+[18:30:15 TRACE Farm Type Manager] Spawning objects set to appear at time: 1940...
+[18:30:15 TRACE Farm Type Manager] Spawn process complete. Time: 1940. Total objects spawned: 0.
+[18:30:24 TRACE Farm Type Manager] Spawning objects set to appear at time: 1950...
+[18:30:24 TRACE Farm Type Manager] Spawn process complete. Time: 1950. Total objects spawned: 0.
+[18:30:32 TRACE Farm Type Manager] Spawning objects set to appear at time: 2000...
+[18:30:32 TRACE Farm Type Manager] Spawn process complete. Time: 2000. Total objects spawned: 0.
+[18:30:34 TRACE SpaceCore] Event: ActionActivated
+[18:30:34 TRACE SpaceCore] Event: BeforeWarp
+[18:30:34 TRACE game] Warping to Sewer
+[18:30:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 2010...
+[18:30:41 TRACE Farm Type Manager] Spawn process complete. Time: 2010. Total objects spawned: 0.
+[18:30:42 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:30:42 TRACE SpaceCore] Event: AfterGiftGiven
+[18:30:49 TRACE SpaceCore] Event: BeforeWarp
+[18:30:49 TRACE game] Warping to Town
+[18:30:51 TRACE Farm Type Manager] Spawning objects set to appear at time: 2020...
+[18:30:51 TRACE Farm Type Manager] Spawn process complete. Time: 2020. Total objects spawned: 0.
+[18:30:58 TRACE Farm Type Manager] Spawning objects set to appear at time: 2030...
+[18:30:58 TRACE Farm Type Manager] Spawn process complete. Time: 2030. Total objects spawned: 0.
+[18:30:59 TRACE SpaceCore] Event: BeforeWarp
+[18:30:59 TRACE game] Warping to Forest
+[18:31:07 TRACE SpaceCore] Event: ActionActivated
+[18:31:07 TRACE SpaceCore] Event: BeforeWarp
+[18:31:07 TRACE game] Warping to AnimalShop
+[18:31:09 TRACE Farm Type Manager] Spawning objects set to appear at time: 2040...
+[18:31:09 TRACE Farm Type Manager] Spawn process complete. Time: 2040. Total objects spawned: 0.
+[18:31:12 TRACE SpaceCore] Event: ActionActivated
+[18:31:13 TRACE SpaceCore] Event: TouchActionActivated
+[18:31:14 TRACE SpaceCore] Event: ActionActivated
+[18:31:17 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:31:17 TRACE SpaceCore] Event: AfterGiftGiven
+[18:31:18 TRACE Farm Type Manager] Spawning objects set to appear at time: 2050...
+[18:31:18 TRACE Farm Type Manager] Spawn process complete. Time: 2050. Total objects spawned: 0.
+[18:31:20 TRACE SpaceCore] Event: TouchActionActivated
+[18:31:24 TRACE SpaceCore] Event: BeforeWarp
+[18:31:24 TRACE game] Warping to Forest
+[18:31:27 TRACE Farm Type Manager] Spawning objects set to appear at time: 2100...
+[18:31:27 TRACE Farm Type Manager] Spawn process complete. Time: 2100. Total objects spawned: 0.
+[18:31:29 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:31:35 TRACE CJB Item Spawner] Received menu open key.
+[18:31:37 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[18:31:50 TRACE SpaceCore] Event: BeforeWarp
+[18:31:50 TRACE game] Warping to Mountain
+[18:31:52 TRACE Farm Type Manager] Spawning objects set to appear at time: 2110...
+[18:31:52 TRACE Farm Type Manager] Spawn process complete. Time: 2110. Total objects spawned: 0.
+[18:31:59 TRACE Farm Type Manager] Spawning objects set to appear at time: 2120...
+[18:31:59 TRACE Farm Type Manager] Spawn process complete. Time: 2120. Total objects spawned: 0.
+[18:32:05 TRACE SpaceCore] Event: ActionActivated
+[18:32:05 TRACE SpaceCore] Event: BeforeWarp
+[18:32:05 TRACE game] Warping to ScienceHouse
+[18:32:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 2130...
+[18:32:08 TRACE Farm Type Manager] Spawn process complete. Time: 2130. Total objects spawned: 0.
+[18:32:09 TRACE SpaceCore] Event: BeforeWarp
+[18:32:09 TRACE game] Warping to SebastianRoom
+[18:32:11 TRACE SpaceCore] Event: ActionActivated
+[18:32:12 TRACE SpaceCore] Event: TouchActionActivated
+[18:32:16 TRACE Farm Type Manager] Spawning objects set to appear at time: 2140...
+[18:32:16 TRACE Farm Type Manager] Spawn process complete. Time: 2140. Total objects spawned: 0.
+[18:32:18 TRACE game] > chat command: emote angry
+[18:32:22 TRACE CJB Item Spawner] Received menu open key.
+[18:32:30 TRACE Farm Type Manager] Spawning objects set to appear at time: 2150...
+[18:32:30 TRACE Farm Type Manager] Spawn process complete. Time: 2150. Total objects spawned: 0.
+[18:32:33 TRACE SpaceCore] Event: TouchActionActivated
+[18:32:33 TRACE SpaceCore] Event: BombExploded
+[18:32:33 TRACE SpaceCore] Event: BeforeWarp
+[18:32:33 TRACE game] Warping to ScienceHouse
+[18:32:38 TRACE SpaceCore] Event: BeforeWarp
+[18:32:38 TRACE game] Warping to Mountain
+[18:32:40 TRACE Farm Type Manager] Spawning objects set to appear at time: 2200...
+[18:32:40 TRACE Farm Type Manager] Spawn process complete. Time: 2200. Total objects spawned: 0.
+[18:32:48 TRACE SpaceCore] Event: BeforeWarp
+[18:32:48 TRACE game] Warping to Farm
+[18:32:49 TRACE Farm Type Manager] Spawning objects set to appear at time: 2210...
+[18:32:49 TRACE Farm Type Manager] Spawn process complete. Time: 2210. Total objects spawned: 0.
+[18:32:59 TRACE Farm Type Manager] Spawning objects set to appear at time: 2220...
+[18:32:59 TRACE Farm Type Manager] Spawn process complete. Time: 2220. Total objects spawned: 0.
+[18:33:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 2230...
+[18:33:08 TRACE Farm Type Manager] Spawn process complete. Time: 2230. Total objects spawned: 0.
+[18:33:15 TRACE Farm Type Manager] Spawning objects set to appear at time: 2240...
+[18:33:15 TRACE Farm Type Manager] Spawn process complete. Time: 2240. Total objects spawned: 0.
+[18:33:21 TRACE CJB Item Spawner] Received menu open key.
+[18:34:37 TRACE Farm Type Manager] Spawning objects set to appear at time: 2250...
+[18:34:37 TRACE Farm Type Manager] Spawn process complete. Time: 2250. Total objects spawned: 0.
+[18:34:44 TRACE Farm Type Manager] Spawning objects set to appear at time: 2300...
+[18:34:44 TRACE Farm Type Manager] Spawn process complete. Time: 2300. Total objects spawned: 0.
+[18:34:52 TRACE Farm Type Manager] Spawning objects set to appear at time: 2310...
+[18:34:52 TRACE Farm Type Manager] Spawn process complete. Time: 2310. Total objects spawned: 0.
+[18:34:59 TRACE Farm Type Manager] Spawning objects set to appear at time: 2320...
+[18:34:59 TRACE Farm Type Manager] Spawn process complete. Time: 2320. Total objects spawned: 0.
+[18:35:07 TRACE Farm Type Manager] Spawning objects set to appear at time: 2330...
+[18:35:07 TRACE Farm Type Manager] Spawn process complete. Time: 2330. Total objects spawned: 0.
+[18:35:14 TRACE Farm Type Manager] Spawning objects set to appear at time: 2340...
+[18:35:14 TRACE Farm Type Manager] Spawn process complete. Time: 2340. Total objects spawned: 0.
+[18:35:22 TRACE Farm Type Manager] Spawning objects set to appear at time: 2350...
+[18:35:22 TRACE Farm Type Manager] Spawn process complete. Time: 2350. Total objects spawned: 0.
+[18:35:29 TRACE Farm Type Manager] Spawning objects set to appear at time: 2400...
+[18:35:29 TRACE Farm Type Manager] Spawn process complete. Time: 2400. Total objects spawned: 0.
+[18:35:49 TRACE Farm Type Manager] Spawning objects set to appear at time: 2410...
+[18:35:49 TRACE Farm Type Manager] Spawn process complete. Time: 2410. Total objects spawned: 0.
+[18:35:53 TRACE CJB Item Spawner] Received menu open key.
+[18:36:14 TRACE Farm Type Manager] Spawning objects set to appear at time: 2420...
+[18:36:14 TRACE Farm Type Manager] Spawn process complete. Time: 2420. Total objects spawned: 0.
+[18:36:20 TRACE SpaceCore] Event: BeforeWarp
+[18:36:20 TRACE game] Warping to Shed0a6bf4dc-22d1-4a75-b8a7-e30911b3ff3c
+[18:36:23 TRACE Farm Type Manager] Spawning objects set to appear at time: 2430...
+[18:36:23 TRACE Farm Type Manager] Spawn process complete. Time: 2430. Total objects spawned: 0.
+[18:36:30 TRACE Farm Type Manager] Spawning objects set to appear at time: 2440...
+[18:36:30 TRACE Farm Type Manager] Spawn process complete. Time: 2440. Total objects spawned: 0.
+[18:36:37 TRACE Farm Type Manager] Spawning objects set to appear at time: 2450...
+[18:36:37 TRACE Farm Type Manager] Spawn process complete. Time: 2450. Total objects spawned: 0.
+[18:36:43 TRACE SpaceCore] Event: BeforeWarp
+[18:36:43 TRACE game] Warping to Farm
+[18:36:46 TRACE Farm Type Manager] Spawning objects set to appear at time: 2500...
+[18:36:46 TRACE Farm Type Manager] Spawn process complete. Time: 2500. Total objects spawned: 0.
+[18:36:58 TRACE SpaceCore] Event: ActionActivated
+[18:36:58 TRACE SpaceCore] Event: BeforeWarp
+[18:36:58 TRACE game] Warping to FarmHouse
+[18:37:01 TRACE Farm Type Manager] Spawning objects set to appear at time: 2510...
+[18:37:01 TRACE Farm Type Manager] Spawn process complete. Time: 2510. Total objects spawned: 0.
+[18:37:05 TRACE SpaceCore] Event: TouchActionActivated
+[18:37:07 TRACE Farm Type Manager] Day is ending. Processing save data and object expiration settings.
+[18:37:07 TRACE Farm Type Manager] Object check complete. Removing 0 missing/expired objects from save data.
+[18:37:07 TRACE SMAPI] Synchronizing 'NewDay' task...
+[18:37:09 TRACE SpaceCore] Event: ChooseNightlyFarmEvent
+[18:37:09 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[18:37:09 TRACE SpaceCore] Event: ShowNightEndMenus
+[18:37:09 DEBUG SpaceCore] Doing skill menus
+[18:37:09 TRACE SMAPI]    task complete.
+[18:37:09 TRACE SMAPI] Context: before save.
+[18:37:09 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[18:37:09 TRACE SMAPI] Invalidated 1 asset names (Characters/Junimo).
+Propagated 0 core assets ().
+[18:37:09 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[18:37:09 TRACE SMAPI] Invalidated 0 cache entries.
+[18:37:09 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[18:37:09 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[18:37:09 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[18:37:09 TRACE SMAPI] Invalidated 0 cache entries.
+[18:37:09 TRACE SpaceCore] Saving custom data
+[18:42:02 TRACE game] SaveGame.Save() called.
+[18:42:02 TRACE SMAPI] Synchronizing 'Save' task...
+[18:42:02 TRACE game] Saving without compression...
+[18:42:04 TRACE SMAPI]    task complete.
+[18:42:04 TRACE game] SaveGame.Save() completed without exceptions.
+[18:42:08 TRACE SMAPI] Context: after save, starting winter 1 Y5.
+[18:42:08 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[18:42:08 TRACE SMAPI] Invalidated 0 cache entries.
+[18:42:08 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[18:42:08 TRACE SMAPI] Invalidated 0 cache entries.
+[18:42:08 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[18:42:08 TRACE SMAPI] Invalidated 0 cache entries.
+[18:42:08 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[18:42:08 TRACE SMAPI] Invalidated 0 cache entries.
+[18:42:08 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[18:42:08 TRACE SMAPI] Invalidated 0 cache entries.
+[18:42:08 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[18:42:08 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[18:42:08 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[18:42:08 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[18:42:08 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[18:42:08 TRACE Farm Type Manager] Day is starting. Loading config data.
+[18:42:08 TRACE Farm Type Manager] Beginning file loading process...
+[18:42:08 TRACE Farm Type Manager] All available content packs checked.
+[18:42:08 TRACE Farm Type Manager] Loading files from FarmTypeManager/data
+[18:42:08 TRACE Farm Type Manager] Validating data from FarmTypeManager/data
+[18:42:08 TRACE Farm Type Manager] Checking for duplicate UniqueAreaIDs...
+[18:42:08 TRACE Farm Type Manager] Assigning new UniqueAreaIDs to any blanks or duplicates...
+[18:42:08 TRACE Farm Type Manager] Validation complete for data from FarmTypeManager/data
+[18:42:08 TRACE Farm Type Manager] Checking file conditions...
+[18:42:08 TRACE Farm Type Manager] FarmTypeManager/data farm data loaded successfully.
+[18:42:08 TRACE Farm Type Manager] Checking for saved objects that went missing overnight.
+[18:42:08 TRACE Farm Type Manager] Missing objects: 0. Respawned: 0. Not respawned due to obstructions: 0. Skipped due to missing maps: 0. Skipped due to missing item types: 0.
+[18:42:08 TRACE Farm Type Manager] Starting forage generation for this file: FarmTypeManager/data/Liv_314128530.json
+[18:42:08 TRACE Farm Type Manager] Forage generation is disabled for this file.
+[18:42:08 TRACE Farm Type Manager] All files and content packs checked. Forage generation process complete.
+[18:42:08 TRACE Farm Type Manager] Starting large object generation for this file: FarmTypeManager/data/Liv_314128530.json
+[18:42:08 TRACE Farm Type Manager] Large object generation is disabled for this file.
+[18:42:08 TRACE Farm Type Manager] All files and content packs checked. Large object generation process complete.
+[18:42:08 TRACE Farm Type Manager] Starting ore generation for this file: FarmTypeManager/data/Liv_314128530.json
+[18:42:08 TRACE Farm Type Manager] Ore generation is disabled for this file.
+[18:42:08 TRACE Farm Type Manager] All files and content packs checked. Ore spawn process complete.
+[18:42:08 TRACE Farm Type Manager] Starting monster generation for this file: FarmTypeManager/data/Liv_314128530.json
+[18:42:08 TRACE Farm Type Manager] Monster generation is disabled for this file.
+[18:42:08 TRACE Farm Type Manager] All files and content packs checked. Monster generation process complete.
+[18:42:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 600...
+[18:42:08 TRACE Farm Type Manager] Spawn process complete. Time: 600. Total objects spawned: 0.
+[18:42:08 TRACE NPC Map Locations] Requested cache invalidation for 'LooseSprites/Map'.
+[18:42:08 TRACE SMAPI] Invalidated 1 asset names (LooseSprites/Map).
+Propagated 0 core assets ().
+[18:42:08 TRACE NPC Map Locations] Using maps/_default/winter_map.png.
+[18:42:08 TRACE SMAPI] NPC Map Locations loaded asset 'LooseSprites/map'.
+[18:42:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:42:15 TRACE Farm Type Manager] Spawning objects set to appear at time: 610...
+[18:42:15 TRACE Farm Type Manager] Spawn process complete. Time: 610. Total objects spawned: 0.
+[18:42:38 TRACE Farm Type Manager] Spawning objects set to appear at time: 620...
+[18:42:38 TRACE Farm Type Manager] Spawn process complete. Time: 620. Total objects spawned: 0.
+[18:42:44 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[18:42:50 TRACE Farm Type Manager] Spawning objects set to appear at time: 630...
+[18:42:50 TRACE Farm Type Manager] Spawn process complete. Time: 630. Total objects spawned: 0.
+[18:42:55 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:42:55 TRACE SpaceCore] Event: AfterGiftGiven
+[18:42:59 TRACE Farm Type Manager] Spawning objects set to appear at time: 640...
+[18:42:59 TRACE Farm Type Manager] Spawn process complete. Time: 640. Total objects spawned: 0.
+[18:43:02 TRACE SpaceCore] Event: BeforeWarp
+[18:43:02 TRACE game] Warping to Farm
+[18:43:02 TRACE SMAPI] Better Junimos edited Characters/Junimo.
+[18:43:07 TRACE game] > chat command: emote sad
+[18:43:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 650...
+[18:43:08 TRACE Farm Type Manager] Spawn process complete. Time: 650. Total objects spawned: 0.
+[18:43:15 TRACE Farm Type Manager] Spawning objects set to appear at time: 700...
+[18:43:15 TRACE Farm Type Manager] Spawn process complete. Time: 700. Total objects spawned: 0.
+[18:43:23 TRACE Farm Type Manager] Spawning objects set to appear at time: 710...
+[18:43:23 TRACE Farm Type Manager] Spawn process complete. Time: 710. Total objects spawned: 0.
+[18:43:30 TRACE Farm Type Manager] Spawning objects set to appear at time: 720...
+[18:43:30 TRACE Farm Type Manager] Spawn process complete. Time: 720. Total objects spawned: 0.
+[18:43:37 TRACE Farm Type Manager] Spawning objects set to appear at time: 730...
+[18:43:37 TRACE Farm Type Manager] Spawn process complete. Time: 730. Total objects spawned: 0.
+[18:43:45 TRACE Farm Type Manager] Spawning objects set to appear at time: 740...
+[18:43:45 TRACE Farm Type Manager] Spawn process complete. Time: 740. Total objects spawned: 0.
+[18:43:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 750...
+[18:43:54 TRACE Farm Type Manager] Spawn process complete. Time: 750. Total objects spawned: 0.
+[18:43:59 TRACE SpaceCore] Event: BeforeWarp
+[18:43:59 TRACE game] Warping to BusStop
+[18:44:02 TRACE CJB Item Spawner] Received menu open key.
+[18:44:05 TRACE CJB Item Spawner] Received menu open key, but a 'ItemMenu' menu is already open.
+[18:44:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 800...
+[18:44:11 TRACE Farm Type Manager] Spawn process complete. Time: 800. Total objects spawned: 0.
+[18:44:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 810...
+[18:44:19 TRACE Farm Type Manager] Spawn process complete. Time: 810. Total objects spawned: 0.
+[18:44:20 TRACE Better Junimos] PatchPathfindDoWork: #2 attempted to path from 70 22 to StardewValley.Farm 59 33, no path to endpoint
+[18:44:27 TRACE Farm Type Manager] Spawning objects set to appear at time: 820...
+[18:44:27 TRACE Farm Type Manager] Spawn process complete. Time: 820. Total objects spawned: 0.
+[18:44:34 TRACE Farm Type Manager] Spawning objects set to appear at time: 830...
+[18:44:34 TRACE Farm Type Manager] Spawn process complete. Time: 830. Total objects spawned: 0.
+[18:44:40 TRACE SpaceCore] Event: BeforeWarp
+[18:44:40 TRACE game] Warping to Town
+[18:44:43 TRACE Farm Type Manager] Spawning objects set to appear at time: 840...
+[18:44:43 TRACE Farm Type Manager] Spawn process complete. Time: 840. Total objects spawned: 0.
+[18:44:50 TRACE Farm Type Manager] Spawning objects set to appear at time: 850...
+[18:44:50 TRACE Farm Type Manager] Spawn process complete. Time: 850. Total objects spawned: 0.
+[18:44:55 TRACE SpaceCore] Event: ActionActivated
+[18:44:55 TRACE SpaceCore] Event: BeforeWarp
+[18:44:55 TRACE game] Warping to Sewer
+[18:44:56 TRACE SpaceCore] Event: BeforeWarp
+[18:44:56 TRACE game] Warping to Town
+[18:45:00 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:45:17 TRACE Farm Type Manager] Spawning objects set to appear at time: 900...
+[18:45:17 TRACE Farm Type Manager] Spawn process complete. Time: 900. Total objects spawned: 0.
+[18:45:18 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:45:30 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:45:30 TRACE SpaceCore] Event: AfterGiftGiven
+[18:45:33 TRACE Farm Type Manager] Spawning objects set to appear at time: 910...
+[18:45:33 TRACE Farm Type Manager] Spawn process complete. Time: 910. Total objects spawned: 0.
+[18:45:35 TRACE SpaceCore] Event: ActionActivated
+[18:45:35 TRACE SpaceCore] Event: BeforeWarp
+[18:45:35 TRACE game] Warping to Sewer
+[18:45:41 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:45:49 TRACE Farm Type Manager] Spawning objects set to appear at time: 920...
+[18:45:49 TRACE Farm Type Manager] Spawn process complete. Time: 920. Total objects spawned: 0.
+[18:45:51 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:45:51 TRACE SpaceCore] Event: AfterGiftGiven
+[18:45:57 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:46:28 TRACE Farm Type Manager] Spawning objects set to appear at time: 930...
+[18:46:28 TRACE Farm Type Manager] Spawn process complete. Time: 930. Total objects spawned: 0.
+[18:46:29 TRACE SpaceCore] Event: BeforeWarp
+[18:46:29 TRACE game] Warping to Town
+[18:46:36 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:46:39 TRACE Farm Type Manager] Spawning objects set to appear at time: 940...
+[18:46:39 TRACE Farm Type Manager] Spawn process complete. Time: 940. Total objects spawned: 0.
+[18:46:47 TRACE Farm Type Manager] Spawning objects set to appear at time: 950...
+[18:46:47 TRACE Farm Type Manager] Spawn process complete. Time: 950. Total objects spawned: 0.
+[18:46:49 TRACE SpaceCore] Event: ActionActivated
+[18:46:49 TRACE SpaceCore] Event: BeforeWarp
+[18:46:49 TRACE game] Warping to JoshHouse
+[18:46:54 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:46:54 TRACE SpaceCore] Event: AfterGiftGiven
+[18:46:57 TRACE Farm Type Manager] Spawning objects set to appear at time: 1000...
+[18:46:57 TRACE Farm Type Manager] Spawn process complete. Time: 1000. Total objects spawned: 0.
+[18:46:59 TRACE SpaceCore] Event: BeforeWarp
+[18:46:59 TRACE game] Warping to Town
+[18:47:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:47:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:47:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 1010...
+[18:47:19 TRACE Farm Type Manager] Spawn process complete. Time: 1010. Total objects spawned: 0.
+[18:47:26 TRACE Farm Type Manager] Spawning objects set to appear at time: 1020...
+[18:47:26 TRACE Farm Type Manager] Spawn process complete. Time: 1020. Total objects spawned: 0.
+[18:47:32 TRACE SpaceCore] Event: ActionActivated
+[18:47:32 TRACE SpaceCore] Event: BeforeWarp
+[18:47:32 TRACE game] Warping to Blacksmith
+[18:47:35 TRACE Farm Type Manager] Spawning objects set to appear at time: 1030...
+[18:47:35 TRACE Farm Type Manager] Spawn process complete. Time: 1030. Total objects spawned: 0.
+[18:47:35 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:47:35 TRACE SpaceCore] Event: AfterGiftGiven
+[18:47:41 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:47:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:48:00 TRACE Farm Type Manager] Spawning objects set to appear at time: 1040...
+[18:48:00 TRACE Farm Type Manager] Spawn process complete. Time: 1040. Total objects spawned: 0.
+[18:48:00 TRACE SpaceCore] Event: BeforeWarp
+[18:48:00 TRACE game] Warping to Town
+[18:48:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:48:17 TRACE Farm Type Manager] Spawning objects set to appear at time: 1050...
+[18:48:17 TRACE Farm Type Manager] Spawn process complete. Time: 1050. Total objects spawned: 0.
+[18:48:19 TRACE SpaceCore] Event: ActionActivated
+[18:51:13 TRACE Farm Type Manager] Spawning objects set to appear at time: 1100...
+[18:51:13 TRACE Farm Type Manager] Spawn process complete. Time: 1100. Total objects spawned: 0.
+[18:51:15 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:38 TRACE Farm Type Manager] Spawning objects set to appear at time: 1110...
+[18:51:38 TRACE Farm Type Manager] Spawn process complete. Time: 1110. Total objects spawned: 0.
+[18:51:43 TRACE SpaceCore] Event: ActionActivated
+[18:51:43 TRACE SpaceCore] Event: BeforeWarp
+[18:51:43 TRACE game] Warping to Trailer_Big
+[18:51:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 1120...
+[18:51:48 TRACE Farm Type Manager] Spawn process complete. Time: 1120. Total objects spawned: 0.
+[18:51:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:51:55 TRACE Farm Type Manager] Spawning objects set to appear at time: 1130...
+[18:51:55 TRACE Farm Type Manager] Spawn process complete. Time: 1130. Total objects spawned: 0.
+[18:51:57 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:52:08 TRACE SpaceCore] Event: BeforeWarp
+[18:52:08 TRACE game] Warping to Town
+[18:52:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 1140...
+[18:52:11 TRACE Farm Type Manager] Spawn process complete. Time: 1140. Total objects spawned: 0.
+[18:52:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 1150...
+[18:52:19 TRACE Farm Type Manager] Spawn process complete. Time: 1150. Total objects spawned: 0.
+[18:52:21 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:52:34 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[18:52:34 TRACE Farm Type Manager] Spawning objects set to appear at time: 1200...
+[18:52:34 TRACE Farm Type Manager] Spawn process complete. Time: 1200. Total objects spawned: 0.
+[18:52:37 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:52:46 TRACE SpaceCore] Event: ActionActivated
+[18:52:46 TRACE SpaceCore] Event: BeforeWarp
+[18:52:46 TRACE game] Warping to CommunityCenter
+[18:52:50 TRACE Farm Type Manager] Spawning objects set to appear at time: 1210...
+[18:52:50 TRACE Farm Type Manager] Spawn process complete. Time: 1210. Total objects spawned: 0.
+[18:52:55 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:52:55 TRACE SpaceCore] Event: AfterGiftGiven
+[18:52:58 TRACE Farm Type Manager] Spawning objects set to appear at time: 1220...
+[18:52:58 TRACE Farm Type Manager] Spawn process complete. Time: 1220. Total objects spawned: 0.
+[18:52:59 TRACE SpaceCore] Event: BeforeWarp
+[18:52:59 TRACE game] Warping to Town
+[18:53:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:53:07 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:53:36 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:53:57 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[18:53:57 TRACE Farm Type Manager] Spawning objects set to appear at time: 1230...
+[18:53:57 TRACE Farm Type Manager] Spawn process complete. Time: 1230. Total objects spawned: 0.
+[18:54:04 TRACE SpaceCore] Event: BeforeWarp
+[18:54:04 TRACE game] Warping to Mountain
+[18:54:06 TRACE Farm Type Manager] Spawning objects set to appear at time: 1240...
+[18:54:06 TRACE Farm Type Manager] Spawn process complete. Time: 1240. Total objects spawned: 0.
+[18:54:08 TRACE SpaceCore] Event: ActionActivated
+[18:54:08 TRACE SpaceCore] Event: BeforeWarp
+[18:54:08 TRACE game] Warping to ScienceHouse
+[18:54:15 TRACE Farm Type Manager] Spawning objects set to appear at time: 1250...
+[18:54:15 TRACE Farm Type Manager] Spawn process complete. Time: 1250. Total objects spawned: 0.
+[18:54:15 TRACE SpaceCore] Event: BeforeWarp
+[18:54:15 TRACE game] Warping to SebastianRoom
+[18:54:18 TRACE SpaceCore] Event: ActionActivated
+[18:54:18 TRACE SpaceCore] Event: TouchActionActivated
+[18:54:22 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:54:22 TRACE SpaceCore] Event: AfterGiftGiven
+[18:54:24 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:54:32 TRACE Farm Type Manager] Spawning objects set to appear at time: 1300...
+[18:54:32 TRACE Farm Type Manager] Spawn process complete. Time: 1300. Total objects spawned: 0.
+[18:54:34 TRACE SpaceCore] Event: TouchActionActivated
+[18:54:34 TRACE SpaceCore] Event: BeforeWarp
+[18:54:34 TRACE game] Warping to ScienceHouse
+[18:54:38 TRACE SpaceCore] Event: BeforeWarp
+[18:54:38 TRACE game] Warping to Mountain
+[18:54:43 TRACE Farm Type Manager] Spawning objects set to appear at time: 1310...
+[18:54:43 TRACE Farm Type Manager] Spawn process complete. Time: 1310. Total objects spawned: 0.
+[18:54:50 TRACE Farm Type Manager] Spawning objects set to appear at time: 1320...
+[18:54:50 TRACE Farm Type Manager] Spawn process complete. Time: 1320. Total objects spawned: 0.
+[18:54:55 TRACE SpaceCore] Event: BeforeWarp
+[18:54:55 TRACE game] Warping to Backwoods
+[18:54:59 TRACE Farm Type Manager] Spawning objects set to appear at time: 1330...
+[18:54:59 TRACE Farm Type Manager] Spawn process complete. Time: 1330. Total objects spawned: 0.
+[18:55:03 TRACE SpaceCore] Event: BeforeWarp
+[18:55:03 TRACE game] Warping to Farm
+[18:55:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 1340...
+[18:55:08 TRACE Farm Type Manager] Spawn process complete. Time: 1340. Total objects spawned: 0.
+[18:55:15 TRACE Farm Type Manager] Spawning objects set to appear at time: 1350...
+[18:55:15 TRACE Farm Type Manager] Spawn process complete. Time: 1350. Total objects spawned: 0.
+[18:55:19 TRACE SpaceCore] Event: BeforeWarp
+[18:55:19 TRACE game] Warping to Forest
+[18:55:24 TRACE Farm Type Manager] Spawning objects set to appear at time: 1400...
+[18:55:24 TRACE Farm Type Manager] Spawn process complete. Time: 1400. Total objects spawned: 0.
+[18:55:28 TRACE SpaceCore] Event: ActionActivated
+[18:55:28 TRACE SpaceCore] Event: BeforeWarp
+[18:55:28 TRACE game] Warping to AnimalShop
+[18:55:33 TRACE Farm Type Manager] Spawning objects set to appear at time: 1410...
+[18:55:33 TRACE Farm Type Manager] Spawn process complete. Time: 1410. Total objects spawned: 0.
+[18:55:35 TRACE SpaceCore] Event: BeforeWarp
+[18:55:35 TRACE game] Warping to Forest
+[18:55:38 TRACE SpaceCore] Event: ActionActivated
+[18:55:38 TRACE SpaceCore] Event: BeforeWarp
+[18:55:38 TRACE game] Warping to AnimalShop
+[18:55:42 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[18:55:46 TRACE Farm Type Manager] Spawning objects set to appear at time: 1420...
+[18:55:46 TRACE Farm Type Manager] Spawn process complete. Time: 1420. Total objects spawned: 0.
+[18:55:48 TRACE SpaceCore] Event: BeforeWarp
+[18:55:48 TRACE game] Warping to Forest
+[18:55:55 TRACE Farm Type Manager] Spawning objects set to appear at time: 1430...
+[18:55:55 TRACE Farm Type Manager] Spawn process complete. Time: 1430. Total objects spawned: 0.
+[18:55:59 TRACE SpaceCore] Event: BeforeReceiveObject
+[18:55:59 TRACE SpaceCore] Event: AfterGiftGiven
+[18:56:04 TRACE Farm Type Manager] Spawning objects set to appear at time: 1440...
+[18:56:04 TRACE Farm Type Manager] Spawn process complete. Time: 1440. Total objects spawned: 0.
+[18:56:06 TRACE SMAPI] Better Junimos edited Data/Blueprints.
+[18:56:46 TRACE Farm Type Manager] Spawning objects set to appear at time: 1450...
+[18:56:46 TRACE Farm Type Manager] Spawn process complete. Time: 1450. Total objects spawned: 0.
+[18:56:50 TRACE SpaceCore] Event: BeforeWarp
+[18:56:50 TRACE game] Warping to Farm
+[18:56:55 TRACE Farm Type Manager] Spawning objects set to appear at time: 1500...
+[18:56:55 TRACE Farm Type Manager] Spawn process complete. Time: 1500. Total objects spawned: 0.
+[18:57:02 TRACE Farm Type Manager] Spawning objects set to appear at time: 1510...
+[18:57:02 TRACE Farm Type Manager] Spawn process complete. Time: 1510. Total objects spawned: 0.
+[18:57:10 TRACE Farm Type Manager] Spawning objects set to appear at time: 1520...
+[18:57:10 TRACE Farm Type Manager] Spawn process complete. Time: 1520. Total objects spawned: 0.
+[18:57:18 TRACE Farm Type Manager] Spawning objects set to appear at time: 1530...
+[18:57:18 TRACE Farm Type Manager] Spawn process complete. Time: 1530. Total objects spawned: 0.
+[18:57:25 TRACE Farm Type Manager] Spawning objects set to appear at time: 1540...
+[18:57:25 TRACE Farm Type Manager] Spawn process complete. Time: 1540. Total objects spawned: 0.
+[18:57:33 TRACE Farm Type Manager] Spawning objects set to appear at time: 1550...
+[18:57:33 TRACE Farm Type Manager] Spawn process complete. Time: 1550. Total objects spawned: 0.
+[18:57:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 1600...
+[18:57:41 TRACE Farm Type Manager] Spawn process complete. Time: 1600. Total objects spawned: 0.
+[18:57:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 1610...
+[18:57:48 TRACE Farm Type Manager] Spawn process complete. Time: 1610. Total objects spawned: 0.
+[18:57:56 TRACE Farm Type Manager] Spawning objects set to appear at time: 1620...
+[18:57:56 TRACE Farm Type Manager] Spawn process complete. Time: 1620. Total objects spawned: 0.
+[18:58:03 TRACE Farm Type Manager] Spawning objects set to appear at time: 1630...
+[18:58:03 TRACE Farm Type Manager] Spawn process complete. Time: 1630. Total objects spawned: 0.
+[18:58:10 TRACE Farm Type Manager] Spawning objects set to appear at time: 1640...
+[18:58:10 TRACE Farm Type Manager] Spawn process complete. Time: 1640. Total objects spawned: 0.
+[18:58:20 TRACE Farm Type Manager] Spawning objects set to appear at time: 1650...
+[18:58:20 TRACE Farm Type Manager] Spawn process complete. Time: 1650. Total objects spawned: 0.
+[18:58:28 TRACE Farm Type Manager] Spawning objects set to appear at time: 1700...
+[18:58:28 TRACE Farm Type Manager] Spawn process complete. Time: 1700. Total objects spawned: 0.
+[18:58:35 TRACE Farm Type Manager] Spawning objects set to appear at time: 1710...
+[18:58:35 TRACE Farm Type Manager] Spawn process complete. Time: 1710. Total objects spawned: 0.
+[18:58:42 TRACE Farm Type Manager] Spawning objects set to appear at time: 1720...
+[18:58:42 TRACE Farm Type Manager] Spawn process complete. Time: 1720. Total objects spawned: 0.
+[18:58:49 TRACE Farm Type Manager] Spawning objects set to appear at time: 1730...
+[18:58:49 TRACE Farm Type Manager] Spawn process complete. Time: 1730. Total objects spawned: 0.
+[18:58:57 TRACE Farm Type Manager] Spawning objects set to appear at time: 1740...
+[18:58:57 TRACE Farm Type Manager] Spawn process complete. Time: 1740. Total objects spawned: 0.
+[18:59:04 TRACE Farm Type Manager] Spawning objects set to appear at time: 1750...
+[18:59:04 TRACE Farm Type Manager] Spawn process complete. Time: 1750. Total objects spawned: 0.
+[18:59:11 TRACE Farm Type Manager] Spawning objects set to appear at time: 1800...
+[18:59:11 TRACE Farm Type Manager] Spawn process complete. Time: 1800. Total objects spawned: 0.
+[18:59:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 1810...
+[18:59:19 TRACE Farm Type Manager] Spawn process complete. Time: 1810. Total objects spawned: 0.
+[18:59:26 TRACE Farm Type Manager] Spawning objects set to appear at time: 1820...
+[18:59:26 TRACE Farm Type Manager] Spawn process complete. Time: 1820. Total objects spawned: 0.
+[18:59:33 TRACE Farm Type Manager] Spawning objects set to appear at time: 1830...
+[18:59:33 TRACE Farm Type Manager] Spawn process complete. Time: 1830. Total objects spawned: 0.
+[18:59:41 TRACE Farm Type Manager] Spawning objects set to appear at time: 1840...
+[18:59:41 TRACE Farm Type Manager] Spawn process complete. Time: 1840. Total objects spawned: 0.
+[18:59:48 TRACE Farm Type Manager] Spawning objects set to appear at time: 1850...
+[18:59:48 TRACE Farm Type Manager] Spawn process complete. Time: 1850. Total objects spawned: 0.
+[18:59:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[19:00:39 TRACE Farm Type Manager] Spawning objects set to appear at time: 1900...
+[19:00:39 TRACE Farm Type Manager] Spawn process complete. Time: 1900. Total objects spawned: 0.
+[19:00:47 TRACE Farm Type Manager] Spawning objects set to appear at time: 1910...
+[19:00:47 TRACE Farm Type Manager] Spawn process complete. Time: 1910. Total objects spawned: 0.
+[19:00:54 TRACE Farm Type Manager] Spawning objects set to appear at time: 1920...
+[19:00:54 TRACE Farm Type Manager] Spawn process complete. Time: 1920. Total objects spawned: 0.
+[19:01:01 TRACE Farm Type Manager] Spawning objects set to appear at time: 1930...
+[19:01:01 TRACE Farm Type Manager] Spawn process complete. Time: 1930. Total objects spawned: 0.
+[19:01:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 1940...
+[19:01:08 TRACE Farm Type Manager] Spawn process complete. Time: 1940. Total objects spawned: 0.
+[19:01:16 TRACE Farm Type Manager] Spawning objects set to appear at time: 1950...
+[19:01:16 TRACE Farm Type Manager] Spawn process complete. Time: 1950. Total objects spawned: 0.
+[19:01:23 TRACE Farm Type Manager] Spawning objects set to appear at time: 2000...
+[19:01:23 TRACE Farm Type Manager] Spawn process complete. Time: 2000. Total objects spawned: 0.
+[19:01:30 TRACE Farm Type Manager] Spawning objects set to appear at time: 2010...
+[19:01:30 TRACE Farm Type Manager] Spawn process complete. Time: 2010. Total objects spawned: 0.
+[19:01:38 TRACE Farm Type Manager] Spawning objects set to appear at time: 2020...
+[19:01:38 TRACE Farm Type Manager] Spawn process complete. Time: 2020. Total objects spawned: 0.
+[19:01:45 TRACE Farm Type Manager] Spawning objects set to appear at time: 2030...
+[19:01:45 TRACE Farm Type Manager] Spawn process complete. Time: 2030. Total objects spawned: 0.
+[19:01:52 TRACE Farm Type Manager] Spawning objects set to appear at time: 2040...
+[19:01:52 TRACE Farm Type Manager] Spawn process complete. Time: 2040. Total objects spawned: 0.
+[19:01:54 TRACE SpaceCore] Event: BeforeWarp
+[19:01:54 TRACE game] Warping to Shedc5f3f2a9-506c-4746-8a48-744b604b1a48
+[19:02:01 TRACE Farm Type Manager] Spawning objects set to appear at time: 2050...
+[19:02:01 TRACE Farm Type Manager] Spawn process complete. Time: 2050. Total objects spawned: 0.
+[19:02:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 2100...
+[19:02:08 TRACE Farm Type Manager] Spawn process complete. Time: 2100. Total objects spawned: 0.
+[19:02:15 TRACE Farm Type Manager] Spawning objects set to appear at time: 2110...
+[19:02:15 TRACE Farm Type Manager] Spawn process complete. Time: 2110. Total objects spawned: 0.
+[19:02:31 TRACE CJB Item Spawner] Received menu open key.
+[19:06:08 TRACE Farm Type Manager] Spawning objects set to appear at time: 2120...
+[19:06:08 TRACE Farm Type Manager] Spawn process complete. Time: 2120. Total objects spawned: 0.
+[19:06:17 TRACE SpaceCore] Event: BeforeWarp
+[19:06:17 TRACE game] Warping to Farm
+[19:06:19 TRACE Farm Type Manager] Spawning objects set to appear at time: 2130...
+[19:06:19 TRACE Farm Type Manager] Spawn process complete. Time: 2130. Total objects spawned: 0.
+[19:06:22 TRACE SpaceCore] Event: BeforeWarp
+[19:06:22 TRACE game] Warping to Shed0a6bf4dc-22d1-4a75-b8a7-e30911b3ff3c
+[19:06:25 TRACE SpaceCore] Event: BeforeWarp
+[19:06:25 TRACE game] Warping to Farm
+[19:06:29 TRACE Farm Type Manager] Spawning objects set to appear at time: 2140...
+[19:06:29 TRACE Farm Type Manager] Spawn process complete. Time: 2140. Total objects spawned: 0.
+[19:06:33 TRACE CJB Item Spawner] Received menu open key.
+[19:06:37 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[19:07:03 TRACE Farm Type Manager] Spawning objects set to appear at time: 2150...
+[19:07:03 TRACE Farm Type Manager] Spawn process complete. Time: 2150. Total objects spawned: 0.
+[19:07:04 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[19:07:25 TRACE CJB Item Spawner] Received menu open key.
+[19:07:27 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[19:08:21 TRACE CJB Item Spawner] Received menu open key.
+[19:08:25 TRACE CJB Cheats Menu] Received menu open key, but a 'ItemMenu' menu is already open.
+[19:08:28 TRACE Farm Type Manager] Spawning objects set to appear at time: 2200...
+[19:08:28 TRACE Farm Type Manager] Spawn process complete. Time: 2200. Total objects spawned: 0.
+[19:08:30 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[19:08:33 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[19:09:01 TRACE Farm Type Manager] Spawning objects set to appear at time: 2210...
+[19:09:01 TRACE Farm Type Manager] Spawn process complete. Time: 2210. Total objects spawned: 0.
+[19:09:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[19:09:20 TRACE Farm Type Manager] Spawning objects set to appear at time: 2220...
+[19:09:20 TRACE Farm Type Manager] Spawn process complete. Time: 2220. Total objects spawned: 0.
+[19:09:24 TRACE SpaceCore] Event: ActionActivated
+[19:09:24 TRACE SpaceCore] Event: BeforeWarp
+[19:09:24 TRACE game] Warping to FarmHouse
+[19:09:29 TRACE Farm Type Manager] Spawning objects set to appear at time: 2230...
+[19:09:29 TRACE Farm Type Manager] Spawn process complete. Time: 2230. Total objects spawned: 0.
+[19:09:31 TRACE SpaceCore] Event: TouchActionActivated
+[19:09:33 TRACE Farm Type Manager] Day is ending. Processing save data and object expiration settings.
+[19:09:33 TRACE Farm Type Manager] Object check complete. Removing 0 missing/expired objects from save data.
+[19:09:33 TRACE SMAPI] Synchronizing 'NewDay' task...
+[19:09:35 TRACE SpaceCore] Event: ChooseNightlyFarmEvent
+[19:09:35 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[19:09:35 TRACE SpaceCore] Event: ShowNightEndMenus
+[19:09:35 DEBUG SpaceCore] Doing skill menus
+[19:09:35 TRACE SMAPI]    task complete.
+[19:09:35 TRACE SMAPI] Context: before save.
+[19:09:35 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[19:09:35 TRACE SMAPI] Invalidated 1 asset names (Characters/Junimo).
+Propagated 0 core assets ().
+[19:09:35 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[19:09:35 TRACE SMAPI] Invalidated 0 cache entries.
+[19:09:35 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[19:09:35 TRACE SMAPI] Invalidated 1 asset names (Data/Blueprints).
+Propagated 0 core assets ().
+[19:09:35 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[19:09:35 TRACE SMAPI] Invalidated 0 cache entries.
+[19:09:35 TRACE SpaceCore] Saving custom data
+[19:09:43 TRACE game] SaveGame.Save() called.
+[19:09:43 TRACE SMAPI] Synchronizing 'Save' task...
+[19:09:43 TRACE game] Saving without compression...
+[19:09:45 TRACE SMAPI]    task complete.
+[19:09:45 TRACE game] SaveGame.Save() completed without exceptions.
+[19:09:49 TRACE SMAPI] Context: after save, starting winter 2 Y5.
+[19:09:49 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo'.
+[19:09:49 TRACE SMAPI] Invalidated 0 cache entries.
+[19:09:49 TRACE Better Junimos] Requested cache invalidation for 'Characters/Junimo.'.
+[19:09:49 TRACE SMAPI] Invalidated 0 cache entries.
+[19:09:49 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints'.
+[19:09:49 TRACE SMAPI] Invalidated 0 cache entries.
+[19:09:49 TRACE Better Junimos] Requested cache invalidation for 'Data/Blueprints.'.
+[19:09:49 TRACE SMAPI] Invalidated 0 cache entries.
+[19:09:49 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CraftingRecipes'.
+[19:09:49 TRACE SMAPI] Invalidated 1 asset names (Data/CraftingRecipes).
+Propagated 1 core assets (Data/CraftingRecipes).
+[19:09:49 TRACE Dynamic Game Assets] Requested cache invalidation for 'Data/CookingRecipes'.
+[19:09:49 TRACE SMAPI] Invalidated 1 asset names (Data/CookingRecipes).
+Propagated 1 core assets (Data/CookingRecipes).
+[19:09:49 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[19:09:49 TRACE Farm Type Manager] Day is starting. Loading config data.
+[19:09:49 TRACE Farm Type Manager] Beginning file loading process...
+[19:09:49 TRACE Farm Type Manager] All available content packs checked.
+[19:09:49 TRACE Farm Type Manager] Loading files from FarmTypeManager/data
+[19:09:49 TRACE Farm Type Manager] Validating data from FarmTypeManager/data
+[19:09:49 TRACE Farm Type Manager] Checking for duplicate UniqueAreaIDs...
+[19:09:49 TRACE Farm Type Manager] Assigning new UniqueAreaIDs to any blanks or duplicates...
+[19:09:49 TRACE Farm Type Manager] Validation complete for data from FarmTypeManager/data
+[19:09:49 TRACE Farm Type Manager] Checking file conditions...
+[19:09:49 TRACE Farm Type Manager] FarmTypeManager/data farm data loaded successfully.
+[19:09:49 TRACE Farm Type Manager] Checking for saved objects that went missing overnight.
+[19:09:49 TRACE Farm Type Manager] Missing objects: 0. Respawned: 0. Not respawned due to obstructions: 0. Skipped due to missing maps: 0. Skipped due to missing item types: 0.
+[19:09:49 TRACE Farm Type Manager] Starting forage generation for this file: FarmTypeManager/data/Liv_314128530.json
+[19:09:49 TRACE Farm Type Manager] Forage generation is disabled for this file.
+[19:09:49 TRACE Farm Type Manager] All files and content packs checked. Forage generation process complete.
+[19:09:49 TRACE Farm Type Manager] Starting large object generation for this file: FarmTypeManager/data/Liv_314128530.json
+[19:09:49 TRACE Farm Type Manager] Large object generation is disabled for this file.
+[19:09:49 TRACE Farm Type Manager] All files and content packs checked. Large object generation process complete.
+[19:09:49 TRACE Farm Type Manager] Starting ore generation for this file: FarmTypeManager/data/Liv_314128530.json
+[19:09:49 TRACE Farm Type Manager] Ore generation is disabled for this file.
+[19:09:49 TRACE Farm Type Manager] All files and content packs checked. Ore spawn process complete.
+[19:09:49 TRACE Farm Type Manager] Starting monster generation for this file: FarmTypeManager/data/Liv_314128530.json
+[19:09:49 TRACE Farm Type Manager] Monster generation is disabled for this file.
+[19:09:49 TRACE Farm Type Manager] All files and content packs checked. Monster generation process complete.
+[19:09:49 TRACE Farm Type Manager] Spawning objects set to appear at time: 600...
+[19:09:49 TRACE Farm Type Manager] Spawn process complete. Time: 600. Total objects spawned: 0.
+[19:09:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1680 Height:1050}
+[19:09:55 TRACE game] Disconnected: ClosedGame
+[19:09:55 TRACE SMAPI] Disposing...
+[19:09:55 TRACE SMAPI] Disposing the content coordinator. Content managers will no longer be usable after this point.
