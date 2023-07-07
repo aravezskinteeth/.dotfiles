@@ -64,6 +64,14 @@ export OPENAI_API_KEY=""
 export MODS_MODEL="gpt-3.5-turbo"
 export MODS_MAX_TOKENS="256"
 
+# ruby
+# For compilers to find ruby you may need to set:
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+# For pkg-config to find ruby you may need to set:
+export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+# gem
+export GEM_PATH="/usr/local/lib/ruby/gems/3.2.0/bin"
 # ~~~~~~ pfetch ~~~~~~~~ #
 # NOTE: If 'ascii' will be used, it must come first.
 # Valid: space separated string
@@ -108,3 +116,5 @@ export PATH="$XDG_CONFIG_HOME/local/bin:$PATH" # Arttime installer
 export PATH="/usr/local/texlive/2023basic/bin/universal-darwin:$PATH" # Basic Tex commands' PATH
 export PATH="$HOME/miniconda/bin:$PATH" # Miniconda
 export PATH="/usr/local/Caskroom/miniconda/base:$PATH" # Miniconda (environment location)
+export PATH="/usr/local/opt/ruby/bin:$PATH" # ruby on rails
+export PATH="$GEM_PATH:$PATH" # Gems
