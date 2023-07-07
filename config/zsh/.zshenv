@@ -2,7 +2,7 @@
 
 # ~~~~~~ EXPORT ENVIRONMENT VARIABLE ~~~~~~ #
 
-export TERM='xterm-kitty'
+# export TERM='xterm-kitty'
 export DOTFILES="$HOME/.dotfiles"
 
 # [ -f "$DOTFILES/install_config" ] && source "$DOTFILES/install_config"
