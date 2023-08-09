@@ -45,6 +45,13 @@ alias fix-brew-process='rm -rf $(brew --prefix)/var/homebrew/locks'
 alias charmbracelet='ssh git.charm.sh'
 alias passphrase="dd if=/dev/urandom bs=16 count=1 2>/dev/null | base64 | sed 's/=//g'"
 
+# ~~~~~ Docker ~~~~~ #
+# Expanse container http://localhost:1301 
+alias expanse-cd= 'cd /Volumes/LIVISU/livs/selfhosted/expanse'
+alias expanse-on= 'sh ./run.sh prod up'
+alias expanse-off= 'sh ./run.sh prod down'
+alias expanse-update= 'sh ./run.sh prod update'
+
 # ~~~~~ ricing ~~~~~ #
 # Print palette in circles
 alias circle='clear && echo -e "\e[31m●\e[0m \e[33m●\e[0m \e[32m●\e[0m \e[36m●\e[0m \e[34m●\e[0m \e[35m●\e[0m" && echo ""'
