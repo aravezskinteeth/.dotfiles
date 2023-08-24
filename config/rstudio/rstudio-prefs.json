@@ -63,5 +63,6 @@
     "jobs_tab_visibility": "shown",
     "visual_markdown_editing_is_default": true,
     "visual_markdown_editing_show_margin": true,
-    "visual_markdown_code_editor_line_numbers": true
+    "visual_markdown_code_editor_line_numbers": true,
+    "show_terminal_tab": false
 }
