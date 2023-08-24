@@ -58,7 +58,7 @@
     "use_tinytex": true,
     "latex_shell_escape": true,
     "python_type": "system",
-    "python_version": "3.11.3",
+    "python_version": "3.11.4",
     "python_path": "/usr/local/bin/python3",
     "jobs_tab_visibility": "shown",
     "visual_markdown_editing_is_default": true,
