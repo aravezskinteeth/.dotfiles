@@ -19,7 +19,7 @@
     "show_diagnostics_other": true,
     "syntax_color_console": true,
     "font_size_points": 14,
-    "editor_theme": "Dracula",
+    "editor_theme": "catppuccin-mocha",
     "posix_terminal_shell": "zsh",
     "global_theme": "alternate",
     "panes": {
