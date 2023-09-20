@@ -1,9 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
     - /Users/skinofmyeden/.dotfiles
+    - /Users/skinofmyeden/.config/nvim/lua/user
     - /Users/skinofmyeden/Documents/start-page
     - /Volumes/LIVISU/livs/programming/git-professional/livisupajares.github.io
-    - /Users/skinofmyeden/.config/nvim/lua/user
     - /Users/skinofmyeden/user
     - /Users/skinofmyeden/git/my-own-repos/coteditor
     - /Users/skinofmyeden/.config/nvim
