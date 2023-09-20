@@ -126,6 +126,7 @@ brew install syncthing
 - [Adobe Photoshop](https://appnee.com/adobe-zii/#more-1670)
 	- Browse the subreddit (for more info) on your phone or iPad bc it has been blocked elsewhere.
 - [Python](https://www.python.org/)
+- [PyMol](https://pymol.org/2/)
 - [SMAPI](https://smapi.io/)
 - [Bar Translate](https://github.com/ThijmenDam/BarTranslate)
 - [Better Discord](https://github.com/BetterDiscord/BetterDiscord)
