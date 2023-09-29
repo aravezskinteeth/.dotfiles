@@ -1,6 +1,6 @@
 #-----ZSH-AUTOCOMPLETE------#
 # Always at the start
-source "$HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
+# source "$HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
 
 #-----OH-MY-ZSH-INSTALLATION-PATH--------#
 # Path to your oh-my-zsh installation.
