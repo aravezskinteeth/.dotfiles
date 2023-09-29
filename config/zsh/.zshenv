@@ -119,3 +119,4 @@ export PATH="$HOME/miniconda/bin:$PATH" # Miniconda
 export PATH="/usr/local/Caskroom/miniconda/base:$PATH" # Miniconda (environment location)
 export PATH="/usr/local/opt/ruby/bin:$PATH" # ruby on rails
 export PATH="$GEM_PATH:$PATH" # Gems
+export PATH="/Users/skinofmyeden/Documents/bin/:$PATH" # meow script 
