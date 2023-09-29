@@ -31,7 +31,7 @@ export XDG_CURRENT_DESKTOP="yabai"      # Desktop environment
 
 # ~~~~~ other software ~~~~~~ #
 # cargo
-. "$XDG_CONFIG_HOME/.cargo/env"
+# . "$XDG_CONFIG_HOME/.cargo/env"
 
 # Man pages
 export MANPAGER='nvim +Man!'
