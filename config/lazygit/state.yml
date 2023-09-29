@@ -1,15 +1,13 @@
 lastupdatecheck: 0
 recentrepos:
-    - /Users/skinofmyeden/.dotfiles
-    - /Users/skinofmyeden/Documents/start-page
-    - /Users/skinofmyeden/.config/nvim/lua/user
-    - /Volumes/LIVISU/livs/programming/git-professional/livisupajares.github.io
-    - /Users/skinofmyeden/user
-    - /Users/skinofmyeden/git/my-own-repos/coteditor
-    - /Users/skinofmyeden/.config/nvim
-    - /Volumes/LIVISU/livs/zotero
+- /Users/skinofmyeden/.dotfiles
+- /Users/skinofmyeden/Documents/start-page
+- /Volumes/LIVISU/livs/programming/git-professional/livisupajares.github.io
+- /Users/skinofmyeden/.config/nvim
+- /Volumes/LIVISU/livs/zotero
 startuppopupversion: 5
 customcommandshistory:
-    - q
-    - :q
+- q
+- :q
 hidecommandlog: false
+ignorewhitespaceindiffview: false
