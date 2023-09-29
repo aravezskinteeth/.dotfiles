@@ -20,13 +20,12 @@ plugins=(
     zsh-autosuggestions
     colored-man-pages
     starship
+    zsh-syntax-highlighting
 )
 
 #-----OTHER-SOURCING------------------#
 # Catpuccin syntax highlighting
 source "$HOME/.dotfiles/config/zsh/.zsh/catppuccin/catppuccin_mocha-zsh-syntax-highlighting.zsh"
-# Now load zsh-syntax-highlighting plugin
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Important, or else your plugins won't work
 source $ZSH/oh-my-zsh.sh
