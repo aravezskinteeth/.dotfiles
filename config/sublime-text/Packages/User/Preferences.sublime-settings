@@ -1,6 +1,7 @@
 {
 	"ignored_packages":
 	[
+		"Catppuccin color schemes",
 		"Vintage",
 	],
 	"color_scheme": "Mocha.sublime-color-scheme",
