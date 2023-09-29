@@ -34,7 +34,7 @@ source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # tre
-tre() { command tree "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
+# tre() { command tree "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
 
 #-------PERSONAL-ALIASES--------#
 # For a full list of active aliases, run `alias`.
