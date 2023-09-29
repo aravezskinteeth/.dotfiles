@@ -3,3 +3,6 @@
 # The original version is saved in .zprofile.pysave
 # PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
 export PATH
+
+# Homebrew Path
+eval "$(/opt/homebrew/bin/brew shellenv)"
