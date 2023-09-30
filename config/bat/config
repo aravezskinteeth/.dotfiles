@@ -1,5 +1,5 @@
 # Set theme
---theme="Catppuccin-mocha"
+--theme="ansi"
 
 # Set the style
 --style="full"
