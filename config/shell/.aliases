@@ -18,11 +18,9 @@ alias lla='ls -la'
 alias lt='ls --tree'
 
 # ~~~~~ NVIM ~~~~ 
-alias nvim-chad='NVIM_APPNAME=NvChad nvim'
-alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
-alias nvim-astro='nvim'
-alias vi='nvim'
-alias vim='nvim'
+# alias nvim-chad='NVIM_APPNAME=NvChad nvim'
+# alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
+# alias nvim-astro='nvim'
 alias neovim='nvim'
 
 # ~~~~~ MacBook ~~~~~ #
