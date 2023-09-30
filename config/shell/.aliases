@@ -2,7 +2,7 @@
 alias diff='git difftool --no-symlinks --dir-diff'
 alias zshrc='source ~/.zshrc'
 alias rm='trash'
-alias nano='/usr/local/bin/nano' # For nano highlighting. First brew install nano bc MacOS nano is too outdated.
+alias nano='/opt/homebrew/bin/nano' # For nano highlighting. First brew install nano bc MacOS nano is too outdated.
 alias cat='bat'
 alias debug-starship='env STARSHIP_LOG=trace starship timings'
 
