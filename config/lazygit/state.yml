@@ -2,11 +2,11 @@ lastupdatecheck: 0
 recentrepos:
 - /Users/skinofmyeden/.dotfiles
 - /Users/skinofmyeden/Documents/start-page
-- /Volumes/LIVISU/livs/programming/git-professional/livisupajares.github.io
 - /Volumes/LIVISU/livs/zotero
+- /Volumes/LIVISU/livs/programming/git-professional/livisupajares.github.io
 startuppopupversion: 5
 customcommandshistory:
-- :q
 - q
+- :q
 hidecommandlog: false
 ignorewhitespaceindiffview: false
