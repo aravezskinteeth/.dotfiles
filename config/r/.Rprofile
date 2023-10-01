@@ -5,6 +5,7 @@
 # install.packages("remotes")
 # remotes::install_github("csgillespie/rprofile")
 # Used for nice prompts
+# install.packages("ps") --> Is a must for using prompt
 # remotes::install_github("gaborcsardi/prompt")
 # Used for nice colours in the terminal; not for Windows
 # remotes::install_github("jalvesaq/colorout")
