@@ -38,6 +38,7 @@ alias globalpower='pmset -g' # display global power settings
 alias update-brewfile='brew bundle dump --force --file=/Users/skinofmyeden/.dotfiles/system/macos/Brewfile'
 alias install-brewfile='brew bundle --force --file=/Users/skinofmyeden/.dotfiles/system/macos/Brewfile'
 alias fix-brew-process='rm -rf $(brew --prefix)/var/homebrew/locks'
+alias rebrew='brew update && brew upgrade && brew cleanup'
 
 # ~~~~~ SSH ~~~~~ #
 alias charmbracelet='ssh git.charm.sh'
