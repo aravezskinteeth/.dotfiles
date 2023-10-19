@@ -19,16 +19,17 @@ shell = ["bash", "zsh", "fish"]
 
 # System Commands
 [battery]
-disabled = true
+disabled = true 
+format = '[$symbol$percentage]($style) '
 full_symbol = "🔋"
 charging_symbol = "🔌"
 discharging_symbol = "⚡"
 empty_symbol = "💀"
 
 [[battery.display]]
-disabled = true
-threshold = 30
-style = "red"
+threshold = 80 
+style = "bold red"
+charging_symbol = "🔌"
 discharging_symbol = "⚡"
 
 [cmd_duration]
@@ -55,7 +56,7 @@ vimcmd_symbol = "[❯](bold green)"
 home_symbol = "~"
 use_os_path_sep = true
 format = ' [$path]($style)[$lock_symbol]($lock_style) ' 
-read_only = " "
+read_only = " "
 style = "bold pink"
 
 [status]
