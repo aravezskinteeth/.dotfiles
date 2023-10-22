@@ -121,3 +121,4 @@ export PATH="/usr/local/opt/ruby/bin:$PATH" # ruby on rails
 export PATH="$GEM_PATH:$PATH" # Gems
 export PATH="/Users/skinofmyeden/Documents/bin/:$PATH" # meow script
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH" # subl cli (Sublime Text)
+export PATH=$PATH:/Users/skinofmyeden/.spicetify # Spicetify
