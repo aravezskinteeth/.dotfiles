@@ -135,3 +135,4 @@ brew install syncthing
 - [LifeAt](lifeat.io/)
 - [App Cleaner](https://freemacsoft.net/appcleaner/)
 - [CoconutBattery](https://coconut-flavour.com/coconutbattery/)
+- System Color Picker : MacApp store
