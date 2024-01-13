@@ -56,22 +56,23 @@ Here I'll add Casks that I have not installed with `Brew` but that I still have 
 # brew install --cask affinity-photo
 # brew install --cask affinity-designer
 # brew install --cask affinity-publisher
+# brew install --cask airdroid
 # brew install --cask quarto
 # brew install --cask xquartz
 # brew install --cask alfred
-# brew install --cask background-music
+brew install --cask background-music
 # brew install --cask bitwarden
-# brew install --cask discord
-# brew install --cask disk-inventory-x
+brew install --cask discord
+brew install --cask disk-inventory-x
 # brew install --cask firefox
-# brew install --cask gog-galaxy
-# brew install --cask hiddenbar
+brew install --cask gog-galaxy
+brew install --cask hiddenbar
 # brew install --cask iina
 brew install --cask itsycal
 # brew install --cask keka
 brew install --cask kindle
 # brew install --cask kitty
-# brew install --cask latest
+brew install --cask latest
 brew install --cask malwarebytes
 # brew install --cask microsoft-auto-update
 # brew install --cask microsoft-excel
@@ -90,9 +91,10 @@ brew install --cask onyx
 # brew install --cask rstudio
 # brew install --cask sf-symbols
 brew install --cask shottr
-# brew install --cask stats
+brew install --cask stats
 # brew install --cask steam
 # brew install --cask sublime-text
+# brew install --cask spotify
 brew install --cask syncthing
 # brew install --cask tidal
 # brew install --cask tor-browser
@@ -107,8 +109,9 @@ brew install --cask whatsapp
 Here I'll add Formulae that I have not installed with `Brew`.
 
 ```sh
-# brew install mpv
+brew install mpv
 # brew install r
+# brew install onedrive
 brew install spek
 brew install supertux
 brew install syncthing
@@ -127,7 +130,6 @@ brew install syncthing
 	- [Online version](https://gdquest.github.io/learn-gdscript/)
 - [Notable Insider's version](https://github.com/notable/notable-insiders)
 - [Pure Ref](https://www.pureref.com/download.php?forcePlatform=mac)
-- Stardew Valley (download from GOG Galaxy)
 - [Stardew-Valley-Planner-v2](https://www.nexusmods.com/stardewvalley/mods/3787/)
 	- [Online Version](https://stardew.info/)
 - [UCSC Xena](https://xenabrowser.net/)
@@ -136,3 +138,4 @@ brew install syncthing
 - [App Cleaner](https://freemacsoft.net/appcleaner/)
 - [CoconutBattery](https://coconut-flavour.com/coconutbattery/)
 - System Color Picker : MacApp store
+- Playgrounds : Mac App store
