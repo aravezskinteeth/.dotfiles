@@ -24,6 +24,9 @@ alias lt='ls --tree'
 alias neovim='nvim'
 
 # ~~~~~ MacBook ~~~~~ #
+# Most common folders
+alias livs='cd /Volumes/LIVISU/livs/'
+
 # Code Server aliases
 alias cs='brew services start code-server'
 alias csr='brew services restart code-server'
