@@ -1,9 +1,10 @@
 lastupdatecheck: 0
 recentrepos:
 - /Users/skinofmyeden/.dotfiles
+- /Users/skinofmyeden/.config/nvim/lua/user
+- /Volumes/LIVISU/livs/programming/git-professional/undergrad-thesis
 - /Users/skinofmyeden/Documents/start-page
 - /Volumes/LIVISU/livs/zotero
-- /Users/skinofmyeden/.config/nvim/lua/user
 - /Volumes/LIVISU/livs/programming/git-professional/livisupajares.github.io
 startuppopupversion: 5
 customcommandshistory:
