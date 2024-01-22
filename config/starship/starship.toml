@@ -47,8 +47,8 @@ style_root = "bold red"
 
 [character]
 # disabled = true
-error_symbol = "[❯](bold red)"
-success_symbol = "[[♥](bold green) ❯](bold maroon)"
+error_symbol = "[[󰣐](bold red) ❯](bold green)"
+success_symbol = "[[󰣐](bold green) ❯](bold maroon)"
 vimcmd_symbol = "[❯](bold green)"
 
 [directory]
