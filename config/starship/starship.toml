@@ -112,9 +112,10 @@ disabled = false
 
 # Packages and languages
 [conda]
-# disabled = true
-symbol = " "
-format = '[$symbol$environment](dimmed green) '
+symbol = "󱔎 "
+format = 'via [$symbol$environment](green) '
+ignore_base = false
+disabled = false
 
 [docker_context]
 # disabled = true
@@ -145,7 +146,7 @@ symbol = " "
 symbol = " "
 
 [nodejs]
-# disabled = true
+disabled = true
 symbol = " "
 
 [perl]
