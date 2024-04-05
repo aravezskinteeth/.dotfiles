@@ -1,0 +1,36 @@
+{"signed_in":false,"type":"Setting","setting":"theme","value":"Rosé Pine Moon","milliseconds_since_first_event":0}
+{"signed_in":false,"type":"Setting","setting":"keymap","value":"VSCode","milliseconds_since_first_event":0}
+{"signed_in":false,"type":"App","operation":"open","milliseconds_since_first_event":0}
+{"signed_in":false,"type":"Editor","operation":"open","file_extension":null,"vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true,"milliseconds_since_first_event":0}
+{"signed_in":false,"type":"Setting","setting":"theme","value":"Catppuccin Macchiato","milliseconds_since_first_event":44730}
+{"signed_in":true,"type":"Editor","operation":"open","file_extension":null,"vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true,"milliseconds_since_first_event":138980}
+{"signed_in":true,"type":"App","operation":"open project","milliseconds_since_first_event":143112}
+{"signed_in":true,"type":"Editor","operation":"open","file_extension":"json","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true,"milliseconds_since_first_event":151384}
+{"signed_in":true,"type":"Edit","duration":735,"environment":"editor","milliseconds_since_first_event":218186}
+{"signed_in":true,"type":"Memory","memory_in_bytes":141885440,"virtual_memory_in_bytes":465126260736,"milliseconds_since_first_event":239802}
+{"signed_in":true,"type":"Cpu","usage_as_percentage":8.66226,"core_count":8,"milliseconds_since_first_event":239802}
+{"signed_in":true,"type":"Edit","duration":1,"environment":"editor","milliseconds_since_first_event":285191}
+{"signed_in":true,"type":"Editor","operation":"open","file_extension":null,"vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true,"milliseconds_since_first_event":0}
+{"signed_in":true,"type":"Edit","duration":2587,"environment":"editor","milliseconds_since_first_event":42143}
+{"signed_in":true,"type":"Memory","memory_in_bytes":101974016,"virtual_memory_in_bytes":465125883904,"milliseconds_since_first_event":171477}
+{"signed_in":true,"type":"Cpu","usage_as_percentage":5.0344324,"core_count":8,"milliseconds_since_first_event":171477}
+{"signed_in":true,"type":"Edit","duration":787,"environment":"editor","milliseconds_since_first_event":0}
+{"signed_in":true,"type":"Edit","duration":1308,"environment":"editor","milliseconds_since_first_event":47791}
+{"signed_in":true,"type":"Memory","memory_in_bytes":136642560,"virtual_memory_in_bytes":482308390912,"milliseconds_since_first_event":111198}
+{"signed_in":true,"type":"Cpu","usage_as_percentage":5.7674265,"core_count":8,"milliseconds_since_first_event":111198}
+{"signed_in":true,"type":"Edit","duration":4275,"environment":"editor","milliseconds_since_first_event":116359}
+{"signed_in":true,"type":"Editor","operation":"save","file_extension":"json","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true,"milliseconds_since_first_event":129146}
+{"signed_in":true,"type":"Edit","duration":1,"environment":"editor","milliseconds_since_first_event":216599}
+{"signed_in":true,"type":"App","operation":"open project","milliseconds_since_first_event":238674}
+{"signed_in":true,"type":"Editor","operation":"open","file_extension":"ipynb","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true,"milliseconds_since_first_event":244405}
+{"signed_in":true,"type":"App","operation":"open project","milliseconds_since_first_event":252555}
+{"signed_in":true,"type":"Editor","operation":"open","file_extension":"md","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true,"milliseconds_since_first_event":0}
+{"signed_in":true,"type":"Memory","memory_in_bytes":131121152,"virtual_memory_in_bytes":473985548288,"milliseconds_since_first_event":41725}
+{"signed_in":true,"type":"Cpu","usage_as_percentage":8.569544,"core_count":8,"milliseconds_since_first_event":41725}
+{"signed_in":true,"type":"Setting","setting":"theme","value":"Rosé Pine Moon","milliseconds_since_first_event":204382}
+{"signed_in":true,"type":"Setting","setting":"theme","value":"Catppuccin Macchiato","milliseconds_since_first_event":271880}
+{"signed_in":true,"type":"Memory","memory_in_bytes":152502272,"virtual_memory_in_bytes":473994641408,"milliseconds_since_first_event":281724}
+{"signed_in":true,"type":"Cpu","usage_as_percentage":6.9670305,"core_count":8,"milliseconds_since_first_event":281724}
+{"signed_in":true,"type":"App","operation":"welcome page: open","milliseconds_since_first_event":0}
+{"signed_in":true,"type":"Memory","memory_in_bytes":135806976,"virtual_memory_in_bytes":465403740160,"milliseconds_since_first_event":169719}
+{"signed_in":true,"type":"Cpu","usage_as_percentage":5.730713,"core_count":8,"milliseconds_since_first_event":169719}
