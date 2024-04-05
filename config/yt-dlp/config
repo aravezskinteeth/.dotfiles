@@ -4,8 +4,8 @@
 # with -S, you change the criteria for being considered the best
 -S res:1080,vext:mp4,aext:m4a
 
-# Download age restricted videos
+# Download age restricted videos and youtube member only videos ONLY IF YOU SUBSCRIBE!!!, if you haven't it won't work
 --cookies-from-browser firefox
 
 # Save all your videos here
--o '/Volumes/LIVISU/livs/Videos-movies/youtube-dl/%(title)s-%(upload_date>%d-%m-%Y)s.%(ext)s'
+-o '/Volumes/LIVISU/livs/videos/yt-dlp/%(title)s-%(upload_date>%d-%m-%Y)s.%(ext)s'
