@@ -1,27 +1,27 @@
 {
   "telemetry": {
-    "id": "4qfDMGqP-SwfHtv1m-0PUMa5zc"
+    "id": "E6ZQRStG-279cvdps-pmyUyCz9"
   },
   "changelog": {
     "lastKnownVersion": "1.9.0-beta.10"
   },
   "cwd": {
-    "current": "/Volumes/LIVISU/livs/markdown/notable",
-    "recents": "[\"/Volumes/LIVISU/livs/markdown/notable\",\"/Volumes/LIVISU/livs/Notable\",\"/Users/skinofmyeden/Notable/Default\"]"
+    "current": "/Users/skinofmyeden/Library/CloudStorage/OneDrive-Personal/markdown/Notable",
+    "recents": "[\"/Users/skinofmyeden/Library/CloudStorage/OneDrive-Personal/markdown/Notable\",\"/Volumes/LIVISU/livs/markdown/Notable\",\"/Users/skinofmyeden/Notable/Default\"]"
   },
   "tutorial": {
     "inited": true
   },
   "fileSystem": {
-    "latestPaths": "[[\"cwd\",\"/Volumes/LIVISU/livs/markdown/notable\"]]"
+    "latestPaths": "[[\"cwd\",\"/Users/skinofmyeden/Library/CloudStorage/OneDrive-Personal/markdown/Notable\"]]"
   },
   "layoutResizable": {
-    "states": "[[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column mainbar   \",{\"0\":68,\"1\":747}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column sidebar   -layout column mainbar   \",{\"0\":68,\"1\":446,\"2\":301}],[\"preferences__NOTABLE_SEPARATOR__layout layout-content preferences-section-layout layout-content preferences-section\",{\"0\":262,\"1\":262}]]"
+    "states": "[[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column sidebar   -layout column mainbar   \",{\"0\":68,\"1\":324,\"2\":503}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column mainbar   \",{\"0\":68,\"1\":826}],[\"split-editor__NOTABLE_SEPARATOR__monaco-editor-wrapper editor  note-editor layout-content -preview-wrapper layout-content \",{\"0\":250,\"1\":251}],[\"split-editor__NOTABLE_SEPARATOR__monaco-editor-wrapper editor layout-content-preview-wrapper layout-content \",{\"0\":464,\"1\":464}],[\"preferences__NOTABLE_SEPARATOR__layout layout-content preferences-section-layout layout-content preferences-section\",{\"0\":200,\"1\":200}],[\"preferences__NOTABLE_SEPARATOR__layout layout-content preferences-section\",{\"0\":1158}]]"
   },
   "view": {
-    "current": "\"explorer\""
+    "current": "\"search\""
   },
   "editor": {
-    "enabled": false
+    "enabled": true
   }
 }

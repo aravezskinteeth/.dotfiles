@@ -1,147 +1,18 @@
 {
-  "themes": {
-    "active": "dracula-theme_theme-dracula_Dracula",
-    "installed": {
-      "dracula-theme_theme-dracula_Dracula": {
-        "id": "dracula-theme_theme-dracula_Dracula",
-        "base": "dark",
-        "title": "Dracula",
-        "colors": {
-          "colors:primary:background": "hsl(234.5454545455, 14.2857142857%, 19.0980392157%)",
-          "colors:primary:foreground": "#F8F8F2",
-          "colors:secondary:background": "#FF79C6",
-          "colors:secondary:foreground": "#F8F8F2",
-          "sidebar:background": "#21222C",
-          "middlebar:background": "#282A36",
-          "middlebar:foreground": "#F8F8F2",
-          "mainbar:background": "#282A36",
-          "mainbar:foreground": "#F8F8F2",
-          "statusbar:background": "#191A21",
-          "statusbar:foreground": "#F8F8F2",
-          "titlebar:background": "#21222C",
-          "titlebar:foreground": "#F8F8F2",
-          "titlebar:button:background": "#21222C",
-          "titlebar:button:backgroundHover": "hsl(234.5454545455, 14.2857142857%, 18.0980392157%)",
-          "titlebar:button:backgroundActive": "hsl(234.5454545455, 14.2857142857%, 21.0980392157%)",
-          "titlebar:button:close:background": "#21222C",
-          "editor:background": "#282A36",
-          "editor:foreground": "#F8F8F2",
-          "editor:guide:background": "#FFFFFF1A",
-          "editor:guide:backgroundActive": "#FFFFFF1A",
-          "editor:gutter:background": "#282A36",
-          "editor:gutter:foreground": "#6272A4",
-          "editor:highlight:background": "#424450",
-          "preview:background": "#282A36",
-          "preview:foreground": "#F8F8F2",
-          "preview:blockquote:border": "hsl(225.4545454545, 0%, 48.3725490196%)",
-          "preview:blockquote:foreground": "hsl(225.4545454545, 0%, 51.3725490196%)",
-          "preview:heading:border": "hsl(225.4545454545, 0%, 51.3725490196%)",
-          "preview:h6:foreground": "hsl(225.4545454545, 0%, 51.3725490196%)",
-          "preview:hr:background": "hsl(225.4545454545, 0%, 48.3725490196%)",
-          "preview:table:border": "hsl(225.4545454545, 0%, 48.3725490196%)",
-          "preview:table:row:even:background": "rgba(255, 121, 198, 0.05)",
-          "highlighter:tokens:default:foreground": "#F8F8F2",
-          "highlighter:tokens:attribute:value:foreground": "#F8F8F2",
-          "highlighter:tokens:attribute:value:html:foreground": "#F8F8F2",
-          "highlighter:tokens:attribute:value:number:foreground": "#F8F8F2",
-          "highlighter:tokens:attribute:value:unit:foreground": "#F8F8F2",
-          "highlighter:tokens:attribute:value:xml:foreground": "#F8F8F2",
-          "highlighter:tokens:delimiter:foreground": "#F8F8F2",
-          "highlighter:tokens:delimiter:html:foreground": "#F8F8F2",
-          "highlighter:tokens:delimiter:xml:foreground": "#F8F8F2",
-          "highlighter:tokens:emphasis:foreground": "#F8F8F2",
-          "highlighter:tokens:metatag:php:foreground": "#F8F8F2",
-          "highlighter:tokens:strikethrough:foreground": "#F8F8F2",
-          "highlighter:tokens:string:foreground": "#F8F8F2",
-          "highlighter:tokens:string:html:foreground": "#F8F8F2",
-          "highlighter:tokens:string:value:json:foreground": "#F8F8F2",
-          "highlighter:tokens:string:yaml:foreground": "#F8F8F2",
-          "highlighter:tokens:strong:foreground": "#F8F8F2",
-          "highlighter:tokens:variable:source:foreground": "#F8F8F2",
-          "sidebar:foreground": "#F8F8F2",
-          "preview:link:foreground": "#FF79C6"
-        }
-      },
-      "azemoh_one-monokai_One Monokai": {
-        "id": "azemoh_one-monokai_One Monokai",
-        "base": "dark",
-        "title": "One Monokai",
-        "colors": {
-          "colors:primary:background": "hsl(216, 13.1578947368%, 18.9019607843%)",
-          "colors:secondary:background": "hsl(220.2312138728, 100%, 74.0784313725%)",
-          "colors:secondary:foreground": "#F8FAFD",
-          "sidebar:background": "#21252b",
-          "middlebar:background": "#282c34",
-          "mainbar:background": "#282c34",
-          "statusbar:background": "#21252B",
-          "statusbar:foreground": "#9da5b4",
-          "titlebar:background": "#282c34",
-          "titlebar:foreground": "#9da5b4",
-          "titlebar:button:background": "#282c34",
-          "titlebar:button:backgroundHover": "hsl(220, 13.0434782609%, 21.0392156863%)",
-          "titlebar:button:backgroundActive": "hsl(220, 13.0434782609%, 24.0392156863%)",
-          "titlebar:button:close:background": "#282c34",
-          "scrollbar:thumb:background": "#4E566680",
-          "scrollbar:thumb:backgroundHover": "#5A637580",
-          "scrollbar:thumb:backgroundActive": "#747D9180",
-          "notification:background": "#21252b",
-          "editor:background": "#282c34",
-          "editor:cursor:foreground": "#f8f8f0",
-          "editor:guide:background": "#484848",
-          "editor:guide:backgroundActive": "#484848",
-          "editor:gutter:background": "#282c34",
-          "editor:gutter:foreground": "#495162",
-          "preview:background": "#282c34",
-          "preview:blockquote:border": "hsl(220.8, 0%, 30.5294117647%)",
-          "preview:blockquote:foreground": "hsl(220.8, 0%, 33.5294117647%)",
-          "preview:heading:border": "hsl(220.8, 0%, 33.5294117647%)",
-          "preview:h6:foreground": "hsl(220.8, 0%, 33.5294117647%)",
-          "preview:hr:background": "hsl(220.8, 0%, 30.5294117647%)",
-          "preview:table:border": "hsl(220.8, 0%, 30.5294117647%)",
-          "preview:table:row:even:background": "rgba(82, 139, 255, 0.05)",
-          "highlighter:tokens:annotation:foreground": "#c678dd",
-          "highlighter:tokens:attribute:name:foreground": "#c678dd",
-          "highlighter:tokens:comment:foreground": "#c678dd",
-          "highlighter:tokens:constant:foreground": "#c678dd",
-          "highlighter:tokens:deletion:foreground": "#c678dd",
-          "highlighter:tokens:insertion:foreground": "#c678dd",
-          "highlighter:tokens:invalid:foreground": "#c678dd",
-          "highlighter:tokens:keyword:foreground": "#c678dd",
-          "highlighter:tokens:keyword:json:foreground": "#c678dd",
-          "highlighter:tokens:meta:scss:foreground": "#c678dd",
-          "highlighter:tokens:metatag:content:html:foreground": "#c678dd",
-          "highlighter:tokens:metatag:html:foreground": "#c678dd",
-          "highlighter:tokens:metatag:xml:foreground": "#c678dd",
-          "highlighter:tokens:number:foreground": "#c678dd",
-          "highlighter:tokens:number:hex:foreground": "#c678dd",
-          "highlighter:tokens:regexp:foreground": "#c678dd",
-          "highlighter:tokens:string:link:foreground": "#c678dd",
-          "highlighter:tokens:string:escape:foreground": "#c678dd",
-          "highlighter:tokens:string:key:json:foreground": "#c678dd",
-          "highlighter:tokens:string:sql:foreground": "#c678dd",
-          "highlighter:tokens:tag:foreground": "#c678dd",
-          "highlighter:tokens:type:foreground": "#c678dd",
-          "highlighter:tokens:variable:foreground": "#c678dd",
-          "highlighter:tokens:variable:predefined:foreground": "#c678dd",
-          "sidebar:foreground": "#F9F9F9",
-          "preview:link:foreground": "hsl(220.2312138728, 100%, 74.0784313725%)"
-        }
+  "editor": {
+    "mode": {
+      "split": {
+        "enabled": true
       }
     }
   },
   "view": {
     "sidebar": {
-      "enabled": false
-    }
+      "enabled": true
+    },
+    "zoom": 1.1
   },
-  "cursor": {
-    "animated": "true",
-    "blinking": "blink",
-    "style": "block"
-  },
-  "font": {
-    "family": "JetBrainsMono Nerd Font",
-    "ligatures": true,
-    "size": 16
+  "themes": {
+    "active": "light"
   }
 }
