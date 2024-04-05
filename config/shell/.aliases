@@ -17,12 +17,14 @@ alias lla='ls -la'
 alias lt='ls --tree'
 
 # ~~~~~ NVIM ~~~~ 
+# NVIM_APPNAME= Folder name of nvim distro or config
 # alias nvim-chad='NVIM_APPNAME=NvChad nvim'
 # alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
-# alias nvim-astro='nvim'
+alias nvim-astro='NVIM_APPNAME=nvim nvim'
+alias nvim-astro4='NVIM_APPNAME=astronvim_v4 nvim'
+alias nvim4='NVIM_APPNAME=astronvim_v4 nvim'
 alias neovim='nvim'
 alias vim='nvim'
-alias nvim4='NVIM_APPNAME=astronvim_v4 nvim'
 
 # ~~~~~ MacBook ~~~~~ #
 # Most common folders
