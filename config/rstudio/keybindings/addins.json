@@ -1,0 +1,4 @@
+{
+    "lintr::addin_lint": "Shift+Cmd+L",
+    "styler::style_active_file": ""
+}
