@@ -123,3 +123,4 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH" # 
 export PATH="/Users/skinofmyeden/miniconda3/bin/jupyter-kernelspec:$PATH" # Jupyter-kernel space
 export PATH=$PATH:/Users/skinofmyeden/miniconda3/bin/jupyter #jupyter
 export PATH=$PATH:/Users/skinofmyeden/.spicetify # Spicetify
+. "$HOME/.cargo/env"
