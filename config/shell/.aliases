@@ -27,6 +27,16 @@ alias nvim4='NVIM_APPNAME=astronvim_v4 nvim'
 # ~~~~~ MacBook ~~~~~ #
 # Most common folders
 alias livs='cd /Volumes/LIVISU/livs/'
+alias dotfiles='cd ~/.dotfiles/config'
+# Most commong edited files
+alias zshrc-e='nvim ~/.dotfiles/config/zsh/.zshrc'
+alias zshenv='nvim ~/.dotfiles/config/zsh/.zshenv'
+alias kitty-e='nvim ~/.dotfiles/config/kitty/kitty.conf'
+alias alias-e='nvim ~/.dotfiles/config/shell/.aliases'
+alias functions-e='nvim ~/.dotfiles/config/shell/.functions'
+alias sketchybar-e='nvim ~/.dotfiles/config/sketchybar/'
+alias skhd-e='nvim ~/.dotfiles/config/skhd/skhdrc'
+alias yabai-e='nvim ~/.dotfiles/config/yabai/yabairc'
 
 # use a MacBook as a server with the lid closed
 alias caffeinate='sudo pmset -a disablesleep 1' # stop sleep
