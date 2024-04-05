@@ -2,11 +2,11 @@
 
 MacOS dotfiles (in progress). Here I'm storing all the configs of my main apps, mac preferences, and my rice to set up a clean mac install. It's inspired by [Excalith dotfiles](https://github.com/excalith/.dotfiles), [Tnicx dots](https://github.com/Tnixc/dots), with other features I found [here](https://dotfiles.github.io/tips/).
 
-## Features
+## ⭐ Features
 
-## Showdown
+## ⭐ Showdown
 
-## File Structure
+## ⭐ File Structure
 
 - `bin`: 
 - `config`: Has all the configuration files of my installed apps.
@@ -17,10 +17,10 @@ MacOS dotfiles (in progress). Here I'm storing all the configs of my main apps, 
 - `ricing`:
 - `scripts`:
 
-## How it works
+## ⭐ How it works
 
-## Installation
+## ⭐ Installation
 
-## Use
+## ⭐ Use
 
 > You're free to use my dotfiles, fork my repo or just making a new one if you'd like. 
