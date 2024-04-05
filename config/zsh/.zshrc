@@ -43,7 +43,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 # Source environmental variables
-source "$HOME/.zshenv"
+source "$HOME/.dotfiles/config/zsh/.zshenv"
 
 # Sourcing the file where all my aliases are (lsd and bash aliases)
 source "$HOME/.dotfiles/config/shell/.aliases"
