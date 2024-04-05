@@ -1,16 +1,23 @@
 #!/usr/bin/env sh
 
+# {{{ Select different nvim confis
 nvims() {
-  items=("Custom" "NvChad" "AstroNvim")
+  # See nvim aliases first (.dotfiles/config/shell/.aliases)
+  # items = (Folder names of nvim distros)
+  items=("nvim" "astronvim_v4")
   config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)
   if [[ -z $config ]]; then
     echo "Nothing selected"
     return 0
-  elif [[ $config == "Custom" ]]; then
+  # $config = "First item"
+  elif [[ $config == "nvim" ]]; then
     config=""
   fi
   NVIM_APPNAME=$config nvim $@
-# ability to change the current working directory when exiting Yazi.
+}
+bindkey -s ^a "nvims\n"
+
+# -------------------------------------------------------------------------- }}}
 function ya() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
 	yazi "$@" --cwd-file="$tmp"
