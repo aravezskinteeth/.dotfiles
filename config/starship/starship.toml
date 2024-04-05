@@ -114,7 +114,7 @@ disabled = false
 [conda]
 symbol = "󱔎 "
 format = 'via [$symbol$environment](green) '
-ignore_base = false
+ignore_base = false 
 disabled = false
 
 [docker_context]
