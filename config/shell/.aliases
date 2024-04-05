@@ -21,6 +21,7 @@ alias lt='ls --tree'
 # alias nvim-custom='NVIM_APPNAME=custom-nvim nvim'
 # alias nvim-astro='nvim'
 alias neovim='nvim'
+alias vim='nvim'
 
 # ~~~~~ MacBook ~~~~~ #
 # Most common folders
