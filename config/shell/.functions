@@ -18,6 +18,7 @@ nvims() {
 bindkey -s ^a "nvims\n"
 
 # -------------------------------------------------------------------------- }}}
+#  {{{ Ability to change the current working directory when exiting Yazi.
 function ya() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
 	yazi "$@" --cwd-file="$tmp"
@@ -27,4 +28,4 @@ function ya() {
 	rm -f -- "$tmp"
 }
 
-bindkey -s ^a "nvims\n"
+# -------------------------------------------------------------------------- }}}
