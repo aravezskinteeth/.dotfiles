@@ -1,27 +1,18 @@
 {
-    "help_font_size_points": 16,
     "initial_working_directory": "~",
+    "font_size_points": 13,
+    "editor_theme": "catppuccin-macchiato",
+    "posix_terminal_shell": "zsh",
+    "jobs_tab_visibility": "shown",
     "auto_detect_indentation": true,
     "insert_native_pipe_operator": true,
     "soft_wrap_r_files": true,
-    "continue_comments_on_newline": true,
     "highlight_selected_line": true,
-    "relative_line_numbers": true,
-    "show_invisibles": true,
     "highlight_r_function_calls": true,
     "rainbow_parentheses": true,
-    "show_help_tooltip_on_idle": true,
-    "check_arguments_to_r_function_calls": true,
-    "check_unexpected_assignment_in_function_call": true,
-    "warn_if_no_such_variable_in_scope": true,
-    "warn_variable_defined_but_not_used": true,
-    "style_diagnostics": true,
     "show_diagnostics_other": true,
+    "indent_guides": "rainbowfills",
     "syntax_color_console": true,
-    "font_size_points": 14,
-    "editor_theme": "catppuccin-mocha",
-    "posix_terminal_shell": "zsh",
-    "global_theme": "alternate",
     "panes": {
         "quadrants": [
             "Source",
@@ -32,7 +23,8 @@
         "tabSet1": [
             "Environment",
             "History",
-            "Connections",
+            "Build",
+            "VCS",
             "Tutorial",
             "Presentation"
         ],
@@ -45,24 +37,26 @@
             "Presentations"
         ],
         "hiddenTabSet": [
-            "Build",
-            "VCS"
+            "Connections"
         ],
         "console_left_on_top": false,
         "console_right_on_top": true,
         "additional_source_columns": 0
     },
-    "show_doc_outline_rmd": true,
-    "doc_outline_show": "all",
-    "insert_numbered_latex_sections": true,
-    "use_tinytex": true,
-    "latex_shell_escape": true,
-    "python_type": "system",
-    "python_version": "3.11.4",
-    "python_path": "/usr/local/bin/python3",
-    "jobs_tab_visibility": "shown",
-    "visual_markdown_editing_is_default": true,
+    "check_arguments_to_r_function_calls": true,
+    "check_unexpected_assignment_in_function_call": true,
+    "style_diagnostics": true,
+    "continue_comments_on_newline": true,
+    "show_invisibles": true,
+    "show_help_tooltip_on_idle": true,
+    "tab_multiline_completion": true,
+    "auto_expand_error_tracebacks": true,
+    "console_double_click_select": true,
+    "help_font_size_points": 13,
+    "python_type": "conda",
+    "python_version": "3.11.5",
+    "python_path": "~/miniconda3/bin/python3.11",
+    "show_rmd_render_command": true,
     "visual_markdown_editing_show_margin": true,
-    "visual_markdown_code_editor_line_numbers": true,
-    "show_terminal_tab": false
+    "visual_markdown_code_editor_line_numbers": true
 }
