@@ -10,6 +10,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # Set name of the theme to load
 ZSH_THEME="robbyrussell"
 
+# Skip all aliases, in lib files and enabled plugins
+zstyle ':omz:*' aliases no
+
 # update automatically without asking
 zstyle ':omz:update' mode auto
 
