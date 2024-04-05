@@ -60,6 +60,8 @@ export SOFT_SERVE_DATA_PATH="$XDG_CONFIG_HOME/.config/soft-serve"
 export SOFT_SERVE_INITIAL_ADMIN_KEYS="$HOME/.ssh/git-server.pub"
 
 # Mods
+# export MODS_MODEL="gpt-3.5-turbo"
+# export MODS_MAX_TOKENS="256"
 
 # ruby
 # For compilers to find ruby you may need to set:
