@@ -10,3 +10,4 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then source $(brew --prefix)/etc
 # source  aliases and functions
 source ~/.dotfiles/config/shell/.aliases
 source ~/.dotfiles/config/shell/.functions
+. "$HOME/.cargo/env"
