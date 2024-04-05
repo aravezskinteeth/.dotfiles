@@ -28,11 +28,6 @@ alias nvim4='NVIM_APPNAME=astronvim_v4 nvim'
 # Most common folders
 alias livs='cd /Volumes/LIVISU/livs/'
 
-# Code Server aliases
-alias cs='brew services start code-server'
-alias csr='brew services restart code-server'
-alias css='brew services stop code-server'
-
 # use a MacBook as a server with the lid closed
 alias caffeinate='sudo pmset -a disablesleep 1' # stop sleep
 alias uncaffeinate='sudo pmset -a disablesleep 0' # disable stop sleep
