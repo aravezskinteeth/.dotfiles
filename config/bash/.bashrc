@@ -2,8 +2,6 @@
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # cargo PATH
-. "$XDG_CONFIG_HOME/.cargo/env"
-if [ -f $(brew --prefix)/etc/bash_completion ]; then source $(brew --prefix)/etc/bash_completion; fi
 #. "$XDG_CONFIG_HOME/.cargo/env"
 #if [ -f $(brew --prefix)/etc/bash_completion ]; then source $(brew --prefix)/etc/bash_completion; fi
 
