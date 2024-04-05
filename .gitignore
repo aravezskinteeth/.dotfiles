@@ -7,3 +7,4 @@ config/lazygit/state.yml
 config/rstudio/dictionaries/languages-system
 config/spicetify/Backup/login.spa
 config/spicetify/Backup/xpui.spa
+com.googlecode.iterm2.plist
