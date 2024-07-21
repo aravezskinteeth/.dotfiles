@@ -8,4 +8,4 @@
 --cookies-from-browser firefox
 
 # Save all your videos here
--o '/Volumes/LIVISU/livs/videos/yt-dlp/%(title)s-%(upload_date>%d-%m-%Y)s.%(ext)s'
+-o '/Users/skinofmyeden/Downloads/yt-dlp/%(title)s-%(upload_date>%d-%m-%Y)s.%(ext)s'
