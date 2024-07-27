@@ -33,6 +33,9 @@ export XDG_CURRENT_DESKTOP="yabai"      # Desktop environment
 # cargo
 # . "$XDG_CONFIG_HOME/.cargo/env"
 
+# Calibre
+export CALIBRE_CONFIG_DIRECTORY="~/.config/calibre/"
+
 # Man pages
 export MANPAGER='nvim +Man!'
 
