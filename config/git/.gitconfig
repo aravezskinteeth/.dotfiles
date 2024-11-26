@@ -1,5 +1,5 @@
 [user]
-	name = livisupajares
+	name = Livisu Pajares
 	email = livisupajares@gmail.com
 ; [color "status"]
 ; 	branch = normal dim
@@ -119,3 +119,8 @@
 ; [difftool "kitty.gui"]
 ;   cmd = kitty kitty +kitten diff $LOCAL $REMOTE
 ;
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
