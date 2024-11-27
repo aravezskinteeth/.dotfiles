@@ -127,3 +127,4 @@ export PATH="/Users/skinofmyeden/miniconda3/bin/jupyter-kernelspec:$PATH" # Jupy
 export PATH=$PATH:/Users/skinofmyeden/miniconda3/bin/jupyter #jupyter
 export PATH=$PATH:/Users/skinofmyeden/.spicetify # Spicetify
 . "$HOME/.cargo/env"
+export PATH=$PATH:/run/current-system/sw/bin # darwin-nix commands
