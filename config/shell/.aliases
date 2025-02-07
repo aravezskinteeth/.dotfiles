@@ -30,7 +30,7 @@ alias vim='nvim'
 # Most common folders
 alias livs='cd /Volumes/LIVISU/livs/'
 alias dotfiles='cd ~/.dotfiles/config'
-# Most commong edited files
+# Most common edited files
 alias zshrc-e='nvim ~/.dotfiles/config/zsh/.zshrc'
 alias zshenv='nvim ~/.dotfiles/config/zsh/.zshenv'
 alias kitty-e='nvim ~/.dotfiles/config/kitty/kitty.conf'
