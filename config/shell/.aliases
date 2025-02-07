@@ -40,6 +40,8 @@ alias sketchybar-e='nvim ~/.dotfiles/config/sketchybar/'
 alias skhd-e='nvim ~/.dotfiles/config/skhd/skhdrc'
 alias yabai-e='nvim ~/.dotfiles/config/yabai/yabairc'
 
+# Refresh system
+alias refresh-dock='rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock'
 # use a MacBook as a server with the lid closed
 alias caffeinate='sudo pmset -a disablesleep 1' # stop sleep
 alias uncaffeinate='sudo pmset -a disablesleep 0' # disable stop sleep
