@@ -126,3 +126,4 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH" # 
 export PATH=$PATH:/Users/skinofmyeden/.spicetify # Spicetify
 . "$HOME/.cargo/env"
 export PATH=$PATH:/run/current-system/sw/bin # darwin-nix commands
+export PATH="/Users/skinofmyeden/miniforge3/bin:$PATH" # conda mamba miniforge
