@@ -39,16 +39,6 @@ source $ZSH/oh-my-zsh.sh
 # tre
 # tre() { command tree "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
 
-#-------PERSONAL-ALIASES--------#
-# For a full list of active aliases, run `alias`.
-
-# Source environmental variables
-source "$HOME/.dotfiles/config/zsh/.zshenv"
-
-# Sourcing the file where all my aliases are (lsd and bash aliases)
-source "$HOME/.dotfiles/config/shell/.aliases"
-source "$HOME/.dotfiles/config/shell/.functions"
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/skinofmyeden/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -63,6 +53,16 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+#-------PERSONAL-ALIASES--------#
+# For a full list of active aliases, run `alias`.
+
+# Source environmental variables
+source "$HOME/.dotfiles/config/zsh/.zshenv"
+
+# Sourcing the file where all my aliases are (lsd and bash aliases)
+source "$HOME/.dotfiles/config/shell/.aliases"
+source "$HOME/.dotfiles/config/shell/.functions"
 
 # Starship config (at the end)
 eval "$(starship init zsh)"
