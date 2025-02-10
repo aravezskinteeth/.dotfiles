@@ -53,10 +53,14 @@
     "auto_expand_error_tracebacks": true,
     "console_double_click_select": true,
     "help_font_size_points": 13,
-    "python_type": "conda",
-    "python_version": "3.11.5",
-    "python_path": "~/miniconda3/bin/python3.11",
     "show_rmd_render_command": true,
     "visual_markdown_editing_show_margin": true,
-    "visual_markdown_code_editor_line_numbers": true
+    "visual_markdown_code_editor_line_numbers": true,
+    "code_completion_include_already_used": true,
+    "warn_if_no_such_variable_in_scope": true,
+    "warn_variable_defined_but_not_used": true,
+    "code_formatter": "styler",
+    "python_type": "system",
+    "python_version": "3.13.2",
+    "python_path": "/opt/homebrew/bin/python3"
 }
