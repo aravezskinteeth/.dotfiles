@@ -87,6 +87,11 @@ export PF_COL3=5 # Color of title data:
 export PF_ALIGN="8" # Alignment padding.
 export PF_ASCII="catppuccin" # Which ascii art to use.
 
+# ~~~~~~ go ~~~~~~ #
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
+
 # ~~~~~~~ pls cli ~~~~~~~~ #
 
 export PLS_ERROR_LINE_STYLE="#EBA0AC"
