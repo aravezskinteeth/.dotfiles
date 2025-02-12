@@ -365,3 +365,8 @@ keymap = [
 on = "<C-p>"
 run = 'shell -- qlmanage -p "$@"'
 
+# Use Lazygit
+[[manager.prepend_keymap]]
+on   = [ "g", "i" ]
+run  = "plugin lazygit"
+desc = "run lazygit"
