@@ -14,3 +14,5 @@ Status:children_add(function(self)
 	end
 end, 3300, Status.LEFT)
 
+-- Starship
+require("starship"):setup()
