@@ -15,7 +15,7 @@ nvims() {
   fi
   NVIM_APPNAME=$config nvim $@
 }
-bindkey -s ^a "nvims\n"
+# bindkey -s ^a "nvims\n"
 
 # -------------------------------------------------------------------------- }}}
 #  {{{ Ability to change the current working directory when exiting Yazi.
