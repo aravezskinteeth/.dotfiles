@@ -1,4 +1,6 @@
 {
     "lintr::addin_lint": "Shift+Cmd+L",
-    "styler::style_active_file": ""
+    "styler::style_active_file": "",
+    "datapasta::df_paste": "Shift+Cmd+D",
+    "esquisse::esquisser": "Shift+Cmd+G"
 }
