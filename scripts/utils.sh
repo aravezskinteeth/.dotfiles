@@ -88,6 +88,44 @@ print_section() {
 print_title() {
   print_in_color "\n • $1\n" 5
 }
+
+print_success() {
+  print_in_green "   [✔] $1\n"
+}
+
+print_warning() {
+  print_in_yellow "   [!] $1\n"
+}
+
+print_error() {
+  print_in_red "   [✖] $1 $2\n"
+}
+
+print_question() {
+  print_in_yellow "   [?] $1"
+}
+
+print_option() {
+  print_in_yellow "   $1)"
+  print_in_white " $2\n"
+}
+
+print_result() {
+  if [ "$1" -eq 0 ]; then
+    print_success "$2"
+  else
+    print_error "$2"
+  fi
+
+  return "$1"
+}
+
+print_error_stream() {
+  while read -r line; do
+    print_error "↳ ERROR: $line"
+  done
+}
+
 # Debugging colors
 # print_in_color "Red\n" 1
 # print_in_color "Green\n" 2
