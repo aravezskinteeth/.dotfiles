@@ -47,7 +47,7 @@ alias refresh-dock='rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
 alias update-brewfile='brew bundle dump --force --file=/Users/skinofmyeden/.dotfiles/system/macos/Brewfile'
 alias install-brewfile='brew bundle --force --file=/Users/skinofmyeden/.dotfiles/system/macos/Brewfile'
 alias fix-brew-process='rm -rf $(brew --prefix)/var/homebrew/locks'
-alias rebrew='brew update && brew upgrade && brew cleanup && spicetify update && spicetify restore backup && spicetify backup apply'
+alias rebrew='rm -rf $(brew --cache) && brew update && brew upgrade && brew cleanup && spicetify update && spicetify restore backup && spicetify backup apply'
 
 # ~~~~~ Git ~~~~~ #
 alias g='git'
