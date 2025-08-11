@@ -16,7 +16,7 @@ print_in_color() {
     "$(tput sgr0 2>/dev/null)"
 }
 
-print_linke_break() {
+print_line_break() {
   printf "\n"
 }
 
@@ -77,11 +77,11 @@ print_section() {
     fi
   done
 
-  print_linke_break
+  print_line_break
   print_in_green "$BANNER_TOP"
   print_in_green "\n│        $TITLE        │\n"
   print_in_green "$BANNER_BOTTOM"
-  print_linke_break
+  print_line_break
 
 }
 
