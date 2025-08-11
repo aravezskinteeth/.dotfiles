@@ -61,10 +61,11 @@
     "warn_variable_defined_but_not_used": true,
     "code_formatter": "styler",
     "python_type": "system",
-    "python_version": "3.13.2",
+    "python_version": "3.13.5",
     "python_path": "/opt/homebrew/bin/python3",
-    "auto_append_newline": true,
-    "strip_trailing_whitespace": true,
+    "copilot_enabled": true,
+    "default_project_location": "~/Documents/01-livs/20-work/iMTAH-capacitaciones/metabolomica/tarea-final/metaboanalist",
     "reformat_on_save": true,
-    "copilot_enabled": true
+    "auto_append_newline": true,
+    "strip_trailing_whitespace": true
 }
