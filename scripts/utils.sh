@@ -9,6 +9,13 @@ symlink() {
 #==================================
 # Print
 #==================================
+print_in_color() {
+  printf "%b" \
+    "$(tput setaf "$2" 2>/dev/null)" \
+    "$1" \
+    "$(tput sgr0 2>/dev/null)"
+}
+
 print_section() {
   local TITLE="$*"
   local TITLE_LENGTH=${#TITLE}
