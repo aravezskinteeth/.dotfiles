@@ -1,5 +1,6 @@
 gui:
   # stuff relating to the UI
+  useHunkModeInStagingView: false # allows staging per line instead of hunks when false
   screenMode: 'normal' # one of 'normal' | 'half' | 'full' default is 'normal'
   scrollHeight: 2 # how many lines you scroll by
   scrollPastBottom: true # enable scrolling past the bottom
