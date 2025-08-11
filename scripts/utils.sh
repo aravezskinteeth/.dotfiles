@@ -125,12 +125,3 @@ print_error_stream() {
     print_error "↳ ERROR: $line"
   done
 }
-
-# Debugging colors
-# print_in_color "Red\n" 1
-# print_in_color "Green\n" 2
-# print_in_color "Yellow\n" 3
-# print_in_color "Blue!\n" 4
-# print_in_color "Pink!\n" 5
-# print_in_color "Teal!\n" 6
-# print_in_color "White!\n" 7
