@@ -6,3 +6,9 @@ symlink() {
   execute "ln -sf $1 $2" "$(basename $1)    →    $2"
 }
 
+#==================================
+# Print
+#==================================
+print_title() {
+  print_in_color "\n • $1\n" 5
+}
