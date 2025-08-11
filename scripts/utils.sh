@@ -16,6 +16,39 @@ print_in_color() {
     "$(tput sgr0 2>/dev/null)"
 }
 
+print_linke_break() {
+  printf "\n"
+}
+
+print_in_white() {
+  print_in_color "$1" 7
+}
+
+print_in_green() {
+  print_in_color "$1" 2
+}
+
+print_in_teal() {
+  print_in_color "$1" 6
+}
+
+# This one is "purple" in other color schemes
+print_in_pink() {
+  print_in_color "$1" 5
+}
+
+print_in_red() {
+  print_in_color "$1" 1
+}
+
+print_in_yellow() {
+  print_in_color "$1" 3
+}
+
+print_in_blue() {
+  print_in_color "$1" 4
+}
+
 print_section() {
   local TITLE="$*"
   local TITLE_LENGTH=${#TITLE}
