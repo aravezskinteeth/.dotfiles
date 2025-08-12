@@ -120,10 +120,10 @@
 ;   cmd = kitty kitty +kitten diff $LOCAL $REMOTE
 ;
 [commit]
-	verbose = true
+	verbose = true # include diffs at the end of the commit template
 [branch]
-	sort = -committerdate
+	sort = -committerdate # sort brnach by commit date
 [column]
-	ui = auto
+	ui = auto # list branches as columns
 [tag]
-    sort = -version:refname
+    sort = -version:refname # sort tags by their version number
