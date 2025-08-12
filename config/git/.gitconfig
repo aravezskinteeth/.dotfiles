@@ -126,4 +126,4 @@
 [column]
 	ui = auto # list branches as columns
 [tag]
-    sort = -version:refname # sort tags by their version number
+	sort = -version:refname # sort tags by their version number
