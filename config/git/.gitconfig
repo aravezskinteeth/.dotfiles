@@ -122,7 +122,12 @@
 	ui = auto # list branches as columns
 [tag]
 	sort = -version:refname # sort tags by their version number
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RF # Set up diff-so-fance as core pager
 ; editor = nvim
 ; whitespace = -trailing-space # Don't consider trailing space change as a cause for merge conflicts
 ; excludesFile = ~/.dotfiles/config/git/ignore_global
 ; autocrlf = false
+
+[interactive]
+	diffFilter = diff-so-fancy --patch # Set diff-so-fancy as diff filter
