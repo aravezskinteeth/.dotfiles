@@ -61,11 +61,6 @@
 ; 	colorMoved = zebra
 ; [init]
 ; 	defaultBranch = main
-; [core]
-; 	editor = nvim
-; 	whitespace = -trailing-space # Don't consider trailing space change as a cause for merge conflicts
-; 	excludesFile = ~/.dotfiles/config/git/ignore_global
-; 	autocrlf = false
 ; [branch]
 ; 	autosetuprebase = always # Avoid having messy "Merge branch 'main' into ..." commits by rebasing every time you pull.
 ; [status]
@@ -127,3 +122,7 @@
 	ui = auto # list branches as columns
 [tag]
 	sort = -version:refname # sort tags by their version number
+; editor = nvim
+; whitespace = -trailing-space # Don't consider trailing space change as a cause for merge conflicts
+; excludesFile = ~/.dotfiles/config/git/ignore_global
+; autocrlf = false
