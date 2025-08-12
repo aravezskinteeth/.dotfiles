@@ -131,3 +131,6 @@
 
 [interactive]
 	diffFilter = diff-so-fancy --patch # Set diff-so-fancy as diff filter
+[maintenance]
+	auto = true
+	strategy = incremental
