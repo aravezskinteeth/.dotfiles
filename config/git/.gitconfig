@@ -127,3 +127,7 @@
 [commit]
 	template = /Users/skinofmyeden/.gitmessage
 	verbose = true
+[branch]
+	sort = -committerdate
+[column]
+	ui = auto
