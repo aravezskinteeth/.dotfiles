@@ -57,12 +57,8 @@
 ; 	stash = normal dim italic
 ; 	grafted = normal dim italic
 ; 	HEAD = normal dim italic
-; [diff]
-; 	colorMoved = zebra
 ; [init]
 ; 	defaultBranch = main
-; [branch]
-; 	autosetuprebase = always # Avoid having messy "Merge branch 'main' into ..." commits by rebasing every time you pull.
 ; [status]
 ; 	submoduleSummary = true # Display submodule rev change summaries in status
 ; 	showUntrackedFiles = all # Recursively traverse untracked directories to display all contents
@@ -106,6 +102,7 @@
 ;   submodule = log # Display submodule-related information (commit listings)
 ; 	tool = kitty
 ; 	guitool = kitty.gui
+; 	colorMoved = zebra
 ; [difftool]
 ; 	prompt = true
 ; 	trustExitCode = true
@@ -118,6 +115,7 @@
 	verbose = true # include diffs at the end of the commit template
 [branch]
 	sort = -committerdate # sort brnach by commit date
+; autosetuprebase = always # Avoid having messy "Merge branch 'main' into ..." commits by rebasing every time you pull.
 [column]
 	ui = auto # list branches as columns
 [tag]
@@ -128,7 +126,6 @@
 ; whitespace = -trailing-space # Don't consider trailing space change as a cause for merge conflicts
 ; excludesFile = ~/.dotfiles/config/git/ignore_global
 ; autocrlf = false
-
 [interactive]
 	diffFilter = diff-so-fancy --patch # Set diff-so-fancy as diff filter
 [maintenance]
