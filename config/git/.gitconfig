@@ -125,7 +125,6 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 [commit]
-	template = /Users/skinofmyeden/.gitmessage
 	verbose = true
 [branch]
 	sort = -committerdate
