@@ -124,7 +124,7 @@
 	sort = -version:refname # sort tags by their version number
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RF # Set up diff-so-fance as core pager
-; editor = nvim
+  editor = nvim
 ; whitespace = -trailing-space # Don't consider trailing space change as a cause for merge conflicts
 ; excludesFile = ~/.dotfiles/config/git/ignore_global
 ; autocrlf = false
