@@ -113,6 +113,7 @@ export PLS_AUTHOR_STYLE="#9399B2"
 # ~~~~~~~ nix ~~~~~~~ #
 export NIX_CONFIG_DIR="~/.dotfiles/config/nix-darwin"
 
+export EZA_CONFIG_DIR="~/.config/eza"
 # PATH
 export PATH="/usr/local/bin/:$PATH"
 export PATH="/usr/local/sbin:$PATH" # homebrew sbin issue
