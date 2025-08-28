@@ -10,7 +10,7 @@ alias python='python3'
 alias pip='pip3'
 
 # LSD 
-alias ls='lsd'
+alias ls='eza --icons'
 alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
