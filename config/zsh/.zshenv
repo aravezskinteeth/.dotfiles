@@ -19,15 +19,15 @@ export VISUAL="nvim"
 
 # zsh
 export ZDOTDIR="$HOME"
-export HISTFILE="$ZDOTDIR/.zsh_history"    # History filepath
+export HISTFILE="$ZDOTDIR/.zsh_history" # History filepath
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
 
-# fetches 
+# fetches
 export USER="skinofmyeden"
 export HOSTNAME="some"
 export SHELL="/bin/zsh"
-export XDG_CURRENT_DESKTOP="yabai"      # Desktop environment
+export XDG_CURRENT_DESKTOP="yabai" # Desktop environment
 
 # ~~~~~ other software ~~~~~~ #
 # cargo
@@ -52,10 +52,10 @@ fi
 
 # nvm, which is a node version manager
 export NVM_DIR="$XDG_CONFIG_HOME/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
-# homebrew 
+# homebrew
 export HOMEBREW_BREWFILE="$XDG_CONFIG_HOME/.dotfiles/system/macos/packages/"
 
 # soft serve .local
@@ -79,13 +79,13 @@ export GEM_PATH="/usr/local/lib/ruby/gems/3.2.0/bin"
 # NOTE: If 'ascii' will be used, it must come first.
 # Valid: space separated string
 export PF_INFO="ascii title os pkgs memory" # OFF by default: shell editor wm de palette
-export PF_SEP="" # Separator between info name and info data.
-export PF_COLOR=1 # Enable/Disable colors in output:
-export PF_COL1=9 # Color of info names:
-export PF_COL2=9 # Color of info data:
-export PF_COL3=5 # Color of title data:
-export PF_ALIGN="8" # Alignment padding.
-export PF_ASCII="catppuccin" # Which ascii art to use.
+export PF_SEP=""                            # Separator between info name and info data.
+export PF_COLOR=1                           # Enable/Disable colors in output:
+export PF_COL1=9                            # Color of info names:
+export PF_COL2=9                            # Color of info data:
+export PF_COL3=5                            # Color of title data:
+export PF_ALIGN="8"                         # Alignment padding.
+export PF_ASCII="catppuccin"                # Which ascii art to use.
 
 # ~~~~~~ go ~~~~~~ #
 export GOPATH=$HOME/go
@@ -93,7 +93,6 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
 # ~~~~~~~ pls cli ~~~~~~~~ #
-
 export PLS_ERROR_LINE_STYLE="#EBA0AC"
 export PLS_ERROR_TEXT_STYLE="#F38BA8 bold"
 export PLS_WARNING_LINE_STYLE="#F9E2AF"
@@ -113,23 +112,25 @@ export PLS_AUTHOR_STYLE="#9399B2"
 # ~~~~~~~ nix ~~~~~~~ #
 export NIX_CONFIG_DIR="~/.dotfiles/config/nix-darwin"
 
+# ~~~~~~~ eza ~~~~~~~~ #
 export EZA_CONFIG_DIR="~/.config/eza"
+
 # PATH
 export PATH="/usr/local/bin/:$PATH"
-export PATH="/usr/local/sbin:$PATH" # homebrew sbin issue
-export PATH="/usr/local/bin/node:$PATH" # node
-export PATH="/usr/local/bin/npm:$PATH" # npm
-export PATH="/usr/local/bin/soft:$PATH" # soft-serve
+export PATH="/usr/local/sbin:$PATH"                        # homebrew sbin issue
+export PATH="/usr/local/bin/node:$PATH"                    # node
+export PATH="/usr/local/bin/npm:$PATH"                     # npm
+export PATH="/usr/local/bin/soft:$PATH"                    # soft-serve
 export PATH="/Applications/Emacs.app/Contents/MacOS:$PATH" # Add emacs binary to your path
-export PATH="$XDG_CONFIG_HOME/emacs/bin:$PATH" # Adding doom command to my path
+export PATH="$XDG_CONFIG_HOME/emacs/bin:$PATH"             # Adding doom command to my path
 export PATH="$DOTFILES/config/spicetify:$PATH"
-export PATH="$XDG_CONFIG_HOME/local/bin:$PATH" # Arttime installer
-export PATH="/usr/local/texlive/2023basic/bin/universal-darwin:$PATH" # Basic Tex commands' PATH
-export PATH="/usr/local/opt/ruby/bin:$PATH" # ruby on rails
-export PATH="$GEM_PATH:$PATH" # Gems
-export PATH="/Users/skinofmyeden/Documents/bin/:$PATH" # meow script
+export PATH="$XDG_CONFIG_HOME/local/bin:$PATH"                                # Arttime installer
+export PATH="/usr/local/texlive/2023basic/bin/universal-darwin:$PATH"         # Basic Tex commands' PATH
+export PATH="/usr/local/opt/ruby/bin:$PATH"                                   # ruby on rails
+export PATH="$GEM_PATH:$PATH"                                                 # Gems
+export PATH="/Users/skinofmyeden/Documents/bin/:$PATH"                        # meow script
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH" # subl cli (Sublime Text)
-export PATH=$PATH:/Users/skinofmyeden/.spicetify # Spicetify
+export PATH=$PATH:/Users/skinofmyeden/.spicetify                              # Spicetify
 . "$HOME/.cargo/env"
-export PATH=$PATH:/run/current-system/sw/bin # darwin-nix commands
+export PATH=$PATH:/run/current-system/sw/bin           # darwin-nix commands
 export PATH="/Users/skinofmyeden/miniforge3/bin:$PATH" # conda mamba miniforge
