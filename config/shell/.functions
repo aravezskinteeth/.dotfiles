@@ -4,7 +4,7 @@
 nvims() {
   # See nvim aliases first (.dotfiles/config/shell/.aliases)
   # items = (Folder names of nvim distros)
-  items=("nvim" "astronvim_v5")
+  items=("nvim" "astronvim_v5" "nvim-kickstart")
   config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)
   if [[ -z $config ]]; then
     echo "Nothing selected"
