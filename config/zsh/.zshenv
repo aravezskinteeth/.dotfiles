@@ -87,6 +87,9 @@ export PATH=$PATH:$GOBIN
 # ~~~~~~~ eza ~~~~~~~~ #
 export EZA_CONFIG_DIR="~/.config/eza"
 
+# ~~~~~~~~ zoxide ~~~~~~~~~~~ #
+export _ZO_ECHO=1
+
 # ~~~~~~~ PATH ~~~~~
 export PATH="/usr/local/bin/:$PATH"
 export PATH="/usr/local/sbin:$PATH"     # homebrew sbin issue
