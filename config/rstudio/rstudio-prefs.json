@@ -1,7 +1,7 @@
 {
     "initial_working_directory": "~",
     "font_size_points": 13,
-    "editor_theme": "catppuccin-macchiato",
+    "editor_theme": "catppuccin-mocha",
     "posix_terminal_shell": "zsh",
     "jobs_tab_visibility": "shown",
     "auto_detect_indentation": true,
@@ -61,7 +61,7 @@
     "warn_variable_defined_but_not_used": true,
     "code_formatter": "styler",
     "python_type": "system",
-    "python_version": "3.13.5",
+    "python_version": "3.13.7",
     "python_path": "/opt/homebrew/bin/python3",
     "copilot_enabled": true,
     "default_project_location": "~/Documents/01-livs/20-work/iMTAH-capacitaciones/metabolomica/tarea-final/metaboanalist",
