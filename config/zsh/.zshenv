@@ -89,9 +89,9 @@ export EZA_CONFIG_DIR="~/.config/eza"
 
 # ~~~~~~~ PATH ~~~~~
 export PATH="/usr/local/bin/:$PATH"
-export PATH="/usr/local/sbin:$PATH"                        # homebrew sbin issue
-export PATH="/usr/local/bin/node:$PATH"                    # node
-export PATH="/usr/local/bin/npm:$PATH"                     # npm
+export PATH="/usr/local/sbin:$PATH"     # homebrew sbin issue
+export PATH="/usr/local/bin/node:$PATH" # node
+export PATH="/usr/local/bin/npm:$PATH"  # npm
 export PATH="$DOTFILES/config/spicetify:$PATH"
 export PATH="$XDG_CONFIG_HOME/local/bin:$PATH"                                # Arttime installer
 export PATH="/usr/local/texlive/2023basic/bin/universal-darwin:$PATH"         # Basic Tex commands' PATH
