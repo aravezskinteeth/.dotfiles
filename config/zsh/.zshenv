@@ -58,14 +58,6 @@ export NVM_DIR="$XDG_CONFIG_HOME/nvm"
 # homebrew
 export HOMEBREW_BREWFILE="$XDG_CONFIG_HOME/.dotfiles/system/macos/packages/"
 
-# soft serve .local
-export SOFT_SERVE_DATA_PATH="$XDG_CONFIG_HOME/.config/soft-serve"
-export SOFT_SERVE_INITIAL_ADMIN_KEYS="$HOME/.ssh/git-server.pub"
-
-# Mods
-# export MODS_MODEL="gpt-3.5-turbo"
-# export MODS_MAX_TOKENS="256"
-
 # ruby
 # For compilers to find ruby you may need to set:
 export LDFLAGS="-L/usr/local/opt/ruby/lib"
@@ -92,26 +84,6 @@ export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
-# ~~~~~~~ pls cli ~~~~~~~~ #
-export PLS_ERROR_LINE_STYLE="#EBA0AC"
-export PLS_ERROR_TEXT_STYLE="#F38BA8 bold"
-export PLS_WARNING_LINE_STYLE="#F9E2AF"
-export PLS_WARNING_TEXT_STYLE="#F9E2AF bold"
-export PLS_UPDATE_LINE_STYLE="#A6E3A1"
-export PLS_UPDATE_TEXT_STYLE="#A6E3A1 bold"
-export PLS_INSERT_DELETE_LINE_STYLE="#CBA6F7"
-export PLS_INSERT_DELETE_TEXT_STYLE="#9399B2"
-export PLS_MSG_PENDING_STYLE="#9399B2"
-export PLS_TABLE_HEADER_STYLE="#F5C2E7"
-export PLS_TASK_DONE_STYLE="#9399B2"
-export PLS_TASK_PENDING_STYLE="#CBA6F7"
-export PLS_HEADER_GREETINGS_STYLE="#FAB387"
-export PLS_QUOTE_STYLE="#9399B2"
-export PLS_AUTHOR_STYLE="#9399B2"
-
-# ~~~~~~~ nix ~~~~~~~ #
-export NIX_CONFIG_DIR="~/.dotfiles/config/nix-darwin"
-
 # ~~~~~~~ eza ~~~~~~~~ #
 export EZA_CONFIG_DIR="~/.config/eza"
 
@@ -120,9 +92,6 @@ export PATH="/usr/local/bin/:$PATH"
 export PATH="/usr/local/sbin:$PATH"                        # homebrew sbin issue
 export PATH="/usr/local/bin/node:$PATH"                    # node
 export PATH="/usr/local/bin/npm:$PATH"                     # npm
-export PATH="/usr/local/bin/soft:$PATH"                    # soft-serve
-export PATH="/Applications/Emacs.app/Contents/MacOS:$PATH" # Add emacs binary to your path
-export PATH="$XDG_CONFIG_HOME/emacs/bin:$PATH"             # Adding doom command to my path
 export PATH="$DOTFILES/config/spicetify:$PATH"
 export PATH="$XDG_CONFIG_HOME/local/bin:$PATH"                                # Arttime installer
 export PATH="/usr/local/texlive/2023basic/bin/universal-darwin:$PATH"         # Basic Tex commands' PATH
@@ -132,5 +101,4 @@ export PATH="/Users/skinofmyeden/Documents/bin/:$PATH"                        # 
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH" # subl cli (Sublime Text)
 export PATH=$PATH:/Users/skinofmyeden/.spicetify                              # Spicetify
 . "$HOME/.cargo/env"
-export PATH=$PATH:/run/current-system/sw/bin           # darwin-nix commands
 export PATH="/Users/skinofmyeden/miniforge3/bin:$PATH" # conda mamba miniforge
