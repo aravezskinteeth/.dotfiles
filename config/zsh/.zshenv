@@ -87,7 +87,7 @@ export PATH=$PATH:$GOBIN
 # ~~~~~~~ eza ~~~~~~~~ #
 export EZA_CONFIG_DIR="~/.config/eza"
 
-# PATH
+# ~~~~~~~ PATH ~~~~~
 export PATH="/usr/local/bin/:$PATH"
 export PATH="/usr/local/sbin:$PATH"                        # homebrew sbin issue
 export PATH="/usr/local/bin/node:$PATH"                    # node
