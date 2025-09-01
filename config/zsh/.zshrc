@@ -70,3 +70,6 @@ source "$HOME/.dotfiles/config/shell/.functions"
 
 # Starship config (at the end)
 eval "$(starship init zsh)"
+
+# Initialize zoxide (smart cd)
+eval "$(zoxide init zsh)"
