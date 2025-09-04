@@ -30,8 +30,6 @@ export SHELL="/bin/zsh"
 export XDG_CURRENT_DESKTOP="yabai" # Desktop environment
 
 # ~~~~~ other software ~~~~~~ #
-# cargo
-# . "$XDG_CONFIG_HOME/.cargo/env"
 
 # Calibre
 export CALIBRE_CONFIG_DIRECTORY="~/.config/calibre/"
