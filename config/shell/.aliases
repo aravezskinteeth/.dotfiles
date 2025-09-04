@@ -9,7 +9,7 @@ alias debug-starship='env STARSHIP_LOG=trace starship timings'
 alias python='python3'
 alias pip='pip3'
 
-# LSD 
+# eza 
 alias ls='eza --icons'
 alias l='ls -l'
 alias la='ls -a'
