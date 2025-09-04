@@ -72,4 +72,6 @@ source "$HOME/.dotfiles/config/shell/.functions"
 eval "$(starship init zsh)"
 
 # Initialize zoxide (smart cd)
-eval "$(zoxide init zsh)"
+# adding --cmd helps maps cd to zi
+# enter interactive mode with cdi
+eval "$(zoxide init --cmd cd zsh)"
