@@ -132,7 +132,7 @@
 	# Git’s maintenance tasks optimize repository size and performance by running tasks like garbage 
 	# collection and repacking. This sets up a cron-like job to periodically optimize your repositories, 
 	# reducing disk usage and improving performance.
-	auto = true
+	auto = false 
 	strategy = incremental
 [filter "lfs"]
 	clean = git-lfs clean -- %f
