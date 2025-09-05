@@ -203,5 +203,8 @@ source ~/miniforge3/etc/profile.d/mamba.sh
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
 
+# Initialize starship
+eval "$(starship init bash)"
+
 # Zoxide bash init
 eval "$(zoxide init --cmd cd bash)"
