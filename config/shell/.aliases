@@ -14,7 +14,10 @@ alias ls='eza --icons'
 alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
-alias lt='ls --tree'
+alias ltr='ls --sort=newest'
+alias lltr='ls --sort=newest -l'
+alias lt='ls --sort=oldest'
+alias llt='ls --sort oldest -l'
 
 # ~~~~~ NVIM ~~~~ 
 # NVIM_APPNAME= Folder name of nvim distro or config
