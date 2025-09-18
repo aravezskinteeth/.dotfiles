@@ -88,3 +88,4 @@ alias tty-clock='tty-clock -C 5 -B -t -b -s -c -S' # tty-clock prefs
 alias cmatrix='cmatrix -B -r' # matrix prefs
 alias nms='ls -l | nms -a -f yellow' # no more secrets prefs
 alias nms-s='sneakers' # no more secrets prefs
+alias gostty='gostty -c magenta' # ghostty terminal animation in magenta
