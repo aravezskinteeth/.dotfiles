@@ -171,6 +171,7 @@ alias pbpaste='xclip -selection clipboard -o'
 # Export variables
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export PATH="$PATH:/usr/lib/jvm/java-17-openjdk-amd64"
+export PATH="$PATH:$HOME/.local/bin"
 
 # CONDA CONFIG
 # source ~/miniforge3/etc/profile.d/conda.sh  # commented out by conda initialize
