@@ -64,7 +64,7 @@
     "python_version": "3.13.7",
     "python_path": "/opt/homebrew/bin/python3",
     "copilot_enabled": true,
-    "default_project_location": "~/Documents/01-livs/20-work/iMTAH-capacitaciones/metabolomica/tarea-final/metaboanalist",
+    "default_project_location": "~/Documents/01-livs/20-work/uem-bioinfo-datos-genomicos/manejo-de-datos/solucionario",
     "reformat_on_save": true,
     "auto_append_newline": true,
     "strip_trailing_whitespace": true
